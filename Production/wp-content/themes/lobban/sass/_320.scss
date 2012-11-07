@@ -1,0 +1,35 @@
+html, 
+body, 
+button, 
+input, 
+select, 
+textarea {  
+	font-family: "calluna-1", "calluna-2", Georgia, Times, serif;
+	}
+	
+a {
+	-moz-transition: .5s all;
+	-o-transition: .5s all;
+	-webkit-transition: .5s all;
+	transition-transition: .5s all;
+	}
+	
+a {
+	-webkit-transition-duration: .3s; 
+	-webkit-transition-property: color, background;
+	}
+	
+nav li {
+	float: right;
+	margin: 0 0 0 1em;
+	}
+	
+.title {
+	float: left;
+	margin: 0;
+	}
+	
+.link h1:after {
+	content: ' ➦';
+	}
+	
