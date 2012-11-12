@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<!--[if IE 7 ]><html lang="en" class="old"><![endif]-->
+<!--[if lte IE 7 ]><html lang="en" class="old"><![endif]-->
 <!--[if IE 8 ]><html lang="en" class="ie8"><![endif]-->
 <!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html lang="en"><!--<![endif]-->
 
@@ -78,3 +78,4 @@
 							
 		</header>
 		
+		<section role="main">
