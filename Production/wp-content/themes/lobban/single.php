@@ -38,6 +38,4 @@ echo $category[0]->category_nicename;
 			
 </section>
 
-<?php get_sidebar(); ?>
-
 <?php get_footer(); ?>

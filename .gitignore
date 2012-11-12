@@ -17,3 +17,7 @@ local-config.php
 
 uploads/
 blogs.dir/
+
+# Sass cache #
+
+.sass-cache

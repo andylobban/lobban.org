@@ -2,11 +2,11 @@
 		
 		<section id="about" class="clearfix">
 			
-			<div id="profile-image">
+			<figure>
 			
 				<img src="<?php echo get_template_directory_uri(); ?>/images/common/andy-lobban.jpg" alt="photo of Andy Lobban" class="photo"/>
 
-			</div>
+			</figure>
 			
 			<ul>
 				<li><span class="adr"><span class="locality">Edinburgh</span>, <span class="country-name">Scotland</span>.</li>

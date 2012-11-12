@@ -113,29 +113,20 @@ nav li {
 	display: block;
 	margin: 0 0 2em 0;
 	padding: 0 0 2em 0;
+	text-align: center;
 	}
 	
-#profile-image {
+figure {
 	margin: 0 auto 1em auto;
 	width: 60%;
 	}
 	
-#about ul {
-	float: left;
-	font-size: 1em;
-	line-height: 1.2em;
-	}
-	
 #about li {
-	margin-bottom: 1.2em;
+	margin-bottom: 1em;
 	}
 	
 #about li:last-child {
 	margin-bottom: 0
-	}
-	
-#profiles ul {
-	margin: 0 auto;
 	}
 	
 #profiles li {
