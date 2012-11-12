@@ -9,7 +9,7 @@
 			</div>
 			
 			<ul>
-				<li>Lives in <span class="adr"><span class="locality">Edinburgh</span>, <span class="country-name">Scotland</span>.</li>
+				<li><span class="adr"><span class="locality">Edinburgh</span>, <span class="country-name">Scotland</span>.</li>
 				<li>Designer at <a href="http://stormid.com">Storm ID</a>.</li>
 				<li>Used to be the design studio <a href="http://nonimage.com" rel="me" class="url">Nonimage</a>.</li>
 				<li>Has a personal blog, <a href="http://lobban.org/journal" rel="me" class="url">Easy Pieces</a>.</li>
@@ -28,7 +28,7 @@
    				<li><a href="http://flickr.com/photos/nonimage" rel="me" class="url ss-social-circle ss-flickr"><span>Flickr</span></a></li>
    				<li><a href="http://foursquare.com/nonimage" rel="me" class="url ss-social-circle ss-foursquare"><span>Foursquare</span></a></li>
    				<!--<li><a href="http://gimmebar.com/user/nonimage" rel="me" class="url gimmebar">Gimme Bar</a></li>-->
-   				<li><a href="https://github.com/nonimage" rel="me" class="url ss-social-circle ss-github"><span>Github</span></a></li>
+   				<li><a href="http://github.com/nonimage" rel="me" class="url ss-social-circle ss-github"><span>Github</span></a></li>
    				<li><a href="http://www.goodreads.com/user/show/5679909-nonimage" rel="me" class="url ss-social-circle ss-readmill"><span>Goodreads</span></a></li>
    				<li><a href="https://plus.google.com/108664505197038367823/posts" rel="me" class="url ss-social-circle ss-googleplus"><span>Google +</span></a></li>
     			<li><a href="http://instagram.com/nonimage" rel="me" class="url ss-social-circle ss-instagram"><span>Instagram</span></a></li>
