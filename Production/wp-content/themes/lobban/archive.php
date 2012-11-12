@@ -7,7 +7,7 @@
 				<?php the_time('jS F, Y'); ?>
 			</time>
 			
-			<h1><?php the_title(); ?></h1>
+			<h1><a href="<?php the_permalink(); ?> "><?php the_title(); ?></a></h1>
 			
 			<?php if ( is_archive() || is_search() ) : // Only display excerpts for archives and search. ?>
 	
