@@ -7,7 +7,7 @@ input,
 select, 
 textarea {  
 	color: #333;
-	font-family: "calluna-1", "calluna-2", Georgia, Times, serif;
+	font-family: Georgia, Times, serif;
 	font-size: 1.1em; 
 	line-height: 1.6;
 	}
@@ -32,7 +32,6 @@ p {
 	}
 	
 img {
-	display: block;
 	height: auto;
 	width: 100%; 
 	}
@@ -51,26 +50,25 @@ a:focus {
 	
 h1 {
 	font-size: 1.8em;
-	font-weight: 700;
+	font-weight: bold;
 	line-height: 1.2;
 	margin: 0 0 1em 0;
 	}
 	
+h2 {
+	font-size: 1.2em;
+	margin: 2em 0 0.5em 0;
+	}
 	
-/* STRUCTURE */
-
-
+h3 {
+	font-size: 1em;
+	margin: 1em 0 0.5em 0;
+	}
 	
-/* ICONS */
-
-.ss-icon, .ss-icon.ss-standard,
-[class^="ss-"]:before, [class*=" ss-"]:before,
-[class^="ss-"].ss-standard:before, [class*=" ss-"].ss-standard:before,
-[class^="ss-"].right:after, [class*=" ss-"].right:after,
-[class^="ss-"].ss-standard.right:after, [class*=" ss-"].ss-standard.right:after {
-  	margin-right: 0.5em;
-  	vertical-align: middle;
-  	}
+h4 {
+	font-size: 0.8em;
+	margin: 1em 0 0.5em 0;
+	}
 	
 	
 /* HEADER */
@@ -90,7 +88,6 @@ h1 {
 	
 .fn {
 	border: 0;
-	float: none;
 	font-size: 1em;
 	margin: 0 0 1em 0;
 	}
@@ -110,7 +107,6 @@ nav li {
 	
 #about {
 	border-bottom: 1px solid #d4e6e6;
-	display: block;
 	margin: 0 0 2em 0;
 	padding: 0 0 2em 0;
 	text-align: center;
@@ -129,9 +125,13 @@ figure {
 	margin-bottom: 0
 	}
 	
+#profiles {
+	text-align: center;	
+	}
+	
 #profiles li {
-	float: left;
-	margin: 0 20px 20px 0;
+	display: inline-block;
+	margin: 0 0.5em 1em 0.5em;
 	}
 	
 #profiles li a {
@@ -141,10 +141,6 @@ figure {
 	
 #profiles li a span {
 	display: none;
-	}
-	
-#content {
-	padding: 1em 0;
 	}
 
 article {
@@ -171,21 +167,6 @@ time {
 	
 .entry {
 	color: #666;
-	}
-	
-.entry h2 {
-	font-size: 1.2em;
-	margin: 2em 0 0.5em 0;
-	}
-	
-.entry h3 {
-	font-size: 1em;
-	margin: 1em 0 0.5em 0;
-	}
-	
-.entry h4 {
-	font-size: 0.8em;
-	margin: 1em 0 0.5em 0;
 	}
 	
 .entry img {
@@ -251,11 +232,4 @@ time {
 	
 .next {
 	float: right;
-	}
-	
-	
-/* FOOTER */
-	
-#site-footer p {
-	margin: 2em auto;
 	}
