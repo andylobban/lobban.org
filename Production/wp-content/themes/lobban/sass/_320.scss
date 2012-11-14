@@ -23,11 +23,6 @@ h1 {
 	font-weight: 700;
 	}
 	
-nav li {
-	float: right;
-	margin: 0 0 0 1em;
-	}
-	
 .title {
 	float: left;
 	margin: 0;
@@ -37,3 +32,14 @@ nav li {
 	content: ' ➦';
 	}
 	
+[role="banner"] h1 {
+	float: left;	
+	}
+	
+nav {
+	float: right;
+	}
+	
+nav li {
+	margin: 0 0 0 1em;
+	}

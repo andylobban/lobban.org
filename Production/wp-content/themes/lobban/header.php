@@ -69,9 +69,9 @@
 	
 			<nav>
 				
-				<ul>
-					<li><a href="<?php bloginfo('url'); ?>">About</a></li>
+				<ul class="clearfix">
 					<li><a href="<?php bloginfo('url'); ?>/journal">Journal</a></li>
+					<li><a href="<?php bloginfo('url'); ?>">About</a></li>
 				</ul>
 				
 			</nav>

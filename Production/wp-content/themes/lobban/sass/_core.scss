@@ -78,28 +78,33 @@ h4 {
 	font-weight: bold;
 	margin: 0;
 	padding: 1em 0;
+	text-align: center;
 	}
 	
 [role="banner"] h1 {
-	display: inline;
-	float: left;
+	font-size: 1.2em;
 	margin: 0;
 	}
 	
 .fn {
 	border: 0;
 	font-size: 1em;
+	font-weight: bold;
 	margin: 0 0 1em 0;
 	}
 	
 nav {
-	float: right;
-	margin-top: 0.6em;
+	display: inline-block;
+	margin: 0 auto;
 	}
 	
 nav li {
 	float: left;
-	margin: 0 2em 0 0;
+	margin: 0 1em;
+	}
+	
+nav li a {
+	border: 0;	
 	}
 
 
