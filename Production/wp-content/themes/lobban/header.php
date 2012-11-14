@@ -70,7 +70,7 @@
 			<nav>
 				
 				<ul>
-					<li><a href="<?php bloginfo('url'); ?>">About/Contact</a></li>
+					<li><a href="<?php bloginfo('url'); ?>">About</a></li>
 					<li><a href="<?php bloginfo('url'); ?>/journal">Journal</a></li>
 				</ul>
 				
