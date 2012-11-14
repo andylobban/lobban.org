@@ -40,7 +40,6 @@ a {
 	border-bottom: 1px solid #21888A;
 	color: #333; 
 	font-weight: normal;
-	text-decoration: none; 
 	}
 	
 a:hover,
@@ -75,22 +74,21 @@ h4 {
 	
 [role="banner"] {
 	border-bottom: 1px solid #d4e6e6;
-	font-weight: bold;
-	margin: 0;
 	padding: 1em 0;
 	text-align: center;
 	}
 	
 [role="banner"] h1 {
-	font-size: 1.2em;
+	font-size: 1.1em;
 	margin: 0;
 	}
 	
-.fn {
+[role="banner"] a {
 	border: 0;
-	font-size: 1em;
+	}
+	
+.fn {
 	font-weight: bold;
-	margin: 0 0 1em 0;
 	}
 	
 nav {
@@ -101,10 +99,6 @@ nav {
 nav li {
 	float: left;
 	margin: 0 1em;
-	}
-	
-nav li a {
-	border: 0;	
 	}
 
 
@@ -123,11 +117,15 @@ figure {
 	}
 	
 #about li {
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 	}
 	
 #about li:last-child {
 	margin-bottom: 0
+	}
+	
+.adr {
+	font-style: italic;	
 	}
 	
 #profiles {
@@ -141,7 +139,7 @@ figure {
 	
 #profiles li a {
 	border: 0;
-	font-size: 2em;
+	font-size: 1.8em;
 	}
 	
 #profiles li a span {
