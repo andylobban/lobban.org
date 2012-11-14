@@ -1,16 +1,8 @@
-body:after {
-    content: 'large';
-    display: none;
-    }
-   	
-#about {
-	padding: 0 0 1em 0;
-	}
-	
-figure {
-	width: 40%;
-	}
-	
-article {
-	padding: 3em 0;
+html, 
+body, 
+button, 
+input, 
+select, 
+textarea {  
+	font-size: 1.3em; 
 	}
