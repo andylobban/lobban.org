@@ -11,16 +11,11 @@ a {
 	-moz-transition: .3s all;
 	-o-transition: .3s all;
 	-webkit-transition: .3s all;
-	transition-transition: .3s all;
+	transition: .3s all;
 	}
 	
 h1 {
 	font-weight: 700;
-	}
-	
-.title {
-	float: left;
-	margin: 0;
 	}
 	
 .link h1:after {

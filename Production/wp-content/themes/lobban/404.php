@@ -18,7 +18,7 @@
 		
 					</header>
 	
-					<p>Sorry, I couldn't find the page or file you were looking for. Don't worry, it's probably my fault, not yours. Why don't you try going <a href="http://lobban.org">home</a>, or to the <a href="http://lobban.org/journal">journal</a>?</p>
+					<p>Sorry, I couldn't find the page or file you were looking for. Don't worry, it's probably my fault, not yours. Why don't you try going <a href="/">home</a>, or to the <a href="/journal">journal</a>?</p>
 			
 				</div>
 
