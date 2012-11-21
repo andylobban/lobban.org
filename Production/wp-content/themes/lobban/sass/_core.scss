@@ -18,6 +18,11 @@ body {
 	padding: 0 3%;
 	}
 	
+body:after {
+    content: 'small';
+    display: none;
+    }
+	
 abbr {
 	cursor: help;
 	}
@@ -151,18 +156,17 @@ article {
 	padding: 1em 0;
 	}
 	
+article h1 {
+	text-align: center;	
+	}
+	
 time {
 	color: #777;
 	display: block;
-	font-family: "calluna-sans-1", "calluna-sans-2";
 	font-size: 0.7em;
 	letter-spacing: 1px;
 	text-align: center;
 	text-transform: uppercase;
-	}
-	
-article h1 {
-	text-align: center;	
 	}
 	
 .link h1 {
@@ -213,10 +217,6 @@ article h1 {
 .entry blockquote p:last-child:after {
 	content: '\201D';
 	height: 0;
-	}
-	
-.view-instagram {
-	text-align: center;	
 	}
 	
 .entry .gallery-item {

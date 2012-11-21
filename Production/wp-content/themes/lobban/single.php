@@ -4,7 +4,7 @@
 
 		<article id="post-<?php the_ID(); ?>" class="clearfix entry <?php $category = get_the_category(); echo $category[0]->category_nicename; ?>">
 			<time>
-				<?php the_time('j'); ?><sup><?php the_time('S'); ?></sup> <?php the_time('F, Y'); ?>
+				<?php the_time('jS F, Y'); ?>
 			</time>
 			
 			<h1><?php the_title(); ?></h1>
