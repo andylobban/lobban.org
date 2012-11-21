@@ -14,8 +14,8 @@ textarea {
 	
 body { 
 	margin: 0 auto;
-	max-width: 652px;
-	padding: 0 3%;
+	max-width: 722px;
+	padding: 0 5%;
 	}
 	
 body:after {
@@ -119,15 +119,25 @@ figure {
 	}
 	
 #about li {
-	margin-bottom: 0.5em;
+	margin-bottom: 1em;
 	}
 	
 #about li:last-child {
 	margin-bottom: 0
 	}
 	
+#about li span {
+	display: block;
+	font-style: italic;
+	}
+	
 .adr {
-	font-style: italic;	
+	font-weight: bold;
+	}
+	
+#about li .adr span {
+	display: inline;
+	font-style: normal;
 	}
 	
 #profiles {
@@ -136,7 +146,7 @@ figure {
 	
 #profiles li {
 	display: inline-block;
-	margin: 0 0.5em 1em 0.5em;
+	margin: 0 0.3em 0.6em 0.3em;
 	}
 	
 #profiles li a {
@@ -217,6 +227,10 @@ time {
 .entry blockquote p:last-child:after {
 	content: '\201D';
 	height: 0;
+	}
+	
+.view-instagram {
+	text-align: center;
 	}
 	
 .entry .gallery-item {

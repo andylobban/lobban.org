@@ -10,11 +10,11 @@
 		
 		<ul>
 			<li><span class="adr"><span class="locality">Edinburgh</span>, <span class="country-name">Scotland</span>.</li>
-			<li>Designer at <a href="http://stormid.com">Storm ID</a>.</li>
-			<li>Used to be the design studio <a href="http://nonimage.com" rel="me" class="url">Nonimage</a>.</li>
-			<li>Has a personal blog, <a href="http://lobban.org/journal" rel="me" class="url">Easy Pieces</a>.</li>
-			<li>Runs a tiny record label, <a href="http://gerrylovesrecords.com" rel="me" class="url">Gerry Loves Records</a>.</li>
-			<li>Makes music videos as <a href="http://offthebeatentracks.tv" rel="me" class="url">Off The Beaten Tracks</a>.</li>
+			<li><span>Designer at</span> <a href="http://stormid.com">Storm ID</a></li>
+			<li><span>Used to be the design studio</span> <a href="http://nonimage.com" rel="me" class="url">Nonimage</a></li>
+			<li><span>Has a personal blog</span> <a href="http://lobban.org/journal" rel="me" class="url">Easy Pieces</a></li>
+			<li><span>Runs a tiny record label</span> <a href="http://gerrylovesrecords.com" rel="me" class="url">Gerry Loves Records</a></li>
+			<li><span>Makes music videos as</span> <a href="http://offthebeatentracks.tv" rel="me" class="url">Off The Beaten Tracks</a></li>
 		</ul>
 	
 	</section>
