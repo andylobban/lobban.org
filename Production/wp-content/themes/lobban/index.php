@@ -4,7 +4,7 @@
 		
 		<figure>
 		
-			<img src="<?php echo get_template_directory_uri(); ?>/images/common/andy-lobban.jpg" alt="photo of Andy Lobban" class="photo"/>
+			<img src="<?php echo get_template_directory_uri(); ?>/images/common/andy-lobban.jpg" height="334" width="400" alt="photo of Andy Lobban" class="photo"/>
 
 		</figure>
 		
