@@ -22,6 +22,7 @@
 	<section id="profiles" class="clearfix">
 				
 		<ul>
+			<!--<li class="bandcamp"><a href="http://bandcamp.com/nonimage" rel="me" class="url">Bandcamp</a></li>-->
     		<!--<li class="delicious"><a href="http://delicious.com/nonimage" rel="me" class="url">Delicious</a></li>-->
 			<li><a href="http://dribbble.com/nonimage" rel="me" class="url ss-social-circle ss-dribbble"><span>Dribbble</span></a></li>
 			<li><a href="http://facebook.com/andylobban" rel="me" class="url ss-social-circle ss-facebook"><span>Facebook</span></a></li>
