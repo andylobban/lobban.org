@@ -1,4 +1,6 @@
 <?php get_header(); ?>
+
+	<script type="text/javascript" id="rebelmouse-embed-script" src="https://www.rebelmouse.com/static/js-build/embed/embed.js?site=nonimage&height=1500&flexible=1"></script>
 		
 	<section id="about" class="clearfix">
 		
@@ -14,6 +16,7 @@
 			<li><span>Used to be the design studio</span> <a href="http://nonimage.com" rel="me" class="url">Nonimage</a></li>
 			<li><span>Has a personal blog</span> <a href="http://lobban.org/journal" rel="me" class="url">Easy Pieces</a></li>
 			<li><span>Runs a tiny record label</span> <a href="http://gerrylovesrecords.com" rel="me" class="url">Gerry Loves Records</a></li>
+			<li><span>Helps organise</span> <a href="http://refreshedinburgh.org">Refresh Edinburgh</a></li>
 			<li><span>Makes music videos as</span> <a href="http://offthebeatentracks.tv" rel="me" class="url">Off The Beaten Tracks</a></li>
 		</ul>
 	
