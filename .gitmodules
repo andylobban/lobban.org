@@ -1,3 +1,0 @@
-[submodule "Production/wordpress"]
-	path = Production/wordpress
-	url = git://github.com/WordPress/WordPress.git
