@@ -8,14 +8,7 @@ select,
 textarea {  
 	color: #333;
 	font-family: Georgia, Times, serif;
-	font-size: 1.1em; 
-	line-height: 1.6;
-	}
-	
-body { 
-	margin: 0 auto;
-	max-width: 722px;
-	padding: 0 5%;
+	line-height: 1.5;
 	}
 	
 body:after {
@@ -70,10 +63,21 @@ h4 {
 	}
 	
 	
+
+/* STRUCTURE */
+
+.wrapper { 
+	margin: 0 auto;
+	max-width: 720px;
+	padding: 0 4%;
+	}
+	
+		
+	
 /* HEADER */
 	
 [role="banner"] {
-	border-bottom: 1px solid #d4e6e6;
+	background: #f3f3f3;
 	font-size: 0.9em;
 	padding: 1em 0;
 	text-align: center;
@@ -89,16 +93,12 @@ h4 {
 	margin: 0;
 	}
 	
-.fn {
-	font-weight: bold;
-	}
-	
-nav {
+[role="navigation"] {
 	display: inline-block;
 	margin: 0 auto;
 	}
 	
-nav li {
+[role="navigation"] li {
 	float: left;
 	margin: 0 1em;
 	}
@@ -106,41 +106,35 @@ nav li {
 
 /* SECTIONS */
 	
-#about {
-	border-bottom: 1px solid #d4e6e6;
-	margin: 0 0 2em 0;
-	padding: 0 0 2em 0;
-	text-align: center;
+#intro {
+	background: url(../images/common/intro.jpg) center center no-repeat;
+	background-size: cover;
+	color: #fff;
+	padding: 2em 0 1em 0;
 	}
 	
-figure {
-	margin: 0 auto 1em auto;
-	width: 60%;
+#intro a {
+	color: #fff;
 	}
 	
-#about li {
-	margin-bottom: 1em;
+#intro figure {
+	float: right;
+	margin-top: 0.5em;
+	width: 20%;
 	}
 	
-#about li:last-child {
-	margin-bottom: 0
-	}
-	
-#about li span {
-	display: block;
-	font-style: italic;
+#intro ul {
+	float: left;
+	width: 75%;	
 	}
 	
 .adr {
 	font-weight: bold;
 	}
 	
-#about li .adr span {
-	display: inline;
-	font-style: normal;
-	}
-	
 #profiles {
+	background: #90B2A8;
+	padding: 2em 0 1em 0;
 	text-align: center;	
 	}
 	
@@ -150,6 +144,7 @@ figure {
 	}
 	
 #profiles li a {
+	color: #393234;
 	border: 0;
 	font-size: 1.8em;
 	}
@@ -157,6 +152,11 @@ figure {
 #profiles li a span {
 	display: none;
 	}
+	
+#projects {
+	padding: 2em 0;	
+	}
+	
 	
 	
 /* BLOG POSTS */

@@ -1,28 +1,29 @@
 <?php get_header(); ?>
 		
-	<section id="about" class="clearfix">
+	<section id="intro">
+	
+		<div class="clearfix wrapper">
 		
-		<figure>
-		
-			<img src="<?php echo get_template_directory_uri(); ?>/images/common/andy-lobban.jpg" height="334" width="400" alt="photo of Andy Lobban" class="photo"/>
-
-		</figure>
-		
-		<ul>
-			<li><span class="adr"><span class="locality">Edinburgh</span>, <span class="country-name">Scotland</span>.</li>
-			<li><span>Designer at</span> <a href="http://stormid.com">Storm ID</a></li>
-			<li><span>Used to be the design studio</span> <a href="http://nonimage.com" rel="me" class="url">Nonimage</a></li>
-			<li><span>Has a personal blog</span> <a href="http://lobban.org/journal" rel="me" class="url">Easy Pieces</a></li>
-			<li><span>Runs a tiny record label</span> <a href="http://gerrylovesrecords.com" rel="me" class="url">Gerry Loves Records</a></li>
-			<li><span>Helps organise</span> <a href="http://refreshedinburgh.org">Refresh Edinburgh</a></li>
-			<li><span>Makes music videos as</span> <a href="http://offthebeatentracks.tv" rel="me" class="url">Off The Beaten Tracks</a></li>
-		</ul>
+			<figure>
+			
+				<img src="<?php echo get_template_directory_uri(); ?>/images/common/andy-lobban.png" height="334" width="400" alt="photo of Andy Lobban" class="photo"/>
+	
+			</figure>
+			
+			<div class="intro-text">
+							
+				<p>I design internet things at <a href="http://stormid.com">Storm ID</a> in <span class="adr"><span class="locality">Edinburgh</span>, <span class="country-name">Scotland</span></span>. In my spare time I make <a href="#projects">other things</a>.</p>
+			
+			</div>
+			
+		</div>
 	
 	</section>
 	    			
 	<section id="profiles" class="clearfix">
 				
-		<ul>
+		<ul class="wrapper">
+			<li><a href="/contact" class="ss-social-circle ss-mail"><span>Email</span></a></li>
 			<li><a href="http://alpha.app.net/nonimage" rel="me" class="url ss-social-circle ss-appdotnet"><span>App.net</span></a></li>
 			<!--<li class="bandcamp"><a href="http://bandcamp.com/nonimage" rel="me" class="url">Bandcamp</a></li>-->
     		<!--<li class="delicious"><a href="http://delicious.com/nonimage" rel="me" class="url">Delicious</a></li>-->
@@ -51,12 +52,16 @@
 				
 	</section>
 	
-	<!--<section id="contact">
-				
-		<ul>
-			<li><a class="email home" href="mailto:andy@lobban.org">andy@lobban.org</a> Personal email</li> 	
-			</ul>
-				
-   	</section> -->
+	<section id="projects">
+	
+		<ul class="wrapper">
+			<li><span>Used to be the design studio</span> <a href="http://nonimage.com" rel="me" class="url">Nonimage</a></li>
+			<li><span>Has a personal blog</span> <a href="http://lobban.org/journal" rel="me" class="url">Easy Pieces</a></li>
+			<li><span>Runs a tiny record label</span> <a href="http://gerrylovesrecords.com" rel="me" class="url">Gerry Loves Records</a></li>
+			<li><span>Helps organise</span> <a href="http://refreshedinburgh.org">Refresh Edinburgh</a></li>
+			<li><span>Makes music videos as</span> <a href="http://offthebeatentracks.tv" rel="me" class="url">Off The Beaten Tracks</a></li>
+		</ul>
+	
+	</section>
 
 <?php get_footer(); ?>

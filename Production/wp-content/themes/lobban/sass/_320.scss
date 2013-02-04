@@ -15,21 +15,28 @@ a {
 	}
 	
 h1 {
-	font-weight: 700;
+	font-weight: 700;	
 	}
 	
 .link h1:after {
 	content: ' ➦';
 	}
 	
-[role="banner"] h1 {
-	float: left;	
+[role="banner"] {
+	font-family: "calluna-sans-1","calluna-sans-2", sans-serif;	
+	font-weight: 300;
+	text-transform: uppercase;
 	}
 	
-nav {
+[role="banner"] h1 {
+	float: left;	
+	font-weight: 600;
+	}
+	
+[role="navigation"] {
 	float: right;
 	}
 	
-nav li {
-	margin: 0 0 0 1em;
+[role="navigation"] li {
+	margin: 0 0 0 2em;
 	}
