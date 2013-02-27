@@ -12,7 +12,7 @@
 			
 			<div class="intro-text">
 							
-				<p>I design internet things at <a href="http://stormid.com">Storm ID</a> in <span class="adr"><span class="locality">Edinburgh</span>, <span class="country-name">Scotland</span></span>. In my spare time I make <a href="#projects">other things</a>.</p>
+				<p>I design internet things in <span class="adr"><span class="locality">Edinburgh</span>, <span class="country-name">Scotland</span></span>. In my spare time I make <a href="#projects">other things</a>.</p>
 			
 			</div>
 			
@@ -58,6 +58,7 @@
 	<section id="projects">
 	
 		<ul class="wrapper">
+			<li><span>Designer at <a href="http://stormid.com">Storm ID</a></span></li>
 			<li><span>Used to be the design studio</span> <a href="http://nonimage.com" rel="me" class="url">Nonimage</a></li>
 			<li><span>Has a personal blog</span> <a href="http://lobban.org/journal" rel="me" class="url">Easy Pieces</a></li>
 			<li><span>Runs a tiny record label</span> <a href="http://gerrylovesrecords.com" rel="me" class="url">Gerry Loves Records</a></li>
