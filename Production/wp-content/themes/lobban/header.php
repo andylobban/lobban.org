@@ -22,14 +22,15 @@
 		<meta name="verify-v1" content="/tszQRokQGMmYyaa9onuK8KaVEdDtFiTHsiCOGd3UO0=" />
 				
 		<link rel="stylesheet" media="not print" href="<?php echo get_template_directory_uri(); ?>/css/style.css" />
-		<?php if (gallery_shortcode($post->ID)){ 
-			echo '<link rel="stylesheet" media="not print" href="http://lobban.org/wp-content/themes/lobban/css/fresco.css" />';
-		} ?>
 		
 		<!--[if lte IE8]>
 			<link rel="stylesheet" media="screen" href="<?php echo get_template_directory_uri(); ?>/css/legacy.css" />
 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
+		
+		<?php if (gallery_shortcode($post->ID)){ 
+			echo '<link rel="stylesheet" media="not print" href="http://lobban.org/wp-content/themes/lobban/css/fresco.css" />';
+		} ?>
 		
 		<script type="text/javascript" src="http://use.typekit.com/upu8ark.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -64,18 +65,22 @@
 	<body id="hcard-Andy-Lobban" class="vcard">		
 		
 		<header class="clearfix" role="banner">
+		
+			<div class="wrapper">
 				
-			<h1><a class="url fn n" href="<?php bloginfo('url'); ?>" rel="me"><span class="given-name">Andy</span> <span class="family-name">Lobban</span></a></h1>
-	
-			<nav>
+				<h1><a class="url fn n" href="<?php bloginfo('url'); ?>" rel="me"><span class="given-name">Andy</span> <span class="family-name">Lobban</span></a></h1>
+		
+				<nav role="navigation">
+					
+					<ul class="clearfix">
+						<li><a href="<?php bloginfo('url'); ?>/journal">Journal</a></li>
+						<li><a href="<?php bloginfo('url'); ?>">About</a></li>
+					</ul>
+					
+				</nav>
 				
-				<ul class="clearfix">
-					<li><a href="<?php bloginfo('url'); ?>/journal">Journal</a></li>
-					<li><a href="<?php bloginfo('url'); ?>">About</a></li>
-				</ul>
-				
-			</nav>
+			</div>
 							
 		</header>
 		
-		<section role="main">
+		<main role="main">

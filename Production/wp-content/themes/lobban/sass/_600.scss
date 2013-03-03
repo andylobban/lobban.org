@@ -4,7 +4,16 @@ button,
 input, 
 select, 
 textarea {  
-	font-size: 1.4em; 
+	font-size: 1.2em; 
+	}
+	
+[role="banner"] {
+	font-size: 0.7em;
+	padding: 1.5em 0;
+	}
+	
+[role="navigation"] li {
+	margin-left: 3em;
 	}
 	
 article {

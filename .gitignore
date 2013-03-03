@@ -8,16 +8,17 @@ Icon?
 ehthumbs.db
 Thumbs.db
 
-# Config files #
+# Sass cache #
+.sass-cache
 
+# Wordpress itself #
+.gitmodules
+Production/wordpress
+
+# Config files #
 wp-config.php
 local-config.php
 
 # Uploads #
-
 uploads/
 blogs.dir/
-
-# Sass cache #
-
-.sass-cache
