@@ -69,7 +69,8 @@ h4 {
 .wrapper { 
 	margin: 0 auto;
 	max-width: 720px;
-	padding: 0 4%;
+	padding-left: 4%;
+	padding-right: 4%;
 	}
 	
 		
@@ -104,22 +105,16 @@ h4 {
 	}
 
 
+
 /* SECTIONS */
-	
+
 #intro {
-	}
-	
-#intro p {
-	margin-bottom: 0;	
-	}
-	
-#intro a {
-	color: #fff;
+	padding: 2em 0;	
 	}
 	
 #intro figure {
 	float: right;
-	margin-top: 0.5em;
+	margin: 0.5em 0 1em 1em;
 	width: 20%;
 	}
 	
@@ -133,14 +128,11 @@ h4 {
 	}
 	
 #profiles {
-	background: #90B2A8;
-	padding: 1em 0 0 0;
-	text-align: center;	
 	}
 	
 #profiles li {
 	display: inline-block;
-	margin: 0 0.3em 0.6em 0.3em;
+	margin: 0 0.6em 0.6em 0;
 	}
 	
 #profiles li a {
@@ -219,7 +211,8 @@ time {
 	}
 	
 .entry blockquote {
-	padding: 0 1em;
+	color: #555;
+	padding: 0 1.5em;
 	}
 	
 .entry blockquote p:first-child:before {

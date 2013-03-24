@@ -18,6 +18,10 @@ h1 {
 	font-weight: 700;	
 	}
 	
+[role="banner"] h1 a {
+	font-weight: 600;	
+	}
+	
 .link h1:after {
 	content: ' ➦';
 	}
@@ -30,6 +34,9 @@ h1 {
 	
 [role="banner"] h1 {
 	float: left;	
+	}
+	
+[role="banner"] h1 a {
 	font-weight: 600;
 	}
 	

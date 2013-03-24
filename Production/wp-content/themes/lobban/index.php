@@ -13,6 +13,10 @@
 			<div class="intro-text">
 							
 				<p>I make things, mostly for the internet or music in <span class="adr"><span class="locality">Edinburgh</span>, <span class="country-name">Scotland</span></span>. It keeps me off the streets and out of trouble.</p>
+				
+				<p>I'm currently a designer at <a href="http://stormid.com">Storm ID</a>. Previously I was the one-man design studio <a href="http://nonimage.com" rel="me" class="url">Nonimage</a>. I sometimes write things in a <a href="http://lobban.org/journal" rel="me" class="url">journal</a>. I run <a href="http://gerrylovesrecords.com" rel="me" class="url">Gerry Loves Records</a>, I help organise</span> <a href="http://refreshedinburgh.org">Refresh Edinburgh</a> and I started <a href="http://theshyretirers.com" rel="me" class="url">The Shy Retirers</a>.</p>
+				
+				<p><a href="">There's more &rarr;</a></p>
 			
 			</div>
 			
@@ -54,19 +58,6 @@
 			<li><a href="http://zerply.com/nonimage" rel="me" class="url ss-zerply"><span>Zerply</span></a></li>   	
 		</ul>
 				
-	</section>
-	
-	<section id="projects">
-	
-		<ul class="wrapper">
-			<li><span>Designer at <a href="http://stormid.com">Storm ID</a></span></li>
-			<li><span>Used to be the design studio</span> <a href="http://nonimage.com" rel="me" class="url">Nonimage</a></li>
-			<li><span>Has a personal blog</span> <a href="http://lobban.org/journal" rel="me" class="url">Easy Pieces</a></li>
-			<li><span>Runs a tiny record label</span> <a href="http://gerrylovesrecords.com" rel="me" class="url">Gerry Loves Records</a></li>
-			<li><span>Helps organise</span> <a href="http://refreshedinburgh.org">Refresh Edinburgh</a></li>
-			<li><span>Makes music videos as</span> <a href="http://offthebeatentracks.tv" rel="me" class="url">Off The Beaten Tracks</a></li>
-		</ul>
-	
 	</section>
 
 <?php get_footer(); ?>
