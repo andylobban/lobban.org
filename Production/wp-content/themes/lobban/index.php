@@ -12,7 +12,7 @@
 			
 			<div class="intro-text">
 							
-				<p>I design internet things in <span class="adr"><span class="locality">Edinburgh</span>, <span class="country-name">Scotland</span></span>. In my spare time I make <a href="#projects">other things</a>.</p>
+				<p>I make things, mostly for the internet or music in <span class="adr"><span class="locality">Edinburgh</span>, <span class="country-name">Scotland</span></span>. It keeps me off the streets and out of trouble.</p>
 			
 			</div>
 			
@@ -23,34 +23,34 @@
 	<section id="profiles" class="clearfix">
 				
 		<ul class="wrapper">
-			<li><a href="/contact" class="ss-social-circle ss-mail"><span>Email</span></a></li>
-			<li><a href="http://alpha.app.net/nonimage" rel="me" class="url ss-social-circle ss-appdotnet"><span>App.net</span></a></li>
-			<li><a href="http://instagram.com/nonimage" rel="me" class="url ss-social-circle ss-instagram"><span>Instagram</span></a></li>
-			<li><a href="http://pinboard.in/u:nonimage" rel="me" class="url ss-social-circle ss-pinboard"><span>Pinboard</span></a></li>
-			<li><a href="http://open.spotify.com/user/nonimage" rel="me" class="url ss-social-circle ss-spotify"><span>Spotify</span></a></li>
-			<li><a href="http://twitter.com/nonimage" rel="me" class="url ss-social-circle ss-twitter"><span>Twitter</span></a></li>
+			<li><a href="/contact" class="ss-mail"><span>Email</span></a></li>
+			<li><a href="http://alpha.app.net/nonimage" rel="me" class="url ss-appdotnet"><span>App.net</span></a></li>
+			<li><a href="http://instagram.com/nonimage" rel="me" class="url ss-instagram"><span>Instagram</span></a></li>
+			<li><a href="http://pinboard.in/u:nonimage" rel="me" class="url ss-pinboard"><span>Pinboard</span></a></li>
+			<li><a href="http://open.spotify.com/user/nonimage" rel="me" class="url ss-spotify"><span>Spotify</span></a></li>
+			<li><a href="http://twitter.com/nonimage" rel="me" class="url ss-twitter"><span>Twitter</span></a></li>
 			<!--<li><a href="http://twitter.com/nonimage" class="">More</a></li>-->
 			
 			<!--<li class="bandcamp"><a href="http://bandcamp.com/nonimage" rel="me" class="url">Bandcamp</a></li>-->
-    		<!--<li class="delicious"><a href="http://delicious.com/nonimage" rel="me" class="url">Delicious</a></li>-->
-			<li><a href="http://dribbble.com/nonimage" rel="me" class="url ss-social-circle ss-dribbble"><span>Dribbble</span></a></li>
-			<li><a href="http://facebook.com/andylobban" rel="me" class="url ss-social-circle ss-facebook"><span>Facebook</span></a></li>
-			<li><a href="http://flickr.com/photos/nonimage" rel="me" class="url ss-social-circle ss-flickr"><span>Flickr</span></a></li>
-			<li><a href="http://foursquare.com/nonimage" rel="me" class="url ss-social-circle ss-foursquare"><span>Foursquare</span></a></li>
+    		<li><a href="http://delicious.com/nonimage" rel="me" class="url ss-delicious"><span>Delicious</span></a></li>
+			<li><a href="http://dribbble.com/nonimage" rel="me" class="url ss-dribbble"><span>Dribbble</span></a></li>
+			<li><a href="http://facebook.com/andylobban" rel="me" class="url ss-facebook"><span>Facebook</span></a></li>
+			<li><a href="http://flickr.com/photos/nonimage" rel="me" class="url ss-flickr"><span>Flickr</span></a></li>
+			<li><a href="http://foursquare.com/nonimage" rel="me" class="url ss-foursquare"><span>Foursquare</span></a></li>
 			<!--<li><a href="http://gimmebar.com/user/nonimage" rel="me" class="url gimmebar">Gimme Bar</a></li>-->
-			<li><a href="http://github.com/nonimage" rel="me" class="url ss-social-circle ss-github"><span>Github</span></a></li>
-			<li><a href="http://www.goodreads.com/user/show/5679909-nonimage" rel="me" class="url ss-social-circle ss-readmill"><span>Goodreads</span></a></li>
-			<li><a href="https://plus.google.com/108664505197038367823/posts" rel="me" class="url ss-social-circle ss-googleplus"><span>Google +</span></a></li>
+			<li><a href="http://github.com/nonimage" rel="me" class="url ss-github"><span>Github</span></a></li>
+			<li><a href="http://www.goodreads.com/user/show/5679909-nonimage" rel="me" class="url ss-readmill"><span>Goodreads</span></a></li>
+			<li><a href="https://plus.google.com/108664505197038367823/posts" rel="me" class="url ss-googleplus"><span>Google +</span></a></li>
 			
-			<li><a href="http://kickstarter.com/profile/nonimage" rel="me" class="url ss-social-circle ss-kickstarter"><span>Kickstarter</span></a></li>
+			<li><a href="http://kickstarter.com/profile/nonimage" rel="me" class="url ss-kickstarter"><span>Kickstarter</span></a></li>
 			<!--<li><a href="http://lanyrd.com/profile/nonimage" rel="me" class="url lanyrd">Lanyrd</a></li>-->
-			<li><a href="http://last.fm/user/nonimage" rel="me" class="url ss-social-circle ss-lastfm"><span>Last.fm</span></a></li>
-    		<li><a href="http://linkedin.com/in/nonimage" rel="me" class="url ss-social-circle ss-linkedin"><span>LinkedIn</span></a></li>
+			<li><a href="http://last.fm/user/nonimage" rel="me" class="url ss-lastfm"><span>Last.fm</span></a></li>
+    		<li><a href="http://linkedin.com/in/nonimage" rel="me" class="url ss-linkedin"><span>LinkedIn</span></a></li>
     		<!--<li><a href="http://mixcloud.com/nonimage" rel="me" class="url mixcloud">Mixcloud</a></li>-->
-			<li><a href="http://nonimage.tumblr.com" rel="me" class="url ss-social-circle ss-tumblr"><span>Tumblr</span></a></li>
-    		<li><a href="http://vimeo.com/nonimage" rel="me" class="url ss-social-circle ss-vimeo"><span>Vimeo</span></a></li>
-			<li><a href="http://youtube.com/user/nonimage" rel="me" class="url ss-social-circle ss-youtube"><span>YouTube</span></a></li>   
-			<li><a href="http://zerply.com/nonimage" rel="me" class="url ss-social-circle ss-zerply"><span>Zerply</span></a></li>   	
+			<li><a href="http://nonimage.tumblr.com" rel="me" class="url ss-tumblr"><span>Tumblr</span></a></li>
+    		<li><a href="http://vimeo.com/nonimage" rel="me" class="url ss-vimeo"><span>Vimeo</span></a></li>
+			<li><a href="http://youtube.com/user/nonimage" rel="me" class="url ss-youtube"><span>YouTube</span></a></li>   
+			<li><a href="http://zerply.com/nonimage" rel="me" class="url ss-zerply"><span>Zerply</span></a></li>   	
 		</ul>
 				
 	</section>
