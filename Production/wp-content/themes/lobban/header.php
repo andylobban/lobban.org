@@ -74,7 +74,7 @@
 					
 					<ul class="clearfix">
 						<li><a href="<?php bloginfo('url'); ?>/journal">Journal</a></li>
-						<li><a href="<?php bloginfo('url'); ?>">About</a></li>
+						<li><a href="<?php bloginfo('url'); ?>/about">About</a></li>
 					</ul>
 					
 				</nav>
