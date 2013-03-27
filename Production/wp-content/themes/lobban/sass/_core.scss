@@ -130,22 +130,22 @@ h4 {
 #profiles {
 	}
 	
-#profiles li {
+.profiles li {
 	display: inline-block;
 	margin: 0 0.6em 0.6em 0;
 	}
 	
-#profiles li a {
+.profiles li a {
 	color: #393234;
 	border: 0;
 	font-size: 1.8em;
 	}
 	
-#profiles li a:hover {
+.profiles li a:hover {
 	color: #000;
 	}
 	
-#profiles li a span {
+.profiles li a span {
 	display: none;
 	}
 	
@@ -158,7 +158,6 @@ h4 {
 /* BLOG POSTS */
 
 article {
-	border-bottom: 1px solid #d4e6e6;
 	padding: 1em 0;
 	}
 	
@@ -252,4 +251,15 @@ time {
 	
 .next {
 	float: right;
+	}
+	
+	
+	
+/* FOOTER */
+
+[role="contentinfo"] {
+	background: #f3f3f3;
+	font-size: 0.9em;
+	padding: 2em 0 1em 0;
+	text-align: center;
 	}
