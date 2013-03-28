@@ -1,224 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://lobban.local/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/3.6-alpha-23585" -->
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://lobban.local/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/3.6-alpha-23334" -->
 <!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="3.2.8" -->
-<!-- generated-on="March 24, 2013 11:56 am" -->
+<!-- generated-on="March 27, 2013 11:02 pm" -->
 <!-- Debug: Total comment count: 35 -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
 		<loc>http://lobban.local/</loc>
-		<lastmod>2013-03-24T11:38:54+00:00</lastmod>
+		<lastmod>2013-02-02T23:50:48+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
 <!-- Debug: Start Postings -->
-<!-- Debug: Priority report of postID 1469217027: Comments: 0 of 35 = 0 points -->
-	<url>
-		<loc>http://lobban.local/journal/2013/03/22/lytro-testing/</loc>
-		<lastmod>2013-03-24T11:38:54+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1469217034: Comments: 0 of 35 = 0 points -->
-	<url>
-		<loc>http://lobban.local/journal/2013/03/23/beautiful/</loc>
-		<lastmod>2013-03-23T22:04:53+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1469217033: Comments: 0 of 35 = 0 points -->
-	<url>
-		<loc>http://lobban.local/journal/2013/03/23/finally-framed-the-julian-lynchducktailsbig-troubles-poster-i-designed-screenprinted/</loc>
-		<lastmod>2013-03-23T19:22:17+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1469217032: Comments: 0 of 35 = 0 points -->
-	<url>
-		<loc>http://lobban.local/journal/2013/03/22/thats-tonight-taken-care-of-new-records-by-lowtheband-and-yourfriendscas/</loc>
-		<lastmod>2013-03-22T10:04:31+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1469217015: Comments: 0 of 35 = 0 points -->
-	<url>
-		<loc>http://lobban.local/journal/2013/03/21/nyt-word-cloud-portrait-from-sxsw/</loc>
-		<lastmod>2013-03-21T18:27:01+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1469217013: Comments: 0 of 35 = 0 points -->
-	<url>
-		<loc>http://lobban.local/journal/2013/03/19/first-official-press-photo-of-new-buzz-band-svnagogues/</loc>
-		<lastmod>2013-03-19T08:50:41+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1469217012: Comments: 0 of 35 = 0 points -->
-	<url>
-		<loc>http://lobban.local/journal/2013/03/18/skinny/</loc>
-		<lastmod>2013-03-18T20:59:48+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1469217011: Comments: 0 of 35 = 0 points -->
-	<url>
-		<loc>http://lobban.local/journal/2013/03/18/toys/</loc>
-		<lastmod>2013-03-18T05:25:14+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1469217010: Comments: 0 of 35 = 0 points -->
-	<url>
-		<loc>http://lobban.local/journal/2013/03/17/moog-machines/</loc>
-		<lastmod>2013-03-17T18:44:47+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1469217009: Comments: 0 of 35 = 0 points -->
-	<url>
-		<loc>http://lobban.local/journal/2013/03/17/window/</loc>
-		<lastmod>2013-03-17T15:47:35+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1469217008: Comments: 0 of 35 = 0 points -->
-	<url>
-		<loc>http://lobban.local/journal/2013/03/16/sleeveface/</loc>
-		<lastmod>2013-03-16T14:58:16+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1469217007: Comments: 0 of 35 = 0 points -->
-	<url>
-		<loc>http://lobban.local/journal/2013/03/16/a-delivery-from-warner-bros/</loc>
-		<lastmod>2013-03-16T14:55:33+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1469217006: Comments: 0 of 35 = 0 points -->
-	<url>
-		<loc>http://lobban.local/journal/2013/03/14/hi-how-are-you-im-paddy-the-catalogue-model/</loc>
-		<lastmod>2013-03-14T20:24:03+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1469217005: Comments: 0 of 35 = 0 points -->
-	<url>
-		<loc>http://lobban.local/journal/2013/03/14/indians-predictably-the-best-band-so-far/</loc>
-		<lastmod>2013-03-14T19:02:20+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1469217004: Comments: 0 of 35 = 0 points -->
-	<url>
-		<loc>http://lobban.local/journal/2013/03/14/phillipaws-on-the-bar/</loc>
-		<lastmod>2013-03-14T15:23:19+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1469217003: Comments: 0 of 35 = 0 points -->
-	<url>
-		<loc>http://lobban.local/journal/2013/03/08/couldnt-resist-the-new-cover-for-orwells-nineteen-eighty-four/</loc>
-		<lastmod>2013-03-08T10:20:57+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1469217002: Comments: 0 of 35 = 0 points -->
-	<url>
-		<loc>http://lobban.local/journal/2013/03/05/more-framing-this-time-its-yourfriendscas/</loc>
-		<lastmod>2013-03-05T19:32:55+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1469217001: Comments: 0 of 35 = 0 points -->
-	<url>
-		<loc>http://lobban.local/journal/2013/03/05/grid-2/</loc>
-		<lastmod>2013-03-05T14:03:52+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1469217000: Comments: 0 of 35 = 0 points -->
-	<url>
-		<loc>http://lobban.local/journal/2013/03/04/framed/</loc>
-		<lastmod>2013-03-04T23:43:49+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1469216999: Comments: 0 of 35 = 0 points -->
-	<url>
-		<loc>http://lobban.local/journal/2013/03/04/wehavepaws-print-finally-framed-looks-really-nice/</loc>
-		<lastmod>2013-03-04T22:58:47+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1469216995: Comments: 0 of 35 = 0 points -->
-	<url>
-		<loc>http://lobban.local/journal/2013/03/02/private-public-screening-of-the-ghost-of-piramida/</loc>
-		<lastmod>2013-03-02T15:41:09+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1469216993: Comments: 0 of 35 = 0 points -->
-	<url>
-		<loc>http://lobban.local/journal/2013/02/26/greenhouses/</loc>
-		<lastmod>2013-02-26T18:46:21+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1469216992: Comments: 0 of 35 = 0 points -->
-	<url>
-		<loc>http://lobban.local/journal/2013/02/24/fine/</loc>
-		<lastmod>2013-02-24T17:12:22+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1469216991: Comments: 0 of 35 = 0 points -->
-	<url>
-		<loc>http://lobban.local/journal/2013/02/23/andys-camera-cannibalisation-shoppe/</loc>
-		<lastmod>2013-02-23T11:08:25+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1469216990: Comments: 0 of 35 = 0 points -->
-	<url>
-		<loc>http://lobban.local/journal/2013/02/23/bailey-has-decided-i-cant-sleep-any-more/</loc>
-		<lastmod>2013-02-23T09:16:32+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1469216989: Comments: 0 of 35 = 0 points -->
-	<url>
-		<loc>http://lobban.local/journal/2013/02/19/film-double-exposure/</loc>
-		<lastmod>2013-02-19T21:09:05+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1469216988: Comments: 0 of 35 = 0 points -->
-	<url>
-		<loc>http://lobban.local/journal/2013/02/17/new-nails/</loc>
-		<lastmod>2013-02-17T11:13:05+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1469216987: Comments: 0 of 35 = 0 points -->
-	<url>
-		<loc>http://lobban.local/journal/2013/02/12/dock/</loc>
-		<lastmod>2013-02-12T13:09:23+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1469216986: Comments: 0 of 35 = 0 points -->
-	<url>
-		<loc>http://lobban.local/journal/2013/02/10/you-cant-lose/</loc>
-		<lastmod>2013-02-10T18:28:48+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-<!-- Debug: Priority report of postID 1469216985: Comments: 0 of 35 = 0 points -->
-	<url>
-		<loc>http://lobban.local/journal/2013/02/10/lookout/</loc>
-		<lastmod>2013-02-10T17:07:23+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
 <!-- Debug: Priority report of postID 1469216984: Comments: 0 of 35 = 0 points -->
 	<url>
 		<loc>http://lobban.local/journal/2013/02/02/gateway/</loc>
@@ -3486,16 +3276,16 @@
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
-<!-- Debug: Priority report of postID 104203081: Comments: 0 of 35 = 0 points -->
+<!-- Debug: Priority report of postID 104203082: Comments: 0 of 35 = 0 points -->
 	<url>
-		<loc>http://lobban.local/journal/2009/05/06/104203081/</loc>
+		<loc>http://lobban.local/journal/2009/05/06/104203082/</loc>
 		<lastmod>2009-05-06T15:56:43+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
-<!-- Debug: Priority report of postID 104203082: Comments: 0 of 35 = 0 points -->
+<!-- Debug: Priority report of postID 104203081: Comments: 0 of 35 = 0 points -->
 	<url>
-		<loc>http://lobban.local/journal/2009/05/06/104203082/</loc>
+		<loc>http://lobban.local/journal/2009/05/06/104203081/</loc>
 		<lastmod>2009-05-06T15:56:43+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
