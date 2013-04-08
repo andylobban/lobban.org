@@ -29,9 +29,16 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 	<script>!window.jQuery && document.write('<script src="<?php bloginfo('template_directory'); ?>/js/libs/jquery-1.8.1.min.js"><\/script>')</script>
 	
-	<script src="<?php bloginfo('template_directory'); ?>/js/libs/fresco.js"></script>
+	<?php if (gallery_shortcode($post->ID)){ 
+		echo '';
+	} ?>
 	
-	<script>
+	<script src="<?php bloginfo('template_directory'); ?>/js/libs/jquery.fancybox.min.js"></script>
+	
+	<script>	
+	
+		$('.fancybox').fancybox();
+			
 		function loadAsync(url, loadFn) {
 		    loadFn = loadFn || function() {}
 		    $(function() {

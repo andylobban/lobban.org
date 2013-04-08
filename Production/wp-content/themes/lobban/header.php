@@ -28,10 +28,6 @@
 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		
-		<?php if (gallery_shortcode($post->ID)){ 
-			echo '<link rel="stylesheet" media="not print" href="http://lobban.org/wp-content/themes/lobban/css/fresco.css" />';
-		} ?>
-		
 		<script type="text/javascript" src="http://use.typekit.com/upu8ark.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 		
