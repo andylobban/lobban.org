@@ -1,6 +1,6 @@
 	</main>
 	
-	<?php if( !is_home() || !is_page( 'About' ) ) : ?>
+	<?php if( !is_home() && !is_page( 'About' ) ) : ?>
 	
 		<footer role="contentinfo">
 		
@@ -28,10 +28,6 @@
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 	<script>!window.jQuery && document.write('<script src="<?php bloginfo('template_directory'); ?>/js/libs/jquery-1.8.1.min.js"><\/script>')</script>
-	
-	<?php if (gallery_shortcode($post->ID)){ 
-		echo '';
-	} ?>
 	
 	<script src="<?php bloginfo('template_directory'); ?>/js/libs/jquery.fancybox.min.js"></script>
 	
