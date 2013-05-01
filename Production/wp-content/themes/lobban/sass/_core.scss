@@ -223,6 +223,16 @@ time {
 	text-align: center;
 	}
 	
+.entry .gallery:before, 
+.entry .gallery:after {
+	content: "";
+	display: table;
+	}
+
+.entry .gallery:after {
+	clear: both;
+	}
+	
 .entry .gallery-item {
 	float: left;
 	margin: 0 1.333333333333% 1.333333333333% 0;
