@@ -6,8 +6,6 @@
 
 		<?php while (have_posts()) : the_post(); ?>
 		
-		<article id="post-<?php the_ID(); ?>" class="clearfix">
-
 			<section class="entry">
 
 				<header>
@@ -27,8 +25,6 @@
 				<?php endif; ?>
 				
 			</section>
-
-		</article>
 	
 	<?php endwhile; else: ?>
 

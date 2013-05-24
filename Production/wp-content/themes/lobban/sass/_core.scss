@@ -47,6 +47,23 @@ h1 {
 	margin: 0 0 0.5em 0;
 	}
 	
+h1 {
+	text-align: center;	
+	}
+	
+h1:after {
+	content: ' ';
+	display: block;
+	width: 5em;
+	border-top: 1px solid #ddd;
+	margin: 1em auto 1em auto;
+	}
+	
+h1 a {
+	border: 0;	
+	font-weight: bold;
+	}
+	
 h2 {
 	font-size: 1.2em;
 	margin: 2em 0 0.5em 0;
@@ -92,6 +109,10 @@ h4 {
 	font-size: 1em;
 	line-height: 1.6;
 	margin: 0;
+	}
+	
+[role="banner"] h1:after {
+	display: none;
 	}
 	
 [role="navigation"] {
@@ -150,12 +171,9 @@ h4 {
 	
 /* BLOG POSTS */
 
-article {
-	padding: 1em 0;
-	}
-	
-article h1 {
-	text-align: center;	
+[role="main"] {
+	padding-bottom: 1em;
+	padding-top: 1em;
 	}
 	
 time {

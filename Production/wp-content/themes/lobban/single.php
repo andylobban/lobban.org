@@ -2,7 +2,7 @@
 
 	<?php while ( have_posts() ) : the_post(); ?>
 
-		<article id="post-<?php the_ID(); ?>" class="clearfix wrapper entry <?php $category = get_the_category(); echo $category[0]->category_nicename; ?>">
+		<article id="post-<?php the_ID(); ?>" class="clearfix wrapper entry <?php $category = get_the_category(); echo $category[0]->category_nicename; ?>" role="main">
 			<time>
 				<?php the_time('j'); ?><sup><?php the_time('S'); ?></sup> <?php the_time('F, Y'); ?>
 			</time>

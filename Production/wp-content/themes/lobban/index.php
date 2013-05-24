@@ -27,7 +27,7 @@
 	<section id="profiles" class="clearfix">
 				
 		<ul class="wrapper profiles">
-			<li><a href="/contact" class="ss-mail"><span>Email</span></a></li>
+			<li><a href="/info" class="ss-mail"><span>Email</span></a></li>
 			
 			<li><a href="http://twitter.com/nonimage" rel="me" class="url ss-twitter"><span>Twitter</span></a></li>
 			<li><a href="http://instagram.com/nonimage" rel="me" class="url ss-instagram"><span>Instagram</span></a></li>

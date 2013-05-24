@@ -8,13 +8,13 @@ Template Name: About
 
 	<?php while ( have_posts() ) : the_post(); ?>
 
-		<article id="post-<?php the_ID(); ?>" class="clearfix wrapper entry">
+		<div class="clearfix wrapper entry" role="main">
 			
 			<h1><?php the_title(); ?></h1>		
 	
 			<?php the_content(); ?>
 				
-		</article>
+		</div>
 
 	<?php endwhile; ?>
 			
