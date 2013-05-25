@@ -14,10 +14,6 @@ a {
 	transition: .3s all;
 	}
 	
-h1 {
-	font-weight: 700;	
-	}
-	
 .link h1:after {
 	content: ' ➦';
 	}
@@ -32,13 +28,9 @@ h1 {
 	font-weight: 600;
 	}
 	
-[role="navigation"] {
-	margin-left: 0;
-	margin-right: 0;
-	}
-	
 [role="navigation"] li {
-	margin: 0 0 0 2em;
+	margin-left: 2em;
+	margin-right: 0;
 	}
 	
 [role="navigation"] li:first-child {

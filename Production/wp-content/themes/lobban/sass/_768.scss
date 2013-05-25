@@ -7,20 +7,11 @@ textarea {
 	font-size: 1.1em; 
 	}
 	
-#about li span {
-	display: inline;
+[role="navigation"] li {
+	margin-left: 4em;
 	}
 	
 .entry ol li, 
 .entry ul li {
 	margin-left: 0;
-	}
-	
-[role="banner"] h1 {
-	float: left;	
-	margin: 0;
-	}
-	
-[role="navigation"] {
-	float: right;
 	}

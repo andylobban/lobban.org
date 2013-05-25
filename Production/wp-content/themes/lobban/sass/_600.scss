@@ -12,14 +12,15 @@ textarea {
 	padding: 1.5em 0;
 	}
 	
+[role="banner"] h1 {
+	float: left;	
+	margin: 0;
+	}
+	
+[role="navigation"] {
+	float: right;
+	}
+	
 [role="navigation"] li {
 	margin-left: 3em;
-	}
-	
-article {
-	padding: 2em 0;
-	}
-	
-h1 {
-	margin-bottom: 1em;
 	}
