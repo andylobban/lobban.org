@@ -6,7 +6,9 @@ Template Name: Journal
 
 <?php get_header(); ?>
 
-	<div class="wrapper">
+	<div class="clearfix wrapper entry" role="main">
+	
+		<h1>Journal</h1>
 		
 		<?php 
 	    $args = array( 'numberposts' => 10 );
