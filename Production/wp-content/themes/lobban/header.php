@@ -70,6 +70,7 @@
 					
 					<ul class="clearfix">
 						<li><a href="<?php bloginfo('url'); ?>/journal">Journal</a></li>
+						<li><a href="http://film.lobban.org">Film</a></li>
 						<li><a href="<?php bloginfo('url'); ?>/info">Info</a></li>
 					</ul>
 					
