@@ -15,7 +15,6 @@
 					<li><a href="http://instagram.com/nonimage" rel="me" class="url ss-instagram"><span>Instagram</span></a></li>
 					<li><a href="http://pinboard.in/u:nonimage" rel="me" class="url ss-pinboard"><span>Pinboard</span></a></li>
 					<li><a href="http://open.spotify.com/user/nonimage" rel="me" class="url ss-spotify"><span>Spotify</span></a></li>
-					<li><a href="http://alpha.app.net/nonimage" rel="me" class="url ss-appdotnet"><span>App.net</span></a></li>
 					<li><a href="http://www.goodreads.com/user/show/5679909-nonimage" rel="me" class="url ss-readmill"><span>Goodreads</span></a></li>
 					<li><a href="http://facebook.com/andylobban" rel="me" class="url ss-facebook"><span>Facebook</span></a></li> 	
 				</ul>
