@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-	<div class="clearfix wrapper entry" role="main">
+	<div class="clearfix wrapper" role="main">
 		
 		<section id="intro">
 										
