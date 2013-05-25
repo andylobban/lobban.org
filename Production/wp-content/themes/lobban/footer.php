@@ -1,6 +1,6 @@
 	</main>
 	
-	<?php if( !is_home() && !is_page( 'About' ) ) : ?>
+	<?php if( !is_home() && !is_page( 'Info' ) ) : ?>
 	
 		<footer role="contentinfo">
 		
