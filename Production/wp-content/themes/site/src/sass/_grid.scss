@@ -1,0 +1,217 @@
+$small_columns: 12;
+$small_gutter: 10px;
+$small_min_width: 20em;
+
+$medium_columns: 12;
+$medium_gutter: 20px;
+$medium_min_width: 40em;
+
+$large_columns: 12;
+$large_gutter: 20px;
+$large_min_width: 60em;
+
+$xlarge_columns: 12;
+$xlarge_gutter: 1.5em;
+$xlarge_min_width: 80em;
+
+$site_max_width: 80em;
+
+/* ------- STOP EDITING NOW ------- */
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: $site_max_width;
+    width: 100%;
+    }
+
+[class^='col--'],
+[class*=' col--'] {
+    float: left;
+    }
+
+$hundred_percent: 100%;
+
+@media all and (min-width: $small_min_width) {
+    [class^='col--'],
+    [class*=' col--'] {
+        margin-bottom: $small_gutter;
+        margin-left: ($small_gutter/2);
+        margin-right: ($small_gutter/2);
+        }
+    .push--bottom {
+        margin-bottom: $small_gutter;
+        }
+    .push--left {
+        margin-left: $small_gutter;
+        }
+    .push--right {
+        margin-right: $small_gutter;
+        }
+    .push--top {
+        margin-top: $small_gutter;
+        }
+    .switch--small {
+        float: right;
+        }
+    @for $i from 1 through $small_columns {
+        $small_col_width: (($i / $small_columns) * $hundred_percent); 
+        .col--small--#{$i} { 
+            width: calc(#{$small_col_width} - #{$small_gutter}); 
+            }
+        .push--small--#{$i} { 
+            margin-left: calc(#{$small_col_width} + #{$small_gutter}); 
+            }
+        .col--small--#{$i}.row { 
+            width: calc(#{$small_col_width}); 
+            }
+        }
+    }
+
+@media all and (min-width: $medium_min_width) {
+    [class^='col--'],
+    [class*=' col--'] {
+        margin-bottom: $medium_gutter;
+        margin-left: ($medium_gutter/2);
+        margin-right: ($medium_gutter/2);
+        }
+    .push--bottom {
+        margin-bottom: $medium_gutter;
+        }
+    .push--left {
+        margin-left: $medium_gutter;
+        }
+    .push--right {
+        margin-right: $medium_gutter;
+        }
+    .push--top {
+        margin-top: $medium_gutter;
+        }
+    .switch--small, 
+    .switch--large, 
+    .switch--xlarge {
+        float: left;
+        }
+    .switch--medium {
+        float: right;
+        }
+    @for $i from 1 through $medium_columns {
+        $medium_col_width: (($i / $medium_columns) * $hundred_percent); 
+        .col--medium--#{$i} { 
+            width: calc(#{$medium_col_width} - #{$medium_gutter}); 
+            }
+        .push--medium--#{$i} { 
+            margin-left: calc(#{$medium_col_width} + #{$medium_gutter}); 
+            }
+        .col--medium--#{$i}.row { 
+            width: calc(#{$medium_col_width}); 
+            }
+        }
+    }
+
+@media all and (min-width: $large_min_width) {
+    [class^='col--'],
+    [class*=' col--'] {
+        margin-bottom: $large_gutter;
+        margin-left: ($large_gutter/2);
+        margin-right: ($large_gutter/2);
+        }
+    .push--bottom {
+        margin-bottom: $large_gutter;
+        }
+    .push--left {
+        margin-left: $large_gutter;
+        }
+    .push--right {
+        margin-right: $large_gutter;
+        }
+    .push--top {
+        margin-top: $large_gutter;
+        }
+    .switch--small, 
+    .switch--medium, 
+    .switch--xlarge {
+        float: left;
+        }
+    .switch--large {
+        float: right;
+        }
+    @for $i from 1 through $large_columns {
+        $large_col_width: (($i / $large_columns) * $hundred_percent); 
+        .col--large--#{$i} { 
+            width: calc(#{$large_col_width} - #{$large_gutter}); 
+            }
+        .push--large--#{$i} { 
+            margin-left: calc(#{$large_col_width} + #{$large_gutter}); 
+            }
+        .col--large--#{$i}.row { 
+            width: calc(#{$large_col_width}); 
+            }
+        }
+    }
+
+@media all and (min-width: $xlarge_min_width) {
+    [class^='col--'],
+    [class*=' col--'] {
+        margin-bottom: $xlarge_gutter;
+        margin-left: ($xlarge_gutter/2);
+        margin-right: ($xlarge_gutter/2);
+        }
+    .push--bottom {
+        margin-bottom: $xlarge_gutter;
+        }
+    .push--left {
+        margin-left: $xlarge_gutter;
+        }
+    .push--right {
+        margin-right: $xlarge_gutter;
+        }
+    .push--top {
+        margin-top: $xlarge_gutter;
+        }
+    .switch--small, 
+    .switch--medium, 
+    .switch--large {
+        float: left;
+        }
+    .switch--xlarge {
+        float: right;
+        }
+    @for $i from 1 through $xlarge_columns {
+        $xlarge_col_width: (($i / $xlarge_columns) * $hundred_percent); 
+        .col--xlarge--#{$i} { 
+            width: calc(#{$xlarge_col_width} - #{$xlarge_gutter}); 
+            }
+        .push--xlarge--#{$i} { 
+            margin-left: calc(#{$xlarge_col_width} + #{$xlarge_gutter}); 
+            }
+        .col--xlarge--#{$i}.row { 
+            width: calc(#{$xlarge_col_width}); 
+            }
+        }
+    }
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+    }
+
+.flush--bottom {
+    margin-bottom: 0;
+    }
+
+.flush--top {
+    margin-top: 0;
+    }
+
+.flush--left {
+    margin-left: 0;
+    }
+
+.flush--right {
+    margin-right: 0;
+    }
+
+.flush--width {
+    width: auto;
+    }

@@ -1,0 +1,55 @@
+.intro {
+	background: #0f516d url(../images/bg.jpg) center center/cover fixed no-repeat;
+	display: table;
+	width: 100%;
+	}
+
+.intro__vertical-wrapper {
+	color: #fff;
+	display: table-cell;
+	font-size: 1em;
+	height: 100vh;
+	text-align: center;
+	vertical-align: middle;
+	@include respond-min(44em) {
+	    font-size: 2em;
+	    }
+	}
+
+.intro__vertical-wrapper p {
+	margin: 0 auto;
+	max-width: 28em;
+	padding-left: 1em;
+	padding-right: 1em;
+	}
+
+.intro__vertical-wrapper p span {
+	display: inline-block;
+	}
+
+.intro a {
+	border-bottom: 2px solid #fff;
+	color: #ffc;
+	}	
+
+.intro__more {
+	border: 0;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	z-index: 2;
+	}
+
+.intro__more a {
+	background: #fff;
+	color: #000;
+	display: inline-block;
+	font-size: 1em;
+	padding: 0.5em 1em 0.5em 1em; 
+	text-transform: uppercase;
+	@media (min-width: $large_min_width) {
+		padding-bottom: 1em;
+		}
+	}

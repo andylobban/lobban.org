@@ -1,0 +1,55 @@
+body {
+	background: #f8f7f3; 
+	line-height: 1.5;
+	padding: 0 10px 10px 10px; 
+	}
+
+.edge {
+	background: #fff;
+	position: fixed;
+	}
+
+.edge__top {
+	height: 10px;
+	left: 0;
+	right: 0;
+	top: 0;
+	}
+
+.edge__bottom {
+	height: 10px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	}
+
+.edge__left {
+	bottom: 0;
+	left: 0;
+	top: 0;
+	width: 10px;
+	}
+
+.edge__right {
+	bottom: 0;
+	right: 0;
+	top: 0;
+	width: 10px;
+	}
+
+@media (min-width: $large_min_width) {
+  	.edge__top, 
+  	.edge__bottom {
+		height: 20px;
+		}
+
+	.edge__left, 
+	.edge__right {
+		width: 20px;
+		}
+	}
+
+img {
+	height: auto;
+	width: 100%;
+	}
