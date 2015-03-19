@@ -22,3 +22,5 @@ local-config.php
 # Uploads #
 uploads/
 blogs.dir/
+
+node_modules
