@@ -18,6 +18,20 @@ textarea {
 	font-family: "calluna",serif;
 	}
 
-.logo {
+body {
+    line-height: 1.5;
+    @media (min-width: $large_min_width) {
+        font-size: 1.2em;
+        }
+    }
+
+.logo a, 
+h1, 
+h2 {
 	font-family: 'besom', sans-serif;
+    font-weight: normal;
 	}
+
+h2 {
+    font-size: 1.8em;
+    }

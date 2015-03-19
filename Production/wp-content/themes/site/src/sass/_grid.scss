@@ -33,8 +33,7 @@ $site_max_width: 80em;
 $hundred_percent: 100%;
 
 @media all and (min-width: $small_min_width) {
-    [class^='col--'],
-    [class*=' col--'] {
+    [class*='col--'] {
         margin-bottom: $small_gutter;
         margin-left: ($small_gutter/2);
         margin-right: ($small_gutter/2);
@@ -59,7 +58,7 @@ $hundred_percent: 100%;
         .col--small--#{$i} { 
             width: calc(#{$small_col_width} - #{$small_gutter}); 
             }
-        .push--small--#{$i} { 
+        [class*=' col--'].push--small--#{$i} { 
             margin-left: calc(#{$small_col_width} + #{$small_gutter}); 
             }
         .col--small--#{$i}.row { 
@@ -69,8 +68,7 @@ $hundred_percent: 100%;
     }
 
 @media all and (min-width: $medium_min_width) {
-    [class^='col--'],
-    [class*=' col--'] {
+    [class*='col--'] {
         margin-bottom: $medium_gutter;
         margin-left: ($medium_gutter/2);
         margin-right: ($medium_gutter/2);
@@ -100,7 +98,7 @@ $hundred_percent: 100%;
         .col--medium--#{$i} { 
             width: calc(#{$medium_col_width} - #{$medium_gutter}); 
             }
-        .push--medium--#{$i} { 
+        [class*=' col--'].push--medium--#{$i} { 
             margin-left: calc(#{$medium_col_width} + #{$medium_gutter}); 
             }
         .col--medium--#{$i}.row { 
@@ -110,8 +108,7 @@ $hundred_percent: 100%;
     }
 
 @media all and (min-width: $large_min_width) {
-    [class^='col--'],
-    [class*=' col--'] {
+    [class*='col--'] {
         margin-bottom: $large_gutter;
         margin-left: ($large_gutter/2);
         margin-right: ($large_gutter/2);
@@ -141,7 +138,7 @@ $hundred_percent: 100%;
         .col--large--#{$i} { 
             width: calc(#{$large_col_width} - #{$large_gutter}); 
             }
-        .push--large--#{$i} { 
+        [class*=' col--'].push--large--#{$i} { 
             margin-left: calc(#{$large_col_width} + #{$large_gutter}); 
             }
         .col--large--#{$i}.row { 
@@ -151,8 +148,7 @@ $hundred_percent: 100%;
     }
 
 @media all and (min-width: $xlarge_min_width) {
-    [class^='col--'],
-    [class*=' col--'] {
+    [class*='col--'] {
         margin-bottom: $xlarge_gutter;
         margin-left: ($xlarge_gutter/2);
         margin-right: ($xlarge_gutter/2);
@@ -182,7 +178,7 @@ $hundred_percent: 100%;
         .col--xlarge--#{$i} { 
             width: calc(#{$xlarge_col_width} - #{$xlarge_gutter}); 
             }
-        .push--xlarge--#{$i} { 
+        [class*=' col--'].push--xlarge--#{$i} { 
             margin-left: calc(#{$xlarge_col_width} + #{$xlarge_gutter}); 
             }
         .col--xlarge--#{$i}.row { 

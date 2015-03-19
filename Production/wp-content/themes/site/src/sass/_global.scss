@@ -1,7 +1,9 @@
 body {
 	background: #f8f7f3; 
-	line-height: 1.5;
 	padding: 0 10px 10px 10px; 
+	@media (min-width: $large_min_width) and (min-height: 50em) {
+		padding: 0 20px 20px 20px; 
+		}
 	}
 
 .edge {
@@ -37,7 +39,7 @@ body {
 	width: 10px;
 	}
 
-@media (min-width: $large_min_width) {
+@media (min-width: $large_min_width) and (min-height: 50em) {
   	.edge__top, 
   	.edge__bottom {
 		height: 20px;

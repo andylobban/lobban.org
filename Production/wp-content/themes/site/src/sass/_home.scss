@@ -7,20 +7,35 @@
 .intro__vertical-wrapper {
 	color: #fff;
 	display: table-cell;
-	font-size: 1em;
 	height: 100vh;
-	text-align: center;
 	vertical-align: middle;
-	@include respond-min(44em) {
-	    font-size: 2em;
+	@media (min-width: $medium_min_width) {
+	    padding-top: 4.187em;
 	    }
 	}
 
 .intro__vertical-wrapper p {
 	margin: 0 auto;
-	max-width: 28em;
 	padding-left: 1em;
 	padding-right: 1em;
+	text-align: center;
+	@media (min-width: $medium_min_width) and (max-height: 36em) {
+	    float: right;
+	    text-align: right;
+	    width: 50%;
+	    }
+	@media (min-width: $medium_min_width) and (min-height: 36em) {
+	    font-size: 1.4em;
+	    }
+	@media (min-width: $large_min_width) {
+		float: right;
+	    font-size: 1.4em;
+	    text-align: right;
+	    width: 50%;
+	    }
+	@media (min-width: $xlarge_min_width) {
+	    font-size: 1.8em;
+	    }
 	}
 
 .intro__vertical-wrapper p span {
@@ -52,4 +67,9 @@
 	@media (min-width: $large_min_width) {
 		padding-bottom: 1em;
 		}
+	}
+
+.home__section {
+	background: url(../images/zigzag.svg) center bottom no-repeat;
+	padding-bottom: 3em;
 	}

@@ -4,7 +4,6 @@
   "description": "",
   "author": "",
   "devDependencies": {
-    "browser-sync": "^1.7.2",
     "del": "^1.0.0",
     "gulp": "^3.8.10",
     "gulp-autoprefixer": "^2.0.0",
