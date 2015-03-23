@@ -19,27 +19,24 @@
 	padding-left: 1em;
 	padding-right: 1em;
 	text-align: center;
-	@media (min-width: $medium_min_width) and (max-height: 36em) {
+	@media (min-width: $medium_min_width) and (max-height: 34em) {
 	    float: right;
 	    text-align: right;
 	    width: 50%;
 	    }
-	@media (min-width: $medium_min_width) and (min-height: 36em) {
+	@media (min-width: $medium_min_width) and (min-height: 34em) {
 	    font-size: 1.4em;
+	    font-size: 3vw;
 	    }
-	@media (min-width: $large_min_width) {
-		float: right;
-	    font-size: 1.4em;
-	    text-align: right;
-	    width: 50%;
-	    }
-	@media (min-width: $xlarge_min_width) {
-	    font-size: 1.8em;
+	@media (min-width: $large_min_width) and (min-height: 34em) {
 	    }
 	}
 
 .intro__vertical-wrapper p span {
-	display: inline-block;
+	display: block;
+	@media (min-width: 43em) {
+	    display: inline-block;
+	    }
 	}
 
 .intro a {
