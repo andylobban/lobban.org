@@ -21,12 +21,13 @@
   font-variant: normal;
   text-transform: none;
 }
- 
-.icon-spotify-circled:before { content: '\e801'; } /* '' */
-.icon-mail-circled:before { content: '\e802'; } /* '' */
+
+.icon-bandcamp:before { content: '\e800'; } /* '' */
+.icon-spotify:before { content: '\e801'; } /* '' */
+.icon-email:before { content: '\e802'; } /* '' */
 .icon-twitter:before { content: '\e803'; } /* '' */
 .icon-instagram:before { content: '\e804'; } /* '' */
-.icon-facebook-squared:before { content: '\e805'; } /* '' */
+.icon-facebook:before { content: '\e805'; } /* '' */
 .icon-pinboard:before { content: '\e806'; } /* '' */
-.icon-book-open:before { content: '\e807'; } /* '' */
-.icon-down-open-mini:before { content: '\e808'; } /* '' */
+.icon-goodreads:before { content: '\e807'; } /* '' */
+.icon-down:before { content: '\e808'; } /* '' */

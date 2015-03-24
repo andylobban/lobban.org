@@ -99,7 +99,7 @@
 				        $(this).attr('data-0', newLeft0);
 				        var newLeft50 = $(this).attr('data-50p').replace('left: 0px;','left: 20px;');
 				        $(this).attr('data-50p', newLeft50);
-				        var newTop0 = $(this).attr('data-0').replace('top: 1.5em;','top: 1.25em;');
+				        var newTop0 = $(this).attr('data-0').replace('top: 1.5em;','top: 1em;');
 				        $(this).attr('data-0', newTop0);
 				        var newTop50 = $(this).attr('data-50p').replace('top: 0.3em;','top: 0.65em;');
 				        $(this).attr('data-50p', newTop50);

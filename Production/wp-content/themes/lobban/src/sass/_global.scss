@@ -51,7 +51,16 @@ body {
 		}
 	}
 
+a {
+	@include transition(all 0.3s linear);
+	}
+
 img {
 	height: auto;
 	width: 100%;
+	}
+
+.away {
+	left: -9999em;
+	position: absolute;
 	}
