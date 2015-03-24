@@ -26,10 +26,8 @@
 	    }
 	@media (min-width: $medium_min_width) and (min-height: 34em) {
 	    font-size: 1.4em;
-	    font-size: 3vw;
 	    }
 	@media (min-width: $xlarge_min_width) and (min-height: 34em) {
-		font-size: 2em;
 		max-width: 1200px;
 	    }
 	}
@@ -45,7 +43,7 @@
 	margin-bottom: 1.25em;
 	}
 
-.intro a {
+.intro__vertical-inner a {
 	border-bottom: 2px solid #fff;
 	color: #ffc;
 	&:hover, &:active, &:focus {
@@ -110,8 +108,14 @@ p.intro__more {
 	font-size: 1em;
 	padding: 0.5em 1em 0.5em 1em; 
 	text-transform: uppercase;
+	&:hover, &:active, &:focus {
+        padding-bottom: 1em;
+    	}
 	@media (min-width: $large_min_width) {
 		padding-bottom: 1em;
+		&:hover, &:active, &:focus {
+	        padding-bottom: 1.5em;
+	    	}
 		}
 	}
 

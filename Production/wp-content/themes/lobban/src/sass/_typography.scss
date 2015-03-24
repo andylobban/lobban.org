@@ -19,9 +19,13 @@ textarea {
 	}
 
 body {
+    font-size: 4.5vw;
     line-height: 1.5;
+    @media (min-width: $medium_min_width) {
+        font-size: 2.5vw;
+        }
     @media (min-width: $large_min_width) {
-        font-size: 1.2em;
+        font-size: 2vw;
         }
     }
 

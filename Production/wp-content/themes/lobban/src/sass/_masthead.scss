@@ -37,6 +37,7 @@
 	display: block;
 	font-size: 1.2em;
 	text-align: center;
+	@include transition(none);
 	@media (min-width: $large_min_width) {
 	    text-align: left;
 	    }
