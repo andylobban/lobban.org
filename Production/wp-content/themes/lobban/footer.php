@@ -1,4 +1,4 @@
-<footer role="contentinfo">
+		<footer role="contentinfo">
 			
 
 		
@@ -29,15 +29,15 @@
         	if($(window).width() >= 640){
 				var logo_responsive = function(){
 				    $('.logo').each(function(){
-				        var newFontSize0 = $(this).attr('data-0').replace('font-size: 3em','font-size: 5em');
+				        var newFontSize0 = $(this).attr('data-0').replace('font-size: 2.2em','font-size: 5em');
 				        $(this).attr('data-0', newFontSize0);
 				        var newLeft0 = $(this).attr('data-0').replace('left: 0px;','left: 50px;');
 				        $(this).attr('data-0', newLeft0);
 				        var newLeft50 = $(this).attr('data-50p').replace('left: 0px;','left: 10px;');
 				        $(this).attr('data-50p', newLeft50);
-				        var newTop0 = $(this).attr('data-0').replace('top: 1.5em;','top: 1em;');
+				        var newTop0 = $(this).attr('data-0').replace('top: 2em;','top: 2.5em;');
 				        $(this).attr('data-0', newTop0);
-				        var newTop50 = $(this).attr('data-50p').replace('top: 0.3em;','top: 0.55em;');
+				        var newTop50 = $(this).attr('data-50p').replace('top: 0.2em;','top: 0.65em;');
 				        $(this).attr('data-50p', newTop50);
 				    });
 				}
@@ -45,15 +45,15 @@
 			if($(window).width() >= 960) {
 				var logo_responsive = function(){
 				    $('.logo').each(function(){
-				        var newFontSize0 = $(this).attr('data-0').replace('font-size: 3em','font-size: 5em');
+				        var newFontSize0 = $(this).attr('data-0').replace('font-size: 2.2em','font-size: 10em');
 				        $(this).attr('data-0', newFontSize0);
 				        var newLeft0 = $(this).attr('data-0').replace('left: 0px;','left: 40px;');
 				        $(this).attr('data-0', newLeft0);
 				        var newLeft50 = $(this).attr('data-50p').replace('left: 0px;','left: 10px;');
 				        $(this).attr('data-50p', newLeft50);
-				        var newTop0 = $(this).attr('data-0').replace('top: 1.5em;','top: 1em;');
+				        var newTop0 = $(this).attr('data-0').replace('top: 2em;','top: 3em;');
 				        $(this).attr('data-0', newTop0);
-				        var newTop50 = $(this).attr('data-50p').replace('top: 0.3em;','top: 0.65em;');
+				        var newTop50 = $(this).attr('data-50p').replace('top: 0.2em;','top: 0.75em;');
 				        $(this).attr('data-50p', newTop50);
 				    });
 				}
@@ -61,15 +61,15 @@
 			if(($(window).width() >= 960) && ($(window).height() >= 800)) {
 				var logo_responsive = function(){
 				    $('.logo').each(function(){
-				        var newFontSize0 = $(this).attr('data-0').replace('font-size: 3em','font-size: 5em');
+				        var newFontSize0 = $(this).attr('data-0').replace('font-size: 2.2em','font-size: 5em');
 				        $(this).attr('data-0', newFontSize0);
 				        var newLeft0 = $(this).attr('data-0').replace('left: 0px;','left: 70px;');
 				        $(this).attr('data-0', newLeft0);
 				        var newLeft50 = $(this).attr('data-50p').replace('left: 0px;','left: 20px;');
 				        $(this).attr('data-50p', newLeft50);
-				        var newTop0 = $(this).attr('data-0').replace('top: 1.5em;','top: 1.25em;');
+				        var newTop0 = $(this).attr('data-0').replace('top: 2em;','top: 1.25em;');
 				        $(this).attr('data-0', newTop0);
-				        var newTop50 = $(this).attr('data-50p').replace('top: 0.3em;','top: 0.65em;');
+				        var newTop50 = $(this).attr('data-50p').replace('top: 0.2em;','top: 0.65em;');
 				        $(this).attr('data-50p', newTop50);
 				    });
 				}
@@ -77,7 +77,7 @@
 			if($(window).width() >= 1280) {
 				var logo_responsive = function(){
 				    $('.logo').each(function(){
-				        var newFontSize0 = $(this).attr('data-0').replace('font-size: 3em','font-size: 5em');
+				        var newFontSize0 = $(this).attr('data-0').replace('font-size: 2.2em','font-size: 5em');
 				        $(this).attr('data-0', newFontSize0);
 				        var newLeft0 = $(this).attr('data-0').replace('left: 0px;','left: 50px;');
 				        $(this).attr('data-0', newLeft0);
@@ -93,7 +93,7 @@
 			if(($(window).width() >= 1280) && ($(window).height() >= 800)) {
 				var logo_responsive = function(){
 				    $('.logo').each(function(){
-				    	var newFontSize0 = $(this).attr('data-0').replace('font-size: 3em','font-size: 7em');
+				    	var newFontSize0 = $(this).attr('data-0').replace('font-size: 2.2em','font-size: 7em');
 				        $(this).attr('data-0', newFontSize0);
 				        var newLeft0 = $(this).attr('data-0').replace('left: 0px;','left: 90px;');
 				        $(this).attr('data-0', newLeft0);

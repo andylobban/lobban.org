@@ -19,12 +19,18 @@
 	}
 
 .logo {
-	font-size: 1.5em;
 	font-weight: bold;
-	margin-bottom: 0.25em;
+	letter-spacing: -1px;
+	margin-bottom: 0;
 	margin-left: 10px;
+	margin-top: -0.6em;
+	@media (max-width: $medium_min_width) {
+		width: calc(100% - 20px);
+	    }
+	@media (min-width: $medium_min_width) {
+		margin-left: 0;
+	    }
 	@media (min-width: $large_min_width) {
-		font-size: 1.8em;
 	    margin-bottom: 0;
 	    }
 	@media (min-width: $large_min_width) and (min-height: 50em) {
@@ -35,7 +41,7 @@
 .logo a {
 	color: #000;
 	display: block;
-	font-size: 1.2em;
+	font-size: 1.3em;
 	text-align: center;
 	@include transition(none);
 	@media (min-width: $large_min_width) {
@@ -73,7 +79,7 @@
 [role="navigation"] li {
 	@media (min-width: $small_min_width) {
 		display: inline-block;
-		margin: 0.25em 0.3em; 
+		margin: 0 0.3em; 
 		text-align: center; 
 		}
 	@media (min-width: $medium_min_width) {
@@ -88,6 +94,12 @@
 	border-bottom: 2px solid #000;
 	color: #333;
 	@include transition(all 0.2s linear);
+	@media (min-width: $small_min_width) {
+	    font-size: 0.8em;
+	    }
+	@media (min-width: $medium_min_width) {
+	    font-size: 1em;
+	    }
 	}
 
 [role="navigation"] ul:hover a, 
