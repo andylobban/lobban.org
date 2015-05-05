@@ -1,0 +1,17 @@
+.button {
+	background: transparent;
+	border: 2px solid $link;
+	color: $link;
+	display: inline-block;
+	font-family: 'karlabold', sans-serif;
+	font-size: 0.9em;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-bottom: 1em;
+	padding: 0.5em 1em 0.4em;
+	text-transform: uppercase;
+	&:hover, &:active, &:focus {
+        background: $link;
+        color: #fff;
+    	}
+	}

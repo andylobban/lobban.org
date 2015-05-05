@@ -15,12 +15,10 @@ Thumbs.db
 .gitmodules
 Production/wordpress
 
-# Config files #
-wp-config.php
-local-config.php
-
 # Uploads #
 uploads/
 blogs.dir/
 
 node_modules
+
+dist/

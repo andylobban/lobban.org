@@ -24,6 +24,8 @@
             <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
 
+       	<link href='http://fonts.googleapis.com/css?family=Playfair+Display:900,900italic' rel='stylesheet' type='text/css'>
+
         <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/dist/images/icons/favicon.ico" />
         <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/dist/images/icons/apple-touch-icon.png" />
         <link rel="apple-touch-icon-precomposed" href="<?php echo get_template_directory_uri(); ?>/dist/images/icons/apple-touch-icon.png" />
@@ -32,13 +34,13 @@
 
     <body class="home">
     
-    	<header class="bottom-space" role="banner">
+    	<header role="banner">
 		
-			<div class="logo col--small--12 col--medium--6 col--large--6">
+			<div class="logo col--small--12 col--medium--3 col--large--3 flush--bottom">
 				<a href="/">Andy Lobban</a>
 			</div>
 			
-			<nav class="col--small--12 col--medium--8 col--large--9 switch--medium switch--large switch--xlarge flush--bottom" role="navigation">
+			<nav class="col--small--12 col--medium--9 col--large--9 switch--medium switch--large switch--xlarge flush--bottom" role="navigation">
 			
 				<ul>
 					<li><a href="/portfolio">Portfolio</a></li>

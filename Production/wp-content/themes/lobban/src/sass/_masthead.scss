@@ -6,7 +6,7 @@
 	position: fixed;
 	right: 0;
 	top: 0;
-	z-index: 9999;
+	z-index: 9998;
 	@media (min-width: $medium_min_width) {
 	    padding-bottom: 0.75em;
 		padding-top: 1em !important;
@@ -19,16 +19,12 @@
 	}
 
 .logo {
+	font-style: normal;
 	font-weight: bold;
-	letter-spacing: -1px;
 	margin-bottom: 0;
-	margin-left: 10px;
-	margin-top: -0.6em;
-	@media (max-width: $medium_min_width) {
-		width: calc(100% - 20px);
-	    }
+	margin-top: -0.5em;
 	@media (min-width: $medium_min_width) {
-		margin-left: 0;
+		margin-top: -0.2em;
 	    }
 	@media (min-width: $large_min_width) {
 	    margin-bottom: 0;
@@ -39,20 +35,14 @@
 	}
 
 .logo a {
+	border: 0;
 	color: #000;
 	display: block;
 	font-size: 1.3em;
 	text-align: center;
-	@include transition(none);
-	@media (min-width: $large_min_width) {
+	@media (min-width: $medium_min_width) {
 	    text-align: left;
 	    }
-	}
-
-.home .logo a {
-	@media (min-width: $medium_min_width) {
-		text-align: left;
-		}
 	}
 
 [role="navigation"] {
@@ -98,6 +88,9 @@
 	    font-size: 0.8em;
 	    }
 	@media (min-width: $medium_min_width) {
+	    font-size: 0.9em;
+	    }
+	@media (min-width: $large_min_width) {
 	    font-size: 1em;
 	    }
 	}

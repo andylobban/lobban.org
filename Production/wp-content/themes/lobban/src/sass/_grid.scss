@@ -1,20 +1,20 @@
 $small_columns: 12;
-$small_gutter: 10px;
+$small_gutter: 20px;
 $small_min_width: 20em;
 
 $medium_columns: 12;
 $medium_gutter: 20px;
-$medium_min_width: 40em;
+$medium_min_width: 41em;
 
 $large_columns: 12;
 $large_gutter: 20px;
 $large_min_width: 60em;
 
 $xlarge_columns: 12;
-$xlarge_gutter: 1.5em;
+$xlarge_gutter: 20px;
 $xlarge_min_width: 80em;
 
-$site_max_width: 80em;
+$site_max_width: 1280px;
 
 /* ------- STOP EDITING NOW ------- */
 
@@ -59,7 +59,7 @@ $hundred_percent: 100%;
             width: calc(#{$small_col_width} - #{$small_gutter}); 
             }
         [class*=' col--'].push--small--#{$i} { 
-            margin-left: calc(#{$small_col_width} + #{$small_gutter}); 
+            margin-left: calc(#{$small_col_width} + (#{$small_gutter}/2)); 
             }
         .col--small--#{$i}.row { 
             width: calc(#{$small_col_width}); 
@@ -99,7 +99,7 @@ $hundred_percent: 100%;
             width: calc(#{$medium_col_width} - #{$medium_gutter}); 
             }
         [class*=' col--'].push--medium--#{$i} { 
-            margin-left: calc(#{$medium_col_width} + #{$medium_gutter}); 
+            margin-left: calc(#{$medium_col_width} + (#{$medium_gutter}/2)); 
             }
         .col--medium--#{$i}.row { 
             width: calc(#{$medium_col_width}); 
@@ -139,7 +139,7 @@ $hundred_percent: 100%;
             width: calc(#{$large_col_width} - #{$large_gutter}); 
             }
         [class*=' col--'].push--large--#{$i} { 
-            margin-left: calc(#{$large_col_width} + #{$large_gutter}); 
+            margin-left: calc(#{$large_col_width} + (#{$large_gutter}/2)); 
             }
         .col--large--#{$i}.row { 
             width: calc(#{$large_col_width}); 
@@ -179,7 +179,7 @@ $hundred_percent: 100%;
             width: calc(#{$xlarge_col_width} - #{$xlarge_gutter}); 
             }
         [class*=' col--'].push--xlarge--#{$i} { 
-            margin-left: calc(#{$xlarge_col_width} + #{$xlarge_gutter}); 
+            margin-left: calc(#{$xlarge_col_width} + (#{$xlarge_gutter}/2));
             }
         .col--xlarge--#{$i}.row { 
             width: calc(#{$xlarge_col_width}); 

@@ -7,7 +7,6 @@
          url('../fonts/karla-bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -19,7 +18,6 @@
          url('../fonts/karla-italic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -31,7 +29,6 @@
          url('../fonts/karla-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
 }
 
 html, 
@@ -46,11 +43,8 @@ textarea {
 body {
     font-size: 1.1em;
     line-height: 1.35;
-    @media (min-width: $medium_min_width) {
-        
-        }
     @media (min-width: $large_min_width) {
-        font-size: 1.3em;
+        font-size: 1.2em;
         }
     }
  
@@ -59,9 +53,8 @@ h2,
 strong, 
 b, 
 .logo {
-	font-family: 'karlabold', sans-serif;
-    font-weight: normal;
-    letter-spacing: -1px;
+	font-family: 'Playfair Display', serif;
+    font-style: italic;
 	}
 
 em, 

@@ -8,42 +8,27 @@
 	color: #fff;
 	display: table-cell;
 	height: 100vh;
+	text-align: center;
 	vertical-align: middle;
 	@media (min-width: $medium_min_width) {
+		font-size: 1.2em;
 	    padding-top: 4.187em;
 	    }
-	}
-
-.intro__vertical-inner {
-	margin: 0 auto;
-	padding-left: 1em;
-	padding-right: 1em;
-	text-align: center;
-	@media (min-width: $medium_min_width) and (max-height: 34em) {
-	    float: right;
-	    text-align: right;
-	    width: 50%;
-	    }
-	@media (min-width: $medium_min_width) and (min-height: 34em) {
-	    font-size: 1.4em;
-	    }
-	@media (min-width: $xlarge_min_width) and (min-height: 34em) {
-		max-width: 1200px;
+	@media (min-width: $large_min_width) {
+		text-align: left;
 	    }
 	}
 
-.intro__vertical-inner span {
-	display: block;
-	@media (min-width: 43em) {
-	    display: inline-block;
-	    }
+.home__header {
+	font-size: 1.3em;
+	font-weight: bold;
+	letter-spacing: -1px;
+	margin-top: -.2em;
+	position: relative;
+	z-index: 9999;
 	}
 
-.intro p {
-	margin-bottom: 1.25em;
-	}
-
-.intro__vertical-inner a {
+.intro__vertical-wrapper a {
 	border-bottom: 2px solid #fff;
 	color: #ffc;
 	&:hover, &:active, &:focus {
@@ -55,23 +40,17 @@
 
 .intro__social {
 	display: inline-block;
-	font-size: 1.6em;
-	@media (min-width: $medium_min_width) {
-	    font-size: 3.75vw;
-	    }
+	font-size: 1.3em;
+	margin-bottom: 2em;
 	@media (min-width: $large_min_width) {
-	    font-size: 3.25vw;
-	    }
-	@media (min-width: $xlarge_min_width) {
-	    font-size: 1.1em;
-	    }
+		text-align: right;
+		}
 	}
 
 .intro__social li {
-	float: left;
+	display: inline-block;
 	padding: 0 0.5em;
 	text-align: center;
-	width: 25%;
 	@media (min-width: $medium_min_width) {
 		width: auto;
 		}
@@ -84,10 +63,22 @@
 .intro__social a {
 	border-bottom: 0;
 	border-radius: 50%;
-	display: block;
-	height: 1.75em;
+	display: inline-block;
+	height: 1.6em;
+	margin-top: -0.5em;
 	padding-top: 0.15em;
-	width: 1.75em;
+	width: 1.6em;
+	}
+
+.intro__social a.icon-twitter {
+	font-size: 0.9em;
+	height: 1.78em;
+	padding-top: 0.25em;
+	width: 1.78em;
+	}
+
+.intro__projects li {
+	margin-bottom: 0.5em;
 	}
 
 p.intro__more {
@@ -106,7 +97,7 @@ p.intro__more {
 	color: #000;
 	display: inline-block;
 	font-size: 1em;
-	padding: 0.5em 1em 0.5em 1em; 
+	padding: 0.5em 1em 10px 1em; 
 	text-transform: uppercase;
 	&:hover, &:active, &:focus {
         padding-bottom: 1em;
@@ -122,4 +113,13 @@ p.intro__more {
 .home__section {
 	background: url(../images/zigzag.svg) center bottom no-repeat;
 	padding-bottom: 3em;
+	padding-top: 3em;
+	position: relative;
+	}
+
+.home__section img {
+	position: absolute;
+	right: 0;
+	width: 40%;
+	z-index: -1;
 	}
