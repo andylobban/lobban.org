@@ -24,7 +24,8 @@
             <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
 
-       	<link href='http://fonts.googleapis.com/css?family=Playfair+Display:900,900italic' rel='stylesheet' type='text/css'>
+        <script src="//use.typekit.net/nfa1wtw.js"></script>
+		<script>try{Typekit.load();}catch(e){}</script>
 
         <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/dist/images/icons/favicon.ico" />
         <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/dist/images/icons/apple-touch-icon.png" />
@@ -34,22 +35,31 @@
 
     <body class="home">
     
-    	<header role="banner">
+    	<header role="banner" data-20p="padding-top: 0.3em;" data-30p="padding-top: 1.5em;">
+
+    		<div class="wrapper clearfix">
 		
-			<div class="logo col--small--12 col--medium--3 col--large--3 flush--bottom">
-				<a href="/">Andy Lobban</a>
+				<div class="logo col--small--12 col--medium--4 col--large--6 flush--bottom"
+				data-0="top: 20vh;" data-30p="top: 0vh;">
+
+					<a href="/" data-0="color: rgb(255,255,255); font-size: 2em; margin-top: -1.2em;" data-30p="color: rgb(0,0,0); font-size: 1em; margin-top: 0em;">
+						Andy Lobban
+					</a>
+
+				</div>
+				
+				<nav class="col--small--12 col--medium--8 col--large--6 switch--medium switch--large switch--xlarge flush--bottom" role="navigation">
+				
+					<ul>
+						<li><a href="/portfolio">Portfolio</a></li>
+						<li><a href="/journal">Journal</a></li>
+						<li><a href="/projects">Projects</a></li>
+						<li><a href="/info">Info</a></li>
+						<li><a href="/contact">Contact</a></li>
+					</ul>
+				
+				</nav>
+
 			</div>
-			
-			<nav class="col--small--12 col--medium--9 col--large--9 switch--medium switch--large switch--xlarge flush--bottom" role="navigation">
-			
-				<ul>
-					<li><a href="/portfolio">Portfolio</a></li>
-					<li><a href="/journal">Journal</a></li>
-					<li><a href="/projects">Projects</a></li>
-					<li><a href="/info">Info</a></li>
-					<li><a href="/contact">Contact</a></li>
-				</ul>
-			
-			</nav>
 		
 		</header>

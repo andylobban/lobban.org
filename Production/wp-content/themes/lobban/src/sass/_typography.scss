@@ -31,6 +31,17 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'salome';
+    src: url('../fonts/salome.eot');
+    src: url('../fonts/salome.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/salome.woff2') format('woff2'),
+         url('../fonts/salome.woff') format('woff'),
+         url('../fonts/salome.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html, 
 body, 
 button, 
@@ -53,8 +64,7 @@ h2,
 strong, 
 b, 
 .logo {
-	font-family: 'Playfair Display', serif;
-    font-style: italic;
+	font-family: "lust", serif;
 	}
 
 em, 

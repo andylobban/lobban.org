@@ -1,34 +1,18 @@
-.intro {
+.home__intro {
 	background: #0f516d url(../images/bg.jpg) center center/cover fixed no-repeat;
-	display: table;
-	width: 100%;
-	}
-
-.intro__vertical-wrapper {
 	color: #fff;
-	display: table-cell;
 	height: 100vh;
+	}
+
+.intro__info {
 	text-align: center;
-	vertical-align: middle;
+	margin-top: 40vh;
 	@media (min-width: $medium_min_width) {
-		font-size: 1.2em;
-	    padding-top: 4.187em;
-	    }
-	@media (min-width: $large_min_width) {
 		text-align: left;
-	    }
+		}
 	}
 
-.home__header {
-	font-size: 1.3em;
-	font-weight: bold;
-	letter-spacing: -1px;
-	margin-top: -.2em;
-	position: relative;
-	z-index: 9999;
-	}
-
-.intro__vertical-wrapper a {
+.home__intro a {
 	border-bottom: 2px solid #fff;
 	color: #ffc;
 	&:hover, &:active, &:focus {
@@ -40,8 +24,7 @@
 
 .intro__social {
 	display: inline-block;
-	font-size: 1.3em;
-	margin-bottom: 2em;
+	margin-top: 1em;
 	@media (min-width: $large_min_width) {
 		text-align: right;
 		}
@@ -52,7 +35,7 @@
 	padding: 0 0.5em;
 	text-align: center;
 	@media (min-width: $medium_min_width) {
-		width: auto;
+		padding: 0 1em 0 0;
 		}
 	}	
 
@@ -61,20 +44,17 @@
 	}
 
 .intro__social a {
-	border-bottom: 0;
+	border: 2px solid #ffc;
 	border-radius: 50%;
 	display: inline-block;
-	height: 1.6em;
-	margin-top: -0.5em;
-	padding-top: 0.15em;
-	width: 1.6em;
+	height: 40px;
+	padding-top: 0.35em;
+	width: 40px;
 	}
 
 .intro__social a.icon-twitter {
-	font-size: 0.9em;
-	height: 1.78em;
-	padding-top: 0.25em;
-	width: 1.78em;
+	font-size: 0.85em;
+	padding-top: 0.41em;
 	}
 
 .intro__projects li {
@@ -94,12 +74,14 @@ p.intro__more {
 
 .intro__more a {
 	background: #fff;
+	border: 0;
 	color: #000;
 	display: inline-block;
 	font-size: 1em;
 	padding: 0.5em 1em 10px 1em; 
 	text-transform: uppercase;
 	&:hover, &:active, &:focus {
+		background: #fff;
         padding-bottom: 1em;
     	}
 	@media (min-width: $large_min_width) {
