@@ -34,15 +34,15 @@
 
     <div class="home__section clearfix">
 
-        <img class="push--right" src="http://placehold.it/350x350" alt="" />
+        <img class="push--right" src="http://placehold.it/350x350" alt="" data-bottom-top="top: 5vh;" data-bottom-top="top: 0vh;" />
 
-        <div class="col--small--12 col--medium--12 col--large--12 push--xlarge--1 col--xlarge--11 flush--bottom">
+        <div class="col--small--12 col--medium--12 push--large--1 col--large--12 push--xlarge--2 col--xlarge--10 flush--bottom">
             <h2>Gerry Loves Records</h2>
         </div>
 
-        <p class="col--small--12 push--medium--3 col--medium--8 col--large--6 col--xlarge--6">Co-founder of a small record label specialising in quality vinyl records from mostly Scottish artists.</p>
+        <p class="col--small--12 push--medium--3 col--medium--8 col--large--6 push--xlarge--4 col--xlarge--6">Co-founder of a small record label specialising in quality vinyl records from mostly Scottish artists.</p>
 
-        <p class="col--small--12 push--medium--1 col--medium--11 push--large--2 col--large--10 push--xlarge--2 col--xlarge--2"><a class="button" href="http://gerrylovesrecords.com">gerrylovesrecords.com</a></p>
+        <p class="col--small--12 push--medium--1 col--medium--11 push--large--2 col--large--10 push--xlarge--3 col--xlarge--5"><a class="button" href="http://gerrylovesrecords.com">gerrylovesrecords.com</a></p>
 
     </div>
 

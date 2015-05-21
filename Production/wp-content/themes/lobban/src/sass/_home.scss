@@ -113,7 +113,7 @@ p.intro__more {
 
 .home__section {
 	background: url(../images/zigzag.svg) center 90% no-repeat;
-	margin-bottom: 3em;
+	margin-top: 3em;
 	padding-bottom: 2em;
 	position: relative;
 	}
@@ -128,4 +128,10 @@ p.intro__more {
 	right: 0;
 	width: auto;
 	z-index: -1;
+	@media (min-width: $large_min_width) {
+		margin-right: calc(8.33333% + (20px/2));
+		}
+	@media (min-width: $xlarge_min_width) {
+		margin-right: calc(16.66667% + (20px/2));
+		}
 	}
