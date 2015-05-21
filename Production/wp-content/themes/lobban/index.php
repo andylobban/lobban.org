@@ -34,9 +34,9 @@
 
     <div class="home__section clearfix">
 
-        <img class="push--right" src="http://placehold.it/350x350" alt="" data-bottom-top="top: 5vh;" data-bottom-top="top: 0vh;" />
+        <img class="push--right" src="http://placehold.it/350x350" alt="" data-bottom-top="top: 20vh;" data-top-bottom="top: -20vh;" />
 
-        <div class="col--small--12 col--medium--12 push--large--1 col--large--12 push--xlarge--2 col--xlarge--10 flush--bottom">
+        <div class="col--small--12 col--medium--12 push--large--1 col--large--12 push--xlarge--2 col--xlarge--10 flush--bottom" data-bottom-top="margin-top: 20vh;" data-top-bottom="margin-top: -20vh;">
             <h2>Gerry Loves Records</h2>
         </div>
 
