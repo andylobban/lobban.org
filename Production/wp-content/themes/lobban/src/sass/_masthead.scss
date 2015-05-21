@@ -48,7 +48,13 @@
 	text-align: center;
 	@include transition(color 0.3s linear);
 	@media (min-width: $medium_min_width) {
+		padding-bottom: 1.3em;
+		padding-top: 1.3em;
 	    text-align: left;
+	    }
+	@media (min-width: $large_min_width) {
+		padding-bottom: 0.95em;
+		padding-top: 0.95em;
 	    }
 	&:hover, &:focus, &:active {
 		background: transparent;

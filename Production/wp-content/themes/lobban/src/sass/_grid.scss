@@ -42,10 +42,10 @@ $hundred_percent: 100%;
         margin-bottom: $small_gutter;
         }
     .push--left {
-        margin-left: $small_gutter;
+        margin-left: ($small_gutter/2);
         }
     .push--right {
-        margin-right: $small_gutter;
+        margin-right: ($small_gutter/2);
         }
     .push--top {
         margin-top: $small_gutter;
@@ -77,10 +77,10 @@ $hundred_percent: 100%;
         margin-bottom: $medium_gutter;
         }
     .push--left {
-        margin-left: $medium_gutter;
+        margin-left: ($medium_gutter/2);
         }
     .push--right {
-        margin-right: $medium_gutter;
+        margin-right: ($medium_gutter/2);
         }
     .push--top {
         margin-top: $medium_gutter;
@@ -117,10 +117,10 @@ $hundred_percent: 100%;
         margin-bottom: $large_gutter;
         }
     .push--left {
-        margin-left: $large_gutter;
+        margin-left: ($large_gutter/2);
         }
     .push--right {
-        margin-right: $large_gutter;
+        margin-right: ($large_gutter/2);
         }
     .push--top {
         margin-top: $large_gutter;
@@ -160,10 +160,10 @@ $hundred_percent: 100%;
         margin-left: $xlarge_gutter;
         }
     .push--right {
-        margin-right: $xlarge_gutter;
+        margin-right: ($xlarge_gutter/2);
         }
     .push--top {
-        margin-top: $xlarge_gutter;
+        margin-top: ($xlarge_gutter/2);
         }
     .switch--small, 
     .switch--medium, 

@@ -42,7 +42,7 @@
 				<div class="logo col--small--12 col--medium--4 col--large--6 flush--bottom"
 				data-0="top: 20vh;" data-30p="top: 0vh;">
 
-					<a href="/" data-0="color: rgb(255,255,255); font-size: 2em; margin-top: -1.2em;" data-30p="color: rgb(0,0,0); font-size: 1em; margin-top: 0em;">
+					<a href="/" data-0="color: rgb(255,255,255); font-size: 2em; margin-left: 0em; margin-top: -1.2em;" data-30p="color: rgb(0,0,0); font-size: 1em; margin-left: 0em; margin-top: 0em;">
 						Andy Lobban
 					</a>
 

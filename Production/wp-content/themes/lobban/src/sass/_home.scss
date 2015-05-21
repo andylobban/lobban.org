@@ -34,6 +34,7 @@
 	display: inline-block;
 	padding: 0 0.5em;
 	text-align: center;
+	vertical-align: middle;
 	@media (min-width: $medium_min_width) {
 		padding: 0 1em 0 0;
 		}
@@ -50,11 +51,29 @@
 	height: 40px;
 	padding-top: 0.35em;
 	width: 40px;
+	@media (min-width: $large_min_width) {
+		font-size: 0.9em;
+		padding-top: 0.4em;
+		}
+	&:hover, &:focus, &:active {
+		border: 2px solid #ffc;
+		}
+	}
+
+.intro__social a.icon-email {
+	padding-top: 0.3em;
+	@media (min-width: $large_min_width) {
+		padding-top: 0.35em;
+		}
 	}
 
 .intro__social a.icon-twitter {
 	font-size: 0.85em;
-	padding-top: 0.41em;
+	padding-top: 0.55em;
+	@media (min-width: $large_min_width) {
+		font-size: 0.75em;
+		padding-top: 0.6em;
+		}
 	}
 
 .intro__projects li {
@@ -93,15 +112,20 @@ p.intro__more {
 	}
 
 .home__section {
-	background: url(../images/zigzag.svg) center bottom no-repeat;
-	padding-bottom: 3em;
-	padding-top: 3em;
+	background: url(../images/zigzag.svg) center 90% no-repeat;
+	margin-bottom: 3em;
+	padding-bottom: 2em;
 	position: relative;
 	}
 
+.home__section h2 {
+	margin-bottom: 0.3em;
+	}
+
 .home__section img {
+	height: 100%;
 	position: absolute;
 	right: 0;
-	width: 40%;
+	width: auto;
 	z-index: -1;
 	}
