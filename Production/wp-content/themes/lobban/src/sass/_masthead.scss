@@ -49,12 +49,12 @@
 	@include transition(color 0.3s linear);
 	@media (min-width: $medium_min_width) {
 		padding-bottom: 1.3em;
-		padding-top: 1.3em;
+		padding-top: 1.35em;
 	    text-align: left;
 	    }
 	@media (min-width: $large_min_width) {
-		padding-bottom: 0.95em;
-		padding-top: 0.95em;
+		padding-bottom: 1.15em;
+		padding-top: 1.15em;
 	    }
 	&:hover, &:focus, &:active {
 		background: transparent;
@@ -109,24 +109,21 @@
 	@media (min-width: $large_min_width) {
 	    font-size: 1em;
 	    }
+	&:hover, &:focus, &:active {
+		background: transparent;
+		border-bottom-width: 1px;
+		-webkit-filter: blur(1px); 
+		-moz-filter: blur(1px); 
+		-o-filter: blur(1px); 
+		-ms-filter: blur(1px); 
+		filter: blur(1px);
+		}
 	}
 
-[role="navigation"] ul:hover a, 
-[role="navigation"] ul:focus a {
-	border-bottom-width: 1px;
-	-webkit-filter: blur(1px); 
-	-moz-filter: blur(1px); 
-	-o-filter: blur(1px); 
-	-ms-filter: blur(1px); 
-	filter: blur(1px);
-   	}
+main {
+	padding-top: 100px;
+	}
 
-[role="navigation"] li:hover a, 
-[role="navigation"] li:focus a {
-	border-bottom-width: 2px;
-	-webkit-filter: blur(0); 
-	-moz-filter: blur(0); 
-	-o-filter: blur(0); 
-	-ms-filter: blur(0); 
-	filter: blur(0);
-   	}
+.home main {
+	padding-top: 0;
+	}

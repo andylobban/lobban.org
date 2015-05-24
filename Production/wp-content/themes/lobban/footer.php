@@ -25,86 +25,90 @@
         
         <script src="<?php echo get_template_directory_uri(); ?>/dist/js/app.js"></script>
 
-        <script>
+        <?php if (is_front_page()) {?>
 
-        	if($(window).width() >= 640){
-				var logoAnimate = function(){
-				    $('.logo').each(function(){
-				        var newTop0 = $(this).attr('data-0').replace('top: 20vh','top: 40vh');
-				        $(this).attr('data-0', newTop0);
-				    });
-				    $('.logo a').each(function(){
-				        var newFontSize0 = $(this).attr('data-0').replace('font-size: 2em','font-size: 1.4em');
-				        $(this).attr('data-0', newFontSize0);
-				        var newMarginLeft0 = $(this).attr('data-0').replace('margin-left: 0em',' margin-left: 1em');
-				        $(this).attr('data-0', newMarginLeft0);
-				        var newMarginTop0 = $(this).attr('data-0').replace('margin-top: -1.2em',' margin-top: -1.3em');
-				        $(this).attr('data-0', newMarginTop0);
-				    });
+	        <script>
+
+	        	if($(window).width() >= 640){
+					var logoAnimate = function(){
+					    $('.logo').each(function(){
+					        var newTop0 = $(this).attr('data-0').replace('top: 20vh','top: 40vh');
+					        $(this).attr('data-0', newTop0);
+					    });
+					    $('.logo a').each(function(){
+					        var newFontSize0 = $(this).attr('data-0').replace('font-size: 2em','font-size: 1.4em');
+					        $(this).attr('data-0', newFontSize0);
+					        var newMarginLeft0 = $(this).attr('data-0').replace('margin-left: 0em',' margin-left: 1em');
+					        $(this).attr('data-0', newMarginLeft0);
+					        var newMarginTop0 = $(this).attr('data-0').replace('margin-top: -1.2em',' margin-top: -0.25em');
+					        $(this).attr('data-0', newMarginTop0);
+					    });
+					}
 				}
-			}
-			if($(window).width() >= 960){
-				var logoAnimate = function(){
-				    $('.logo').each(function(){
-				        var newTop0 = $(this).attr('data-0').replace('top: 20vh','top: 40vh');
-				        $(this).attr('data-0', newTop0);
-				    });
-				    $('.logo a').each(function(){
-				        var newFontSize0 = $(this).attr('data-0').replace('font-size: 2em','font-size: 2.6em');
-				        $(this).attr('data-0', newFontSize0);
-				        var newMarginLeft0 = $(this).attr('data-0').replace('margin-left: 0em',' margin-left: 1em');
-				        $(this).attr('data-0', newMarginLeft0);
-				        var newMarginTop0 = $(this).attr('data-0').replace('margin-top: -1.2em',' margin-top: -1em');
-				        $(this).attr('data-0', newMarginTop0);
-				        var newFontSize30 = $(this).attr('data-30p').replace('font-size: 1em','font-size: 1.3em');
-				        $(this).attr('data-30p', newFontSize30);
-				    });
+				if($(window).width() >= 960){
+					var logoAnimate = function(){
+					    $('.logo').each(function(){
+					        var newTop0 = $(this).attr('data-0').replace('top: 20vh','top: 40vh');
+					        $(this).attr('data-0', newTop0);
+					    });
+					    $('.logo a').each(function(){
+					        var newFontSize0 = $(this).attr('data-0').replace('font-size: 2em','font-size: 2.6em');
+					        $(this).attr('data-0', newFontSize0);
+					        var newMarginLeft0 = $(this).attr('data-0').replace('margin-left: 0em',' margin-left: 1em');
+					        $(this).attr('data-0', newMarginLeft0);
+					        var newMarginTop0 = $(this).attr('data-0').replace('margin-top: -1.2em',' margin-top: -0.7em');
+					        $(this).attr('data-0', newMarginTop0);
+					        var newFontSize30 = $(this).attr('data-40p').replace('font-size: 1em','font-size: 1.2em');
+					        $(this).attr('data-40p', newFontSize30);
+					    });
+					}
 				}
-			}
-			if($(window).width() >= 1280){
-				var logoAnimate = function(){
-				    $('.logo').each(function(){
-				        var newTop0 = $(this).attr('data-0').replace('top: 20vh','top: 40vh');
-				        $(this).attr('data-0', newTop0);
-				    });
-				    $('.logo a').each(function(){
-				        var newFontSize0 = $(this).attr('data-0').replace('font-size: 2em','font-size: 3em');
-				        $(this).attr('data-0', newFontSize0);
-				        var newMarginLeft0 = $(this).attr('data-0').replace('margin-left: 0em',' margin-left: 1em');
-				        $(this).attr('data-0', newMarginLeft0);
-				        var newMarginTop0 = $(this).attr('data-0').replace('margin-top: -1.2em',' margin-top: -1.1em');
-				        $(this).attr('data-0', newMarginTop0);
-				        var newFontSize30 = $(this).attr('data-30p').replace('font-size: 1em','font-size: 1.3em');
-				        $(this).attr('data-30p', newFontSize30);
-				    });
+				if($(window).width() >= 1280){
+					var logoAnimate = function(){
+					    $('.logo').each(function(){
+					        var newTop0 = $(this).attr('data-0').replace('top: 20vh','top: 40vh');
+					        $(this).attr('data-0', newTop0);
+					    });
+					    $('.logo a').each(function(){
+					        var newFontSize0 = $(this).attr('data-0').replace('font-size: 2em','font-size: 3em');
+					        $(this).attr('data-0', newFontSize0);
+					        var newMarginLeft0 = $(this).attr('data-0').replace('margin-left: 0em',' margin-left: 1em');
+					        $(this).attr('data-0', newMarginLeft0);
+					        var newMarginTop0 = $(this).attr('data-0').replace('margin-top: -1.2em',' margin-top: -0.7em');
+					        $(this).attr('data-0', newMarginTop0);
+					        var newFontSize30 = $(this).attr('data-40p').replace('font-size: 1em','font-size: 1.2em');
+					        $(this).attr('data-40p', newFontSize30);
+					    });
+					}
 				}
-			}
-			logoAnimate();
-		</script>
+				logoAnimate();
+			</script>
 
-        <script src="<?php echo get_template_directory_uri(); ?>/dist/js/libs/skrollr.min.js"></script>
-	    <script>
-	    	var s = skrollr.init();
-	    </script>
-		
-		<script>			
+	        <script src="<?php echo get_template_directory_uri(); ?>/dist/js/libs/skrollr.min.js"></script>
+		    <script>
+		    	var s = skrollr.init();
+		    </script>
+			
+			<script>			
 
-			$(function() {
-			  $('a[href*=#]:not([href=#])').click(function() {
-			    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-			      var target = $(this.hash);
-			      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-			      if (target.length) {
-			        $('html,body').animate({
-			          scrollTop: target.offset().top
-			        }, 1000);
-			        return false;
-			      }
-			    }
-			  });
-			});
+				$(function() {
+				  $('a[href*=#]:not([href=#])').click(function() {
+				    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+				      var target = $(this.hash);
+				      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				      if (target.length) {
+				        $('html,body').animate({
+				          scrollTop: target.offset().top
+				        }, 1000);
+				        return false;
+				      }
+				    }
+				  });
+				});
 
-		</script>
+			</script>
+
+		<?php }?>
         
     </body>
 

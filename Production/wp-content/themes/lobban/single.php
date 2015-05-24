@@ -1,14 +1,16 @@
 <?php get_header(); ?>
 
-<div class="wrapper">
+<main class="wrapper" id="content" role="main">
 	
-	<article class="main-content col small_4 medium_8 large_7">
+	<article class="post col--small--12 col--medium--12 push--large--1 col--large--10 push--xlarge--2 col--xlarge--8 ">
 	
 		<?php if ( have_posts() ) : ?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
 			
 				<h1><?php the_title(); ?></h1>
+
+				<time>21st May 2015</time>
 						
 				<?php the_content(); ?>
 						
@@ -39,9 +41,7 @@
 		<?php endif; ?>
 		
 	</article>
-
-	<?php get_sidebar(); ?>
 	
-</div>
+</main>
 
 <?php get_footer(); ?>
