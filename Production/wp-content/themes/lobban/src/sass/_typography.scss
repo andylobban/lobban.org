@@ -54,7 +54,7 @@ textarea {
 body {
     font-size: 1.1em;
     line-height: 1.5;
-    @media (min-width: $large_min_width) {
+    @media (min-width: $breakpoint-large) {
         font-size: 1.2em;
         }
     }

@@ -48,7 +48,7 @@
 
     		<div class="wrapper clearfix">
 		
-				<div class="logo col--small--12 col--medium--4 col--large--6 flush--bottom"
+				<div class="logo col small-12 medium-4 large-6"
 				data-0="top: 20vh;" data-40p="top: 0vh;">
 
 					<a href="/" data-0="color: rgb(255,255,255); font-size: 2em; margin-left: 0em; margin-top: -1.2em;" data-40p="color: rgb(0,0,0); font-size: 1em; margin-left: 0em; margin-top: 0em;">
@@ -57,7 +57,7 @@
 
 				</div>
 				
-				<nav class="col--small--12 col--medium--8 col--large--6 switch--medium switch--large switch--xlarge flush--bottom" role="navigation">
+				<nav class="col small-12 medium-8 large-6 switch--medium" role="navigation">
 				
 					<ul>
 						<li><a href="/portfolio">Portfolio</a></li>

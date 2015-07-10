@@ -25,7 +25,7 @@
 .intro__social {
 	display: inline-block;
 	margin-top: 1em;
-	@media (min-width: $large_min_width) {
+	@media (min-width: $breakpoint-large) {
 		text-align: right;
 		}
 	}
@@ -35,7 +35,7 @@
 	padding: 0 0.5em;
 	text-align: center;
 	vertical-align: middle;
-	@media (min-width: $medium_min_width) {
+	@media (min-width: $breakpoint-medium) {
 		padding: 0 1em 0 0;
 		}
 	}	
@@ -51,7 +51,7 @@
 	height: 40px;
 	padding-top: 0.35em;
 	width: 40px;
-	@media (min-width: $large_min_width) {
+	@media (min-width: $breakpoint-large) {
 		font-size: 0.9em;
 		padding-top: 0.4em;
 		}
@@ -62,7 +62,7 @@
 
 .intro__social a.icon-email {
 	padding-top: 0.3em;
-	@media (min-width: $large_min_width) {
+	@media (min-width: $breakpoint-large) {
 		padding-top: 0.35em;
 		}
 	}
@@ -70,7 +70,7 @@
 .intro__social a.icon-twitter {
 	font-size: 0.85em;
 	padding-top: 0.55em;
-	@media (min-width: $large_min_width) {
+	@media (min-width: $breakpoint-large) {
 		font-size: 0.75em;
 		padding-top: 0.6em;
 		}
@@ -103,7 +103,7 @@ p.intro__more {
 		background: #fff;
         padding-bottom: 1em;
     	}
-	@media (min-width: $large_min_width) {
+	@media (min-width: $breakpoint-large) {
 		padding-bottom: 1em;
 		&:hover, &:active, &:focus {
 	        padding-bottom: 1.5em;
