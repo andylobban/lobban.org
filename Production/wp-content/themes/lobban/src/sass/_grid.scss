@@ -1,213 +1,100 @@
-$small_columns: 12;
-$small_gutter: 20px;
-$small_min_width: 20em;
+// = Config
+//-----------------------------------------------------------------------------//
 
-$medium_columns: 12;
-$medium_gutter: 20px;
-$medium_min_width: 41em;
+$gutter: 20px !default;
+$columns: 12 !default;
 
-$large_columns: 12;
-$large_gutter: 20px;
-$large_min_width: 60em;
+$breakpoint-small: 20em;
+$breakpoint-medium: 40em;
+$breakpoint-large: 60em;
+$breakpoint-xlarge: 80em;
 
-$xlarge_columns: 12;
-$xlarge_gutter: 20px;
-$xlarge_min_width: 80em;
+$site_max_width: 1500px;
 
-$site_max_width: 1280px;
+// = Grid
+//-----------------------------------------------------------------------------//
 
-/* ------- STOP EDITING NOW ------- */
+$margin-left: ($gutter/2);
+$margin-right: ($gutter/2);
 
 .wrapper {
     margin-left: auto;
     margin-right: auto;
     max-width: $site_max_width;
     width: 100%;
-    }
+}
 
-[class^='col--'],
-[class*=' col--'] {
+.col {
     float: left;
+    width: calc(100% - #{$gutter});
+    margin-left: $margin-left;
+    margin-right: $margin-right;
+}
+
+@mixin grid($class: 'col', $columns: $columns, $gutter: $gutter, $extend: '') {
+
+    .col {
+        margin-left: ($gutter/2);
+        margin-right: ($gutter/2);
+        .row {
+            margin-left: -($gutter/2);
+            margin-right: -($gutter/2);
+        }
     }
 
-$hundred_percent: 100%;
-
-@media all and (min-width: $small_min_width) {
-    [class*='col--'] {
-        margin-bottom: $small_gutter;
-        margin-left: ($small_gutter/2);
-        margin-right: ($small_gutter/2);
-        }
-    .push--bottom {
-        margin-bottom: $small_gutter;
-        }
-    .push--left {
-        margin-left: ($small_gutter/2);
-        }
-    .push--right {
-        margin-right: ($small_gutter/2);
-        }
-    .push--top {
-        margin-top: $small_gutter;
-        }
-    .switch--small {
+    .switch--#{$class} {
         float: right;
-        }
-    @for $i from 1 through $small_columns {
-        $small_col_width: (($i / $small_columns) * $hundred_percent); 
-        .col--small--#{$i} { 
-            width: calc(#{$small_col_width} - #{$small_gutter}); 
-            }
-        [class*=' col--'].push--small--#{$i} { 
-            margin-left: calc(#{$small_col_width} + (#{$small_gutter}/2)); 
-            }
-        .col--small--#{$i}.row { 
-            width: calc(#{$small_col_width}); 
-            }
-        }
     }
-
-@media all and (min-width: $medium_min_width) {
-    [class*='col--'] {
-        margin-bottom: $medium_gutter;
-        margin-left: ($medium_gutter/2);
-        margin-right: ($medium_gutter/2);
-        }
-    .push--bottom {
-        margin-bottom: $medium_gutter;
-        }
-    .push--left {
-        margin-left: ($medium_gutter/2);
-        }
-    .push--right {
-        margin-right: ($medium_gutter/2);
-        }
-    .push--top {
-        margin-top: $medium_gutter;
-        }
-    .switch--small, 
-    .switch--large, 
-    .switch--xlarge {
+    .noswitch--#{$class} {
         float: left;
+    }
+
+    @for $i from 1 through $columns - 1 {
+        $column_width: (($i / $columns) * 100%);
+        .#{$class}-#{$i}#{$extend} {
+            width: calc(#{$column_width} - #{$gutter});
         }
-    .switch--medium {
-        float: right;
-        }
-    @for $i from 1 through $medium_columns {
-        $medium_col_width: (($i / $medium_columns) * $hundred_percent); 
-        .col--medium--#{$i} { 
-            width: calc(#{$medium_col_width} - #{$medium_gutter}); 
-            }
-        [class*=' col--'].push--medium--#{$i} { 
-            margin-left: calc(#{$medium_col_width} + (#{$medium_gutter}/2)); 
-            }
-        .col--medium--#{$i}.row { 
-            width: calc(#{$medium_col_width}); 
-            }
+        // Need to test this
+       .push--#{$class}-#{$i} {
+            margin-left: calc(#{$column_width} + (#{$gutter}/2));
         }
     }
 
-@media all and (min-width: $large_min_width) {
-    [class*='col--'] {
-        margin-bottom: $large_gutter;
-        margin-left: ($large_gutter/2);
-        margin-right: ($large_gutter/2);
-        }
     .push--bottom {
-        margin-bottom: $large_gutter;
-        }
+        margin-bottom: $gutter; 
+        } 
     .push--left {
-        margin-left: ($large_gutter/2);
+        margin-left: $gutter;
         }
     .push--right {
-        margin-right: ($large_gutter/2);
+        margin-right: $gutter;
         }
     .push--top {
-        margin-top: $large_gutter;
+        margin-top: $gutter;
         }
-    .switch--small, 
-    .switch--medium, 
-    .switch--xlarge {
-        float: left;
-        }
-    .switch--large {
-        float: right;
-        }
-    @for $i from 1 through $large_columns {
-        $large_col_width: (($i / $large_columns) * $hundred_percent); 
-        .col--large--#{$i} { 
-            width: calc(#{$large_col_width} - #{$large_gutter}); 
-            }
-        [class*=' col--'].push--large--#{$i} { 
-            margin-left: calc(#{$large_col_width} + (#{$large_gutter}/2)); 
-            }
-        .col--large--#{$i}.row { 
-            width: calc(#{$large_col_width}); 
-            }
-        }
-    }
-
-@media all and (min-width: $xlarge_min_width) {
-    [class*='col--'] {
-        margin-bottom: $xlarge_gutter;
-        margin-left: ($xlarge_gutter/2);
-        margin-right: ($xlarge_gutter/2);
-        }
-    .push--bottom {
-        margin-bottom: $xlarge_gutter;
-        }
-    .push--left {
-        margin-left: $xlarge_gutter;
-        }
-    .push--right {
-        margin-right: ($xlarge_gutter/2);
-        }
-    .push--top {
-        margin-top: ($xlarge_gutter/2);
-        }
-    .switch--small, 
-    .switch--medium, 
-    .switch--large {
-        float: left;
-        }
-    .switch--xlarge {
-        float: right;
-        }
-    @for $i from 1 through $xlarge_columns {
-        $xlarge_col_width: (($i / $xlarge_columns) * $hundred_percent); 
-        .col--xlarge--#{$i} { 
-            width: calc(#{$xlarge_col_width} - #{$xlarge_gutter}); 
-            }
-        [class*=' col--'].push--xlarge--#{$i} { 
-            margin-left: calc(#{$xlarge_col_width} + (#{$xlarge_gutter}/2));
-            }
-        .col--xlarge--#{$i}.row { 
-            width: calc(#{$xlarge_col_width}); 
-            }
-        }
-    }
+}
 
 .row {
     margin-left: 0;
     margin-right: 0;
-    }
+}
 
-.flush--bottom {
-    margin-bottom: 0;
-    }
+// = Set breakpoints
+// Example: @include grid($class: 'col', $columns: $columns, $gutter: $gutter, $extend: '');
+//-----------------------------------------------------------------------------//
 
-.flush--top {
-    margin-top: 0;
-    }
+@media (min-width: $breakpoint-small) {
+    @include grid($class: 'small');
+}
 
-.flush--left {
-    margin-left: 0;
-    }
+@media (min-width: $breakpoint-medium) {
+    @include grid($class: 'medium');
+}
 
-.flush--right {
-    margin-right: 0;
-    }
+@media (min-width: $breakpoint-large) {
+    @include grid($class: 'large');
+}
 
-.flush--width {
-    width: auto;
-    }
+@media (min-width: $breakpoint-xlarge) {
+    @include grid($class: 'xlarge');
+}

@@ -7,7 +7,7 @@
 .intro__info {
 	text-align: center;
 	margin-top: 40vh;
-	@media (min-width: $medium_min_width) {
+	@media (min-width: $breakpoint-medium) {
 		text-align: left;
 		}
 	}
@@ -118,20 +118,27 @@ p.intro__more {
 	position: relative;
 	}
 
-.home__section h2 {
-	margin-bottom: 0.3em;
+.home__project {
+	margin-bottom: 3em;
 	}
 
-.home__section img {
-	height: 100%;
-	position: absolute;
-	right: 0;
-	width: auto;
-	z-index: -1;
-	@media (min-width: $large_min_width) {
-		margin-right: calc(8.33333% + (20px/2));
-		}
-	@media (min-width: $xlarge_min_width) {
-		margin-right: calc(16.66667% + (20px/2));
-		}
+.home__project img {
+	display: inline-block;
+    height: auto;
+    margin-right: 25px;
+    max-width: 150px;
+    vertical-align: bottom;
+    width: 40%;
+	}
+
+.home__project h3 {
+    font-size: 1.8em;
+    display: inline-block;
+    margin-left: -60px;
+    width: calc(60% - 25px);
+    vertical-align: bottom;
+	}
+
+.home__project p {
+    padding: 10px 0 0 8em;
 	}
