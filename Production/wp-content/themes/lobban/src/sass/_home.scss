@@ -134,8 +134,9 @@ p.intro__more {
 .home__project h3 {
     font-size: 1.8em;
     display: inline-block;
+    line-height: 1;
     margin-left: -60px;
-    width: calc(60% - 25px);
+    width: calc(60% + 60px);
     vertical-align: bottom;
 	}
 

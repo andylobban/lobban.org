@@ -42,6 +42,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'teimposheadlineblack';
+    src: url('../fonts/TiemposHeadlineWeb-Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html, 
 body, 
 button, 
@@ -65,7 +72,7 @@ strong,
 b, 
 .logo,
 .home__project h3 {
-	font-family: "lust", serif;
+	font-family: "teimposheadlineblack", serif;
 	}
 
 em, 

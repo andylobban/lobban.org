@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 
 <main id="content" role="main">
-
     <section class="home__intro push--bottom" data-0="opacity: 1;" data-100p="opacity: 0;">
         <div class="wrapper clearfix">
             <div class="intro__info col small-12 medium-6 switch--medium">
@@ -27,30 +26,36 @@
     <div class="wrapper" id="more">
 
         <div class="home__section clearfix">
-            <div class="home__project col small-12 medium-6">
-                <img src="http://placehold.it/350x350" alt="" /><h3>Gerry Loves Records</h3>
-                <p>Co-founder of a small record label specialising in quality vinyl records from mostly Scottish artists. <a href="http://gerrylovesrecords.com">gerrylovesrecords.com</a></p>
+            <div class="clearfix">
+                <div class="home__project col small-12 medium-6">
+                    <img src="<?php bloginfo('template_directory'); ?>/dist/images/glr-logo.svg" alt="" /><h3>Gerry Loves Records</h3>
+                    <p>Co-founder of a small record label specialising in quality vinyl records from mostly Scottish artists. <a href="http://gerrylovesrecords.com">gerrylovesrecords.com</a></p>
+                </div>
+                <div class="home__project col small-12 medium-6">
+                    <img src="<?php bloginfo('template_directory'); ?>/dist/images/secret-editions-logo.svg" alt="" /><h3>Secret Editions</h3>
+                    <p>Founder of a tiny record label specialising in cassette and book releases of experimental (pop) music. <a href="http://secreteditions.com">secreteditions.com</a></p>
+                </div>
             </div>
-            <div class="home__project col small-12 medium-6">
-                <img src="http://placehold.it/350x350" alt="" /><h3>Secret Editions</h3>
-                <p>Founder of a tiny record label specialising in cassette and book releases of experimental (pop) music. <a href="http://secreteditions.com">secreteditions.com</a></p>
+            <div class="clearfix">
+                <div class="home__project col small-12 medium-6">
+                    <img src="<?php bloginfo('template_directory'); ?>/dist/images/photoblog-thumb.jpg" alt="" /><h3>Photoblog</h3>
+                    <p>A selection of erratic attempts at film photography. <a href="http://film.lobban.org">film.lobban.org</a></p>
+                </div>
+                <div class="home__project col small-12 medium-6">
+                    <img src="<?php bloginfo('template_directory'); ?>/dist/images/instant-thumb.png" alt="" /><h3>Instant</h3>
+                    <p>A collection of every instant photo I've taken. <a href="http://instant.lobban.org">instant.lobban.org</a></p>
+                </div>
             </div>
-            <div class="home__project col small-12 medium-6">
-                <img src="http://placehold.it/350x350" alt="" /><h3>Photoblog</h3>
-                <p>A selection of erratic attempts at film photography. <a href="http://film.lobban.org">film.lobban.org</a></p>
+            <div class="clearfix">
+                <div class="home__project col small-12 medium-6">
+                    <img src="<?php bloginfo('template_directory'); ?>/dist/images/shy-retirers-thumb.svg" alt="" /><h3>The Shy Retirers</h3>
+                    <p>An aggregator of Scottish music blogs, in Twitter, Tumblr and Facebook forms. <a href="http://theshyretirers.lobban.org">theshyretirers.lobban.org</a></p>
+                </div>
+                <div class="home__project col small-12 medium-6">
+                    <img src="<?php bloginfo('template_directory'); ?>/dist/images/sleeves-received-thumb.jpg" alt="" /><h3>Sleeves Received Twitter</h3>
+                    <p>An unofficial Twitter feed for The Wire's <a href="http://thewiremagazine.tumblr.com/">Sleeves Received</a> blog. <a href="http://twitter.com/sleevesreceived">twitter.com/sleevesreceived</a></p>
+                </div>        
             </div>
-            <div class="home__project col small-12 medium-6">
-                <img src="http://placehold.it/350x350" alt="" /><h3>Instant</h3>
-                <p>A collection of every instant photo I've taken. <a href="http://instant.lobban.org">instant.lobban.org</a></p>
-            </div>
-            <div class="home__project col small-12 medium-6">
-                <img src="http://placehold.it/350x350" alt="" /><h3>The Shy Retirers</h3>
-                <p>An aggregator of Scottish music blogs, in Twitter, Tumblr and Facebook forms. <a href="http://theshyretirers.lobban.org">theshyretirers.lobban.org</a></p>
-            </div>
-            <div class="home__project col small-12 medium-6">
-                <img src="http://placehold.it/350x350" alt="" /><h3>Sleeves Received Twitter</h3>
-                <p>An unofficial Twitter feed for The Wire's <a href="http://thewiremagazine.tumblr.com/">Sleeves Received</a> blog. <a href="http://twitter.com/sleevesreceived">twitter.com/sleevesreceived</a></p>
-            </div>        
             <div class="col small-12 medium-10 push--medium-1 large-8 push--large-2 xlarge-6 push--xlarge--3">
                 If you really want you can read about all my past projects, too.
             </div>
