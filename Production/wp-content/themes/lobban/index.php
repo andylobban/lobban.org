@@ -1,27 +1,29 @@
 <?php get_header(); ?>
 
 <main id="content" role="main">
-    <section class="home__intro push--bottom" data-0="opacity: 1;" data-100p="opacity: 0;">
-        <div class="wrapper clearfix">
-            <div class="intro__info col small-12 medium-6 switch--medium">
-                <ul class="intro__projects">
-                    <li>Designer at <a href="http://stormid.com">Storm ID</a></li>
-                    <li>Co-owner of <a href="http://gerrylovesrecords.com/">Gerry Loves Records</a></li>
-                    <li>Owner of <a href="http://secreteditions.com/">Secret Editions</a></li>
-                    <li>Previously freelance as <a href="http://stormid.com">Nonimage</a></li>
-                </ul>
-                <ul class="intro__social clearfix">
-                    <li><a class="icon-email" href="/contact"><span class="away">Email</span></a></li>
-                    <li><a class="icon-twitter" href="https://twitter.com/nonimage"><span class="away">Twitter</span></a></li>
-                    <li><a class="icon-instagram" href="https://instagram.com/nonimage/"><span class="away">Instagram</span></a></li>
-                    <li><a class="icon-facebook" href="https://www.facebook.com/andylobban"><span class="away">Facebook</span></a></li>
-                </ul>
+    <div class="clearfix">
+        <section class="home__intro push--bottom" data-0="opacity: 1;" data-100p="opacity: 0;">
+            <div class="wrapper clearfix">
+                <div class="intro__info col small-12 medium-6 switch--medium">
+                    <ul class="intro__projects">
+                        <li>Designer at <a href="http://stormid.com">Storm ID</a></li>
+                        <li>Co-owner of <a href="http://gerrylovesrecords.com/">Gerry Loves Records</a></li>
+                        <li>Owner of <a href="http://secreteditions.com/">Secret Editions</a></li>
+                        <li>Previously freelance as <a href="http://stormid.com">Nonimage</a></li>
+                    </ul>
+                    <ul class="intro__social clearfix">
+                        <li><a class="icon-email" href="/contact"><span class="away">Email</span></a></li>
+                        <li><a class="icon-twitter" href="https://twitter.com/nonimage"><span class="away">Twitter</span></a></li>
+                        <li><a class="icon-instagram" href="https://instagram.com/nonimage/"><span class="away">Instagram</span></a></li>
+                        <li><a class="icon-facebook" href="https://www.facebook.com/andylobban"><span class="away">Facebook</span></a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <p class="intro__more" data-0="opacity: 1;" data-50p="opacity: 0;">
-            <a href="#more"><i class="icon-down"></i>There's more</a>
-        </p>
-    </section>
+            <p class="intro__more" data-0="opacity: 1;" data-50p="opacity: 0;">
+                <a href="#more"><i class="icon-down"></i>There's more</a>
+            </p>
+        </section>
+    </div>
 
     <div class="wrapper" id="more">
 
