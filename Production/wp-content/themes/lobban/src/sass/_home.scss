@@ -11,7 +11,8 @@
 	text-align: center;
 	margin-top: 40vh;
 	@media (min-width: $breakpoint-medium) {
-		text-align: left;
+		text-align: center;
+		width: 100%;
 		}
 	}
 
@@ -99,19 +100,13 @@ p.intro__more {
 	border: 0;
 	color: #000;
 	display: inline-block;
-	font-size: 1em;
+	font-size: 0.8em;
 	padding: 0.5em 1em 10px 1em; 
 	text-transform: uppercase;
 	&:hover, &:active, &:focus {
 		background: #fff;
-        padding-bottom: 1em;
+        padding-bottom: 15px;
     	}
-	@media (min-width: $breakpoint-large) {
-		padding-bottom: 1em;
-		&:hover, &:active, &:focus {
-	        padding-bottom: 1.5em;
-	    	}
-		}
 	}
 
 .home__section {

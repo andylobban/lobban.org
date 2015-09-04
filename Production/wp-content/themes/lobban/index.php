@@ -4,7 +4,7 @@
     <div class="clearfix">
         <section class="home__intro push--bottom" data-0="opacity: 1;" data-100p="opacity: 0;">
             <div class="wrapper clearfix">
-                <div class="intro__info col small-12 medium-6 switch--medium">
+                <div class="intro__info col small-12 medium-6">
                     <ul class="intro__projects">
                         <li>Designer at <a href="http://stormid.com">Storm ID</a></li>
                         <li>Co-owner of <a href="http://gerrylovesrecords.com/">Gerry Loves Records</a></li>
