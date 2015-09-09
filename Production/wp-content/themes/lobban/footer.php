@@ -1,3 +1,5 @@
+		</div>
+
 		<footer role="contentinfo">
 			
 
@@ -34,14 +36,14 @@
 					    $('.logo').each(function(){
 					        var newTop0 = $(this).attr('data-0').replace('top: 20vh','top: 40vh');
 					        $(this).attr('data-0', newTop0);
+					        var newLeft0 = $(this).attr('data-0').replace('padding-left: 0em;','padding-left: 2em;');
+					        $(this).attr('data-0', newLeft0);
 					    });
 					    $('.logo a').each(function(){
 					        var newFontSize0 = $(this).attr('data-0').replace('font-size: 2em','font-size: 1.4em');
 					        $(this).attr('data-0', newFontSize0);
-					        var newMarginLeft0 = $(this).attr('data-0').replace('margin-left: 0em',' margin-left: 1em');
-					        $(this).attr('data-0', newMarginLeft0);
-					        var newMarginTop0 = $(this).attr('data-0').replace('margin-top: -1.2em',' margin-top: -0.25em');
-					        $(this).attr('data-0', newMarginTop0);
+					        var newPaddingTop40 = $(this).attr('data-34p').replace('padding-top: 0.45em',' padding-top: 1.3em');
+					        $(this).attr('data-34p', newPaddingTop40);
 					    });
 					}
 				}
@@ -50,16 +52,18 @@
 					    $('.logo').each(function(){
 					        var newTop0 = $(this).attr('data-0').replace('top: 20vh','top: 40vh');
 					        $(this).attr('data-0', newTop0);
+					        var newLeft0 = $(this).attr('data-0').replace('padding-left: 0em;','padding-left: 2em;');
+					        $(this).attr('data-0', newLeft0);
 					    });
 					    $('.logo a').each(function(){
 					        var newFontSize0 = $(this).attr('data-0').replace('font-size: 2em','font-size: 2.6em');
 					        $(this).attr('data-0', newFontSize0);
 					        var newMarginLeft0 = $(this).attr('data-0').replace('margin-left: 0em',' margin-left: 1em');
 					        $(this).attr('data-0', newMarginLeft0);
-					        var newMarginTop0 = $(this).attr('data-0').replace('margin-top: -1.2em',' margin-top: -0.7em');
-					        $(this).attr('data-0', newMarginTop0);
-					        var newFontSize30 = $(this).attr('data-40p').replace('font-size: 1em','font-size: 1.2em');
-					        $(this).attr('data-40p', newFontSize30);
+					        var newPaddingTop40 = $(this).attr('data-34p').replace('padding-top: 0.45em',' padding-top: 1.15m');
+					        $(this).attr('data-34p', newPaddingTop40);
+					        var newFontSize30 = $(this).attr('data-34p').replace('font-size: 1em','font-size: 1.2em');
+					        $(this).attr('data-34p', newFontSize30);
 					    });
 					}
 				}
@@ -68,16 +72,18 @@
 					    $('.logo').each(function(){
 					        var newTop0 = $(this).attr('data-0').replace('top: 20vh','top: 40vh');
 					        $(this).attr('data-0', newTop0);
+					        var newLeft0 = $(this).attr('data-0').replace('padding-left: 0em;','padding-left: 2em;');
+					        $(this).attr('data-0', newLeft0);
 					    });
 					    $('.logo a').each(function(){
 					        var newFontSize0 = $(this).attr('data-0').replace('font-size: 2em','font-size: 3em');
 					        $(this).attr('data-0', newFontSize0);
 					        var newMarginLeft0 = $(this).attr('data-0').replace('margin-left: 0em',' margin-left: 1em');
 					        $(this).attr('data-0', newMarginLeft0);
-					        var newMarginTop0 = $(this).attr('data-0').replace('margin-top: -1.2em',' margin-top: -0.7em');
-					        $(this).attr('data-0', newMarginTop0);
-					        var newFontSize30 = $(this).attr('data-40p').replace('font-size: 1em','font-size: 1.2em');
-					        $(this).attr('data-40p', newFontSize30);
+					        var newPaddingTop40 = $(this).attr('data-34p').replace('padding-top: 0.45em',' padding-top: 1.2em');
+					        $(this).attr('data-34p', newPaddingTop40);
+					        var newFontSize30 = $(this).attr('data-34p').replace('font-size: 1em','font-size: 1.15em');
+					        $(this).attr('data-34p', newFontSize30);
 					    });
 					}
 				}

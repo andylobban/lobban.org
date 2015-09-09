@@ -44,19 +44,59 @@
 
     <body <?php body_class( $class ); ?>>
 
-    	<a href="http://www.edinburgh.gov.uk/#content" class="away skip-link">Skip to main content</a>
+    	<a href="#content" class="away skip-link">Skip to main content</a>
     
     	<header role="banner" data-20p="padding-top: 0.3em;" data-30p="padding-top: 1.5em;">
 
     		<div class="wrapper clearfix">
 		
 				<div class="logo col small-12 medium-4 large-6"
-				data-0="top: 20vh;" data-40p="top: 0vh;">
+				data-0="
+					padding-left: 0em;
+					top: 20vh;" 
+				data-34p="
+					padding-left: 0em;
+					top: 0vh;"
+				>
 
-					<a href="/" data-0="color: rgb(68,68,68); font-size: 2em; 
-					margin-top: -1.2em;" data-40p="color: rgb(0,0,0); font-size: 1em; margin-top: 0em;">
+					<a href="/" 
+					data-0="
+						color: rgb(68,68,68); 
+						font-size: 2em; 
+						letter-spacing: -1px; 
+						padding-bottom: 0em; 
+						padding-top: 0em;" 
+					data-34p="
+						color: rgb(0,0,0); 
+						font-size: 1em; 
+						letter-spacing: 0px; 
+						padding-bottom: 0.25em; 
+						padding-top: 0.45em;"
+					>
 						Andy Lobban
+						<span class="shape"
+						data-0="
+						opacity: 1;" 
+						data-34p="
+						opacity: 0;"></span>
 					</a>
+
+					<ul class="home__social" 
+					data-0="
+						display: inline-block;
+						opacity: 1;" 
+					data-20p="
+						opacity: 1;" 
+					data-34p="
+						opacity: 0;"
+					data-35p="
+						display: none;"
+					>
+		                <li><a class="icon-email" href="/contact"><span class="away">Email</span></a></li>
+		                <li><a class="icon-twitter" href="https://twitter.com/nonimage"><span class="away">Twitter</span></a></li>
+		                <li><a class="icon-instagram" href="https://instagram.com/nonimage/"><span class="away">Instagram</span></a></li>
+		                <li><a class="icon-facebook" href="https://www.facebook.com/andylobban"><span class="away">Facebook</span></a></li>
+		            </ul>
 
 				</div>
 				
@@ -65,8 +105,7 @@
 					<ul>
 						<li><a href="/portfolio">Portfolio</a></li>
 						<li><a href="/journal">Journal</a></li>
-						<li><a href="/projects">Projects</a></li>
-						<li><a href="/info">Info</a></li>
+						<li><a href="/info">Info &amp; projects</a></li>
 						<li><a href="/contact">Contact</a></li>
 					</ul>
 				
@@ -75,3 +114,5 @@
 			</div>
 		
 		</header>
+
+		<div id="skrollr-body">

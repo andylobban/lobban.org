@@ -49,6 +49,20 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'sourceserifbold';
+    src: url('../fonts/SourceSerifPro-Bold.otf.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sourceseriflight';
+    src: url('../fonts/SourceSerifPro-Light.otf.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html, 
 body, 
 button, 

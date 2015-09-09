@@ -1,16 +1,111 @@
+.home .logo a  {
+	position: relative;
+	}
+
+.home .logo .shape {
+	background: $link;
+	bottom: -0.6em;
+	content: '';
+	display: block;
+	height: 0.15em;
+	left: 50%;
+	margin-left: -1.75em;
+	position: absolute;
+	width: 3.5em;
+	@media (min-width: $breakpoint-medium) {
+		bottom: -0.4em;
+	    left: 0;
+	    margin-left: 0;
+	    }
+	}
+
+.home .home__social {
+	display: inline-block;
+	margin-top: 3em;
+	text-align: center;
+	width: 100%;
+	@media (min-width: $breakpoint-medium) {
+		width: auto;
+		}
+	@media (min-width: $breakpoint-large) {
+		text-align: right;
+		}
+	}
+
+.home__social li {
+	display: inline-block;
+	padding: 0 0.5em;
+	text-align: center;
+	vertical-align: middle;
+	@media (min-width: $breakpoint-medium) {
+		padding: 0 1em 0 0;
+		}
+	}	
+
+.home__social a:before {
+	margin: 0;
+	}
+
+.home__social a {
+	border: 2px solid #d3d2cf;
+	border-radius: 50%;
+	color: #444;
+	display: inline-block;
+	height: 40px;
+	padding-top: 0.2em;
+	text-align: center;
+	width: 40px;
+	@media (min-width: $breakpoint-large) {
+		font-size: 1.3em;
+		height: 46px;
+		padding-top: 0.2em;
+		width: 46px;
+		}
+	&:hover, &:focus, &:active {
+		background: transparent;
+		border: 2px solid #979796;
+		color: #000;
+		}
+	}
+
+.home__social a.icon-email {
+	padding-top: 0.17em;
+	@media (min-width: $breakpoint-large) {
+		font-size: 1.2em;
+		padding-top: 0.3em;
+		}
+	}
+
+.home__social a.icon-twitter {
+	font-size: 0.85em;
+	padding-top: 0.4em;
+	@media (min-width: $breakpoint-large) {
+		font-size: 1.05em;
+		padding-top: 0.5em;
+		}
+	}
+
 .home__intro {
 	background: #0f516d url(../images/bg.jpg) center center/cover fixed no-repeat;
-	clear: both;
 	color: #fff;
-	float: right;
-	height: 100vh;
-	width: 50%;
+	margin-top: 60vh;
+	padding-bottom: 2em;
+	padding-top: 2em;
+	@media (min-width: $breakpoint-medium) {
+	    float: right;
+		height: 100vh;
+		margin-top: 0;
+		padding-bottom: 0;
+		padding-top: 0;
+		width: 50%;
+	    }
 	}
 
 .intro__info {
+	margin-top: 0;
 	text-align: center;
-	margin-top: 40vh;
 	@media (min-width: $breakpoint-medium) {
+		margin-top: 40vh;
 		text-align: center;
 		width: 100%;
 		}
@@ -26,60 +121,6 @@
     	}
 	}
 
-.intro__social {
-	display: inline-block;
-	margin-top: 1em;
-	@media (min-width: $breakpoint-large) {
-		text-align: right;
-		}
-	}
-
-.intro__social li {
-	display: inline-block;
-	padding: 0 0.5em;
-	text-align: center;
-	vertical-align: middle;
-	@media (min-width: $breakpoint-medium) {
-		padding: 0 1em 0 0;
-		}
-	}	
-
-.intro__social a:before {
-	margin: 0;
-	}
-
-.intro__social a {
-	border: 2px solid #ffc;
-	border-radius: 50%;
-	display: inline-block;
-	height: 40px;
-	padding-top: 0.35em;
-	width: 40px;
-	@media (min-width: $breakpoint-large) {
-		font-size: 0.9em;
-		padding-top: 0.4em;
-		}
-	&:hover, &:focus, &:active {
-		border: 2px solid #ffc;
-		}
-	}
-
-.intro__social a.icon-email {
-	padding-top: 0.3em;
-	@media (min-width: $breakpoint-large) {
-		padding-top: 0.35em;
-		}
-	}
-
-.intro__social a.icon-twitter {
-	font-size: 0.85em;
-	padding-top: 0.55em;
-	@media (min-width: $breakpoint-large) {
-		font-size: 0.75em;
-		padding-top: 0.6em;
-		}
-	}
-
 .intro__projects li {
 	margin-bottom: 0.5em;
 	}
@@ -87,12 +128,16 @@
 p.intro__more {
 	border: 0;
 	bottom: 0;
+	display: none;
 	left: 0;
 	margin-bottom: 0;
 	position: absolute;
 	right: 0;
 	text-align: center;
 	z-index: 2;
+	@media (min-width: $breakpoint-medium) {
+	    display: block;
+	    }
 	}
 
 .intro__more a {
@@ -110,34 +155,111 @@ p.intro__more {
 	}
 
 .home__section {
-	background: url(../images/zigzag.svg) center 90% no-repeat;
 	margin-top: 3em;
-	padding-bottom: 2em;
 	position: relative;
 	}
 
 .home__project {
-	margin-bottom: 3em;
+	background: #333;
+	height: 150px;
+	position: relative;
 	}
 
-.home__project img {
-	display: inline-block;
-    height: auto;
-    margin-right: 25px;
-    max-width: 150px;
-    vertical-align: bottom;
-    width: 40%;
+.home__project.project--glr {
+	background: url(../images/glr.jpg) center center / cover no-repeat;
+	@media (min-width: $breakpoint-medium) {
+	    height: 15em;
+	    }
+	}
+
+.home__project.project--instant {
+	background: url(../images/instant.jpg) center center / cover no-repeat;
+	@media (min-width: $breakpoint-medium) {
+	    height: 12.25em;
+	    }
+	}
+
+.home__project.project--film {
+	background: url(../images/film.jpg) center center / cover no-repeat;
+	@media (min-width: $breakpoint-medium) {
+	    height: 10em;
+	    }
+	}
+
+.home__project.project--secret-editions {
+	background: url(../images/secret-editions.jpg) center center / cover no-repeat;
+	@media (min-width: $breakpoint-medium) {
+	    height: 14em;
+	    }
+	}
+
+.home__project.project--shy-retirers {
+	background: url(../images/glr.jpg) center center / cover no-repeat;
+	@media (min-width: $breakpoint-medium) {
+	    height: 11em;
+	    }
+	}
+
+.home__project.project--sleeves-received {
+	background: url(../images/sleeves-received.jpg) center center / cover no-repeat;
+	@media (min-width: $breakpoint-medium) {
+	    height: 9em;
+	    }
+	}
+
+.home__project.project--other {
+	@media (min-width: $breakpoint-medium) {
+	    height: 6.2em;
+	    }
+	}
+
+.home__project a {
+	background: rgba(0,0,0,0.5);
+	border-bottom: 0;
+	bottom: 0;
+	color: #fff;
+	display: block;
+	left: 0;
+	padding: 1em;
+	position: absolute;
+	right: 0;
+	top: 0;
+	@include transition(all 0.2s linear);
+	&:hover, &:focus, &:active {
+		background: rgba(0,0,0,0.8);
+		.home__project__info {
+			bottom: 1.5em;
+			@include transition(all 0.2s linear);
+			}
+		}
+	}
+
+.home__project__info {
+	bottom: 0.5em;
+	left: 0.5em;
+	position: absolute;
+	right: 0.5em;
+	&:hover, &:focus, &:active {
+		bottom: 2em;
+		}
+	}
+
+.home__project a {
+	&:hover, &:focus, &:active {
+		
+		}
 	}
 
 .home__project h3 {
-    font-size: 1.8em;
+    font-size: 1.2em;
     display: inline-block;
-    line-height: 1;
-    margin-left: -60px;
-    width: calc(60% + 60px);
+    line-height: 1.2;
+    margin-bottom: 0.25em;
     vertical-align: bottom;
 	}
 
 .home__project p {
-    padding: 10px 0 0 8em;
+	font-size: 0.8em;
+	line-height: 1.2;
+    margin: 0;
 	}
