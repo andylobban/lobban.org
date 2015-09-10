@@ -64,6 +64,7 @@
 	&:hover, &:focus, &:active {
 		background: transparent;
 		border: 2px solid #979796;
+		box-shadow: none;
 		color: #000;
 		}
 	}
@@ -97,7 +98,7 @@
 	    }
 	}
 
-.intro__info {
+.intro__projects {
 	margin-top: 0;
 	text-align: center;
 	@media (min-width: $breakpoint-medium) {
@@ -107,13 +108,13 @@
 		}
 	}
 
-.home__intro a {
+.intro__projects a {
 	border-bottom: 2px solid #fff;
 	color: #ffc;
 	&:hover, &:active, &:focus {
-        background: #ffc;
+        box-shadow: inset 0 -3px 0 #ffc;
         border: 0;
-        color: #02131a;
+        color: #fff;
     	}
 	}
 
@@ -145,7 +146,7 @@ p.intro__more {
 	padding: 0.5em 1em 10px 1em; 
 	text-transform: uppercase;
 	&:hover, &:active, &:focus {
-		background: #fff;
+		box-shadow: none;
         padding-bottom: 15px;
     	}
 	}

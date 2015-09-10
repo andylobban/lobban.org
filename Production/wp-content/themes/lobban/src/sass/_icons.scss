@@ -27,14 +27,12 @@
   text-transform: none;
 }
 
-.category-link .journal__content p:after, 
 .pagination__older a:after {
   margin-left: .5em;
   margin-right: 0;
 }
 
-.category-link .journal__content p:before { content: '\e807'; } /* '' */
-.category-link .journal__content p:after { content: '\e80b'; } /* '' */
+.category-link .journal__content p:first-of-type:before { content: '\e807'; } /* '' */
 .pagination__older a:after { content: '\e808'; } /* '' */
 .pagination__newer a:before { content: '\e809'; } /* '' */
 
@@ -49,4 +47,4 @@
 .icon-right:before { content: '\e808'; } /* '' */
 .icon-left:before { content: '\e809'; } /* '' */
 .icon-mail:before { content: '\e80a'; } /* '' */
-.icon-external:before { content: '\e80b'; } /* '' */
+.icon-down:before { content: '\e80b'; } /* '' */

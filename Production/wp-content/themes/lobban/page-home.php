@@ -10,15 +10,13 @@ Template Name: Home
 
     <div class="clearfix">
         <section class="home__intro push--bottom" data-0="opacity: 1;" data-100p="opacity: 0;">
-            <div class="intro__info">
-                <ul class="intro__projects">
-                    <li>Edinburgh, Scotland</li>
-                    <li>Designer at <a href="http://stormid.com">Storm ID</a></li>
-                    <li>Previously freelance as <a href="http://stormid.com">Nonimage</a></li>
-                    <li>Co-owner of <a href="http://gerrylovesrecords.com/">Gerry Loves Records</a></li>
-                    <li>Owner of <a href="http://secreteditions.com/">Secret Editions</a></li>
-                </ul>
-            </div>
+            <ul class="intro__projects" data-0="padding-top: 0em;" data-100p="padding-top: 10em;">
+                <li>Edinburgh, Scotland</li>
+                <li>Designer at <a href="http://stormid.com">Storm ID</a></li>
+                <li>Previously freelance as <a href="http://stormid.com">Nonimage</a></li>
+                <li>Co-owner of <a href="http://gerrylovesrecords.com/">Gerry Loves Records</a></li>
+                <li>Owner of <a href="http://secreteditions.com/">Secret Editions</a></li>
+            </ul>
             <p class="intro__more" data-0="opacity: 1;" data-34p="opacity: 0;">
                 <a href="#more"><i class="icon-down"></i>There's more</a>
             </p>

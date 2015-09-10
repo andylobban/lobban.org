@@ -1,47 +1,45 @@
 <?php get_header(); ?>
 
-<div class="wrapper">
-	
-	<article class="main-content col small_4 medium_8 large_7">
-	
-		<?php if ( have_posts() ) : ?>
+<main id="content" role="main">
+    <div class="wrapper clearfix">
+        <div class="col small-12 medium-12 large-12 xlarge-12">
+            <h1 class="page__header">Journal</h1>
+        </div>
+        <div class="col small-12 medium-12 large-9 xlarge-8 push--bottom">
+            <div class="row">
+                <?php if ( have_posts() ) : ?>
+                <?php while ( have_posts() ) : the_post(); ?>
+                    <article <?php post_class( 'journal__article journal__list__item clearfix' ); ?>>
+                        <div class="col small-12 medium-2 large-2 xlarge-2">
+                            <time><?php the_time('d/m/Y'); ?></time>
+                        </div>
+                        <div class="col small-12 medium-10 large-10 xlarge-10">
+                            <h2>
+                                <a href="<?php the_permalink(); ?>">
+                                    <?php the_title(); ?>
+                                </a>
+                            </h2>
+                            <div class="journal__content">
+                                <?php the_content(); ?>
+                            </div>
+                        </div>
+                    </article>
 
-			<?php while ( have_posts() ) : the_post(); ?>
-			
-				<h1><?php the_title(); ?></h1>
-						
-				<?php the_content(); ?>
-						
-				<section class="sharing clearfix">
-			
-					<div class="share share-facebook">
-						<div class="fb-like" data-send="false" data-layout="button_count" data-width="81" data-show-faces="false"></div>
-					</div>
-					
-					<div class="share share-twitter">
-						<a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
-					</div>
-					
-					<div class="share share-google">
-						<div class="g-plus" data-action="share" data-annotation="bubble"></div>
-					</div>
-					
-					<div class="share share-linkedin">
-						<script type="IN/Share" data-counter="right"></script>
-					</div>
-				
-				</section>
-				
-			<?php endwhile; ?>
-
-			<?php else : ?>
-
-		<?php endif; ?>
-		
-	</article>
-
-	<?php get_sidebar(); ?>
-	
+                <?php endwhile; ?>
+                
+                <div class="pagination push--top push--bottom clearfix">
+                    <div class="pagination__newer col small-6 medium-6 large-6 xlarge-6"><?php previous_posts_link( 'Newer' ); ?></div>
+                    <div class="pagination__older col small-6 medium-6 large-6 xlarge-6"><?php next_posts_link( 'Older' ); ?></div>
+                </div>
+                
+                <?php endif; ?>
+            </div>
+        </div>
+        <div class="journal__extras col small-12 medium-12 large-2 switch--large xlarge-2 push--bottom">
+            <h2>Explore</h2>
+            <?php wp_list_categories( 'title_li=' ); ?> 
+        </div>
+    </div>
 </div>
 
 <?php get_footer(); ?>

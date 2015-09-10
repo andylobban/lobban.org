@@ -88,8 +88,7 @@
 					<ul>
 						<li><a href="/portfolio">Portfolio</a></li>
 						<li><a href="/journal">Journal</a></li>
-						<li><a href="/info">Info &amp; projects</a></li>
-						<li><a href="/contact">Contact</a></li>
+						<li><a href="/info">Info</a></li>
 					</ul>
 				
 				</nav>
