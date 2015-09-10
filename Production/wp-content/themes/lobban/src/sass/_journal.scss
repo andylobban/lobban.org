@@ -1,0 +1,62 @@
+.journal__list__item {
+	margin-bottom: 3em;
+	@media (min-width: $breakpoint-medium) {
+	    margin-bottom: 4em;
+	    }
+	}
+
+.journal__list__item time {
+	display: block;
+	font-family: 'karlaitalic', sans-serif;
+	@media (min-width: $breakpoint-medium) {
+	    margin-top: 0.6em;
+	    }
+	}
+
+.journal__list__item h2 {
+	margin-bottom: 0.5em;
+	}
+
+.pagination__older, 
+.pagination__newer {
+	min-height: 1px;
+	}
+
+.pagination__older {
+	text-align: right;
+	}
+
+.journal__extras {
+	font-size: 0.8em;
+	text-align: right;
+	@media (min-width: $breakpoint-large) {
+		margin-top: 0.8em;
+		}
+	}
+
+.journal__extras h2 {
+	font-size: 1.2em;
+	}
+
+.journal__extras li {
+	list-style-type: none;
+	}
+
+.journal__article.category-link h1, 
+.journal__article.category-link h2 {
+	display: none;
+	}
+
+.journal__article.single time {
+	display: block;
+	font-family: 'karlaitalic', sans-serif;
+	@media (min-width: $breakpoint-medium) {
+	    margin-top: 0.95em;
+	    }
+	}
+
+.category-link .journal__content {
+	@media (min-width: $breakpoint-medium) {
+	    margin-top: 0.6em;
+	    }
+	}

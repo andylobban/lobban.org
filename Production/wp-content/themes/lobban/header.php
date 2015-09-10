@@ -24,19 +24,6 @@
             <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
 
-        <script>
-		  (function(d) {
-		    var config = {
-		      kitId: 'nfa1wtw',
-		      scriptTimeout: 3000
-		    },
-		    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-		  })(document);
-		</script>
-
-		<link href='http://fonts.googleapis.com/css?family=Work+Sans:400,700,800' rel='stylesheet' type='text/css'>
-
-        <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/dist/images/icons/favicon.ico" />
         <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/dist/images/icons/apple-touch-icon.png" />
         <link rel="apple-touch-icon-precomposed" href="<?php echo get_template_directory_uri(); ?>/dist/images/icons/apple-touch-icon.png" />
 
@@ -47,10 +34,9 @@
     	<a href="#content" class="away skip-link">Skip to main content</a>
     
     	<header role="banner" data-20p="padding-top: 0.3em;" data-30p="padding-top: 1.5em;">
-
     		<div class="wrapper clearfix">
 		
-				<div class="logo col small-12 medium-4 large-6"
+				<div class="logo col small-12 medium-3 large-6"
 				data-0="
 					padding-left: 0em;
 					top: 20vh;" 
@@ -58,7 +44,6 @@
 					padding-left: 0em;
 					top: 0vh;"
 				>
-
 					<a href="/" 
 					data-0="
 						color: rgb(68,68,68); 
@@ -80,7 +65,6 @@
 						data-34p="
 						opacity: 0;"></span>
 					</a>
-
 					<ul class="home__social" 
 					data-0="
 						display: inline-block;
@@ -92,15 +76,14 @@
 					data-35p="
 						display: none;"
 					>
-		                <li><a class="icon-email" href="/contact"><span class="away">Email</span></a></li>
+		                <li><a class="icon-mail" href="/contact"><span class="away">Email</span></a></li>
 		                <li><a class="icon-twitter" href="https://twitter.com/nonimage"><span class="away">Twitter</span></a></li>
 		                <li><a class="icon-instagram" href="https://instagram.com/nonimage/"><span class="away">Instagram</span></a></li>
 		                <li><a class="icon-facebook" href="https://www.facebook.com/andylobban"><span class="away">Facebook</span></a></li>
 		            </ul>
-
 				</div>
 				
-				<nav class="col small-12 medium-8 large-6 switch--medium" role="navigation">
+				<nav class="col small-12 medium-9 large-6 switch--medium" role="navigation">
 				
 					<ul>
 						<li><a href="/portfolio">Portfolio</a></li>

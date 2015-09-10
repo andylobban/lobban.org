@@ -1,37 +1,6 @@
-		</div>
+var s = skrollr.init();
 
-		<footer role="contentinfo">
-			
-
-		
-		</footer>
-
-		<div class="edge edge__top"></div>
-		<div class="edge edge__bottom"></div>
-		<div class="edge edge__left"></div>
-		<div class="edge edge__right"></div>
-        
-        <script>
-			(function () {
-				var js;
-				if (typeof JSON !== 'undefined' && 'querySelector' in document && 'addEventListener' in window) {
-					js = '//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js';
-				} else {
-					js = '//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js';
-				}
-				document.write('<script src="' + js + '"><\/script>');
-			}());
-		</script>
-
-		<script>!window.jQuery && document.write('<script src="<?php echo get_template_directory_uri(); ?>/dist/js/libs/jquery-1.10.2.min.js"><\/script>')</script>
-        
-        <script src="<?php echo get_template_directory_uri(); ?>/dist/js/app.js"></script>
-
-        <?php if(is_front_page()) {?>
-
-	        <script>
-
-	        	if($(window).width() >= 640){
+if($(window).width() >= 640){
 					var logoAnimate = function(){
 					    $('.logo').each(function(){
 					        var newTop0 = $(this).attr('data-0').replace('top: 20vh','top: 40vh');
@@ -88,14 +57,7 @@
 					}
 				}
 				logoAnimate();
-			</script>
 
-	        <script src="<?php echo get_template_directory_uri(); ?>/dist/js/libs/skrollr.min.js"></script>
-		    <script>
-		    	var s = skrollr.init();
-		    </script>
-			
-			<script>			
 
 				$(function() {
 				  $('a[href*=#]:not([href=#])').click(function() {
@@ -111,11 +73,3 @@
 				    }
 				  });
 				});
-
-			</script>
-
-		<?php }?>
-        
-    </body>
-
-</html>

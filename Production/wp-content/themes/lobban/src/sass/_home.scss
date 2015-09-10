@@ -68,21 +68,17 @@
 		}
 	}
 
-.home__social a.icon-email {
-	padding-top: 0.17em;
+.home__social a.icon-mail {
+	font-size: 0.9em;
+	padding-top: 0.35em;
 	@media (min-width: $breakpoint-large) {
-		font-size: 1.2em;
-		padding-top: 0.3em;
+		font-size: 1.1em;
+		padding-top: 0.35em;
 		}
 	}
 
 .home__social a.icon-twitter {
-	font-size: 0.85em;
-	padding-top: 0.4em;
-	@media (min-width: $breakpoint-large) {
-		font-size: 1.05em;
-		padding-top: 0.5em;
-		}
+	padding-top: 0.25em;
 	}
 
 .home__intro {

@@ -9,7 +9,12 @@
   font-style: normal;
 }
  
-[class^="icon-"]:before, [class*=" icon-"]:before {
+[class^="icon-"]:before, 
+[class*=" icon-"]:before,
+.category-link .journal__content p:before, 
+.category-link .journal__content p:after, 
+.pagination__older a:after, 
+.pagination__newer a:before {
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
@@ -22,12 +27,26 @@
   text-transform: none;
 }
 
+.category-link .journal__content p:after, 
+.pagination__older a:after {
+  margin-left: .5em;
+  margin-right: 0;
+}
+
+.category-link .journal__content p:before { content: '\e807'; } /* '' */
+.category-link .journal__content p:after { content: '\e80b'; } /* '' */
+.pagination__older a:after { content: '\e808'; } /* '' */
+.pagination__newer a:before { content: '\e809'; } /* '' */
+
 .icon-bandcamp:before { content: '\e800'; } /* '' */
 .icon-spotify:before { content: '\e801'; } /* '' */
-.icon-email:before { content: '\e802'; } /* '' */
-.icon-twitter:before { content: '\e803'; } /* '' */
+.icon-twitter:before { content: '\e802'; } /* '' */
+.icon-facebook:before { content: '\e803'; } /* '' */
 .icon-instagram:before { content: '\e804'; } /* '' */
-.icon-facebook:before { content: '\e805'; } /* '' */
-.icon-pinboard:before { content: '\e806'; } /* '' */
-.icon-goodreads:before { content: '\e807'; } /* '' */
-.icon-down:before { content: '\e808'; } /* '' */
+.icon-pinboard:before { content: '\e805'; } /* '' */
+.icon-goodreads:before { content: '\e806'; } /* '' */
+.icon-link:before { content: '\e807'; } /* '' */
+.icon-right:before { content: '\e808'; } /* '' */
+.icon-left:before { content: '\e809'; } /* '' */
+.icon-mail:before { content: '\e80a'; } /* '' */
+.icon-external:before { content: '\e80b'; } /* '' */

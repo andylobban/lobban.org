@@ -1,47 +1,33 @@
 <?php get_header(); ?>
 
-<main class="wrapper" id="content" role="main">
-	
-	<article class="post col--small--12 col--medium--12 push--large--1 col--large--10 push--xlarge--2 col--xlarge--8 ">
-	
-		<?php if ( have_posts() ) : ?>
-
-			<?php while ( have_posts() ) : the_post(); ?>
-			
-				<h1><?php the_title(); ?></h1>
-
-				<time>21st May 2015</time>
-						
-				<?php the_content(); ?>
-						
-				<section class="sharing clearfix">
-			
-					<div class="share share-facebook">
-						<div class="fb-like" data-send="false" data-layout="button_count" data-width="81" data-show-faces="false"></div>
-					</div>
-					
-					<div class="share share-twitter">
-						<a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
-					</div>
-					
-					<div class="share share-google">
-						<div class="g-plus" data-action="share" data-annotation="bubble"></div>
-					</div>
-					
-					<div class="share share-linkedin">
-						<script type="IN/Share" data-counter="right"></script>
-					</div>
-				
-				</section>
-				
-			<?php endwhile; ?>
-
-			<?php else : ?>
-
-		<?php endif; ?>
-		
-	</article>
-	
-</main>
+<main id="content" role="main">
+	<div class="wrapper clearfix">
+		<div class="col small-12 medium-12 large-9 xlarge-8 push--bottom">
+			<div class="row">
+				<?php if ( have_posts() ) : ?>
+				<?php while ( have_posts() ) : the_post(); ?>
+					<article class="journal__article single clearfix">
+						<div class="col small-12 medium-2 large-2 xlarge-2">
+							<time><?php the_time('d/m/Y'); ?></time>
+						</div>
+						<div class="col small-12 medium-10 large-10 xlarge-10">
+							<h1 class="page__header">
+								<?php the_title(); ?>
+							</h1>
+							<div class="journal__content">
+								<?php the_content(); ?>
+							</div>
+						</div>
+					</article>
+				<?php endwhile; ?>
+				<?php endif; ?>
+			</div>
+		</div>
+		<div class="journal__extras col small-12 medium-12 large-2 switch--large xlarge-2 push--bottom">
+			<h2>Explore</h2>
+			<?php wp_list_categories( 'title_li=' ); ?> 
+		</div>
+	</div>
+</div>
 
 <?php get_footer(); ?>

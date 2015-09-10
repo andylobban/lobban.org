@@ -1,149 +1,45 @@
 <?php get_header(); ?>
 
 <main id="content" role="main">
+    <div class="wrapper clearfix">
+        <div class="col small-12 medium-12 large-12 xlarge-12">
+            <h1 class="page__header">Journal</h1>
+        </div>
+        <div class="col small-12 medium-12 large-9 xlarge-8 push--bottom">
+            <div class="row">
+                <?php if ( have_posts() ) : ?>
+                <?php while ( have_posts() ) : the_post(); ?>
+                    <article <?php post_class( 'journal__article journal__list__item clearfix' ); ?>>
+                        <div class="col small-12 medium-2 large-2 xlarge-2">
+                            <time><?php the_time('d/m/Y'); ?></time>
+                        </div>
+                        <div class="col small-12 medium-10 large-10 xlarge-10">
+                            <h2>
+                                <a href="<?php the_permalink(); ?>">
+                                    <?php the_title(); ?>
+                                </a>
+                            </h2>
+                            <div class="journal__content">
+                                <?php the_content(); ?>
+                            </div>
+                        </div>
+                    </article>
 
-    <div class="clearfix">
-        <section class="home__intro push--bottom" data-0="opacity: 1;" data-100p="opacity: 0;">
-            <div class="intro__info">
-                <ul class="intro__projects">
-                    <li>Edinburgh, Scotland</li>
-                    <li>Designer at <a href="http://stormid.com">Storm ID</a></li>
-                    <li>Previously freelance as <a href="http://stormid.com">Nonimage</a></li>
-                    <li>Co-owner of <a href="http://gerrylovesrecords.com/">Gerry Loves Records</a></li>
-                    <li>Owner of <a href="http://secreteditions.com/">Secret Editions</a></li>
-                </ul>
+                <?php endwhile; ?>
+                
+                <div class="pagination push--top push--bottom clearfix">
+                    <div class="pagination__newer col small-6 medium-6 large-6 xlarge-6"><?php previous_posts_link( 'Newer' ); ?></div>
+                    <div class="pagination__older col small-6 medium-6 large-6 xlarge-6"><?php next_posts_link( 'Older' ); ?></div>
+                </div>
+                
+                <?php endif; ?>
             </div>
-            <p class="intro__more" data-0="opacity: 1;" data-50p="opacity: 0;">
-                <a href="#more"><i class="icon-down"></i>There's more</a>
-            </p>
-        </section>
+        </div>
+        <div class="journal__extras col small-12 medium-12 large-2 switch--large xlarge-2 push--bottom">
+            <h2>Explore</h2>
+            <?php wp_list_categories( 'title_li=' ); ?> 
+        </div>
     </div>
-
-    <div class="wrapper" id="more">
-        <section class="home__section clearfix">
-            <div class="clearfix">
-                <div class="col small-12 medium-6 large-4">
-                    <h2 class="push--bottom">Projects</h2>
-                    <div class="home__project project--film push--bottom">
-                        <a href="http://film.lobban.org">
-                            <div class="home__project__info">
-                                <h3>Photoblog</h3>
-                                <p>Attempts at film photography</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="home__project project--secret-editions push--bottom">
-                        <a href="http://secreteditions.com">
-                            <div class="home__project__info">
-                                <h3>Secret Editions</h3>
-                                <p>Tiny music label releasing experimental (pop) music</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col small-12 medium-6 large-4">
-                    <div class="home__project project--glr push--bottom">
-                        <a href="http://gerrylovesrecords.com">
-                            <div class="home__project__info">
-                                <h3>Gerry Loves Records</h3>
-                                <p>Small record label releasing quality vinyl from mostly Scottish artists</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="home__project project--instant push--bottom">
-                        <a href="http://instant.lobban.org">
-                            <div class="home__project__info">
-                                <h3>Instant</h3>
-                                <p>Every instant photo I've taken</p>
-                            </div>
-                        </a>
-                    </div>            
-                </div>
-                <div class="col small-12 medium-6 large-4">
-                    <div class="home__project project--shy-retirers push--bottom">
-                        <a href="http://theshyretirers.lobban.org">
-                            <div class="home__project__info">
-                                <h3>The Shy Retirers</h3>
-                                <p>Aggregator of Scottish music blogs</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="home__project project--sleeves-received push--bottom">
-                        <a href="http://twitter.com/sleevesreceived">
-                            <div class="home__project__info">
-                                <h3>Sleeves Received Twitter</h3>
-                                <p>Unofficial Twitter feed for The Wire's Sleeves Received blog</p>
-                            </div>
-                        </a>
-                    </div> 
-                    <div class="home__project project--other push--bottom">
-                        <a href="/info">
-                            <div class="home__project__info">
-                                <h3>Other projects</h3>
-                                <p>Old stuff, mostly</p>
-                            </div>
-                        </a>
-                    </div> 
-                </div>
-            </div>
-        </section>
-
-        <div class="home__section col small-12 medium-8 large-8 xlarge-9 clearfix">
-            <h2>Posts</h2>
-            <p>Things I've written</p>
-            <article>
-                <a href="#">
-                    <h3>Article title</h3>
-                    <time>Last month</time>
-                </a>
-            </article>
-            <article>
-                <a href="#">
-                    <h3>Article title</h3>
-                    <time>Last month</time>
-                </a>
-            </article>
-            <article>
-                <a href="#">
-                    <h3>Article title</h3>
-                    <time>Last month</time>
-                </a>
-            </article>
-            <a class="button" href="/journal">More writing</a>
-        </div>
-
-        <div class="home__section col small-12 medium-4 large-4 xlarge-3 clearfix">
-            <h2>Links</h2>
-            <p>Things I've found</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit <a href="#">url</a></p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit <a href="#">url</a></p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit <a href="#">url</a></p>
-            <a class="button" href="/journal/category/links">More links</a>
-        </div>
-
-        <div class="home__section col small-12 medium-12 large-12 xlarge-12 clearfix">
-            <h2>Instagram</h2>
-            <p>Things I've seen</p>
-            [photos x 4]
-            <a class="button" href="http://instagram.com/nonimage">More Instagram</a>
-        </div>
-
-        <div class="home__section col small-12 medium-8 large-8 xlarge-9 clearfix">
-            <h2>Listening</h2>
-            <p>Things I've listened to</p>
-            [album covers x 4]
-            <a class="button" href="#">Last.fm</a> <a class="button" href="#">Spotify</a> <a class="button" href="#">Discogs</a>
-        </div>
-
-        <div class="home__section col small-12 medium-4 large-4 xlarge-3 clearfix">
-            <h2>Reading</h2>
-            <p>Things I'm reading</p>
-            [book cover] + title etc
-            <a class="button" href="#">Goodreads</a>
-        </div>
-
-    </div>
-
-</main>
+</div>
 
 <?php get_footer(); ?>

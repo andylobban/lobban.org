@@ -32,33 +32,8 @@
 }
 
 @font-face {
-    font-family: 'salome';
-    src: url('../fonts/salome.eot');
-    src: url('../fonts/salome.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/salome.woff2') format('woff2'),
-         url('../fonts/salome.woff') format('woff'),
-         url('../fonts/salome.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'teimposheadlineblack';
     src: url('../fonts/TiemposHeadlineWeb-Black.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'sourceserifbold';
-    src: url('../fonts/SourceSerifPro-Bold.otf.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'sourceseriflight';
-    src: url('../fonts/SourceSerifPro-Light.otf.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -106,4 +81,27 @@ h2 {
 
 p {
     margin-bottom: 0.75em;
+    }
+
+.page__header {
+    margin-bottom: 2em;
+    position: relative;
+    }
+
+.page__header:after {
+    background: $link;
+    bottom: -0.4em;
+    content: '';
+    display: block;
+    height: 0.15em;
+    left: 0;
+    margin-left: 0;
+    position: absolute;
+    width: 3.5em;
+    }
+
+.journal__article.single h2 {
+    font-family: 'karlabold', sans-serif;
+    letter-spacing: -1px;
+    margin-top: 1em;
     }
