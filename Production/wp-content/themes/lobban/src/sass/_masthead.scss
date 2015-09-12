@@ -8,35 +8,30 @@
 [role="banner"] {
 	background: #fff;
 	left: 0;
-	padding: 0.45em 10px 0.5em 10px;
+	padding: 0.45em 10px 0.8em 10px;
 	position: fixed;
 	right: 0;
 	top: 0;
 	z-index: 9998;
 	@media (min-width: $breakpoint-medium) {
 	    padding-bottom: 0.75em;
-		padding-top: 1em !important;
+		padding-top: 0.5em !important;
 	    }
 	@media (min-width: $breakpoint-large) {
 		font-size: 0.833333333em;
-	    padding-bottom: 1em;
-		padding-top: 1.2em !important;
+	    padding-bottom: 1.2em;
+		padding-top: 0.8em !important;
 	    }
 	}
 
 .logo {
 	margin-bottom: 0;
+	@media (max-width: $breakpoint-medium) {
+	    width: calc(100% - 30px);
+	    }
 	@media (min-width: $breakpoint-large) and (min-height: 50em) {
 		margin-left: 20px;
 	    }
-	}
-
-.home .logo {
-	position: fixed;
-	}
-
-.home__social {
-	display: none;
 	}
 
 .logo > a {
@@ -65,8 +60,14 @@
 		}
 	}
 
+.home__social {
+	display: none;
+	}
+
 [role="navigation"] {
+	line-height: 1;
 	margin-right: 10px;
+	margin-top: 0.25em;
 	text-align: center;
 	@media (min-width: $breakpoint-medium) {
 	    width: auto;

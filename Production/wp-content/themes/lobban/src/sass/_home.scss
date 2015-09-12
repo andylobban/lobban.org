@@ -1,4 +1,14 @@
-.home .logo a  {
+.home .logo {
+	position: fixed;
+	@media (max-width: $breakpoint-medium) {
+	    margin-left: 0;
+	    }
+	}
+
+.home .logo > a  {
+	background: url(../images/bg.jpg) left top no-repeat;
+   	-webkit-background-clip: text;
+   	-webkit-text-fill-color: transparent;
 	position: relative;
 	}
 
@@ -13,9 +23,11 @@
 	position: absolute;
 	width: 3.5em;
 	@media (min-width: $breakpoint-medium) {
-		bottom: -0.4em;
+		bottom: 0;
+		height: 0.05em;
 	    left: 0;
 	    margin-left: 0;
+	    width: 2em;
 	    }
 	}
 
@@ -38,7 +50,10 @@
 	text-align: center;
 	vertical-align: middle;
 	@media (min-width: $breakpoint-medium) {
-		padding: 0 1em 0 0;
+		padding: 0 0.7em 0 0;
+		}
+	@media (min-width: $breakpoint-large) {
+		padding: 0 1.2em 0 0;
 		}
 	}	
 
@@ -82,33 +97,36 @@
 	padding-top: 0.25em;
 	}
 
+.home [role="navigation"] {
+	background: rgba(255,255,255,0.7);
+	position: relative;
+	z-index: 2;
+	}
+
 .home__intro {
 	background: #0f516d url(../images/bg.jpg) center center/cover fixed no-repeat;
 	color: #fff;
 	margin-top: 60vh;
 	padding-bottom: 2em;
 	padding-top: 2em;
+	text-align: center;
 	@media (min-width: $breakpoint-medium) {
+		align-items: center;
+		display: flex;
 	    float: right;
 		height: 100vh;
+		justify-content: center;
 		margin-top: 0;
 		padding-bottom: 0;
-		padding-top: 0;
+		padding-top: 48px;
 		width: 50%;
+	    }
+	@media (min-width: $breakpoint-large) {
+		padding-top: 55px;
 	    }
 	}
 
-.intro__projects {
-	margin-top: 0;
-	text-align: center;
-	@media (min-width: $breakpoint-medium) {
-		margin-top: 40vh;
-		text-align: center;
-		width: 100%;
-		}
-	}
-
-.intro__projects a {
+.home__intro a {
 	border-bottom: 2px solid #fff;
 	color: #ffc;
 	&:hover, &:active, &:focus {
@@ -118,11 +136,11 @@
     	}
 	}
 
-.intro__projects li {
+.home__intro li {
 	margin-bottom: 0.5em;
 	}
 
-p.intro__more {
+.intro__more {
 	border: 0;
 	bottom: 0;
 	display: none;
@@ -147,6 +165,7 @@ p.intro__more {
 	text-transform: uppercase;
 	&:hover, &:active, &:focus {
 		box-shadow: none;
+		color: #000;
         padding-bottom: 15px;
     	}
 	}
@@ -224,6 +243,7 @@ p.intro__more {
 	@include transition(all 0.2s linear);
 	&:hover, &:focus, &:active {
 		background: rgba(0,0,0,0.8);
+		box-shadow: none;
 		.home__project__info {
 			bottom: 1.5em;
 			@include transition(all 0.2s linear);

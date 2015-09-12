@@ -33,14 +33,16 @@
 
     	<a href="#content" class="away skip-link">Skip to main content</a>
     
-    	<header role="banner" data-20p="padding-top: 0.3em;" data-30p="padding-top: 1.5em;">
+    	<header role="banner" data-20p="padding-top: 0.4em;" data-30p="padding-top: 1.6em;">
     		<div class="wrapper clearfix">
 		
-				<div class="logo col small-12 medium-3 large-6"
+				<div class="logo col small-12 medium-5 large-5 xlarge-5"
 				data-0="
+					margin-top: 0px;
 					padding-left: 0em;
 					top: 20vh;" 
-				data-34p="
+				data-36p="
+					margin-top: 0px;
 					padding-left: 0em;
 					top: 0vh;"
 				>
@@ -49,9 +51,9 @@
 						color: rgb(68,68,68); 
 						font-size: 2em; 
 						letter-spacing: -1px; 
-						padding-bottom: 0em; 
+						padding-bottom: 0.3em; 
 						padding-top: 0em;" 
-					data-34p="
+					data-36p="
 						color: rgb(0,0,0); 
 						font-size: 1em; 
 						letter-spacing: 0px; 
@@ -62,7 +64,7 @@
 						<span class="shape"
 						data-0="
 						opacity: 1;" 
-						data-34p="
+						data-36p="
 						opacity: 0;"></span>
 					</a>
 					<ul class="home__social" 
@@ -71,9 +73,9 @@
 						opacity: 1;" 
 					data-20p="
 						opacity: 1;" 
-					data-34p="
+					data-36p="
 						opacity: 0;"
-					data-35p="
+					data-37p="
 						display: none;"
 					>
 		                <li><a class="icon-mail" href="/contact"><span class="away">Email</span></a></li>
@@ -84,13 +86,11 @@
 				</div>
 				
 				<nav class="col small-12 medium-9 large-6 switch--medium" role="navigation">
-				
 					<ul>
 						<li><a href="/portfolio">Portfolio</a></li>
 						<li><a href="/journal">Journal</a></li>
 						<li><a href="/info">Info</a></li>
 					</ul>
-				
 				</nav>
 
 			</div>
