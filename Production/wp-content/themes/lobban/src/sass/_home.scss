@@ -6,10 +6,11 @@
 	}
 
 .home .logo > a  {
+	/* autoprefixer: off */
  	background: -webkit-linear-gradient(transparent, transparent),
              	url(../images/bg.jpg) left top no-repeat;
  	background: -o-linear-gradient(transparent, transparent);
- 	color: #333;
+ 	color: #0D3546;
 	position: relative;
 	-webkit-background-clip: text;
  	-webkit-text-fill-color: transparent;

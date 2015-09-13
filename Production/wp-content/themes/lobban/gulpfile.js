@@ -1,81 +1,111 @@
-'use strict';
-
-// = load plugins
+// = Packages
 //-----------------------------------------------------------------------------//
 
     var gulp            = require('gulp'),
-        sass            = require('gulp-ruby-sass'),
-        psi             = require('psi'),
-        gulpif          = require('gulp-if'),
-        runSequence     = require('run-sequence'),
+        autoprefixer    = require('gulp-autoprefixer'),
         cache           = require('gulp-cache'),
-        lazypipe        = require('lazypipe'),
-        filter          = require('gulp-filter'),
-        uglify          = require('gulp-uglify'),
-        minifyCss       = require('gulp-minify-css'),
         imagemin        = require('gulp-imagemin'),
-        useref          = require('gulp-useref'),
-        wiredep         = require('wiredep').stream;
+        plumber         = require('gulp-plumber'),
+        sass            = require('gulp-sass'),
+        shell           = require('gulp-shell'),
+        runSequence     = require('run-sequence'),
+        del             = require('del');
 
 
-// = assets
+// = Global vars
 //-----------------------------------------------------------------------------//
 
-    gulp.task('fonts', function() {
-        return gulp.src('src/fonts/**/*.*')
-        .pipe(gulp.dest('dist/fonts/'))
+    //     assets          = useref.assets();
+
+    var onError = function (err) {
+        //gutil.beep();
+        console.log(err);
+        this.emit('end');
+    };
+
+// = default
+//-----------------------------------------------------------------------------//
+    gulp.task('default', function() {
+        runSequence('clean', ['clean', 'sass', 'images', 'scripts', 'extras']);
     });
 
 
-// = styles
+// = Clean
 //-----------------------------------------------------------------------------//
 
-    gulp.task('styles', function() {
+    gulp.task('clean', function() {
+        return del('dist');
+    });
+
+
+// = Sass
+//-----------------------------------------------------------------------------//
+
+    gulp.task('sass', function() {
         return gulp.src('src/sass/**/*.scss')
-        .pipe(sass({
-            style: 'compressed',
-            sourcemap: false
+        .pipe(plumber(onError))
+        .pipe(sass())
+        .pipe(autoprefixer({
+            browsers: ['last 2 versions'],
+            cascade: false
         }))
-        .on('error', function (err) {console.log(err.message);})
-        .pipe(gulp.dest('dist/css/'))
+        .pipe(gulp.dest('dist/css/'));
     });
 
 
-// = js
-//-----------------------------------------------------------------------------//
-
-    gulp.task('scripts', function() {
-        return gulp.src('src/js/**/*.js')
-        .pipe(gulp.dest('dist/js/'))
-    });
-
-
-// = images
+// = Images
 //-----------------------------------------------------------------------------//
 
     gulp.task('images', function() {
         return gulp.src('src/images/**/*')
         .pipe(cache(imagemin({
             progressive: true,
-            interlaced: true
+            interlaced: true,
+            svgoPlugins: [{cleanupIDs: false}]
         })))
-        .pipe(gulp.dest('dist/images/'))
+        .pipe(gulp.dest('dist/images/'));
     });
 
 
-// = clean
+// = Javascript
 //-----------------------------------------------------------------------------//
 
-    gulp.task('clean', require('del').bind(null, ['dist']));
+    gulp.task('scripts', function() {
+        return gulp.src('src/js/**/*')
+        .pipe(gulp.dest('dist/js/'))
+    });
 
 
-// = tasks
+// = Extras
 //-----------------------------------------------------------------------------//
 
-    gulp.task('watch', function (cb) {
-        runSequence('styles', 'scripts', 'images', 'fonts', cb);
-        gulp.watch('src/sass/**/*.scss', ['styles']);
-        gulp.watch('src/js/**/*.js', ['scripts']);
-        gulp.watch('src/images/**/*', ['images']);
-        gulp.watch('src/fonts/**/*', ['fonts']);
+    gulp.task('extras', function () {
+        return gulp.src(['src/**/*', '!src/{sass,sass/**}', '!src/{images,images/**}', '!src/{js,js/**}'])
+        .pipe(gulp.dest('dist/'));
+    });
+
+
+// = Serve
+//-----------------------------------------------------------------------------//
+
+    gulp.task('serve', ['sass', 'images', 'scripts', 'extras'], function() {
+        var fs = require("fs");
+        var browserSync = require('browser-sync');
+        var reload = browserSync.reload;
+
+        var fileContent=fs.readFileSync("gulp.config", "utf8");
+        var config = JSON.parse(fileContent);
+        browserSync({
+            proxy: 'http://nss.local/',
+            notify: false,
+            host: config.external_ip
+        });
+
+        gulp.watch('src/sass/**/*.scss', ['sass', browserSync.reload]);
+
+        gulp.watch([
+            '*.php',
+            'src/js/**/*'
+        ]).on('change', browserSync.reload);
+
     });

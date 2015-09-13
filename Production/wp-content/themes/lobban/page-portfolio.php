@@ -22,6 +22,7 @@ Template Name: Portfolio
                     <p>Here's the <a href="https://secreteditions.bandcamp.com/album/argyle-beauty">branding and packaging design</a> for another record label.</p>
                     <p>I made a website for a <a href="http://voxboxmusic.co.uk/">record shop</a>.</p>
                     <p>You can see some branding I did on the <a href="https://instagram.com/p/7hUUlSCpfKYChTe5f9JQlNN3VpaWk1TGajzuA0/?taken-by=tomeagle">side of a truck</a> on a building site.</p>
+                    <p>I created a Sass <a href="https://github.com/nonimage/calc-Sass-Grid">grid system based on <code>calc()</code></a> for using fixed or fluid width gutters with fluid width columns.</p>
                 </section>
             </div>
         </div>

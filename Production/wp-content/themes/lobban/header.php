@@ -48,13 +48,11 @@
 				>
 					<a href="/" 
 					data-0="
-						color: rgb(68,68,68); 
 						font-size: 2em; 
 						letter-spacing: -1px; 
 						padding-bottom: 0.3em; 
 						padding-top: 0em;" 
 					data-36p="
-						color: rgb(0,0,0); 
 						font-size: 1em; 
 						letter-spacing: 0px; 
 						padding-bottom: 0.25em; 
