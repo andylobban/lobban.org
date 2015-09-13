@@ -21,7 +21,7 @@ Template Name: Portfolio
                     <p>Maybe one day I'll add some examples of other things I've done, but for now, here's my <a href="http://gerrylovesrecords.com">record label website</a> and some sleeve art I've done for it: <a href="http://music.gerrylovesrecords.com/album/split-ep-2">LOVES019</a>, <a href="http://music.gerrylovesrecords.com/album/victory-lap-the-lowdown-of-a-loud-sound-single">LOVES013</a>, <a href="http://music.gerrylovesrecords.com/album/rick-redbeard-adam-stafford-split-single">LOVES009</a>, <a href="http://music.gerrylovesrecords.com/album/split-ep">LOVES003</a>. 
                     <p>Here's the <a href="https://secreteditions.bandcamp.com/album/argyle-beauty">branding and packaging design</a> for another record label.</p>
                     <p>I made a website for a <a href="http://voxboxmusic.co.uk/">record shop</a>.</p>
-                    <p>Some branding I did ended up on the <a href="https://instagram.com/p/7hUUlSCpfKYChTe5f9JQlNN3VpaWk1TGajzuA0/?taken-by=tomeagle">side of a truck</a> on a building site.</p>
+                    <p>You can see some branding I did on the <a href="https://instagram.com/p/7hUUlSCpfKYChTe5f9JQlNN3VpaWk1TGajzuA0/?taken-by=tomeagle">side of a truck</a> on a building site.</p>
                 </section>
             </div>
         </div>

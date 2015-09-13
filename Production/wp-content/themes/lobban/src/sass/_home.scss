@@ -6,10 +6,13 @@
 	}
 
 .home .logo > a  {
-	background: url(../images/bg.jpg) left top no-repeat;
-   	-webkit-background-clip: text;
-   	-webkit-text-fill-color: transparent;
+ 	background: -webkit-linear-gradient(transparent, transparent),
+             	url(../images/bg.jpg) left top no-repeat;
+ 	background: -o-linear-gradient(transparent, transparent);
+ 	color: #333;
 	position: relative;
+	-webkit-background-clip: text;
+ 	-webkit-text-fill-color: transparent;
 	}
 
 .home .logo .shape {
