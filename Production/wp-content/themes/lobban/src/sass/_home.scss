@@ -94,7 +94,10 @@
 	}
 
 .home__social a.icon-twitter {
-	padding-top: 0.25em;
+	padding-top: 0.2em;
+	@media (min-width: $breakpoint-medium) {
+	    padding-top: 0.25em;
+	    }
 	}
 
 .home [role="navigation"] {
@@ -191,7 +194,7 @@
 .home__project.project--instant {
 	background: url(../images/instant.jpg) center center / cover no-repeat;
 	@media (min-width: $breakpoint-medium) {
-	    height: 12.25em;
+	    height: 12.45em;
 	    }
 	}
 
@@ -225,7 +228,7 @@
 
 .home__project.project--other {
 	@media (min-width: $breakpoint-medium) {
-	    height: 6.2em;
+	    height: 5.9em;
 	    }
 	}
 

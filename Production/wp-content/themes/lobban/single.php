@@ -4,7 +4,7 @@
 	<div class="wrapper clearfix">
 		<?php if ( have_posts() ) : ?>
 		<?php while ( have_posts() ) : the_post(); ?>
-			<article class="journal__article single push--bottom clearfix">
+			<article class="article single push--bottom clearfix">
 				<div class="col small-12 medium-2 large-2 xlarge-2">
 					<time><?php the_time('d/m/Y'); ?></time>
 				</div>
@@ -12,7 +12,7 @@
 					<h1 class="page__header">
 						<?php the_title(); ?>
 					</h1>
-					<div class="journal__content">
+					<div class="article__content">
 						<?php the_content(); ?>
 					</div>
 				</div>

@@ -96,5 +96,4 @@
 			</div>
 		
 		</header>
-
-		<div id="skrollr-body">
+		

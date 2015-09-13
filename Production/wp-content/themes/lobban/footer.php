@@ -1,5 +1,3 @@
-		</div>
-
 		<footer role="contentinfo">
 			
 		</footer>

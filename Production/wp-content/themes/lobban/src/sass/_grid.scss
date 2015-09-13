@@ -20,8 +20,6 @@ $margin-right: ($gutter/2);
 .wrapper {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 5px;
-    padding-right: 5px;
     max-width: $site_max_width;
     width: 100%;
 }
@@ -38,6 +36,7 @@ $margin-right: ($gutter/2);
     .col {
         margin-left: ($gutter/2);
         margin-right: ($gutter/2);
+        width: calc(100% - #{$gutter});
         .row {
             margin-left: -($gutter/2);
             margin-right: -($gutter/2);
@@ -57,7 +56,7 @@ $margin-right: ($gutter/2);
             width: calc(#{$column_width} - #{$gutter});
         }
         // Need to test this
-       .push--#{$class}-#{$i} {
+       .col.push--#{$class}-#{$i} {
             margin-left: calc(#{$column_width} + (#{$gutter}/2));
         }
     }
@@ -94,9 +93,9 @@ $margin-right: ($gutter/2);
 }
 
 @media (min-width: $breakpoint-large) {
-    @include grid($class: 'large');
+    @include grid($class: 'large', $gutter: 30px);
 }
 
 @media (min-width: $breakpoint-xlarge) {
-    @include grid($class: 'xlarge');
+    @include grid($class: 'xlarge', $gutter: 30px);
 }

@@ -11,8 +11,8 @@
  
 [class^="icon-"]:before, 
 [class*=" icon-"]:before,
-.category-link .journal__content p:before, 
-.category-link .journal__content p:after, 
+.category-link .article__content p:before, 
+.category-link .article__content p:after, 
 .pagination__older a:after, 
 .pagination__newer a:before {
   font-family: "fontello";
@@ -32,7 +32,7 @@
   margin-right: 0;
 }
 
-.category-link .journal__content p:first-of-type:before { content: '\e807'; } /* '' */
+.category-link .article__content p:first-of-type:before { content: '\e807'; } /* '' */
 .pagination__older a:after { content: '\e808'; } /* '' */
 .pagination__newer a:before { content: '\e809'; } /* '' */
 
