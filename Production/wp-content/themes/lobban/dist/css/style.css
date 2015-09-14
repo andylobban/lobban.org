@@ -12,7 +12,6 @@
 @viewport {
   width: device-width; }
 
-/* Vendor prefix mixins */
 * {
   box-sizing: border-box; }
 
@@ -891,12 +890,42 @@ main {
 
 .home .logo > a {
   /* autoprefixer: off */
-  background: -webkit-linear-gradient(transparent, transparent), url(../images/bg.jpg) left top no-repeat;
+  background: -webkit-linear-gradient(transparent, transparent), url(../images/bg-340.jpg) left top no-repeat;
   background: -o-linear-gradient(transparent, transparent);
   color: #0D3546;
   position: relative;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
+  @media (min-width: 500px) {
+    .home .logo > a {
+      /* autoprefixer: off */
+      background: -webkit-linear-gradient(transparent, transparent), url(../images/bg-500.jpg) left top no-repeat;
+      -webkit-background-clip: text; } }
+  @media (min-width: 600px) {
+    .home .logo > a {
+      /* autoprefixer: off */
+      background: -webkit-linear-gradient(transparent, transparent), url(../images/bg-600.jpg) left top no-repeat;
+      -webkit-background-clip: text; } }
+  @media (min-width: 40em) and (min-height: 700px) {
+    .home .logo > a {
+      /* autoprefixer: off */
+      background: -webkit-linear-gradient(transparent, transparent), url(../images/bg-1022.jpg) left top no-repeat;
+      -webkit-background-clip: text; } }
+  @media (min-width: 40em) and (min-height: 800px) {
+    .home .logo > a {
+      /* autoprefixer: off */
+      background: -webkit-linear-gradient(transparent, transparent), url(../images/bg-1168.jpg) left top no-repeat;
+      -webkit-background-clip: text; } }
+  @media (min-width: 40em) and (min-height: 900px) {
+    .home .logo > a {
+      /* autoprefixer: off */
+      background: -webkit-linear-gradient(transparent, transparent), url(../images/bg-1315.jpg) left top no-repeat;
+      -webkit-background-clip: text; } }
+  @media (min-width: 40em) and (min-height: 1000px) {
+    .home .logo > a {
+      /* autoprefixer: off */
+      background: -webkit-linear-gradient(transparent, transparent), url(../images/bg-1500.jpg) left top no-repeat;
+      -webkit-background-clip: text; } }
 
 .home .logo .shape {
   background: #21888A;
@@ -949,9 +978,12 @@ main {
   color: #444;
   display: inline-block;
   height: 40px;
-  padding-top: 0.2em;
+  padding-top: 0.3em;
   text-align: center;
   width: 40px; }
+  @media (min-width: 40em) {
+    .home__social a {
+      padding-top: 0.25em; } }
   @media (min-width: 60em) {
     .home__social a {
       font-size: 1.3em;
@@ -972,11 +1004,9 @@ main {
       font-size: 1.1em;
       padding-top: 0.35em; } }
 
-.home__social a.icon-twitter {
-  padding-top: 0.2em; }
-  @media (min-width: 40em) {
-    .home__social a.icon-twitter {
-      padding-top: 0.25em; } }
+@media (min-width: 60em) {
+  .home__social a.icon-twitter {
+    padding-top: 0.25em; } }
 
 .home [role="navigation"] {
   background: rgba(255, 255, 255, 0.7);
@@ -984,12 +1014,18 @@ main {
   z-index: 2; }
 
 .home__intro {
-  background: #0f516d url(../images/bg.jpg) center center/cover fixed no-repeat;
+  background: #0f516d url(../images/bg-340.jpg) center center/cover no-repeat;
   color: #fff;
   margin-top: 60vh;
   padding-bottom: 2em;
   padding-top: 2em;
   text-align: center; }
+  @media (min-width: 500px) {
+    .home__intro {
+      background-image: url(../images/bg-500.jpg); } }
+  @media (min-width: 600px) {
+    .home__intro {
+      background-image: url(../images/bg-600.jpg); } }
   @media (min-width: 40em) {
     .home__intro {
       -webkit-align-items: center;
@@ -1007,6 +1043,18 @@ main {
       padding-bottom: 0;
       padding-top: 48px;
       width: 50%; } }
+  @media (min-width: 40em) and (min-height: 700px) {
+    .home__intro {
+      background-image: url(../images/bg-1022.jpg); } }
+  @media (min-width: 40em) and (min-height: 800px) {
+    .home__intro {
+      background-image: url(../images/bg-1168.jpg); } }
+  @media (min-width: 40em) and (min-height: 900px) {
+    .home__intro {
+      background-image: url(../images/bg-1315.jpg); } }
+  @media (min-width: 40em) and (min-height: 1000px) {
+    .home__intro {
+      background-image: url(../images/bg-1500.jpg); } }
   @media (min-width: 60em) {
     .home__intro {
       padding-top: 55px; } }
@@ -1209,6 +1257,35 @@ main {
   list-style-type: disc;
   margin-bottom: 0.25em;
   margin-left: 1em; }
+
+.info__intro {
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse; }
+
+.info__intro figure {
+  background: url(../images/andy-lobban-400.jpg) center top/cover no-repeat;
+  margin-bottom: 2em;
+  position: relative; }
+  @media (max-width: 40em) {
+    .info__intro figure {
+      height: 200px; } }
+  @media (min-width: 420px) {
+    .info__intro figure {
+      background-image: url(../images/andy-lobban-600.jpg); } }
+  @media (min-width: 40em) {
+    .info__intro figure {
+      background-image: url(../images/andy-lobban-400.jpg);
+      margin-bottom: 0; } }
+
+.info__intro figure .wp-caption-text {
+  bottom: -1.5em;
+  margin: 0;
+  right: 0;
+  position: absolute; }
+
+.info__intro img {
+  display: none; }
 
 .page--info .article__content h2 {
   margin-bottom: 0.5em; }

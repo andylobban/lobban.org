@@ -13,12 +13,12 @@ Template Name: Info
             <?php the_title(); ?>
         </h1>
         <div class="article__content">
-            <div class="clearfix">
-                <figure class="col small-12 medium-5 switch--medium large-6 xlarge-4 push--bottom">
-                    <img title="Andy Lobban" src="<?php echo get_template_directory_uri(); ?>/dist/images/andy-lobban.jpg" alt="Photo of Andy Lobban" width="700" height="525" />
-                    <p class="wp-caption-text">Photo by <a href="http://www.wojtekkutyla.com/">Wojtek Kutyla</a>.</p>
+            <div class="info__intro modules push--bottom clearfix">
+                <figure class="col small-12 medium-5 push--medium-1 large-4 push--large-2 xlarge-4 push--xlarge-2">
+                    <img src="<?php echo get_template_directory_uri(); ?>/dist/images/andy-lobban.jpg" alt="Photo of Andy Lobban" width="700" height="525" />
+                    <p class="wp-caption-text">Photo by <a href="http://www.wojtekkutyla.com/">Wojtek Kutyla</a></p>
                 </figure>
-                <section class="col small-12 medium-7 large-6 xlarge-6">
+                <section class="col small-12 medium-6 large-6 xlarge-6">
                     <p>I live in Edinburgh, Scotland. I’m currently a designer at <a href="http://stormid.com">Storm ID</a>. <span class="break">I’m married to the ever-patient <a href="http://twitter.com/loislobban">Lois</a>.</span></p>
                     <h2>Contact</h2>
                     <ul>

@@ -8,12 +8,48 @@
 .home .logo > a  {
 	/* autoprefixer: off */
  	background: -webkit-linear-gradient(transparent, transparent),
-             	url(../images/bg.jpg) left top no-repeat;
+             	url(../images/bg-340.jpg) left top no-repeat;
  	background: -o-linear-gradient(transparent, transparent);
  	color: #0D3546;
 	position: relative;
 	-webkit-background-clip: text;
  	-webkit-text-fill-color: transparent;
+ 	@media (min-width: 500px) {
+ 		/* autoprefixer: off */
+ 		background: -webkit-linear-gradient(transparent, transparent),
+             		url(../images/bg-500.jpg) left top no-repeat;
+        -webkit-background-clip: text;
+		}
+	@media (min-width: 600px) {
+		/* autoprefixer: off */
+		background: -webkit-linear-gradient(transparent, transparent),
+             		url(../images/bg-600.jpg) left top no-repeat;
+        -webkit-background-clip: text;
+		}
+	@media (min-width: $breakpoint-medium) and (min-height: 700px) {
+		/* autoprefixer: off */
+		background: -webkit-linear-gradient(transparent, transparent),
+             		url(../images/bg-1022.jpg) left top no-repeat;
+        -webkit-background-clip: text;
+		}
+	@media (min-width: $breakpoint-medium) and (min-height: 800px) {
+		/* autoprefixer: off */
+		background: -webkit-linear-gradient(transparent, transparent),
+             		url(../images/bg-1168.jpg) left top no-repeat;
+        -webkit-background-clip: text;
+		}
+	@media (min-width: $breakpoint-medium) and (min-height: 900px) {
+		/* autoprefixer: off */
+		background: -webkit-linear-gradient(transparent, transparent),
+             		url(../images/bg-1315.jpg) left top no-repeat;
+        -webkit-background-clip: text;
+		}
+	@media (min-width: $breakpoint-medium) and (min-height: 1000px) {
+		/* autoprefixer: off */
+		background: -webkit-linear-gradient(transparent, transparent),
+             		url(../images/bg-1500.jpg) left top no-repeat;
+        -webkit-background-clip: text;
+		}
 	}
 
 .home .logo .shape {
@@ -71,9 +107,12 @@
 	color: #444;
 	display: inline-block;
 	height: 40px;
-	padding-top: 0.2em;
+	padding-top: 0.3em;
 	text-align: center;
 	width: 40px;
+	@media (min-width: $breakpoint-medium) {
+		padding-top: 0.25em;
+		}
 	@media (min-width: $breakpoint-large) {
 		font-size: 1.3em;
 		height: 46px;
@@ -98,8 +137,7 @@
 	}
 
 .home__social a.icon-twitter {
-	padding-top: 0.2em;
-	@media (min-width: $breakpoint-medium) {
+	@media (min-width: $breakpoint-large) {
 	    padding-top: 0.25em;
 	    }
 	}
@@ -111,12 +149,18 @@
 	}
 
 .home__intro {
-	background: #0f516d url(../images/bg.jpg) center center/cover fixed no-repeat;
+	background: #0f516d url(../images/bg-340.jpg) center center / cover no-repeat;
 	color: #fff;
 	margin-top: 60vh;
 	padding-bottom: 2em;
 	padding-top: 2em;
 	text-align: center;
+	@media (min-width: 500px) {
+		background-image: url(../images/bg-500.jpg);
+		}
+	@media (min-width: 600px) {
+		background-image: url(../images/bg-600.jpg);
+		}
 	@media (min-width: $breakpoint-medium) {
 		align-items: center;
 		display: flex;
@@ -128,6 +172,18 @@
 		padding-top: 48px;
 		width: 50%;
 	    }
+	@media (min-width: $breakpoint-medium) and (min-height: 700px) {
+		background-image: url(../images/bg-1022.jpg);
+		}
+	@media (min-width: $breakpoint-medium) and (min-height: 800px) {
+		background-image: url(../images/bg-1168.jpg);
+		}
+	@media (min-width: $breakpoint-medium) and (min-height: 900px) {
+		background-image: url(../images/bg-1315.jpg);
+		}
+	@media (min-width: $breakpoint-medium) and (min-height: 1000px) {
+		background-image: url(../images/bg-1500.jpg);
+		}
 	@media (min-width: $breakpoint-large) {
 		padding-top: 55px;
 	    }
@@ -247,13 +303,13 @@
 	position: absolute;
 	right: 0;
 	top: 0;
-	@include transition(all 0.2s linear);
+	transition: all 0.2s linear;
 	&:hover, &:focus, &:active {
 		background: rgba(0,0,0,0.8);
 		box-shadow: none;
 		.home__project__info {
 			bottom: 1.5em;
-			@include transition(all 0.2s linear);
+			transition: all 0.2s linear;
 			}
 		}
 	}

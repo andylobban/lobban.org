@@ -10,3 +10,9 @@ RewriteRule . /index.php [L]
 </IfModule>
 
 # END WordPress
+
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType application/font-woff "access 1 year"
+ExpiresDefault "access 7 days"
+</IfModule>

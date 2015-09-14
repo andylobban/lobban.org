@@ -33,7 +33,7 @@
 
     	<a href="#content" class="away skip-link">Skip to main content</a>
     
-    	<header role="banner" data-20p="padding-top: 0.4em;" data-30p="padding-top: 1.6em;">
+    	<header role="banner" data-20p="padding-top: 0.4em;" data-30p="padding-top: 1.45em;">
     		<div class="wrapper clearfix">
 		
 				<div class="logo col small-12 medium-5 large-5 xlarge-5"
@@ -85,7 +85,7 @@
 				
 				<nav class="col small-12 medium-9 large-6 switch--medium" role="navigation">
 					<ul>
-						<li><a href="/portfolio">Portfolio</a></li>
+						<li><a href="/work">Work</a></li>
 						<li><a href="/journal">Journal</a></li>
 						<li><a href="/info">Info</a></li>
 					</ul>
