@@ -870,6 +870,9 @@ main {
 .home main {
   padding-top: 0; }
 
+.modules__header {
+  float: none; }
+
 .modules {
   display: -webkit-flex;
   display: -ms-flexbox;

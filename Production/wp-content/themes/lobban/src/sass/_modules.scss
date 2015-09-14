@@ -1,3 +1,7 @@
+.modules__header {
+	float: none;
+	}
+
 .modules {
 	display: flex;
 	flex-wrap: wrap;
@@ -7,4 +11,3 @@
 .module p {
 	margin-bottom: 0;
 	}
-

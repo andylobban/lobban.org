@@ -9,7 +9,7 @@ Template Name: Info
 <main class="page--info article wrapper push--bottom clearfix" id="content" role="main">
     <?php if ( have_posts() ) : ?>
     <?php while ( have_posts() ) : the_post(); ?>
-        <h1 class="page__header col small-12 medium-12 large-12 xlarge-12">
+        <h1 class="page__header col small-12 medium-12 large-12 xlarge-12 modules__header">
             <?php the_title(); ?>
         </h1>
         <div class="article__content">
@@ -28,7 +28,7 @@ Template Name: Info
                 </section>
             </div>
             <section>
-                <h2 class="col small-12 medium-12 large-12 xlarge-12">Current projects</h2>
+                <h2 class="col small-12 medium-12 large-12 xlarge-12 modules__header">Current projects</h2>
                 <ul class="modules clearfix">
                     <li class="module col small-12 medium-6 large-4 xlarge-3 push--bottom">
                         <h3><a href="http://lobban.org/journal">Journal</a></h3>
@@ -113,7 +113,7 @@ Template Name: Info
                 </section>
             </div>
             <section>
-                <div class="col small-12 medium-12 large-12 xlarge-12">
+                <div class="col small-12 medium-12 large-12 xlarge-12 modules__header">
                     <h2>Chat</h2>
                 </div>
                 <ul class="modules clearfix">
@@ -128,7 +128,7 @@ Template Name: Info
                 </ul>
             </section>
             <section>
-                <div class="col small-12 medium-12 large-12 xlarge-12">
+                <div class="col small-12 medium-12 large-12 xlarge-12 modules__header">
                     <h2>I’m social</h2>
                     <p>You can find me on these networks, at least in spirit.</p>
                 </div>
