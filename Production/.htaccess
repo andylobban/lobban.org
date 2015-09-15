@@ -16,3 +16,7 @@ ExpiresActive On
 ExpiresByType application/font-woff "access 1 year"
 ExpiresDefault "access 7 days"
 </IfModule>
+
+<ifModule mod_headers.c>
+    Header set Connection keep-alive
+</ifModule>
