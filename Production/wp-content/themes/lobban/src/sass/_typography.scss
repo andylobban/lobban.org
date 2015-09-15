@@ -1,4 +1,14 @@
 @font-face {
+    font-family: 'teimposheadlineblack';
+    src: url('../fonts/TiemposHeadlineWeb-Black.eot');
+    src: url('../fonts/TiemposHeadlineWeb-Black.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TiemposHeadlineWeb-Black.woff2') format('woff2'),
+         url('../fonts/TiemposHeadlineWeb-Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
     font-family: 'karlabold';
     src: url('../fonts/karla-bold.eot');
     src: url('../fonts/karla-bold.eot?#iefix') format('embedded-opentype'),
@@ -7,7 +17,7 @@
          url('../fonts/karla-bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-}
+    }
 
 @font-face {
     font-family: 'karlaitalic';
@@ -18,7 +28,7 @@
          url('../fonts/karla-italic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-}
+    }
 
 @font-face {
     font-family: 'karlaregular';
@@ -29,14 +39,7 @@
          url('../fonts/karla-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-}
-
-@font-face {
-    font-family: 'teimposheadlineblack';
-    src: url('../fonts/TiemposHeadlineWeb-Black.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+    }
 
 html, 
 body, 
