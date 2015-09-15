@@ -87,7 +87,7 @@ Template Name: Info
                     <ul>
                         <li>
                             <h3>2009-2012:&nbsp;<a href="http://lobban.org/offthebeatentracks" rel="me">Off The Beaten Tracks</a></h3>
-                            <p>A musical project in unusual surroundings. Acoustic sessions in odd places around Edinburgh and beyond. Co-run with <a title="Alex Kirk aka Showburner" href="http://showburner.com/">Alex Kirk</a>.</p>
+                            <p>A musical project in unusual surroundings. Acoustic sessions in odd places around Edinburgh and beyond. Co-run with <a title="Alex Kirk aka Ted's Records" href="http://tedsrecords.com/">Alex Kirk</a>.</p>
                         </li>
                         <li>
                             <h3>2010-2012: <a href="http://refreshedinburgh.org">Refresh Edinburgh</a></h3>
