@@ -65,7 +65,7 @@
 						data-36p="
 						opacity: 0;"></span>
 					</a>
-					<ul class="home__social" 
+					<ul class="social home__social" 
 					data-0="
 						display: inline-block;
 						opacity: 1;" 

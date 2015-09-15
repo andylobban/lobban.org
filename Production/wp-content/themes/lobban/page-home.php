@@ -28,9 +28,9 @@ Template Name: Home
         <div class="wrapper" id="more">
             <section class="home__section clearfix">
                 <div class="clearfix">
-                    <div class="col small-12 medium-6 large-4 xlarge-4">
+                    <div class="col small-12 medium-4 large-4 xlarge-4">
                         <h2 class="push--bottom">Projects</h2>
-                        <div class="home__project project--film push--bottom" data-bottom="margin-top: 2em;" data-center="margin-top: 0em;">
+                        <div class="home__project project--film push--bottom" data-bottom-top="margin-top: 3em;" data-center-top="margin-top: 0em;">
                             <a href="http://film.lobban.org">
                                 <div class="home__project__info">
                                     <h3>Photoblog</h3>
@@ -38,7 +38,7 @@ Template Name: Home
                                 </div>
                             </a>
                         </div>
-                        <div class="home__project project--secret-editions push--bottom" data-bottom="margin-top: 3em;" data-center="margin-top: 0em;">
+                        <div class="home__project project--secret-editions push--bottom" data-bottom-top="margin-top: 3em;" data-center-top="margin-top: 0em;">
                             <a href="http://secreteditions.com">
                                 <div class="home__project__info">
                                     <h3>Secret Editions</h3>
@@ -47,8 +47,8 @@ Template Name: Home
                             </a>
                         </div>
                     </div>
-                    <div class="col small-12 medium-6 large-4 xlarge-4">
-                        <div class="home__project project--glr push--bottom" data-bottom="margin-top: 3em;" data-center="margin-top: 0em;">
+                    <div class="col small-12 medium-4 large-4 xlarge-4">
+                        <div class="home__project project--glr push--bottom" data-bottom-top="margin-top: 3em;" data-center-top="margin-top: 0em;">
                             <a href="http://gerrylovesrecords.com">
                                 <div class="home__project__info">
                                     <h3>Gerry Loves Records</h3>
@@ -56,7 +56,7 @@ Template Name: Home
                                 </div>
                             </a>
                         </div>
-                        <div class="home__project project--instant push--bottom" data-bottom="margin-top: 3em;" data-center="margin-top: 0em;">
+                        <div class="home__project project--instant push--bottom" data-bottom-top="margin-top: 3em;" data-center-top="margin-top: 0em;">
                             <a href="http://instant.lobban.org">
                                 <div class="home__project__info">
                                     <h3>Instant</h3>
@@ -65,8 +65,8 @@ Template Name: Home
                             </a>
                         </div>            
                     </div>
-                    <div class="col small-12 medium-6 large-4 xlarge-4">
-                        <div class="home__project project--shy-retirers push--bottom" data-bottom="margin-top: 3em;" data-center="margin-top: 0em;">
+                    <div class="col small-12 medium-4 large-4 xlarge-4">
+                        <div class="home__project project--shy-retirers push--bottom" data-bottom-top="margin-top: 3em;" data-center-top="margin-top: 0em;">
                             <a href="http://theshyretirers.lobban.org">
                                 <div class="home__project__info">
                                     <h3>The Shy Retirers</h3>
@@ -74,7 +74,7 @@ Template Name: Home
                                 </div>
                             </a>
                         </div>
-                        <div class="home__project project--sleeves-received push--bottom" data-bottom="margin-top: 3em;" data-center="margin-top: 0em;">
+                        <div class="home__project project--sleeves-received push--bottom" data-bottom-top="margin-top: 3em;" data-center-top="margin-top: 0em;">
                             <a href="http://twitter.com/sleevesreceived">
                                 <div class="home__project__info">
                                     <h3>Sleeves Received Twitter</h3>
@@ -82,7 +82,7 @@ Template Name: Home
                                 </div>
                             </a>
                         </div> 
-                        <div class="home__project project--other push--bottom" data-bottom="margin-top: 3em;" data-center="margin-top: 0em;">
+                        <div class="home__project project--other push--bottom" data-bottom-top="margin-top: 3em;" data-center-top="margin-top: 0em;">
                             <a href="/info">
                                 <div class="home__project__info">
                                     <h3>Other projects</h3>

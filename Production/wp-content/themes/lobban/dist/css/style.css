@@ -576,6 +576,13 @@ textarea:focus {
     margin-top: 30px; } }
 
 @font-face {
+  font-family: 'teimposheadlineblack';
+  src: url("../fonts/TiemposHeadlineWeb-Black.eot");
+  src: url("../fonts/TiemposHeadlineWeb-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/TiemposHeadlineWeb-Black.woff2") format("woff2"), url("../fonts/TiemposHeadlineWeb-Black.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
   font-family: 'karlabold';
   src: url("../fonts/karla-bold.eot");
   src: url("../fonts/karla-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/karla-bold.woff2") format("woff2"), url("../fonts/karla-bold.woff") format("woff"), url("../fonts/karla-bold.ttf") format("truetype");
@@ -593,12 +600,6 @@ textarea:focus {
   font-family: 'karlaregular';
   src: url("../fonts/karla-regular.eot");
   src: url("../fonts/karla-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/karla-regular.woff2") format("woff2"), url("../fonts/karla-regular.woff") format("woff"), url("../fonts/karla-regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'teimposheadlineblack';
-  src: url("../fonts/TiemposHeadlineWeb-Black.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
@@ -885,6 +886,69 @@ main {
 .module p {
   margin-bottom: 0; }
 
+.home .social {
+  display: inline-block;
+  margin-top: 3em;
+  text-align: center;
+  width: 100%; }
+  @media (min-width: 40em) {
+    .home .social {
+      width: auto; } }
+  @media (min-width: 60em) {
+    .home .social {
+      text-align: right; } }
+
+.social li {
+  display: inline-block;
+  padding: 0 0.5em;
+  text-align: center;
+  vertical-align: middle; }
+  @media (min-width: 40em) {
+    .social li {
+      padding: 0 0.7em 0 0; } }
+  @media (min-width: 60em) {
+    .social li {
+      padding: 0 1.2em 0 0; } }
+
+.social a:before {
+  margin: 0; }
+
+.social a {
+  border: 2px solid #d3d2cf;
+  border-radius: 50%;
+  color: #444;
+  display: inline-block;
+  height: 40px;
+  padding-top: 0.3em;
+  text-align: center;
+  width: 40px; }
+  @media (min-width: 40em) {
+    .social a {
+      padding-top: 0.25em; } }
+  @media (min-width: 60em) {
+    .social a {
+      font-size: 1.3em;
+      height: 46px;
+      padding-top: 0.25em;
+      width: 46px; } }
+  .social a:hover, .social a:focus, .social a:active {
+    background: transparent;
+    border: 2px solid #979796;
+    box-shadow: none;
+    color: #000; }
+
+.social a.icon-mail {
+  font-size: 0.9em;
+  padding-top: 0.35em; }
+  @media (min-width: 60em) {
+    .social a.icon-mail {
+      font-size: 1.1em;
+      padding-top: 0.4em; } }
+
+@media (min-width: 60em) {
+  .social a.icon-twitter {
+    padding-top: 0.25em; } }
+
 .home .logo {
   position: fixed; }
   @media (max-width: 40em) {
@@ -947,69 +1011,6 @@ main {
       left: 0;
       margin-left: 0;
       width: 2em; } }
-
-.home .home__social {
-  display: inline-block;
-  margin-top: 3em;
-  text-align: center;
-  width: 100%; }
-  @media (min-width: 40em) {
-    .home .home__social {
-      width: auto; } }
-  @media (min-width: 60em) {
-    .home .home__social {
-      text-align: right; } }
-
-.home__social li {
-  display: inline-block;
-  padding: 0 0.5em;
-  text-align: center;
-  vertical-align: middle; }
-  @media (min-width: 40em) {
-    .home__social li {
-      padding: 0 0.7em 0 0; } }
-  @media (min-width: 60em) {
-    .home__social li {
-      padding: 0 1.2em 0 0; } }
-
-.home__social a:before {
-  margin: 0; }
-
-.home__social a {
-  border: 2px solid #d3d2cf;
-  border-radius: 50%;
-  color: #444;
-  display: inline-block;
-  height: 40px;
-  padding-top: 0.3em;
-  text-align: center;
-  width: 40px; }
-  @media (min-width: 40em) {
-    .home__social a {
-      padding-top: 0.25em; } }
-  @media (min-width: 60em) {
-    .home__social a {
-      font-size: 1.3em;
-      height: 46px;
-      padding-top: 0.2em;
-      width: 46px; } }
-  .home__social a:hover, .home__social a:focus, .home__social a:active {
-    background: transparent;
-    border: 2px solid #979796;
-    box-shadow: none;
-    color: #000; }
-
-.home__social a.icon-mail {
-  font-size: 0.9em;
-  padding-top: 0.35em; }
-  @media (min-width: 60em) {
-    .home__social a.icon-mail {
-      font-size: 1.1em;
-      padding-top: 0.35em; } }
-
-@media (min-width: 60em) {
-  .home__social a.icon-twitter {
-    padding-top: 0.25em; } }
 
 .home [role="navigation"] {
   background: rgba(255, 255, 255, 0.7);
@@ -1114,10 +1115,16 @@ main {
   @media (min-width: 40em) {
     .home__project.project--glr {
       height: 15em; } }
+  @media (min-width: 60em) {
+    .home__project.project--glr {
+      height: 15em; } }
 
 .home__project.project--instant {
   background: url(../images/instant.jpg) center center/cover no-repeat; }
   @media (min-width: 40em) {
+    .home__project.project--instant {
+      height: 11.75em; } }
+  @media (min-width: 60em) {
     .home__project.project--instant {
       height: 12.45em; } }
 
@@ -1126,16 +1133,25 @@ main {
   @media (min-width: 40em) {
     .home__project.project--film {
       height: 10em; } }
+  @media (min-width: 60em) {
+    .home__project.project--film {
+      height: 10em; } }
 
 .home__project.project--secret-editions {
   background: url(../images/secret-editions.jpg) center center/cover no-repeat; }
   @media (min-width: 40em) {
     .home__project.project--secret-editions {
       height: 14em; } }
+  @media (min-width: 60em) {
+    .home__project.project--secret-editions {
+      height: 14em; } }
 
 .home__project.project--shy-retirers {
-  background: url(../images/glr.jpg) center center/cover no-repeat; }
+  background: url(../images/shy-retirers.jpg) center center/cover no-repeat; }
   @media (min-width: 40em) {
+    .home__project.project--shy-retirers {
+      height: 10.75em; } }
+  @media (min-width: 60em) {
     .home__project.project--shy-retirers {
       height: 11em; } }
 
@@ -1144,8 +1160,15 @@ main {
   @media (min-width: 40em) {
     .home__project.project--sleeves-received {
       height: 9em; } }
+  @media (min-width: 60em) {
+    .home__project.project--sleeves-received {
+      height: 9em; } }
 
 @media (min-width: 40em) {
+  .home__project.project--other {
+    height: 5.9em; } }
+
+@media (min-width: 60em) {
   .home__project.project--other {
     height: 5.9em; } }
 

@@ -22,6 +22,10 @@ define('WP_DEFAULT_THEME', 'lobban');
 
 if ( file_exists( dirname( __FILE__ ) . '/wp-config-local.php' ) ) {  
     include( dirname( __FILE__ ) . '/wp-config-local.php' );  
+    } 
+    
+elseif ( file_exists( dirname( __FILE__ ) . '/wp-config-staging.php' ) ) {  
+    include( dirname( __FILE__ ) . '/wp-config-staging.php' );  
     }  
 
 else {  

@@ -1,25 +1,15 @@
 <?php get_header(); ?>
 
-<div class="wrapper">
-	
-	<article class="main-content col small_4 medium_8 large_7">
-	
-		<?php if ( have_posts() ) : ?>
+<main class="page--info article wrapper push--bottom clearfix" id="content" role="main">
+    <h1 class="page__header col small-12 medium-12 large-12 xlarge-12 modules__header">
+       	404 - Not Found
+    </h1>
+    <div class="article__content">
+        <section class="col small-12 medium-6 large-6 xlarge-6">
+			<p>Sorry, we couldn't find what you were looking for. Don't worry, it's probably my fault. Maybe you probably followed a broken link or I've moved something.</p>
+			<p><a class="button" href="/">Go home</a></p>
+        </section>
+    </div>
+</main>
 
-			<?php while ( have_posts() ) : the_post(); ?>
-			
-				<h1>404 - Not Found</h1>
-						
-				<p>Sorry, we couldn't find what you were looking for. Don't worry, you probably followed a broken link or something. Try using the menu or search to find what you were looking for.</p>
-				
-			<?php endwhile; ?>
-
-			<?php else : ?>
-
-		<?php endif; ?>
-		
-	</article>
-
-	<?php get_sidebar(); ?>
-	
-</div>
+<?php get_footer(); ?>

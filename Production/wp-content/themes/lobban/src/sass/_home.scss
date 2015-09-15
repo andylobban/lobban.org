@@ -71,77 +71,6 @@
 	    }
 	}
 
-.home .home__social {
-	display: inline-block;
-	margin-top: 3em;
-	text-align: center;
-	width: 100%;
-	@media (min-width: $breakpoint-medium) {
-		width: auto;
-		}
-	@media (min-width: $breakpoint-large) {
-		text-align: right;
-		}
-	}
-
-.home__social li {
-	display: inline-block;
-	padding: 0 0.5em;
-	text-align: center;
-	vertical-align: middle;
-	@media (min-width: $breakpoint-medium) {
-		padding: 0 0.7em 0 0;
-		}
-	@media (min-width: $breakpoint-large) {
-		padding: 0 1.2em 0 0;
-		}
-	}	
-
-.home__social a:before {
-	margin: 0;
-	}
-
-.home__social a {
-	border: 2px solid #d3d2cf;
-	border-radius: 50%;
-	color: #444;
-	display: inline-block;
-	height: 40px;
-	padding-top: 0.3em;
-	text-align: center;
-	width: 40px;
-	@media (min-width: $breakpoint-medium) {
-		padding-top: 0.25em;
-		}
-	@media (min-width: $breakpoint-large) {
-		font-size: 1.3em;
-		height: 46px;
-		padding-top: 0.2em;
-		width: 46px;
-		}
-	&:hover, &:focus, &:active {
-		background: transparent;
-		border: 2px solid #979796;
-		box-shadow: none;
-		color: #000;
-		}
-	}
-
-.home__social a.icon-mail {
-	font-size: 0.9em;
-	padding-top: 0.35em;
-	@media (min-width: $breakpoint-large) {
-		font-size: 1.1em;
-		padding-top: 0.35em;
-		}
-	}
-
-.home__social a.icon-twitter {
-	@media (min-width: $breakpoint-large) {
-	    padding-top: 0.25em;
-	    }
-	}
-
 .home [role="navigation"] {
 	background: rgba(255,255,255,0.7);
 	position: relative;
@@ -249,11 +178,17 @@
 	@media (min-width: $breakpoint-medium) {
 	    height: 15em;
 	    }
+	@media (min-width: $breakpoint-large) {
+	    height: 15em;
+	    }
 	}
 
 .home__project.project--instant {
 	background: url(../images/instant.jpg) center center / cover no-repeat;
 	@media (min-width: $breakpoint-medium) {
+	    height: 11.75em;
+	    }
+	@media (min-width: $breakpoint-large) {
 	    height: 12.45em;
 	    }
 	}
@@ -263,6 +198,9 @@
 	@media (min-width: $breakpoint-medium) {
 	    height: 10em;
 	    }
+	@media (min-width: $breakpoint-large) {
+	    height: 10em;
+	    }
 	}
 
 .home__project.project--secret-editions {
@@ -270,11 +208,17 @@
 	@media (min-width: $breakpoint-medium) {
 	    height: 14em;
 	    }
+	@media (min-width: $breakpoint-large) {
+	    height: 14em;
+	    }
 	}
 
 .home__project.project--shy-retirers {
-	background: url(../images/glr.jpg) center center / cover no-repeat;
+	background: url(../images/shy-retirers.jpg) center center / cover no-repeat;
 	@media (min-width: $breakpoint-medium) {
+	    height: 10.75em;
+	    }
+	@media (min-width: $breakpoint-large) {
 	    height: 11em;
 	    }
 	}
@@ -284,10 +228,16 @@
 	@media (min-width: $breakpoint-medium) {
 	    height: 9em;
 	    }
+	@media (min-width: $breakpoint-large) {
+	    height: 9em;
+	    }
 	}
 
 .home__project.project--other {
 	@media (min-width: $breakpoint-medium) {
+	    height: 5.9em;
+	    }
+	@media (min-width: $breakpoint-large) {
 	    height: 5.9em;
 	    }
 	}
