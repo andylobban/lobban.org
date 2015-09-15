@@ -40,7 +40,7 @@ Template Name: Info
                     </li>
                     <li class="module col small-12 medium-6 large-4 xlarge-3 push--bottom">
                         <h3><a href="http://secreteditions.com">Secret Editions</a></h3>
-                        <p>A tiny record label releasing experimental (pop) music</p>
+                        <p>A tiny record label releasing experimental (pop) music.</p>
                     </li>
                     <li class="module col small-12 medium-6 large-4 xlarge-3 push--bottom">
                         <h3><a href="http://film.lobban.org" rel="me">Photoblog</a></h3>
@@ -56,7 +56,7 @@ Template Name: Info
                     </li>
                     <li class="module col small-12 medium-6 large-4 xlarge-3 push--bottom">
                         <h3><a href="http://twitter.com/sleevesreceived" rel="me">Sleeves Received Twitter</a></h3>
-                        <p>An unofficial Twitter feed for The Wire's Sleeves Received blog</p>
+                        <p>An unofficial Twitter feed for The Wire's Sleeves Received blog.</p>
                     </li>
                 </ul>
             </section>
