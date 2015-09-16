@@ -619,13 +619,16 @@ h2,
   font-weight: bold; }
 
 strong,
-b {
-  font-family: sans-serif;
+b,
+.button,
+.article__content h2,
+.article__content h3 {
   font-weight: bold; }
 
 em,
-i {
-  font-family: sans-serif;
+i,
+.article time,
+.article__content .wp-caption-text {
   font-style: italic; }
 
 .fonts-loaded html,
@@ -644,14 +647,19 @@ i {
   font-weight: normal; }
 
 .fonts-loaded strong,
-.fonts-loaded b {
+.fonts-loaded b,
+.fonts-loaded .button,
+.fonts-loaded .article__content h2,
+.fonts-loaded .article__content h3 {
   font-family: 'karlabold', sans-serif;
   font-style: normal; }
 
 .fonts-loaded em,
-.fonts-loaded i {
+.fonts-loaded i,
+.fonts-loaded .article time,
+.fonts-loaded .article__content .wp-caption-text {
   font-family: 'karlaitalic', sans-serif;
-  font-weight: normal; }
+  font-style: normal; }
 
 body {
   font-size: 1.1em;
@@ -697,8 +705,6 @@ p {
 
 .article__content h2,
 .article__content h3 {
-  font-family: 'karlabold', sans-serif;
-  font-weight: normal;
   letter-spacing: -1px;
   margin-top: 1em; }
 
@@ -767,7 +773,6 @@ img {
   border: 2px solid #21888A;
   color: #21888A;
   display: inline-block;
-  font-family: 'karlabold', sans-serif;
   font-size: 0.9em;
   font-weight: normal;
   letter-spacing: 1px;
@@ -1245,8 +1250,7 @@ main {
       margin-bottom: 4em; } }
 
 .article time {
-  display: block;
-  font-family: 'karlaitalic', sans-serif; }
+  display: block; }
   @media (min-width: 40em) {
     .article time {
       margin-top: 0.3em; } }
@@ -1255,8 +1259,7 @@ main {
       margin-top: 0.4em; } }
 
 .article.single time {
-  display: block;
-  font-family: 'karlaitalic', sans-serif; }
+  display: block; }
   @media (min-width: 40em) {
     .article.single time {
       margin-top: 0.8em; } }
@@ -1292,13 +1295,16 @@ main {
 
 @media (min-width: 40em) {
   .category-link .article__content {
-    margin-top: 0.6em; } }
+    margin-top: 0.25em; } }
+
+@media (min-width: 60em) {
+  .category-link .article__content {
+    margin-top: 0.45em; } }
 
 .article__content .wp-caption {
   max-width: 100%; }
 
 .article__content .wp-caption-text {
-  font-family: 'karlaitalic', sans-serif;
   font-size: 0.7em;
   margin-top: 0.5em; }
 

@@ -59,14 +59,17 @@ h2,
 	}
 
 strong, 
-b {
-    font-family: sans-serif;
+b, 
+.button, 
+.article__content h2, 
+.article__content h3 {
     font-weight: bold;
     }
 
 em, 
-i {
-    font-family: sans-serif;
+i, 
+.article time, 
+.article__content .wp-caption-text {
     font-style: italic;
     }
 
@@ -90,15 +93,20 @@ i {
         }
 
     strong, 
-    b {
+    b, 
+    .button, 
+    .article__content h2, 
+    .article__content h3 {
         font-family: 'karlabold', sans-serif;
         font-style: normal;
         }
 
     em, 
-    i {
+    i, 
+    .article time, 
+    .article__content .wp-caption-text {
         font-family: 'karlaitalic', sans-serif;
-        font-weight: normal;
+        font-style: normal;
         }
 
     }
@@ -154,8 +162,6 @@ p {
 
 .article__content h2, 
 .article__content h3 {
-    font-family: 'karlabold', sans-serif;
-    font-weight: normal;
     letter-spacing: -1px;
     margin-top: 1em;
     }
