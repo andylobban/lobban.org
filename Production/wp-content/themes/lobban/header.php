@@ -36,30 +36,8 @@
     	<header role="banner" data-20p="padding-top: 0.4em;" data-30p="padding-top: 1.45em;">
     		<div class="wrapper clearfix">
 		
-				<div class="logo col small-12 medium-5 large-5 xlarge-5"
-				data-0="
-					margin-top: 0px;
-					padding-left: 0em;
-					position: fixed;
-					top: 20vh;" 
-				data-36p="
-					margin-top: 0px;
-					padding-left: 0em;
-					position: fixed;
-					top: 0vh;"
-				>
-					<a href="/" 
-					data-0="
-						font-size: 2em; 
-						letter-spacing: -1px; 
-						padding-bottom: 0.3em; 
-						padding-top: 0em;" 
-					data-36p="
-						font-size: 1em; 
-						letter-spacing: 0px; 
-						padding-bottom: 0.25em; 
-						padding-top: 0.45em;"
-					>
+				<div class="logo col small-12 medium-5 large-5 xlarge-5">
+					<a href="/">
 						Andy Lobban
 						<span class="shape"
 						data-0="
