@@ -1,7 +1,12 @@
 .home .logo {
-	position: absolute;
 	@media (max-width: $breakpoint-medium) {
 	    margin-left: 0;
+	    }
+	@media (min-width: $breakpoint-small) {
+	    margin-top: 0px; 
+	    padding-left: 0em; 
+	    position: absolute;
+	    top: 20vh;
 	    }
 	@media (min-width: $breakpoint-medium) {
 	    margin-top: -107px;
@@ -62,11 +67,14 @@
              		#0D3546 url(../images/bg-1500.jpg) left top no-repeat;
         -webkit-background-clip: text;
 		}
+	@media (min-width: $breakpoint-small) {
+		font-size: 2em; 
+		letter-spacing: -1px; 
+		padding-bottom: 0.3em; 
+		padding-top: 0;
+		}
 	@media (min-width: $breakpoint-medium) {
 		font-size: 3.5em;
-		letter-spacing: -1px;
-		padding-bottom: 0.3em;
-		padding-top: 0;
 		}
 	@media (min-width: $breakpoint-large) {
 		font-size: 5.5em;
