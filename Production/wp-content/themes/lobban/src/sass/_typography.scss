@@ -9,6 +9,17 @@
     }
 
 @font-face {
+    font-family: 'karlaregular';
+    src: url('../fonts/karla-regular.eot');
+    src: url('../fonts/karla-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/karla-regular.woff2') format('woff2'),
+         url('../fonts/karla-regular.woff') format('woff'),
+         url('../fonts/karla-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
     font-family: 'karlabold';
     src: url('../fonts/karla-bold.eot');
     src: url('../fonts/karla-bold.eot?#iefix') format('embedded-opentype'),
@@ -30,25 +41,67 @@
     font-style: normal;
     }
 
-@font-face {
-    font-family: 'karlaregular';
-    src: url('../fonts/karla-regular.eot');
-    src: url('../fonts/karla-regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/karla-regular.woff2') format('woff2'),
-         url('../fonts/karla-regular.woff') format('woff'),
-         url('../fonts/karla-regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    }
-
 html, 
 body, 
 button, 
 input, 
 select, 
 textarea {
-	font-family: 'karlaregular', sans-serif;
+    font-family: sans-serif;
+    }
+ 
+h1, 
+h2, 
+.logo,
+.home__project h3 {
+	font-family: serif;
+    font-weight: bold;
 	}
+
+strong, 
+b {
+    font-family: sans-serif;
+    font-weight: bold;
+    }
+
+em, 
+i {
+    font-family: sans-serif;
+    font-style: italic;
+    }
+
+.fonts-loaded {
+
+    html, 
+    body, 
+    button, 
+    input, 
+    select, 
+    textarea {
+        font-family: 'karlaregular', sans-serif;
+        }
+
+    h1, 
+    h2, 
+    .logo,
+    .home__project h3 {
+        font-family: "teimposheadlineblack", serif;
+        font-weight: normal;
+        }
+
+    strong, 
+    b {
+        font-family: 'karlabold', sans-serif;
+        font-style: normal;
+        }
+
+    em, 
+    i {
+        font-family: 'karlaitalic', sans-serif;
+        font-weight: normal;
+        }
+
+    }
 
 body {
     font-size: 1.1em;
@@ -56,26 +109,6 @@ body {
     @media (min-width: $breakpoint-large) {
         font-size: 1.2em;
         }
-    }
- 
-h1, 
-h2, 
-.logo,
-.home__project h3 {
-	font-family: "teimposheadlineblack", serif;
-    font-weight: normal;
-	}
-
-strong, 
-b {
-    font-family: 'karlabold', sans-serif;
-    font-weight: normal;
-    }
-
-em, 
-i {
-    font-family: 'karlaitalic', sans-serif;
-    font-weight: normal;
     }
 
 h1 {
