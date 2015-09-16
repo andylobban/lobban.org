@@ -29,8 +29,6 @@ if($(window).width() >= 960){
 	    $('.logo a').each(function(){
 	        var newFontSize0 = $(this).attr('data-0').replace('font-size: 2em','font-size: 5.5em');
 	        $(this).attr('data-0', newFontSize0);
-	        var newMarginLeft0 = $(this).attr('data-0').replace('margin-left: 0em',' margin-left: 1em');
-	        $(this).attr('data-0', newMarginLeft0);
 	        var newPaddingTop40 = $(this).attr('data-36p').replace('padding-top: 0.45em',' padding-top: 0.9em');
 	        $(this).attr('data-36p', newPaddingTop40);
 	        var newFontSize30 = $(this).attr('data-36p').replace('font-size: 1em','font-size: 1.2em');
@@ -51,8 +49,6 @@ if($(window).width() >= 1280){
 	    $('.logo a').each(function(){
 	        var newFontSize0 = $(this).attr('data-0').replace('font-size: 2em','font-size: 7em');
 	        $(this).attr('data-0', newFontSize0);
-	        var newMarginLeft0 = $(this).attr('data-0').replace('margin-left: 0em',' margin-left: 1em');
-	        $(this).attr('data-0', newMarginLeft0);
 	        var newPaddingTop40 = $(this).attr('data-36p').replace('padding-top: 0.45em',' padding-top: 0.9em');
 	        $(this).attr('data-36p', newPaddingTop40);
 	        var newFontSize30 = $(this).attr('data-36p').replace('font-size: 1em','font-size: 1.15em');

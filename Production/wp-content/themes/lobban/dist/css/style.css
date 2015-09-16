@@ -982,10 +982,22 @@ main {
     padding-top: 0.25em; } }
 
 .home .logo {
-  position: fixed; }
+  position: absolute; }
   @media (max-width: 40em) {
     .home .logo {
       margin-left: 0; } }
+  @media (min-width: 40em) {
+    .home .logo {
+      margin-top: -107px;
+      padding-left: 1em;
+      top: 50vh; } }
+  @media (min-width: 60em) {
+    .home .logo {
+      margin-top: -128px;
+      padding-left: 2em; } }
+  @media (min-width: 80em) {
+    .home .logo {
+      margin-top: -164px; } }
 
 .home .logo > a {
   /* autoprefixer: off */
@@ -1025,6 +1037,14 @@ main {
       /* autoprefixer: off */
       background: -webkit-linear-gradient(transparent, transparent), url(../images/bg-1500.jpg) left top no-repeat;
       -webkit-background-clip: text; } }
+  @media (min-width: 40em) {
+    .home .logo > a {
+      font-size: 3.5em;
+      padding-bottom: 0.3em;
+      padding-top: 0; } }
+  @media (min-width: 60em) {
+    .home .logo > a {
+      font-size: 5.5em; } }
 
 .home .logo .shape {
   background: #21888A;

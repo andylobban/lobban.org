@@ -40,10 +40,12 @@
 				data-0="
 					margin-top: 0px;
 					padding-left: 0em;
+					position: fixed;
 					top: 20vh;" 
 				data-36p="
 					margin-top: 0px;
 					padding-left: 0em;
+					position: fixed;
 					top: 0vh;"
 				>
 					<a href="/" 

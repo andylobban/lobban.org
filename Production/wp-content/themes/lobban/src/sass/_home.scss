@@ -1,7 +1,19 @@
 .home .logo {
-	position: fixed;
+	position: absolute;
 	@media (max-width: $breakpoint-medium) {
 	    margin-left: 0;
+	    }
+	@media (min-width: $breakpoint-medium) {
+	    margin-top: -107px;
+	    padding-left: 1em;
+	    top: 50vh;
+	    }
+	@media (min-width: $breakpoint-large) {
+	    margin-top: -128px;
+	    padding-left: 2em;
+	    }
+	@media (min-width: $breakpoint-xlarge) {
+	    margin-top: -164px;
 	    }
 	}
 
@@ -49,6 +61,18 @@
 		background: -webkit-linear-gradient(transparent, transparent),
              		url(../images/bg-1500.jpg) left top no-repeat;
         -webkit-background-clip: text;
+		}
+	@media (min-width: $breakpoint-medium) {
+		font-size: 3.5em;
+		letter-spacing: -1px;
+		padding-bottom: 0.3em;
+		padding-top: 0;
+		}
+	@media (min-width: $breakpoint-large) {
+		font-size: 5.5em;
+		}
+	@media (min-width: $breakpoint-xlarge) {
+		font-size: 7em;
 		}
 	}
 
