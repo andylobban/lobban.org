@@ -27,7 +27,8 @@
 .logo {
 	margin-bottom: 0;
 	@media (max-width: $breakpoint-medium) {
-	    width: calc(100% - 30px);
+		margin-right: 0;
+	    width: calc(100% - 20px);
 	    }
 	@media (min-width: $breakpoint-large) and (min-height: 50em) {
 		margin-left: 20px;
@@ -102,13 +103,14 @@
 	}
 
 [role="navigation"] a {
-	border-bottom: 2px solid #000;
+	border-bottom: 1px solid #000;
 	color: #333;
 	transition: all 0.2s linear;
 	@media (min-width: $breakpoint-small) {
 	    font-size: 0.8em;
 	    }
 	@media (min-width: $breakpoint-medium) {
+		border-bottom-width: 2px;
 	    font-size: 0.9em;
 	    }
 	@media (min-width: $breakpoint-large) {

@@ -781,7 +781,8 @@ img {
   margin-bottom: 0; }
   @media (max-width: 40em) {
     .logo {
-      width: calc(100% - 30px); } }
+      margin-right: 0;
+      width: calc(100% - 20px); } }
   @media (min-width: 60em) and (min-height: 50em) {
     .logo {
       margin-left: 20px; } }
@@ -848,7 +849,7 @@ img {
     text-align: left; } }
 
 [role="navigation"] a {
-  border-bottom: 2px solid #000;
+  border-bottom: 1px solid #000;
   color: #333;
   transition: all 0.2s linear; }
   @media (min-width: 20em) {
@@ -856,6 +857,7 @@ img {
       font-size: 0.8em; } }
   @media (min-width: 40em) {
     [role="navigation"] a {
+      border-bottom-width: 2px;
       font-size: 0.9em; } }
   @media (min-width: 60em) {
     [role="navigation"] a {
@@ -919,7 +921,7 @@ main {
   color: #444;
   display: inline-block;
   height: 40px;
-  padding-top: 0.3em;
+  padding-top: 0.25em;
   text-align: center;
   width: 40px; }
   @media (min-width: 40em) {
