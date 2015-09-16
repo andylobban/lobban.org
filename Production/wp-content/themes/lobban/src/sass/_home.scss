@@ -20,7 +20,7 @@
 .home .logo > a  {
 	/* autoprefixer: off */
  	background: -webkit-linear-gradient(transparent, transparent),
-             	url(../images/bg-340.jpg) left top no-repeat;
+             	#0D3546 url(../images/bg-340.jpg) left top no-repeat;
  	background: -o-linear-gradient(transparent, transparent);
  	color: #0D3546;
 	position: relative;
@@ -29,37 +29,37 @@
  	@media (min-width: 500px) {
  		/* autoprefixer: off */
  		background: -webkit-linear-gradient(transparent, transparent),
-             		url(../images/bg-500.jpg) left top no-repeat;
+             		#0D3546 url(../images/bg-500.jpg) left top no-repeat;
         -webkit-background-clip: text;
 		}
 	@media (min-width: 600px) {
 		/* autoprefixer: off */
 		background: -webkit-linear-gradient(transparent, transparent),
-             		url(../images/bg-600.jpg) left top no-repeat;
+             		#0D3546 url(../images/bg-600.jpg) left top no-repeat;
         -webkit-background-clip: text;
 		}
 	@media (min-width: $breakpoint-medium) and (min-height: 700px) {
 		/* autoprefixer: off */
 		background: -webkit-linear-gradient(transparent, transparent),
-             		url(../images/bg-1022.jpg) left top no-repeat;
+             		#0D3546 url(../images/bg-1022.jpg) left top no-repeat;
         -webkit-background-clip: text;
 		}
 	@media (min-width: $breakpoint-medium) and (min-height: 800px) {
 		/* autoprefixer: off */
 		background: -webkit-linear-gradient(transparent, transparent),
-             		url(../images/bg-1168.jpg) left top no-repeat;
+             		#0D3546 url(../images/bg-1168.jpg) left top no-repeat;
         -webkit-background-clip: text;
 		}
 	@media (min-width: $breakpoint-medium) and (min-height: 900px) {
 		/* autoprefixer: off */
 		background: -webkit-linear-gradient(transparent, transparent),
-             		url(../images/bg-1315.jpg) left top no-repeat;
+             		#0D3546 url(../images/bg-1315.jpg) left top no-repeat;
         -webkit-background-clip: text;
 		}
 	@media (min-width: $breakpoint-medium) and (min-height: 1000px) {
 		/* autoprefixer: off */
 		background: -webkit-linear-gradient(transparent, transparent),
-             		url(../images/bg-1500.jpg) left top no-repeat;
+             		#0D3546 url(../images/bg-1500.jpg) left top no-repeat;
         -webkit-background-clip: text;
 		}
 	@media (min-width: $breakpoint-medium) {
