@@ -150,6 +150,10 @@
 	    }
 	}
 
+.home__intro li:not(:last-child) {
+	margin-bottom: 0.5em;
+	}
+
 .home__intro a {
 	border-bottom: 2px solid #fff;
 	color: #ffc;
@@ -158,10 +162,6 @@
         border: 0;
         color: #fff;
     	}
-	}
-
-.home__intro li {
-	margin-bottom: 0.5em;
 	}
 
 .intro__more {
