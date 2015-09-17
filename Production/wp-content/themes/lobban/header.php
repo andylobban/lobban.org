@@ -13,10 +13,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <meta name="apple-mobile-web-app-title" content="Andy Lobban">
-		<meta name="description" content="{{description}}" />
 		<meta property="og:title" content="<?php wp_title( '|', true, 'right' ); ?>" />
-		<meta property="og:description" content="{{description}}" />
-		<meta property="og:image" content="[insert image path here]" />
+		<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/dist/images/apple-touch-icon.png" />
 
         <link rel="stylesheet" media="not print" href="<?php echo get_template_directory_uri(); ?>/dist/css/style.css" />
 
