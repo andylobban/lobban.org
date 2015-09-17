@@ -8,13 +8,13 @@
 				<div class="col small-12 medium-2 large-2 xlarge-2">
 					<time><?php the_time('d/m/Y'); ?></time>
 				</div>
-				<div class="col small-12 medium-10 large-7 xlarge-6">
+				<div class="col small-12 medium-10 large-10 xlarge-10">
 					<h1 class="page__header">
 						<?php the_title(); ?>
 					</h1>
-					<div class="article__content">
-						<?php the_content(); ?>
-					</div>
+				</div>
+				<div class="article__content col small-12 medium-10 push--medium-2 large-7 push--large-2 xlarge-6 push--xlarge-2">
+					<?php the_content(); ?>
 				</div>
 			</article>
 		<?php endwhile; ?>
