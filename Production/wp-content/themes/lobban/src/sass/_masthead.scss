@@ -44,16 +44,16 @@
 	text-align: center;
 	transition: color 0.3s linear;
 	@media (min-width: $breakpoint-medium) {
-		padding-top: 0.3em;
+		padding-top: 0.25em;
 	    text-align: left;
 	    }
 	@media (min-width: $breakpoint-large) {
 		font-size: 1.2em;
-		padding-top: 0.1em;
+		padding-top: 0.15em;
 	    }
 	@media (min-width: $breakpoint-xlarge) {
 		font-size: 1.15em;
-		padding-top: 0.15em;
+		padding-top: 0.2em;
 	    }
 	&:hover, &:focus, &:active {
 		box-shadow: none;

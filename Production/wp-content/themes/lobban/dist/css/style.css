@@ -827,16 +827,16 @@ img {
   transition: color 0.3s linear; }
   @media (min-width: 40em) {
     .logo > a {
-      padding-top: 0.3em;
+      padding-top: 0.25em;
       text-align: left; } }
   @media (min-width: 60em) {
     .logo > a {
       font-size: 1.2em;
-      padding-top: 0.1em; } }
+      padding-top: 0.15em; } }
   @media (min-width: 80em) {
     .logo > a {
       font-size: 1.15em;
-      padding-top: 0.15em; } }
+      padding-top: 0.2em; } }
   .logo > a:hover, .logo > a:focus, .logo > a:active {
     box-shadow: none;
     color: #000; }
