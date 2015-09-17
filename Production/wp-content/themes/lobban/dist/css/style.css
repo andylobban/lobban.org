@@ -676,8 +676,7 @@ h1 {
       font-size: 2em; } }
 
 h2 {
-  font-size: 1.2em;
-  letter-spacing: -1px; }
+  font-size: 1.2em; }
   @media (min-width: 60em) {
     h2 {
       font-size: 1.4em; } }
@@ -1351,6 +1350,10 @@ main {
   list-style-type: disc;
   margin-bottom: 0.25em;
   margin-left: 1em; }
+
+.article__content img.alignnone {
+  margin-bottom: 0.25em;
+  margin-top: 0.25em; }
 
 .info__intro {
   -webkit-flex-direction: row-reverse;
