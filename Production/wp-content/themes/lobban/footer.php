@@ -1,3 +1,4 @@
+		<!--
 		<footer role="contentinfo">
 			<div class="wrapper clearfix">
 				<div class="col small-12 medium-5 large-5 xlarge-5">
@@ -11,6 +12,7 @@
 				</div>
 			</div>
 		</footer>
+		-->
 
 		<div class="edge edge--top"></div>
 		<div class="edge edge--bottom"></div>

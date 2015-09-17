@@ -159,3 +159,6 @@ ExpiresDefault "access 7 days"
 <ifModule mod_headers.c>
     Header set Connection keep-alive
 </ifModule>
+
+Redirect 301 /about /info
+Redirect 301 /contact /info

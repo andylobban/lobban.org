@@ -1351,6 +1351,9 @@ main {
   margin-bottom: 0.25em;
   margin-left: 1em; }
 
+.article__content pre {
+  line-height: 1.4; }
+
 .article__content img.alignnone {
   margin-bottom: 0.25em;
   margin-top: 0.25em; }
