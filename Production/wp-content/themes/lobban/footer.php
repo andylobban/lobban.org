@@ -1,18 +1,13 @@
-		<!--
 		<footer role="contentinfo">
 			<div class="wrapper clearfix">
-				<div class="col small-12 medium-5 large-5 xlarge-5">
-					<h2>Hi!</h2>
-					<ul class="social footer__social">
-		                <li><a class="icon-mail" href="/contact"><span class="away">Email</span></a></li>
-		                <li><a class="icon-twitter" href="https://twitter.com/nonimage"><span class="away">Twitter</span></a></li>
-		                <li><a class="icon-instagram" href="https://instagram.com/nonimage/"><span class="away">Instagram</span></a></li>
-		                <li><a class="icon-facebook" href="https://www.facebook.com/andylobban"><span class="away">Facebook</span></a></li>
-		            </ul>
-				</div>
+				<ul class="footer__social">
+					<li><a class="icon-mail" href="mailto:andy@lobban.org"><span class="away">Email</span></a></li>
+	                <li><a class="icon-twitter" href="https://twitter.com/nonimage"><span class="away">Twitter</span></a></li>
+	                <li><a class="icon-instagram" href="https://instagram.com/nonimage/"><span class="away">Instagram</span></a></li>
+	                <li><a class="icon-facebook" href="https://www.facebook.com/andylobban"><span class="away">Facebook</span></a></li>
+	            </ul>
 			</div>
 		</footer>
-		-->
 
 		<div class="edge edge--top"></div>
 		<div class="edge edge--bottom"></div>

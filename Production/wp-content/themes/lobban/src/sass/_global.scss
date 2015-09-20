@@ -1,9 +1,16 @@
 body {
 	background: #f8f7f3; 
+	display: flex;
+	min-height: 100vh;
 	padding: 0 10px 10px 10px; 
+    flex-direction: column;
 	@media (min-width: $breakpoint-large) and (min-height: 50em) {
 		padding: 0 20px 20px 20px; 
 		}
+	}
+
+main {
+	flex: 1 0 auto;
 	}
 
 .edge {
