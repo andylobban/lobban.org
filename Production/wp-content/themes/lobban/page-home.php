@@ -20,7 +20,7 @@ Template Name: Home
                     <li>Owner of <a href="http://secreteditions.com/">Secret Editions</a></li>
                 </ul>
                 <div class="intro__more" data-0="opacity: 1;" data-36p="opacity: 0;">
-                    <a class="icon-down" href="#more">There's more</a>
+                    <a class="icon-down scroll" data-speed="1000" href="#more">There's more</a>
                 </div>
             </section>
         </div>
