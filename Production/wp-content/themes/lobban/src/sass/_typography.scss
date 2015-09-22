@@ -48,6 +48,9 @@ input,
 select, 
 textarea {
     font-family: sans-serif;
+    @media (max-width: 19.999em) {
+        font-size: 0.8em;
+        }
     }
  
 h1, 

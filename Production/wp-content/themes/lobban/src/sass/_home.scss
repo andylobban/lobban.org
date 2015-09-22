@@ -85,15 +85,17 @@
 	}
 
 .home .logo .shape {
-	background: $link;
-	bottom: -0.6em;
-	content: '';
-	display: block;
-	height: 0.15em;
-	left: 50%;
-	margin-left: -1.75em;
-	position: absolute;
-	width: 3.5em;
+	@media (min-width: $breakpoint-small) {
+	    background: $link;
+		bottom: -0.6em;
+		content: '';
+		display: block;
+		height: 0.15em;
+		left: 50%;
+		margin-left: -1.75em;
+		position: absolute;
+		width: 3.5em;
+	    }
 	@media (min-width: $breakpoint-medium) {
 		bottom: 0;
 		height: 0.05em;
@@ -112,10 +114,11 @@
 .home__intro {
 	background: #0f516d url(../images/bg-340.jpg) center center / cover no-repeat;
 	color: #fff;
-	margin-top: 60vh;
-	padding-bottom: 2em;
-	padding-top: 2em;
+	padding: 2em 1em;
 	text-align: center;
+	@media (min-width: $breakpoint-small) {
+		margin-top: 60vh;
+	    }
 	@media (min-width: 500px) {
 		background-image: url(../images/bg-500.jpg);
 		}
@@ -151,12 +154,14 @@
 	}
 
 .home__intro li:not(:last-child) {
+	line-height: 1.2;
 	margin-bottom: 0.5em;
 	}
 
 .home__intro a {
 	border-bottom: 2px solid #fff;
 	color: #ffc;
+	display: inline-block;
 	&:hover, &:active, &:focus {
         box-shadow: inset 0 -3px 0 #ffc;
         border: 0;

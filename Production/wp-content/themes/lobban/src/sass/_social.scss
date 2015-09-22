@@ -1,8 +1,11 @@
 .home .social {
-    display: inline-block;
-    margin-top: 3em;
-    text-align: center;
-    width: 100%;
+    display: none;
+    @media (min-width: $breakpoint-small) {
+        display: inline-block;
+        margin-top: 3em;
+        text-align: center;
+        width: 100%;
+        }
     @media (min-width: $breakpoint-medium) {
         width: auto;
         }
