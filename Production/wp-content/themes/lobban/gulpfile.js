@@ -110,7 +110,7 @@
         gulp.start('sass-minify', 'images', 'scripts-minify', 'extras');
     });
 
-    gulp.task('serve', ['css', 'images', 'scripts', 'extras'], function() {
+    gulp.task('serve', ['sass', 'images', 'scripts', 'extras'], function() {
         var fs = require("fs");
         var browserSync = require('browser-sync');
         var reload = browserSync.reload;

@@ -15,7 +15,7 @@
 	    weight: 400
 	});
 	w.Promise
-	    .all([font1.check(), font2.check(), font3.check(), font4.check()])
+	    .all([font1.check(null, 10000), font2.check(null, 10000), font3.check(null, 10000), font4.check(null, 10000)])
 	    .then(function(){
 	        w.document.documentElement.className += " fonts-loaded";
 	    });
