@@ -1,5 +1,8 @@
 .home .social {
     display: none;
+    @media (max-width: 19.999em) {
+        display: none !important;
+        }
     @media (min-width: $breakpoint-small) {
         display: inline-block;
         margin-top: 3em;

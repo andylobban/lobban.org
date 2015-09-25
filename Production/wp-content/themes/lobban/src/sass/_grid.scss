@@ -22,13 +22,20 @@ $margin-right: ($gutter/2);
     margin-right: auto;
     max-width: $site_max_width;
     width: 100%;
+    @media (max-width: 19.999em) {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: auto;
+        }
 }
 
-.col {
-    float: left;
-    width: calc(100% - #{$gutter});
-    margin-left: $margin-left;
-    margin-right: $margin-right;
+@media (min-width: $breakpoint-small) {
+    .col {
+        float: left;
+        width: calc(100% - #{$gutter});
+        margin-left: $margin-left;
+        margin-right: $margin-right;
+    }
 }
 
 @mixin grid($class: 'col', $columns: $columns, $gutter: $gutter, $extend: '') {

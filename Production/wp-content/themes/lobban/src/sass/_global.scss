@@ -2,8 +2,10 @@ body {
 	background: #f8f7f3; 
 	display: flex;
 	min-height: 100vh;
-	padding: 0 10px 10px 10px; 
     flex-direction: column;
+    @media (min-width: $breakpoint-small) {
+        padding: 0 10px 10px 10px; 
+        }
 	@media (min-width: $breakpoint-large) and (min-height: 50em) {
 		padding: 0 20px 20px 20px; 
 		}
@@ -17,39 +19,41 @@ main {
 	    }
 	}
 
-.edge {
+@media (min-width: $breakpoint-small) {
+    .edge {
 	background: #fff;
 	position: fixed;
 	z-index: 9999;
 	}
 
-.edge--top {
-	height: 10px;
-	left: 0;
-	right: 0;
-	top: 0;
-	}
+	.edge--top {
+		height: 10px;
+		left: 0;
+		right: 0;
+		top: 0;
+		}
 
-.edge--bottom {
-	height: 10px;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	}
+	.edge--bottom {
+		height: 10px;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		}
 
-.edge--left {
-	bottom: 0;
-	left: 0;
-	top: 0;
-	width: 10px;
-	}
+	.edge--left {
+		bottom: 0;
+		left: 0;
+		top: 0;
+		width: 10px;
+		}
 
-.edge--right {
-	bottom: 0;
-	right: 0;
-	top: 0;
-	width: 10px;
-	}
+	.edge--right {
+		bottom: 0;
+		right: 0;
+		top: 0;
+		width: 10px;
+		}
+    }
 
 @media (min-width: $breakpoint-large) and (min-height: 50em) {
   	.edge--top, 
