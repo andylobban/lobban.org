@@ -10,7 +10,8 @@
         runSequence     = require('run-sequence'),
         sass            = require('gulp-sass'),
         shell           = require('gulp-shell'),
-        uglify          = require('gulp-uglify');
+        uglify          = require('gulp-uglify'),
+        minifyCss       = require('gulp-minify-css');
         
 
 // = Global vars
@@ -41,23 +42,24 @@
             browsers: ['last 2 versions'],
             cascade: false
         }))
-        .pipe(gulp.dest('dist/css/'));
+        .pipe(gulp.dest('dist/css'));
     });
 
 
 // = minify css
 //-----------------------------------------------------------------------------//
 
-    gulp.task('sass-minify', function() {
-        return gulp.src('src/sass/**/*.scss')
-        .pipe(plumber(onError))
-        .pipe(sass({outputStyle: 'compressed'}))
+    gulp.task('css-minify', function () {
+    gulp.src('src/sass/**/*.scss')
+        .pipe(sass())
         .pipe(autoprefixer({
             browsers: ['last 2 versions'],
             cascade: false
         }))
-        .pipe(gulp.dest('dist/css/'));
-    });
+        .pipe(gulp.dest('dist/css'))
+        .pipe(minifyCss())
+        .pipe(gulp.dest('dist/css'));
+});
 
 
 // = images
@@ -107,7 +109,7 @@
 //-----------------------------------------------------------------------------//
 
     gulp.task('default', ['clean'], function() {
-        gulp.start('sass-minify', 'images', 'scripts-minify', 'extras');
+        gulp.start('css-minify', 'images', 'scripts-minify', 'extras');
     });
 
     gulp.task('serve', ['sass', 'images', 'scripts', 'extras'], function() {
