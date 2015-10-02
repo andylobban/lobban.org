@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<?php if(isset($_COOKIE['fontsloaded'])){
+    echo '<html lang="en" class="fonts-loaded yas">';
+	}
+	else {
+    echo '<html lang="en" class="nope">';
+	}
+?>
 
     <head>
 
