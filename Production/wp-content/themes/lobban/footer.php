@@ -14,12 +14,10 @@
 		<div class="edge edge--left"></div>
 		<div class="edge edge--right"></div>
 
-		<script src="<?php echo get_template_directory_uri(); ?>/dist/js/libs/fontfaceobserver.js"></script>
 		<script src="<?php echo get_template_directory_uri(); ?>/dist/js/core.js"></script>
         
         <?php if(is_front_page()) {?>
         	<script src="<?php echo get_template_directory_uri(); ?>/dist/js/home.js"></script>
-	        <script src="<?php echo get_template_directory_uri(); ?>/dist/js/libs/skrollr.min.js"></script>
 		    <script>
 		    	var s = skrollr.init();
 		    </script>
