@@ -15,7 +15,6 @@
         <meta http-equiv="cleartype" content="on">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="apple-mobile-web-app-title" content="Andy Lobban">
-        <title><?php wp_title( '|', true, 'right' ); ?></title>
 		<meta property="og:title" content="<?php wp_title( '|', true, 'right' ); ?>" />
 		<meta name="twitter:title" content="<?php wp_title( '|', true, 'right' ); ?>" />
 		<meta name="twitter:card" content="summary" />
@@ -59,6 +58,8 @@
 
         <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/dist/images/apple-touch-icon.png" />
         <link rel="apple-touch-icon-precomposed" href="<?php echo get_template_directory_uri(); ?>/dist/images/apple-touch-icon.png" />
+
+        <?php wp_head(); ?>
 
     </head>
 
