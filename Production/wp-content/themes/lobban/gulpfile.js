@@ -125,11 +125,14 @@
             host: config.external_ip
         });
 
-        gulp.watch('src/sass/**/*.scss', ['sass', browserSync.reload]);
+        gulp.watch('_/src/sass/**/*.scss', ['sass', browserSync.reload]);
+
+        gulp.watch('_/src/images/**/*.*', ['images', browserSync.reload]);
+
+        gulp.watch('_/src/js/**/*.js', ['scripts', browserSync.reload]);
 
         gulp.watch([
-            '*.php',
-            'src/js/**/*'
+            '*.php'
         ]).on('change', browserSync.reload);
 
     });
