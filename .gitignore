@@ -22,3 +22,5 @@ blogs.dir/
 node_modules
 
 dist/
+
+gulp.config

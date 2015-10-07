@@ -1,3 +1,8 @@
+// Add gulp.config in same directory as gulpfile
+// Add this line to glup.config: { "external_ip":"10.10.10.133" }
+// Set correct local IP
+// Set hosts file line - 127.0.0.1 lobban.local (or use MAMP etc)
+
 // = Packages
 //-----------------------------------------------------------------------------//
 
@@ -120,7 +125,7 @@
         var fileContent=fs.readFileSync("gulp.config", "utf8");
         var config = JSON.parse(fileContent);
         browserSync({
-            proxy: 'http://nss.local/',
+            proxy: 'http://lobban.local/',
             notify: false,
             host: config.external_ip
         });
