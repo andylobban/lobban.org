@@ -136,6 +136,8 @@
 
         gulp.watch('_/src/js/**/*.js', ['scripts', browserSync.reload]);
 
+        gulp.watch(['src/**/*', '!src/{sass,sass/**}', '!src/{images,images/**}', '!src/{js,js/**}'], ['extras', browserSync.reload]);
+
         gulp.watch([
             '*.php'
         ]).on('change', browserSync.reload);
