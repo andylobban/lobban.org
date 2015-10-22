@@ -207,12 +207,14 @@
 
 .home__project {
 	background: #333;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	height: 150px;
 	position: relative;
 	}
 
 .home__project.project--glr {
-	background: url(../images/glr.jpg) center center / cover no-repeat;
 	@media (min-width: $breakpoint-medium) {
 	    height: 15em;
 	    }
@@ -222,7 +224,6 @@
 	}
 
 .home__project.project--instant {
-	background: url(../images/instant.jpg) center center / cover no-repeat;
 	@media (min-width: $breakpoint-medium) {
 	    height: 11.75em;
 	    }
@@ -232,7 +233,6 @@
 	}
 
 .home__project.project--film {
-	background: url(../images/film.jpg) center center / cover no-repeat;
 	@media (min-width: $breakpoint-medium) {
 	    height: 10em;
 	    }
@@ -242,7 +242,6 @@
 	}
 
 .home__project.project--secret-editions {
-	background: url(../images/secret-editions.jpg) center center / cover no-repeat;
 	@media (min-width: $breakpoint-medium) {
 	    height: 14em;
 	    }
@@ -252,7 +251,6 @@
 	}
 
 .home__project.project--shy-retirers {
-	background: url(../images/shy-retirers.jpg) center center / cover no-repeat;
 	@media (min-width: $breakpoint-medium) {
 	    height: 10.75em;
 	    }
@@ -262,7 +260,6 @@
 	}
 
 .home__project.project--sleeves-received {
-	background: url(../images/sleeves-received.jpg) center center / cover no-repeat;
 	@media (min-width: $breakpoint-medium) {
 	    height: 9em;
 	    }
