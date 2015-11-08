@@ -1,3 +1,8 @@
+// Add gulp.config in same directory as gulpfile
+// Add this line to glup.config: { "external_ip":"10.10.10.133" }
+// Set correct local IP
+// Set hosts file line - 127.0.0.1 lobban.local (or use MAMP etc)
+
 // = Packages
 //-----------------------------------------------------------------------------//
 
@@ -118,16 +123,21 @@
         var reload = browserSync.reload;
 
         browserSync({
-            proxy: 'http://nss.local/',
+            proxy: 'http://lobban.local/',
             notify: false,
             host: '10.0.1.10'
         });
 
-        gulp.watch('src/sass/**/*.scss', ['sass', browserSync.reload]);
+        gulp.watch('_/src/sass/**/*.scss', ['sass', browserSync.reload]);
+
+        gulp.watch('_/src/images/**/*.*', ['images', browserSync.reload]);
+
+        gulp.watch('_/src/js/**/*.js', ['scripts', browserSync.reload]);
+
+        gulp.watch(['src/**/*', '!src/{sass,sass/**}', '!src/{images,images/**}', '!src/{js,js/**}'], ['extras', browserSync.reload]);
 
         gulp.watch([
-            '*.php',
-            'src/js/**/*'
+            '*.php'
         ]).on('change', browserSync.reload);
 
     });
