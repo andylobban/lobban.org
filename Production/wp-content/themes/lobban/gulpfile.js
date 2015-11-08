@@ -117,12 +117,10 @@
         var browserSync = require('browser-sync');
         var reload = browserSync.reload;
 
-        var fileContent=fs.readFileSync("gulp.config", "utf8");
-        var config = JSON.parse(fileContent);
         browserSync({
             proxy: 'http://nss.local/',
             notify: false,
-            host: config.external_ip
+            host: '10.0.1.10'
         });
 
         gulp.watch('src/sass/**/*.scss', ['sass', browserSync.reload]);
