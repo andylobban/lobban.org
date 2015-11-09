@@ -95,3 +95,8 @@
 	margin-bottom: 0.25em;
 	margin-top: 0.25em;
 	}
+
+.article__content iframe, 
+.article__content object {
+	max-width: 100%;
+	}
