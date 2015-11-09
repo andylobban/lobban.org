@@ -1,4 +1,4 @@
-.home .logo {
+.home .logo.skrollable {
 	@media (max-width: $breakpoint-medium) {
 	    margin-left: 0;
 	    }
@@ -23,7 +23,7 @@
 	    }
 	}
 
-.home .logo > a  {
+.home .logo.skrollable > a  {
 	/* autoprefixer: off */
  	background: -webkit-linear-gradient(transparent, transparent),
              	#0D3546 url(../images/bg-340.jpg) left top no-repeat;
@@ -85,7 +85,7 @@
 		}
 	}
 
-.home .logo .shape {
+.home .logo.skrollable .shape {
 	@media (min-width: $breakpoint-small) {
 	    background: $link;
 		bottom: -0.6em;
