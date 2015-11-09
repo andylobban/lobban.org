@@ -19,6 +19,14 @@
         <?php if(is_front_page()) {?>
         	<script src="<?php echo get_template_directory_uri(); ?>/dist/js/home.js"></script>
 		<?php }?>
+
+        <script src="<?php echo get_template_directory_uri(); ?>/dist/js/libs/fluidvids.min.js"></script>
+        <script>
+        	fluidvids.init({
+			  	selector: ['iframe', 'object'], // runs querySelectorAll()
+			  	players: ['www.youtube.com', 'player.vimeo.com'] // players to support
+			});
+		</script>
 		
 		<?php if(!isset($_COOKIE['fontsloaded'])){?>
 			<script>function cookie(e,o,i){if(void 0===o){var t="; "+window.document.cookie,n=t.split("; "+e+"=");return 2===n.length?n.pop().split(";").shift():null}var c,d=new Date;d.setTime(d.getTime()+24*i*60*60*1e3),c="; expires="+d.toGMTString(),window.document.cookie=e+"="+o+c+"; path=/"}cookie("fontsloaded","true",14);</script>
