@@ -67,6 +67,12 @@
 	    }
 	}
 
+.category-link .article__content a {
+	overflow: hidden;
+	text-overflow: ellipsis;
+  	white-space: nowrap;
+	}
+
 .article__content .wp-caption {
 	max-width: 100%;
 	}
