@@ -35,10 +35,7 @@ elseif ( file_exists( dirname( __FILE__ ) . '/wp-config-staging.php' ) ) {
     }  
 
 else {  
-    define('DB_NAME', 'lobbanor_lobban');  
-    define('DB_USER', 'lobbanor_lobban');  
-    define('DB_PASSWORD', 'W7]pk.&<=|548>2');  
-    define('DB_HOST', 'localhost'); 
+    include( dirname( __FILE__ ) . '/wp-config-live.php' ); 
     }  
 
 /** Database Charset to use in creating database tables. */
