@@ -26,16 +26,6 @@
                     }
                 };
             }
-            // If scrolling up
-            else {
-                // Stop animation when you reach the anchor OR the top of the page
-                stopAnimation = function () {
-                    var travelled = window.pageYOffset;
-                    if ( travelled <= (endLocation || 0) ) {
-                        clearInterval(runAnimation);
-                    }
-                };
-            }
             // Loop the animation function
             var runAnimation = setInterval(animateScroll, 16);
         };
