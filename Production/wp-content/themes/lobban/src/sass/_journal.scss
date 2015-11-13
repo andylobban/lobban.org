@@ -68,9 +68,15 @@
 	}
 
 .category-link .article__content a {
-	overflow: hidden;
-	text-overflow: ellipsis;
-  	white-space: nowrap;
+	overflow-wrap: break-word;
+  	word-wrap: break-word;
+	-ms-word-break: break-all;
+  	word-break: break-all;
+  	word-break: break-word;
+  	-ms-hyphens: auto;
+  	-moz-hyphens: auto;
+  	-webkit-hyphens: auto;
+  	hyphens: auto;
 	}
 
 .article__content .wp-caption {
