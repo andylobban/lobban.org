@@ -11,7 +11,7 @@ Template Name: Home
     <main id="content" role="main">
 
         <div class="clearfix">
-            <section class="home__intro push--bottom" data-0="opacity: 1;" data-100p="opacity: 0;">
+            <section class="home__intro push--bottom">
                 <ul>
                     <li>Edinburgh, Scotland</li>
                     <li>Designer at <a href="http://stormid.com">Storm ID</a></li>
@@ -19,7 +19,7 @@ Template Name: Home
                     <li>Co-owner of <a href="http://gerrylovesrecords.com/">Gerry Loves Records</a></li>
                     <li>Owner of <a href="http://secreteditions.com/">Secret Editions</a></li>
                 </ul>
-                <div class="intro__more" data-0="opacity: 1;" data-36p="opacity: 0;">
+                <div class="intro__more">
                     <a class="icon-down scroll" data-speed="1000" href="#more">There's more</a>
                 </div>
             </section>

@@ -33,29 +33,15 @@
 
     	<a href="#content" class="away skip-link">Skip to main content</a>
     
-    	<header role="banner" data-20p="padding-top: 0.4em;" data-30p="padding-top: 1.45em;">
+    	<header role="banner">
     		<div class="wrapper clearfix">
 		
 				<div class="logo col small-12 medium-5 large-5 xlarge-5">
 					<a href="/">
 						Andy Lobban
-						<span class="shape"
-						data-0="
-						opacity: 1;" 
-						data-36p="
-						opacity: 0;"></span>
+						<span class="shape"></span>
 					</a>
-					<ul class="social home__social" 
-					data-0="
-						display: inline-block;
-						opacity: 1;" 
-					data-20p="
-						opacity: 1;" 
-					data-36p="
-						opacity: 0;"
-					data-37p="
-						display: none;"
-					>
+					<ul class="social home__social">
 		                <li><a class="icon-mail" href="mailto:andy@lobban.org"><span class="away">Email</span></a></li>
 		                <li><a class="icon-twitter" href="https://twitter.com/nonimage"><span class="away">Twitter</span></a></li>
 		                <li><a class="icon-instagram" href="https://instagram.com/nonimage/"><span class="away">Instagram</span></a></li>
