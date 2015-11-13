@@ -30,25 +30,15 @@
     </head>
 
     <body <?php body_class( $class ); ?>>
-
     	<a href="#content" class="away skip-link">Skip to main content</a>
-    
     	<header role="banner">
     		<div class="wrapper clearfix">
-		
 				<div class="logo col small-12 medium-5 large-5 xlarge-5">
 					<a href="/">
 						Andy Lobban
 						<span class="shape"></span>
 					</a>
-					<ul class="social home__social">
-		                <li><a class="icon-mail" href="mailto:andy@lobban.org"><span class="away">Email</span></a></li>
-		                <li><a class="icon-twitter" href="https://twitter.com/nonimage"><span class="away">Twitter</span></a></li>
-		                <li><a class="icon-instagram" href="https://instagram.com/nonimage/"><span class="away">Instagram</span></a></li>
-		                <li><a class="icon-facebook" href="https://www.facebook.com/andylobban"><span class="away">Facebook</span></a></li>
-		            </ul>
 				</div>
-				
 				<nav class="col small-12 medium-9 large-6 switch--medium" role="navigation">
 					<ul>
 						<li><a href="/work">Work</a></li>
@@ -56,8 +46,6 @@
 						<li><a href="/info">Info</a></li>
 					</ul>
 				</nav>
-
 			</div>
-		
 		</header>
 		

@@ -6,11 +6,21 @@ Template Name: Home
 
 <?php get_header(); ?>
 
-<div id="skrollr-body">
-
+<div>
     <main id="content" role="main">
-
         <div class="clearfix">
+            <section class="home__name">
+                <h1>
+                    Andy Lobban
+                    <span class="shape"></span>
+                </h1>
+                <ul class="social home__social">
+                    <li><a class="icon-mail" href="mailto:andy@lobban.org"><span class="away">Email</span></a></li>
+                    <li><a class="icon-twitter" href="https://twitter.com/nonimage"><span class="away">Twitter</span></a></li>
+                    <li><a class="icon-instagram" href="https://instagram.com/nonimage/"><span class="away">Instagram</span></a></li>
+                    <li><a class="icon-facebook" href="https://www.facebook.com/andylobban"><span class="away">Facebook</span></a></li>
+                </ul>
+            </section>
             <section class="home__intro push--bottom">
                 <ul>
                     <li>Edinburgh, Scotland</li>
