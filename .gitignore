@@ -25,3 +25,5 @@ node_modules
 dist/
 
 gulp.config
+
+Production/wp-content/themes/lobban/src/fonts
