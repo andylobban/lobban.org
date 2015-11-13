@@ -15,10 +15,10 @@ Template Name: Home
                     <span class="shape"></span>
                 </h1>
                 <ul class="social home__social">
-                    <li><a class="icon-mail" href="mailto:andy@lobban.org"><span class="away">Email</span></a></li>
-                    <li><a class="icon-twitter" href="https://twitter.com/nonimage"><span class="away">Twitter</span></a></li>
-                    <li><a class="icon-instagram" href="https://instagram.com/nonimage/"><span class="away">Instagram</span></a></li>
-                    <li><a class="icon-facebook" href="https://www.facebook.com/andylobban"><span class="away">Facebook</span></a></li>
+                    <li><a href="mailto:andy@lobban.org"><span class="icon icon-mail" aria-hidden="true"><span class="away">Email</span></a></li>
+                    <li><a href="https://twitter.com/nonimage"><span class="icon icon-twitter" aria-hidden="true"><span class="away">Twitter</span></a></li>
+                    <li><a href="https://instagram.com/nonimage/"><span class="icon icon-instagram" aria-hidden="true"><span class="away">Instagram</span></a></li>
+                    <li><a href="https://www.facebook.com/andylobban"><span class="icon icon-facebook" aria-hidden="true"><span class="away">Facebook</span></a></li>
                 </ul>
             </section>
             <section class="home__intro push--bottom">
@@ -30,7 +30,7 @@ Template Name: Home
                     <li>Owner of <a href="http://secreteditions.com/">Secret Editions</a></li>
                 </ul>
                 <div class="intro__more">
-                    <a class="icon-down scroll" data-speed="1000" href="#more">There's more</a>
+                    <a class="scroll" data-speed="1000" href="#more"><span class="icon icon-down" aria-hidden="true">There's more</a>
                 </div>
             </section>
         </div>
