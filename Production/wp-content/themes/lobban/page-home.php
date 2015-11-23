@@ -5,8 +5,6 @@ Template Name: Home
 ?>
 
 <?php get_header(); ?>
-
-<div>
     <main id="content" role="main">
         <div class="clearfix">
             <section class="home__name">
@@ -34,7 +32,6 @@ Template Name: Home
                 </div>
             </section>
         </div>
-
         <div class="wrapper" id="more">
             <section class="home__section clearfix">
                 <div class="clearfix">
@@ -137,9 +134,5 @@ Template Name: Home
             -->
 
         </div>
-
     </main>
-
-</div>
-
 <?php get_footer(); ?>

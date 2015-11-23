@@ -13,18 +13,21 @@ body {
 
 main {
 	flex: 1 0 auto;
-	padding-top: 1em;
-	@media (min-width: $breakpoint-small) {
-	    padding-top: 100px;
+	padding-top: 59px;
+	@media (min-width: $breakpoint-medium) {
+	    padding-top: 48px;
+	    }
+	@media (min-width: $breakpoint-large) {
+	    padding-top: 54px;
 	    }
 	}
 
 @media (min-width: $breakpoint-small) {
     .edge {
-	background: #fff;
-	position: fixed;
-	z-index: 9998;
-	}
+		background: #fff;
+		position: fixed;
+		z-index: 9998;
+		}
 
 	.edge--top {
 		height: 10px;
