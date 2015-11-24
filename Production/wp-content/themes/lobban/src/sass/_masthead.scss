@@ -38,6 +38,15 @@
 	    }
 	}
 
+.home .logo {
+	opacity: 0;
+	transition: opacity 0.5s linear;
+	}
+
+.home .logo.show {
+	opacity: 1;
+	}
+
 .logo a {
 	border: 0;
 	color: #000;

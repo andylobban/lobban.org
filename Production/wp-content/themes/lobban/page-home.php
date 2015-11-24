@@ -6,7 +6,7 @@ Template Name: Home
 
 <?php get_header(); ?>
     <main id="content" role="main">
-        <div class="clearfix">
+        <div class="home__cover clearfix">
             <section class="home__name">
                 <h1>
                     Andy Lobban
@@ -27,10 +27,10 @@ Template Name: Home
                     <li>Co-owner of <a href="http://gerrylovesrecords.com/">Gerry Loves Records</a></li>
                     <li>Owner of <a href="http://secreteditions.com/">Secret Editions</a></li>
                 </ul>
-                <div class="intro__more">
-                    <a class="scroll" data-speed="1000" href="#more"><span class="icon icon-down" aria-hidden="true">There's more</a>
-                </div>
             </section>
+            <div class="intro__more">
+                <a class="scroll" data-speed="1000" href="#more"><span class="icon icon-down" aria-hidden="true">There's more</a>
+            </div>
         </div>
         <div class="wrapper" id="more">
             <section class="home__section clearfix">

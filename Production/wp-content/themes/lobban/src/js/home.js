@@ -1,3 +1,20 @@
+var cover           = document.querySelector('.home__cover'),
+    cover_height    = getComputedStyle(cover).height.split('px')[0],
+    logo            = document.querySelector('.logo'),
+    show_class      = 'show'; 
+
+function stickyScroll(e) {
+    if( window.pageYOffset > cover_height * .75 ) {
+        logo.classList.add(show_class);
+    }
+    if( window.pageYOffset < cover_height * .75 ) {
+        logo.classList.remove(show_class);
+    }
+}
+
+window.addEventListener('scroll', stickyScroll, false);
+
+
 // smooth scroll
 (function() {
     'use strict';
