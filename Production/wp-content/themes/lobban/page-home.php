@@ -22,8 +22,8 @@ Template Name: Home
             <section class="home__intro push--bottom">
                 <ul>
                     <li>Edinburgh, Scotland</li>
-                    <li>Designer at <a href="http://stormid.com">Storm ID</a></li>
-                    <li>Previously freelance as <a href="http://stormid.com">Nonimage</a></li>
+                    <li>Product designer at <a href="http://fanduel.com">FanDuel</a></li>
+                    <li>Previously at <a href="http://stormid.com">Storm ID</a>, <a href="http://nonimage.com">Nonimage</a></li>
                     <li>Co-owner of <a href="http://gerrylovesrecords.com/">Gerry Loves Records</a></li>
                     <li>Owner of <a href="http://secreteditions.com/">Secret Editions</a></li>
                 </ul>
