@@ -36,7 +36,6 @@
 				<div class="logo col small-12 medium-5 large-5 xlarge-5">
 					<a href="/">
 						Andy Lobban
-						<span class="shape"></span>
 					</a>
 				</div>
 				<nav class="col small-12 medium-9 large-6 switch--medium" role="navigation">
