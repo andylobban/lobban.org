@@ -25,6 +25,7 @@
              	#0D3546 url(../images/bg-340.jpg) left top no-repeat;
  	background: -o-linear-gradient(transparent, transparent);
  	color: #0D3546;
+ 	display: inline-block;
  	margin-bottom: ($spaceMore * 2);
 	position: relative;
 	-webkit-background-clip: text;
@@ -88,7 +89,7 @@
 		display: block;
 		height: 0.1em;
 		position: absolute;
-		width: 3.5em;
+		width: 60%;
 	    }
 	@media (min-width: $breakpoint-medium) {
 		bottom: 0;
@@ -103,4 +104,3 @@
 	font-size: $epsilon;
 	line-height: 1.6;
 	}
-	
