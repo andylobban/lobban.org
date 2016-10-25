@@ -1,32 +1,27 @@
-.home .logo {
-	opacity: 0;
-	transition: opacity 0.5s linear;
-	}
-
-.home .logo.show {
-	opacity: 1;
-	}
-
-.home main {
+.home__name {
+	padding-bottom: 2em;
+	padding-top: 2em;
 	@media (min-width: $breakpoint-medium) {
-	    padding-top: 0;
+		align-items: center;
+		display: flex;
+	    float: left;
+		height: 100vh;
+		justify-content: center;
+		margin-top: 0;
+		padding-bottom: 0;
+		padding-top: 48px;
+		width: 50%;
 	    }
 	}
 
-.home__cover {
-	@media (min-height: 400px) {
-		height: 100vh;
-	}
-}
-
-.home__cover h1  {
+.home__name h1  {
 	/* autoprefixer: off */
  	background: -webkit-linear-gradient(transparent, transparent),
              	#0D3546 url(../images/bg-340.jpg) left top no-repeat;
  	background: -o-linear-gradient(transparent, transparent);
  	color: #0D3546;
- 	margin-bottom: ($spaceMore * 2);
 	position: relative;
+	text-align: center;
 	-webkit-background-clip: text;
  	-webkit-text-fill-color: transparent;
  	@media (min-width: 500px) {
@@ -66,27 +61,31 @@
         -webkit-background-clip: text;
 		}
 	@media (min-width: $breakpoint-small) {
-		font-size: $alpha; 
-		letter-spacing: -0.02rem; 
+		font-size: 2em; 
+		letter-spacing: -1px; 
+		padding-bottom: 0.3em; 
+		padding-top: 0;
 		}
 	@media (min-width: $breakpoint-medium) {
-		font-size: $alpha;
+		font-size: 3.5em;
 		}
 	@media (min-width: $breakpoint-large) {
-		font-size: $alpha;
+		font-size: 5.5em;
 		}
 	@media (min-width: $breakpoint-xlarge) {
-		font-size: $alpha;
+		font-size: 7em;
 		}
 	}
 
-.home__cover h1:after {
+.home__name .shape {
 	@media (min-width: $breakpoint-small) {
 	    background: $link;
-		bottom: -$spaceMore;
+		bottom: -0.3em;
 		content: '';
 		display: block;
-		height: 0.1em;
+		height: 0.15em;
+		left: 50%;
+		margin-left: -1.75em;
 		position: absolute;
 		width: 3.5em;
 	    }
@@ -99,8 +98,72 @@
 	    }
 	}
 
-.home__cover p {
-	font-size: $epsilon;
-	line-height: 1.6;
+.home .social {
+    @media (min-width: $breakpoint-small) {
+        display: inline-block; 
+        text-align: center;
+        width: 100%;
+        }
+    @media (min-width: $breakpoint-medium) {
+        margin-top: 3em;
+        width: auto;
+        }
+    @media (min-width: $breakpoint-large) {
+        text-align: right;
+        }
+    }
+
+.home__intro {
+	background: #0f516d url(../images/bg-340.jpg) center center / cover no-repeat;
+	color: #fff;
+	padding: 2em 1em;
+	text-align: center;
+	@media (min-width: 500px) {
+		background-image: url(../images/bg-500.jpg);
+		}
+	@media (min-width: 600px) {
+		background-image: url(../images/bg-600.jpg);
+		}
+	@media (min-width: $breakpoint-medium) {
+		align-items: center;
+		display: flex;
+	    float: right;
+		height: 100vh;
+		justify-content: center;
+		padding-bottom: 0;
+		padding-top: 48px;
+		width: 50%;
+	    }
+	@media (min-width: $breakpoint-medium) and (min-height: 700px) {
+		background-image: url(../images/bg-1022.jpg);
+		}
+	@media (min-width: $breakpoint-medium) and (min-height: 800px) {
+		background-image: url(../images/bg-1168.jpg);
+		}
+	@media (min-width: $breakpoint-medium) and (min-height: 900px) {
+		background-image: url(../images/bg-1315.jpg);
+		}
+	@media (min-width: $breakpoint-medium) and (min-height: 1000px) {
+		background-image: url(../images/bg-1500.jpg);
+		}
+	@media (min-width: $breakpoint-large) {
+		padding-top: 55px;
+	    }
+	}
+
+.home__intro li:not(:last-child) {
+	line-height: 1.2;
+	margin-bottom: 0.5em;
+	}
+
+.home__intro a {
+	border-bottom: 2px solid #fff;
+	color: #ffc;
+	display: inline-block;
+	&:hover, &:active, &:focus {
+        box-shadow: inset 0 -3px 0 #ffc;
+        border: 0;
+        color: #fff;
+    	}
 	}
 	
