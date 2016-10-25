@@ -46,33 +46,26 @@ body,
 button, 
 input, 
 select, 
-textarea {
+textarea, 
+.sans-serif {
     font-family: sans-serif;
-    @media (max-width: 19.999em) {
-        font-size: 0.8em;
-        }
     }
  
 h1, 
 h2, 
-.logo,
-.home__project h3 {
+.headline {
 	font-family: serif;
     font-weight: bold;
 	}
 
 strong, 
 b, 
-.button, 
-.article__content h2, 
-.article__content h3 {
+.button {
     font-weight: bold;
     }
 
 em, 
-i, 
-.article time, 
-.article__content .wp-caption-text {
+i {
     font-style: italic;
     }
 
@@ -83,31 +76,27 @@ i,
     button, 
     input, 
     select, 
-    textarea {
+    textarea, 
+    .sans-serif {
         font-family: 'karlaregular', sans-serif;
         }
 
     h1, 
     h2, 
-    .logo,
-    .home__project h3 {
+    .headline {
         font-family: "teimposheadlineblack", serif;
         font-weight: normal;
         }
 
     strong, 
     b, 
-    .button, 
-    .article__content h2, 
-    .article__content h3 {
+    .button {
         font-family: 'karlabold', sans-serif;
         font-style: normal;
         }
 
     em, 
-    i, 
-    .article time, 
-    .article__content .wp-caption-text {
+    i {
         font-family: 'karlaitalic', sans-serif;
         font-style: normal;
         }
@@ -115,55 +104,9 @@ i,
     }
 
 body {
-    font-size: 1.1em;
-    line-height: 1.4;
-    @media (min-width: $breakpoint-large) {
-        font-size: 1.2em;
-        }
-    }
-
-h1 {
-    font-size: 1.7em;
-    margin-bottom: 1em;
-    @media (min-width: $breakpoint-large) {
-        font-size: 2em;
-        }
-    }
-
-h2 {
-    font-size: 1.2em;
-    @media (min-width: $breakpoint-large) {
-        font-size: 1.4em;
-        }
-    }
-
-p {
-    margin-bottom: 0.75em;
+    line-height: 1.5;
     }
 
 .break {
     display: inline-block;
-    }
-
-.page__header {
-    margin-bottom: 2em;
-    position: relative;
-    }
-
-.page__header:after {
-    background: $link;
-    bottom: -0.4em;
-    content: '';
-    display: block;
-    height: 0.15em;
-    left: 0;
-    margin-left: 0;
-    position: absolute;
-    width: 3.5em;
-    }
-
-.article__content h2, 
-.article__content h3 {
-    letter-spacing: -1px;
-    margin-top: 1em;
     }

@@ -1,33 +1,32 @@
+.home .logo {
+	opacity: 0;
+	transition: opacity 0.5s linear;
+	}
+
+.home .logo.show {
+	opacity: 1;
+	}
+
 .home main {
 	@media (min-width: $breakpoint-medium) {
 	    padding-top: 0;
 	    }
 	}
 
-.home__name {
-	padding-bottom: 2em;
-	padding-top: 2em;
-	@media (min-width: $breakpoint-medium) {
-		align-items: center;
-		display: flex;
-	    float: left;
+.home__cover {
+	@media (min-height: 400px) {
 		height: 100vh;
-		justify-content: center;
-		margin-top: 0;
-		padding-bottom: 0;
-		padding-top: 48px;
-		width: 50%;
-	    }
 	}
+}
 
-.home__name h1  {
+.home__cover h1  {
 	/* autoprefixer: off */
  	background: -webkit-linear-gradient(transparent, transparent),
              	#0D3546 url(../images/bg-340.jpg) left top no-repeat;
  	background: -o-linear-gradient(transparent, transparent);
  	color: #0D3546;
+ 	margin-bottom: ($spaceMore * 2);
 	position: relative;
-	text-align: center;
 	-webkit-background-clip: text;
  	-webkit-text-fill-color: transparent;
  	@media (min-width: 500px) {
@@ -67,31 +66,27 @@
         -webkit-background-clip: text;
 		}
 	@media (min-width: $breakpoint-small) {
-		font-size: 2em; 
-		letter-spacing: -1px; 
-		padding-bottom: 0.3em; 
-		padding-top: 0;
+		font-size: $alpha; 
+		letter-spacing: -0.02rem; 
 		}
 	@media (min-width: $breakpoint-medium) {
-		font-size: 3.5em;
+		font-size: $alpha;
 		}
 	@media (min-width: $breakpoint-large) {
-		font-size: 5.5em;
+		font-size: $alpha;
 		}
 	@media (min-width: $breakpoint-xlarge) {
-		font-size: 7em;
+		font-size: $alpha;
 		}
 	}
 
-.home__name .shape {
+.home__cover h1:after {
 	@media (min-width: $breakpoint-small) {
 	    background: $link;
-		bottom: -0.3em;
+		bottom: -$spaceMore;
 		content: '';
 		display: block;
-		height: 0.15em;
-		left: 50%;
-		margin-left: -1.75em;
+		height: 0.1em;
 		position: absolute;
 		width: 3.5em;
 	    }
@@ -104,236 +99,7 @@
 	    }
 	}
 
-.home .social {
-    @media (min-width: $breakpoint-small) {
-        display: inline-block; 
-        text-align: center;
-        width: 100%;
-        }
-    @media (min-width: $breakpoint-medium) {
-        margin-top: 3em;
-        width: auto;
-        }
-    @media (min-width: $breakpoint-large) {
-        text-align: right;
-        }
-    }
-
-.home [role="navigation"] {
-	background: rgba(255,255,255,0.7);
-	position: relative;
-	z-index: 2;
-	}
-
-.home__intro {
-	background: #0f516d url(../images/bg-340.jpg) center center / cover no-repeat;
-	color: #fff;
-	padding: 2em 1em;
-	text-align: center;
-	@media (min-width: 500px) {
-		background-image: url(../images/bg-500.jpg);
-		}
-	@media (min-width: 600px) {
-		background-image: url(../images/bg-600.jpg);
-		}
-	@media (min-width: $breakpoint-medium) {
-		align-items: center;
-		display: flex;
-	    float: right;
-		height: 100vh;
-		justify-content: center;
-		padding-bottom: 0;
-		padding-top: 48px;
-		width: 50%;
-	    }
-	@media (min-width: $breakpoint-medium) and (min-height: 700px) {
-		background-image: url(../images/bg-1022.jpg);
-		}
-	@media (min-width: $breakpoint-medium) and (min-height: 800px) {
-		background-image: url(../images/bg-1168.jpg);
-		}
-	@media (min-width: $breakpoint-medium) and (min-height: 900px) {
-		background-image: url(../images/bg-1315.jpg);
-		}
-	@media (min-width: $breakpoint-medium) and (min-height: 1000px) {
-		background-image: url(../images/bg-1500.jpg);
-		}
-	@media (min-width: $breakpoint-large) {
-		padding-top: 55px;
-	    }
-	}
-
-.home__intro li:not(:last-child) {
-	line-height: 1.2;
-	margin-bottom: 0.5em;
-	}
-
-.home__intro a {
-	border-bottom: 2px solid #fff;
-	color: #ffc;
-	display: inline-block;
-	&:hover, &:active, &:focus {
-        box-shadow: inset 0 -3px 0 #ffc;
-        border: 0;
-        color: #fff;
-    	}
-	}
-
-.intro__more {
-	border: 0;
-	bottom: 0;
-	display: none;
-	left: 0;
-	margin-bottom: 0;
-	position: absolute;
-	right: 0;
-	text-align: center;
-	z-index: 2;
-	@media (min-width: $breakpoint-medium) {
-	    display: block;
-	    }
-	}
-
-.intro__more a {
-	background: #fff;
-	border: 0;
-	color: #000;
-	display: inline-block;
-	font-size: 0.8em;
-	padding: 0.5em 1em 10px 1em; 
-	text-transform: uppercase;
-	&:hover, &:active, &:focus {
-		box-shadow: none;
-		color: #000;
-        padding-bottom: 15px;
-    	}
-	}
-
-.home__section {
-	margin-top: 3em;
-	position: relative;
-	}
-
-.home__project {
-	background: #333;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 150px;
-	position: relative;
-	}
-
-.home__project.project--glr {
-	@media (min-width: $breakpoint-medium) {
-	    height: 15em;
-	    }
-	@media (min-width: $breakpoint-large) {
-	    height: 15em;
-	    }
-	}
-
-.home__project.project--instant {
-	@media (min-width: $breakpoint-medium) {
-	    height: 11.75em;
-	    }
-	@media (min-width: $breakpoint-large) {
-	    height: 12.45em;
-	    }
-	}
-
-.home__project.project--film {
-	@media (min-width: $breakpoint-medium) {
-	    height: 10em;
-	    }
-	@media (min-width: $breakpoint-large) {
-	    height: 10em;
-	    }
-	}
-
-.home__project.project--secret-editions {
-	@media (min-width: $breakpoint-medium) {
-	    height: 14em;
-	    }
-	@media (min-width: $breakpoint-large) {
-	    height: 14em;
-	    }
-	}
-
-.home__project.project--shy-retirers {
-	@media (min-width: $breakpoint-medium) {
-	    height: 10.75em;
-	    }
-	@media (min-width: $breakpoint-large) {
-	    height: 11em;
-	    }
-	}
-
-.home__project.project--sleeves-received {
-	@media (min-width: $breakpoint-medium) {
-	    height: 9em;
-	    }
-	@media (min-width: $breakpoint-large) {
-	    height: 9em;
-	    }
-	}
-
-.home__project.project--other {
-	@media (min-width: $breakpoint-medium) {
-	    height: 5.9em;
-	    }
-	@media (min-width: $breakpoint-large) {
-	    height: 5.9em;
-	    }
-	}
-
-.home__project a {
-	background: rgba(0,0,0,0.5);
-	border-bottom: 0;
-	bottom: 0;
-	color: #fff;
-	display: block;
-	left: 0;
-	padding: 1em;
-	position: absolute;
-	right: 0;
-	top: 0;
-	transition: all 0.2s linear;
-	&:hover, &:focus, &:active {
-		background: rgba(0,0,0,0.8);
-		box-shadow: none;
-		.home__project__info {
-			bottom: 1.5em;
-			transition: all 0.2s linear;
-			}
-		}
-	}
-
-.home__project__info {
-	bottom: 0.5em;
-	left: 0.5em;
-	position: absolute;
-	right: 0.5em;
-	&:hover, &:focus, &:active {
-		bottom: 2em;
-		}
-	}
-
-.home__project a {
-	&:hover, &:focus, &:active {
-		
-		}
-	}
-
-.home__project h3 {
-    font-size: 1.2em;
-    display: inline-block;
-    line-height: 1.2;
-    margin-bottom: 0.25em;
-    vertical-align: bottom;
-	}
-
-.home__project p {
-	font-size: 0.8em;
-	line-height: 1.2;
-    margin: 0;
+.home__cover p {
+	font-size: $epsilon;
+	line-height: 1.6;
 	}

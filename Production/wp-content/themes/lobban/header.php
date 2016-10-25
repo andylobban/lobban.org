@@ -18,10 +18,6 @@
 
         <link rel="stylesheet" media="not print" href="<?php echo get_template_directory_uri(); ?>/dist/css/style.css" />
 
-        <!--[if lte IE 8]>
-            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-
         <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/dist/images/apple-touch-icon.png" />
         <link rel="apple-touch-icon-precomposed" href="<?php echo get_template_directory_uri(); ?>/dist/images/apple-touch-icon.png" />
 
@@ -32,11 +28,10 @@
     <body <?php body_class( $class ); ?>>
     	<a href="#content" class="away skip-link">Skip to main content</a>
     	<header role="banner">
-    		<div class="wrapper clearfix">
-				<div class="logo col small-12 medium-5 large-5 xlarge-5">
+    		<div class="masthead__wrapper wrapper clearfix">
+				<div class="logo col small-12 medium-5 large-5 xlarge-5 headline">
 					<a href="/">
 						Andy Lobban
-						<span class="shape"></span>
 					</a>
 				</div>
 				<nav class="col small-12 medium-9 large-6 switch--medium" role="navigation">
