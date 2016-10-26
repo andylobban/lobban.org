@@ -13,7 +13,7 @@ body {
 
 main {
 	flex: 1 0 auto;
-	padding-top: 59px;
+	padding-top: $headerHeightNarrow;
 	@media (min-width: $breakpoint-medium) {
 	    padding-top: 48px;
 	    }

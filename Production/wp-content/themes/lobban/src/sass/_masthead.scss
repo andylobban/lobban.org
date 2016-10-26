@@ -21,7 +21,7 @@
 .masthead__wrapper {
 	display: flex;
 	flex-direction: column;
-	height: 60px;
+	height: $headerHeightNarrow;
 	justify-content: space-around;
 	}
 

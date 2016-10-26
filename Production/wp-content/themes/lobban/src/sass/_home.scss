@@ -15,7 +15,10 @@
 
 .home__cover {
 	@media (min-height: 400px) {
-		height: 100vh;
+		display: flex;
+		flex-direction: column;
+		height: calc(100vh - #{$headerHeightNarrow});
+		justify-content: center;
 	}
 }
 
@@ -26,7 +29,9 @@
  	background: -o-linear-gradient(transparent, transparent);
  	color: #0D3546;
  	display: inline-block;
- 	margin-bottom: ($spaceMore * 2);
+	font-size: 9vw;
+	letter-spacing: -0.02rem; 
+ 	margin-bottom: ($spaceMore * 2 + 0.3rem);
 	position: relative;
 	-webkit-background-clip: text;
  	-webkit-text-fill-color: transparent;
@@ -66,41 +71,35 @@
              		#0D3546 url(../images/bg-1500.jpg) left top no-repeat;
         -webkit-background-clip: text;
 		}
-	@media (min-width: $breakpoint-small) {
-		font-size: $alpha; 
-		letter-spacing: -0.02rem; 
-		}
-	@media (min-width: $breakpoint-medium) {
-		font-size: $alpha;
-		}
 	@media (min-width: $breakpoint-large) {
-		font-size: $alpha;
-		}
-	@media (min-width: $breakpoint-xlarge) {
-		font-size: $alpha;
+		font-size: 8rem;
+		margin-bottom: ($spaceMore * 2 + 1rem);
 		}
 	}
 
 .home__cover h1:after {
-	@media (min-width: $breakpoint-small) {
-	    background: $link;
-		bottom: -$spaceMore;
-		content: '';
-		display: block;
-		height: 0.1em;
-		position: absolute;
-		width: 60%;
-	    }
-	@media (min-width: $breakpoint-medium) {
-		bottom: 0;
-		height: 0.05em;
-	    left: 0;
-	    margin-left: 0;
-	    width: 2em;
-	    }
+    background: $link;
+	bottom: -$spaceMore;
+	content: '';
+	display: block;
+	height: 0.3rem;
+	position: absolute;
+	width: 25%;
+	@media (min-width: $breakpoint-large) {
+		height: 0.4rem;
+		}
 	}
 
 .home__cover p {
 	font-size: $epsilon;
 	line-height: 1.6;
+	@media (min-width: $breakpoint-medium) {
+		font-size: $gamma;
+		}
+	}
+
+.home__cover p span {
+	@media (min-width: $breakpoint-medium) {
+		display: inline-block;
+		}
 	}
