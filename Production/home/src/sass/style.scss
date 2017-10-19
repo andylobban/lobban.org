@@ -1,0 +1,52 @@
+@-webkit-viewport {
+	width:device-width
+	}
+
+@-moz-viewport {
+	width:device-width
+	}
+
+@-ms-viewport {
+	width:device-width;
+	zoom: 1.0;
+	}
+
+@-o-viewport {
+	width:device-width
+	}
+
+@viewport {
+	width:device-width
+	}
+
+@import "variables";
+
+@import "base";
+
+body {
+	background: #FF654B; 
+	font-family: sans-serif;
+	color: #fff;
+	display: flex;
+	min-height: 100vh;
+    flex-direction: column;
+	}
+
+main {
+	flex: 1 0 auto;
+	}
+
+a {
+	color: #fff;
+	font-weight: bold;
+	transition: all 0.2s linear;
+	&:hover, &:active, &:focus {
+        box-shadow: inset 0 -$spaceBase 0 $link;
+        outline: 0;
+    	}
+	}
+
+.away {
+	left: -9999em;
+	position: absolute;
+	}
