@@ -1,4 +1,13 @@
 <?php
+<<<<<<< HEAD
+=======
+
+// BEGIN iThemes Security - Do not modify or remove this line
+// iThemes Security Config Details: 2
+define( 'DISALLOW_FILE_EDIT', true ); // Disable File Editor - Security > Settings > WordPress Tweaks > File Editor
+// END iThemes Security - Do not modify or remove this line
+
+>>>>>>> develop
 /**
  * The base configurations of the WordPress.
  *
@@ -22,17 +31,27 @@ define('WP_DEFAULT_THEME', 'lobban');
 
 if ( file_exists( dirname( __FILE__ ) . '/wp-config-local.php' ) ) {  
     include( dirname( __FILE__ ) . '/wp-config-local.php' );  
+<<<<<<< HEAD
     }  
 
 if ( file_exists( dirname( __FILE__ ) . '/wp-config-staging.php' ) ) {  
+=======
+    } 
+    
+elseif ( file_exists( dirname( __FILE__ ) . '/wp-config-staging.php' ) ) {  
+>>>>>>> develop
     include( dirname( __FILE__ ) . '/wp-config-staging.php' );  
     }  
 
 else {  
+<<<<<<< HEAD
     define('DB_NAME', 'sneakypetes');    // The name of the database
 	define('DB_USER', 'lobbanor_sneakys');     // Your MySQL username
 	define('DB_PASSWORD', 'T@o^d052oG4J'); // ...and password
     define('DB_HOST', 'localhost');  
+=======
+    include( dirname( __FILE__ ) . '/wp-config-live.php' ); 
+>>>>>>> develop
     }  
 
 /** Database Charset to use in creating database tables. */
@@ -50,6 +69,7 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
+<<<<<<< HEAD
 define('AUTH_KEY',         '%JA{DFT~-&;L1HAN+N9@tRQH(cO1(&I793comi/p)<x]].>kQ](Lc;?l9:t4$D2F');
 define('SECURE_AUTH_KEY',  'i8]E9WcIg28sA@6-{3I7;)-|7+[<Fg|zDs;A#jcrcLYOC[nUv;+;KOo-4fA=YqU-');
 define('LOGGED_IN_KEY',    '@*>eI#)F|*1N+tPvo_HQNP<ioz,$W%~N0]aPCccUFPlq(|w3nAZ_NlPeu|YGQG~ ');
@@ -58,6 +78,16 @@ define('AUTH_SALT',        '.~hsm7:_cDiQvGe92oDO+4O7XQ?>uWb)P>Q2$0r.S{qs2}Fl,p1+
 define('SECURE_AUTH_SALT', ')&$`77V*_ i-L5J-t`ny )Qv$u[fv7+QDuVVL^D`lh9T,0qc@K|c4p,2~_bH3+(3');
 define('LOGGED_IN_SALT',   't`jF=2<:PT,@Qw_B#JjVKT)t+p/DwM;PEIg*+J9q*cn=4]*%sx}o,)e!l0GEK_w/');
 define('NONCE_SALT',       '!oFXC#~@l]wivx.dlG>WfW/cx.W=bB7jC3#@4Id~vzRNA8moi+m;o+Mc$=H.E`Ec');
+=======
+define('AUTH_KEY',         'Ht:d{J1`3S2gPRC!Wu`Y+-nPhE{J^ntB^,Ec)>^+!>pm#rBCnb<~mV-%Kw`dqnW.');
+define('SECURE_AUTH_KEY',  '%`$m91 9b dH),L$x6x}:>XQ@ad>2tm5tTJ49S_]hQRd5(.|D.)u~Lt,Hg3gJq9i');
+define('LOGGED_IN_KEY',    'xegZ1dX:zTn@pk`Z-BOkz;* -E4#*{sE339H-I}ZB@^W/-+[)E}!IA?O^P~[+r?|');
+define('NONCE_KEY',        'w,2=/%HW@{:Y[>`?!+4%s^G5k1.?y.x?b*E+pD8#c9$s)[dh?<MP5sF2=;yP^bXF');
+define('AUTH_SALT',        'WUtC_d^NO0(n+wTdo&utD4sBOs(o?_V,.oFx~6(#P<d@Ckz@Bf~.*SxIl#,+1raQ');
+define('SECURE_AUTH_SALT', 'c}=X=Jt:U-FTmXqP< GH.}wp[9J7k`X0:)sVce#A3:.7?Ux9u6yMH}ouiday#Rk-');
+define('LOGGED_IN_SALT',   'jCujX/Y/zc[pqZ=RDX1y)h*je)}<*0E,Mm[a@3rh^SU#6[|YVQ5]Y(u!=BU-1!y?');
+define('NONCE_SALT',       'LFp{A*[<|%#OXm>eG=2gpXB)rdV|v[H4dz=-vJ3^f~iadMSc4:;2yM`eg%/sQyAQ');
+>>>>>>> develop
 
 /**#@-*/
 
@@ -67,7 +97,11 @@ define('NONCE_SALT',       '!oFXC#~@l]wivx.dlG>WfW/cx.W=bB7jC3#@4Id~vzRNA8moi+m;
  * You can have multiple installations in one database if you give each a unique
  * prefix. Only numbers, letters, and underscores please!
  */
+<<<<<<< HEAD
 $table_prefix  = 'wp_';
+=======
+$table_prefix  = 'qfr59d9c_';
+>>>>>>> develop
 
 /**
  * WordPress Localized Language, defaults to English.

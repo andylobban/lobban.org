@@ -2,7 +2,7 @@
 
 <main class="wrapper clearfix" id="content" role="main">
     <div class="col small-12 medium-12 large-12 xlarge-12">
-        <h1 class="page__header">Journal</h1>
+        <h1 class="page__header">Journal - <?php echo single_cat_title( '', false ); ?></h1>
     </div>
     <?php if ( have_posts() ) : ?>
     <?php while ( have_posts() ) : the_post(); ?>

@@ -1,0 +1,105 @@
+.home .logo {
+	opacity: 0;
+	transition: opacity 0.5s linear;
+	}
+
+.home .logo.show {
+	opacity: 1;
+	}
+
+.home main {
+	@media (min-width: $breakpoint-medium) {
+	    padding-top: 0;
+	    }
+	}
+
+.home__cover {
+	@media (min-height: 400px) {
+		display: flex;
+		flex-direction: column;
+		height: calc(100vh - #{$headerHeightNarrow});
+		justify-content: center;
+	}
+}
+
+.home__cover h1  {
+	/* autoprefixer: off */
+ 	background: -webkit-linear-gradient(transparent, transparent),
+             	#0D3546 url(../images/bg-340.jpg) left top no-repeat;
+ 	background: -o-linear-gradient(transparent, transparent);
+ 	color: #0D3546;
+ 	display: inline-block;
+	font-size: 9vw;
+	letter-spacing: -0.02rem; 
+ 	margin-bottom: ($spaceMore * 2 + 0.3rem);
+	position: relative;
+	-webkit-background-clip: text;
+ 	-webkit-text-fill-color: transparent;
+ 	@media (min-width: 500px) {
+ 		/* autoprefixer: off */
+ 		background: -webkit-linear-gradient(transparent, transparent),
+             		#0D3546 url(../images/bg-500.jpg) left top no-repeat;
+        -webkit-background-clip: text;
+		}
+	@media (min-width: 600px) {
+		/* autoprefixer: off */
+		background: -webkit-linear-gradient(transparent, transparent),
+             		#0D3546 url(../images/bg-600.jpg) left top no-repeat;
+        -webkit-background-clip: text;
+		}
+	@media (min-width: $breakpoint-medium) and (min-height: 700px) {
+		/* autoprefixer: off */
+		background: -webkit-linear-gradient(transparent, transparent),
+             		#0D3546 url(../images/bg-1022.jpg) left top no-repeat;
+        -webkit-background-clip: text;
+		}
+	@media (min-width: $breakpoint-medium) and (min-height: 800px) {
+		/* autoprefixer: off */
+		background: -webkit-linear-gradient(transparent, transparent),
+             		#0D3546 url(../images/bg-1168.jpg) left top no-repeat;
+        -webkit-background-clip: text;
+		}
+	@media (min-width: $breakpoint-medium) and (min-height: 900px) {
+		/* autoprefixer: off */
+		background: -webkit-linear-gradient(transparent, transparent),
+             		#0D3546 url(../images/bg-1315.jpg) left top no-repeat;
+        -webkit-background-clip: text;
+		}
+	@media (min-width: $breakpoint-medium) and (min-height: 1000px) {
+		/* autoprefixer: off */
+		background: -webkit-linear-gradient(transparent, transparent),
+             		#0D3546 url(../images/bg-1500.jpg) left top no-repeat;
+        -webkit-background-clip: text;
+		}
+	@media (min-width: $breakpoint-large) {
+		font-size: 8rem;
+		margin-bottom: ($spaceMore * 2 + 1rem);
+		}
+	}
+
+.home__cover h1:after {
+    background: $link;
+	bottom: -$spaceMore;
+	content: '';
+	display: block;
+	height: 0.3rem;
+	position: absolute;
+	width: 25%;
+	@media (min-width: $breakpoint-large) {
+		height: 0.4rem;
+		}
+	}
+
+.home__cover p {
+	font-size: $epsilon;
+	line-height: 1.6;
+	@media (min-width: $breakpoint-medium) {
+		font-size: $gamma;
+		}
+	}
+
+.home__cover p span {
+	@media (min-width: $breakpoint-medium) {
+		display: inline-block;
+		}
+	}

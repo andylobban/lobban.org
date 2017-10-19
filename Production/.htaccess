@@ -1,3 +1,142 @@
+# BEGIN iThemes Security - Do not modify or remove this line
+# iThemes Security Config Details: 2
+	# Ban Hosts - Security > Settings > Banned Users
+	SetEnvIF REMOTE_ADDR "^188\.143\.233\.172$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^188\.143\.233\.172$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^188\.143\.233\.172$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^188\.143\.233\.30$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^188\.143\.233\.30$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^188\.143\.233\.30$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^189\.78\.59\.149$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^189\.78\.59\.149$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^189\.78\.59\.149$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^85\.214\.153\.176$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^85\.214\.153\.176$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^85\.214\.153\.176$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^94\.231\.73\.55$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^94\.231\.73\.55$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^94\.231\.73\.55$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^95\.191\.56\.158$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^95\.191\.56\.158$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^95\.191\.56\.158$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^95\.69\.144\.175$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^95\.69\.144\.175$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^95\.69\.144\.175$" DenyAccess
+
+	SetEnvIF REMOTE_ADDR "^208\.109\.223\.181$" DenyAccess
+	SetEnvIF X-FORWARDED-FOR "^208\.109\.223\.181$" DenyAccess
+	SetEnvIF X-CLUSTER-CLIENT-IP "^208\.109\.223\.181$" DenyAccess
+
+	<IfModule mod_litespeed.c>
+		Order allow,deny
+		Allow from all
+		Deny from env=DenyAccess
+		Deny from 188.143.233.172
+		Deny from 188.143.233.30
+		Deny from 189.78.59.149
+		Deny from 85.214.153.176
+		Deny from 94.231.73.55
+		Deny from 95.191.56.158
+		Deny from 95.69.144.175
+		Deny from 208.109.223.181
+	</IfModule>
+
+	# Enable the hide backend feature - Security > Settings > Hide Login Area > Hide Backend
+	RewriteRule ^(/wordpress/)?wplogin/?$ /wordpress/wp-login.php [QSA,L]
+
+	# Protect System Files - Security > Settings > System Tweaks > System Files
+	<files .htaccess>
+		<IfModule mod_litespeed.c>
+			Order allow,deny
+			Deny from all
+		</IfModule>
+	</files>
+	<files readme.html>
+		<IfModule mod_litespeed.c>
+			Order allow,deny
+			Deny from all
+		</IfModule>
+	</files>
+	<files readme.txt>
+		<IfModule mod_litespeed.c>
+			Order allow,deny
+			Deny from all
+		</IfModule>
+	</files>
+	<files install.php>
+		<IfModule mod_litespeed.c>
+			Order allow,deny
+			Deny from all
+		</IfModule>
+	</files>
+	<files wp-config.php>
+		<IfModule mod_litespeed.c>
+			Order allow,deny
+			Deny from all
+		</IfModule>
+	</files>
+
+	# Disable Directory Browsing - Security > Settings > System Tweaks > Directory Browsing
+	Options -Indexes
+
+	<IfModule mod_rewrite.c>
+		RewriteEngine On
+
+		# Protect System Files - Security > Settings > System Tweaks > System Files
+		RewriteRule ^wp-admin/includes/ - [F]
+		RewriteRule !^wp-includes/ - [S=3]
+		RewriteCond %{SCRIPT_FILENAME} !^(.*)wp-includes/ms-files.php
+		RewriteRule ^wp-includes/[^/]+\.php$ - [F]
+		RewriteRule ^wp-includes/js/tinymce/langs/.+\.php - [F]
+		RewriteRule ^wp-includes/theme-compat/ - [F]
+
+		# Disable PHP in Uploads - Security > Settings > System Tweaks > Uploads
+		RewriteRule ^wp\-content/uploads/.*\.(?:php[1-6]?|pht|phtml?)$ - [NC,F]
+
+		# Filter Request Methods - Security > Settings > System Tweaks > Request Methods
+		RewriteCond %{REQUEST_METHOD} ^(TRACE|DELETE|TRACK) [NC]
+		RewriteRule ^.* - [F]
+
+		# Filter Suspicious Query Strings in the URL - Security > Settings > System Tweaks > Suspicious Query Strings
+		RewriteCond %{QUERY_STRING} \.\.\/ [NC,OR]
+		RewriteCond %{QUERY_STRING} ^.*\.(bash|git|hg|log|svn|swp|cvs) [NC,OR]
+		RewriteCond %{QUERY_STRING} etc/passwd [NC,OR]
+		RewriteCond %{QUERY_STRING} boot\.ini [NC,OR]
+		RewriteCond %{QUERY_STRING} ftp\:  [NC,OR]
+		RewriteCond %{QUERY_STRING} http\:  [NC,OR]
+		RewriteCond %{QUERY_STRING} https\:  [NC,OR]
+		RewriteCond %{QUERY_STRING} (\<|%3C).*script.*(\>|%3E) [NC,OR]
+		RewriteCond %{QUERY_STRING} mosConfig_[a-zA-Z_]{1,21}(=|%3D) [NC,OR]
+		RewriteCond %{QUERY_STRING} base64_encode.*\(.*\) [NC,OR]
+		RewriteCond %{QUERY_STRING} ^.*(%24&x).* [NC,OR]
+		RewriteCond %{QUERY_STRING} ^.*(127\.0).* [NC,OR]
+		RewriteCond %{QUERY_STRING} ^.*(globals|encode|localhost|loopback).* [NC,OR]
+		RewriteCond %{QUERY_STRING} ^.*(request|concat|insert|union|declare).* [NC]
+		RewriteCond %{QUERY_STRING} !^loggedout=true
+		RewriteCond %{QUERY_STRING} !^action=jetpack-sso
+		RewriteCond %{QUERY_STRING} !^action=rp
+		RewriteCond %{HTTP_COOKIE} !^.*wordpress_logged_in_.*$
+		RewriteCond %{HTTP_REFERER} !^http://maps\.googleapis\.com(.*)$
+		RewriteRule ^.* - [F]
+
+		# Filter Non-English Characters - Security > Settings > System Tweaks > Non-English Characters
+		RewriteCond %{QUERY_STRING} ^.*(%0|%A|%B|%C|%D|%E|%F).* [NC]
+		RewriteRule ^.* - [F]
+
+		# Reduce Comment Spam - Security > Settings > System Tweaks > Comment Spam
+		RewriteCond %{REQUEST_METHOD} POST
+		RewriteCond %{REQUEST_URI} /wp-comments-post\.php$
+		RewriteCond %{HTTP_USER_AGENT} ^$ [OR]
+		RewriteCond %{HTTP_REFERER} !^https?://(([^/]+\.)?lobban\.org|jetpack\.wordpress\.com/jetpack-comment)(/|$) [NC]
+		RewriteRule ^.* - [F]
+	</IfModule>
+# END iThemes Security - Do not modify or remove this line
 
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
@@ -10,3 +149,16 @@ RewriteRule . /index.php [L]
 </IfModule>
 
 # END WordPress
+
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType application/font-woff "access 1 year"
+ExpiresDefault "access 7 days"
+</IfModule>
+
+<ifModule mod_headers.c>
+    Header set Connection keep-alive
+</ifModule>
+
+Redirect 301 /about /info
+Redirect 301 /contact /info

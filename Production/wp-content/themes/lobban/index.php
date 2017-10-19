@@ -1,42 +1,33 @@
 <?php get_header(); ?>
 
-	<div class="clearfix wrapper" role="main">
-		
-		<section id="intro">
-										
-			<h1>Hi, I'm Andy.</h1>
-			
-			<figure>
-		
-				<img src="<?php echo get_template_directory_uri(); ?>/images/common/andy-lobban.png" height="334" width="400" alt="photo of Andy Lobban" class="photo"/>
-
-			</figure>
-						
-			<p>I make internet things and music things in <span class="adr"><span class="locality">Edinburgh</span>, <span class="country-name">Scotland</span></span>. I'm currently a designer at <a href="http://stormid.com">Storm ID</a>.</p>
-			
-			<p>I sometimes write things in a <a href="http://lobban.org/journal" rel="me" class="url">journal</a> and post on a <a href="http://film.lobban.org">photo blog</a>. I run <a href="http://gerrylovesrecords.com" rel="me" class="url">Gerry Loves Records</a>, I help organise</span> <a href="http://refreshedinburgh.org">Refresh Edinburgh</a> and I started <a href="http://theshyretirers.com" rel="me" class="url">The Shy Retirers</a>. Previously I freelanced under the name <a href="http://nonimage.com" rel="me" class="url">Nonimage</a>. </p>
-			
-			<p><a href="/about">There's more &rarr;</a></p>
-		
-		</section>
-		    			
-		<section class="clearfix profiles">
-					
-			<ul>
-			
-				<li><a href="/info" class="ss-mail"><span>Email</span></a></li>
-				
-				<li><a href="http://twitter.com/nonimage" rel="me" class="url ss-twitter"><span>Twitter</span></a></li>
-				<li><a href="http://instagram.com/nonimage" rel="me" class="url ss-instagram"><span>Instagram</span></a></li>
-				<li><a href="http://pinboard.in/u:nonimage" rel="me" class="url ss-pinboard"><span>Pinboard</span></a></li>
-				<li><a href="http://open.spotify.com/user/nonimage" rel="me" class="url ss-spotify"><span>Spotify</span></a></li>
-				<li><a href="http://www.goodreads.com/user/show/5679909-nonimage" rel="me" class="url ss-readmill"><span>Goodreads</span></a></li>
-				<li><a href="http://facebook.com/andylobban" rel="me" class="url ss-facebook"><span>Facebook</span></a></li> 	
-				
-			</ul>
-					
-		</section>
-		
-	</div>
+<main class="wrapper clearfix" id="content" role="main">
+    <div class="col small-12 medium-12 large-12 xlarge-12">
+        <h1 class="page__header">Journal</h1>
+    </div>
+    <?php if ( have_posts() ) : ?>
+    <?php while ( have_posts() ) : the_post(); ?>
+        <article <?php post_class( 'article journal__list__item clearfix' ); ?>>
+            <div class="col small-12 medium-2 large-2 xlarge-2">
+                <time><?php the_time('d/m/Y'); ?></time>
+            </div>
+            <div class="col small-12 medium-10 large-7 xlarge-6">
+                <h2>
+                    <a href="<?php the_permalink(); ?>">
+                        <?php the_title(); ?>
+                    </a>
+                </h2>
+                <div class="article__content">
+                    <?php the_content(); ?>
+                </div>
+            </div>
+        </article>
+    <?php endwhile; ?>
+    <div class="pagination push--top push--bottom clearfix">
+        <div class="pagination__newer col small-6 medium-5 large-4 xlarge-3 push--medium-2 push--large-2 push--xlarge-2"><?php previous_posts_link( 'Newer' ); ?></div>
+        <div class="pagination__older col small-6 medium-5 large-3 xlarge-3"><?php next_posts_link( 'Older' ); ?></div>
+    </div>
+    <?php endif; ?>
+    <?php get_sidebar(); ?>
+</main>
 
 <?php get_footer(); ?>

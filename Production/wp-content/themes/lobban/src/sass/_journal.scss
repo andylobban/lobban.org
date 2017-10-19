@@ -1,0 +1,114 @@
+.journal__list__item {
+	margin-bottom: 3em;
+	@media (min-width: $breakpoint-medium) {
+	    margin-bottom: 4em;
+	    }
+	}
+
+.article time {
+	display: block;
+	@media (min-width: $breakpoint-medium) {
+	    margin-top: 0.3em;
+	    }
+	@media (min-width: $breakpoint-large) {
+	    margin-top: 0.4em;
+	    }
+	}
+
+.article.single time {
+	display: block;
+	@media (min-width: $breakpoint-medium) {
+	    margin-top: 0.8em;
+	    }
+	@media (min-width: $breakpoint-large) {
+	    margin-top: 1.1em;
+	    }
+	}
+
+.journal__list__item h2 {
+	margin-bottom: 0.5em;
+	}
+
+.pagination__older, 
+.pagination__newer {
+	min-height: 1px;
+	}
+
+.pagination__older {
+	text-align: right;
+	}
+
+.journal__extras {
+	font-size: 0.8em;
+	}
+
+.journal__extras h2 {
+	font-size: 1.2em;
+	letter-spacing: 0;
+	}
+
+.journal__extras li {
+	float: left;
+	list-style-type: none;
+	margin-right: 1em;
+	}
+
+.article.category-link h1, 
+.article.category-link h2 {
+	display: none;
+	}
+
+.category-link .article__content {
+	@media (min-width: $breakpoint-medium) {
+	    margin-top: 0.25em;
+	    }
+	@media (min-width: $breakpoint-large) {
+	    margin-top: 0.45em;
+	    }
+	}
+
+.category-link .article__content a {
+	overflow-wrap: break-word;
+  	word-wrap: break-word;
+	-ms-word-break: break-all;
+  	word-break: break-all;
+  	word-break: break-word;
+  	-ms-hyphens: auto;
+  	-moz-hyphens: auto;
+  	-webkit-hyphens: auto;
+  	hyphens: auto;
+	}
+
+.article__content .wp-caption {
+	max-width: 100%;
+	}
+
+.article__content .wp-caption-text {
+	font-size: 0.7em;
+	margin-top: 0.5em;
+	}
+
+.article__content ul, 
+.article__content ol {
+	margin-bottom: 0.75em;
+	}
+
+.article__content li:not(.module) {
+	list-style-type: disc;
+	margin-bottom: 0.25em;
+	margin-left: 1em;
+	}
+
+.article__content pre {
+	line-height: 1.4;
+	}
+
+.article__content img.alignnone {
+	margin-bottom: 0.25em;
+	margin-top: 0.25em;
+	}
+
+.article__content iframe, 
+.article__content object {
+	max-width: 100%;
+	}

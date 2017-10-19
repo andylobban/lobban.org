@@ -1,0 +1,44 @@
+.info__intro {
+	flex-direction: row-reverse;
+	}
+
+.info__intro figure {
+	background: url(../images/andy-lobban-400.jpg) center top / cover no-repeat;
+	margin-bottom: 2em;
+	position: relative;
+	@media (max-width: $breakpoint-medium) {
+	    height: 200px;
+	    }
+	@media (min-width: 420px) {
+	    background-image: url(../images/andy-lobban-600.jpg);
+	    }
+	@media (min-width: $breakpoint-medium) {
+		background-image: url(../images/andy-lobban-400.jpg);
+	    margin-bottom: 0;
+	    }
+	}
+
+.info__intro figure .wp-caption-text {
+	bottom: -1.5em;
+	margin: 0;
+	right: 0;
+	position: absolute;
+	}
+
+.info__intro img {
+	display: none;
+	}
+
+.page--info .article__content h2 {
+	margin-bottom: 0.5em;
+	}
+
+.page--info .article__content li:not(.module) {
+	list-style-type: none;
+	margin-bottom: 1em;
+	margin-left: 0;
+	}
+
+.page--info .article__content li h3 {
+	margin-top: 0;
+	}

@@ -1,37 +1,20 @@
-<?php include ('wp-content/themes/lobban/header.php'); ?>
+<?php get_header(); ?>
 
-<section id="content" role="main">
+<main id="content" role="main">
+	<div class="wrapper clearfix">
+		<div class="article single clearfix col small-12 medium-12 large-8 push--large-2 xlarge-6 push--xlarge-3 push--bottom">
+			<?php if ( have_posts() ) : ?>
+			<?php while ( have_posts() ) : the_post(); ?>
+				<h1 class="page__header">
+					<?php the_title(); ?>
+				</h1>
+				<div class="article__content">
+					<?php the_content(); ?>
+				</div>
+			<?php endwhile; ?>				
+			<?php endif; ?>
+		</div>
+	</div>
+</main>
 
-	<?php if (have_posts()) : ?>
-
-		<?php while (have_posts()) : the_post(); ?>
-		
-			<section class="entry">
-
-				<header>
-			
-					<h1><?php the_title(); ?></h1>
-			
-				</header>
-		
-				<?php if ( is_archive() || is_search() ) : // Only display excerpts for archives and search. ?>
-	
-				<?php the_excerpt(); ?>
-				
-				<?php else : ?>
-	
-				<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentyten' ) ); ?>
-			
-				<?php endif; ?>
-				
-			</section>
-	
-	<?php endwhile; else: ?>
-
-	<p>Sorry, no posts matched your criteria.</p>
-
-	<?php endif; ?>
-			
-</section>
-
-<?php include ('wp-content/themes/lobban/footer.php'); ?>
+<?php get_footer(); ?>

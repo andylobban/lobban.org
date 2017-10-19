@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'teimposheadlineblack';
+    src: url('../fonts/TiemposHeadlineWeb-Black.eot');
+    src: url('../fonts/TiemposHeadlineWeb-Black.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TiemposHeadlineWeb-Black.woff2') format('woff2'),
+         url('../fonts/TiemposHeadlineWeb-Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'karlaregular';
+    src: url('../fonts/karla-regular.eot');
+    src: url('../fonts/karla-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/karla-regular.woff2') format('woff2'),
+         url('../fonts/karla-regular.woff') format('woff'),
+         url('../fonts/karla-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'karlabold';
+    src: url('../fonts/karla-bold.eot');
+    src: url('../fonts/karla-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/karla-bold.woff2') format('woff2'),
+         url('../fonts/karla-bold.woff') format('woff'),
+         url('../fonts/karla-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'karlaitalic';
+    src: url('../fonts/karla-italic.eot');
+    src: url('../fonts/karla-italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/karla-italic.woff2') format('woff2'),
+         url('../fonts/karla-italic.woff') format('woff'),
+         url('../fonts/karla-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+html, 
+body, 
+button, 
+input, 
+select, 
+textarea, 
+.sans-serif {
+    font-family: sans-serif;
+    }
+ 
+h1, 
+h2, 
+.headline {
+	font-family: serif;
+    font-weight: bold;
+	}
+
+strong, 
+b, 
+.button {
+    font-weight: bold;
+    }
+
+em, 
+i {
+    font-style: italic;
+    }
+
+.fonts-loaded {
+
+    html, 
+    body, 
+    button, 
+    input, 
+    select, 
+    textarea, 
+    .sans-serif {
+        font-family: 'karlaregular', sans-serif;
+        }
+
+    h1, 
+    h2, 
+    .headline {
+        font-family: "teimposheadlineblack", serif;
+        font-weight: normal;
+        }
+
+    strong, 
+    b, 
+    .button {
+        font-family: 'karlabold', sans-serif;
+        font-style: normal;
+        }
+
+    em, 
+    i {
+        font-family: 'karlaitalic', sans-serif;
+        font-style: normal;
+        }
+
+    }
+
+body {
+    line-height: 1.5;
+    }
+
+.break {
+    display: inline-block;
+    }

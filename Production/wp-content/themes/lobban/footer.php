@@ -1,57 +1,45 @@
-	</main>
-	
-	<?php if( !is_home() && !is_page( 'Info' ) ) : ?>
-	
 		<footer role="contentinfo">
-		
-			<div class="wrapper">
-		
-				<p>I'm a designer at <a href="http://stormid.com">Storm ID</a>. I run <a href="http://gerrylovesrecords.com" rel="me" class="url">Gerry Loves Records</a>, I help organise</span> <a href="http://refreshedinburgh.org">Refresh Edinburgh</a> and I started <a href="http://theshyretirers.com" rel="me" class="url">The Shy Retirers</a>. <a href="/about">There's more &rarr;</a></p>
-								
-				<ul class="profiles">
-				
-					<li><a href="/contact" class="ss-mail"><span>Email</span></a></li>
-					
-					<li><a href="http://twitter.com/nonimage" rel="me" class="url ss-twitter"><span>Twitter</span></a></li>
-					<li><a href="http://instagram.com/nonimage" rel="me" class="url ss-instagram"><span>Instagram</span></a></li>
-					<li><a href="http://pinboard.in/u:nonimage" rel="me" class="url ss-pinboard"><span>Pinboard</span></a></li>
-					<li><a href="http://open.spotify.com/user/nonimage" rel="me" class="url ss-spotify"><span>Spotify</span></a></li>
-					<li><a href="http://www.goodreads.com/user/show/5679909-nonimage" rel="me" class="url ss-readmill"><span>Goodreads</span></a></li>
-					<li><a href="http://facebook.com/andylobban" rel="me" class="url ss-facebook"><span>Facebook</span></a></li> 	
-					
-				</ul>
-										
+			<div class="wrapper clearfix">
+				<ul class="footer__social">
+					<li><a href="mailto:andy@lobban.org"><span class="icon icon-mail" aria-hidden="true"><span class="away">Email</span></a></li>
+	                <li><a href="https://twitter.com/nonimage"><span class="icon icon-twitter" aria-hidden="true"><span class="away">Twitter</span></a></li>
+	                <li><a href="https://instagram.com/nonimage/"><span class="icon icon-instagram" aria-hidden="true"><span class="away">Instagram</span></a></li>
+	                <li><a href="https://www.facebook.com/andylobban"><span class="icon icon-facebook" aria-hidden="true"><span class="away">Facebook</span></a></li>
+	            </ul>
 			</div>
-		
 		</footer>
-		
-	<?php endif; ?>
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-	<script>!window.jQuery && document.write('<script src="<?php bloginfo('template_directory'); ?>/js/libs/jquery-1.8.1.min.js"><\/script>')</script>
-	
-	<script src="<?php bloginfo('template_directory'); ?>/js/libs/jquery.fancybox.min.js"></script>
-	
-	<script>	
-	
-		$('.fancybox').fancybox();
-			
-		function loadAsync(url, loadFn) {
-		    loadFn = loadFn || function() {}
-		    $(function() {
-		        var script = document.createElement('script');
-		        script.src = url;
-		        script.async = true;
-		        $(script).on('load', loadFn);
-		        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
-		    });
-		}
-		
-		if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
-		    loadAsync('<?php bloginfo('template_directory'); ?>/js/libs/ios-orientationchange-fix.min.js');
-		}
-	</script>
+		<div class="edge edge--top"></div>
+		<div class="edge edge--bottom"></div>
+		<div class="edge edge--left"></div>
+		<div class="edge edge--right"></div>
 
-	</body>
-	
+		<script src="<?php echo get_template_directory_uri(); ?>/dist/js/core.js"></script>
+        
+        <?php if(is_front_page()) {?>
+        	<script src="<?php echo get_template_directory_uri(); ?>/dist/js/home.js"></script>
+		<?php }?>
+
+		<?php if(!isset($_COOKIE['fontsloaded'])){?>
+			<script>function cookie(e,o,i){if(void 0===o){var t="; "+window.document.cookie,n=t.split("; "+e+"=");return 2===n.length?n.pop().split(";").shift():null}var c,d=new Date;d.setTime(d.getTime()+24*i*60*60*1e3),c="; expires="+d.toGMTString(),window.document.cookie=e+"="+o+c+"; path=/"}cookie("fontsloaded","true",14);</script>
+		<?php }?>
+
+        <script src="<?php echo get_template_directory_uri(); ?>/dist/js/libs/fluidvids.min.js"></script>
+
+		<script>
+			fluidvids.init({
+			  	selector: ['iframe', 'object'], // runs querySelectorAll()
+			  	players: ['www.youtube.com', 'player.vimeo.com'] // players to support
+			});
+
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-57516-17', 'auto');
+			ga('send', 'pageview');
+		</script>
+        
+    </body>
+
 </html>

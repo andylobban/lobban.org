@@ -18,3 +18,15 @@ Production/wordpress
 # Uploads #
 uploads/
 blogs.dir/
+
+node_modules
+
+dist/
+
+gulp.config
+
+Production/wp-content/themes/lobban/src/fonts
+
+Production/wp-content/plugins
+
+Production/wp-config.php
