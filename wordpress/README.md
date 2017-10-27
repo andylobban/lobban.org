@@ -1,0 +1,1 @@
+Download the [latest Wordpress](https://wordpress.org/download/) into this directory
