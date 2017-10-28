@@ -43,11 +43,12 @@
 
 body {
 	background: #FF654B; 
-	font-family: sans-serif;
-	color: #fff;
+	color: $text-color;
 	display: flex;
+	flex-direction: column;
+	font-family: sans-serif;
+	font-size: 1.2rem;
 	min-height: 100vh;
-    flex-direction: column;
 	}
 
 .fonts-loaded-1 body {
@@ -80,4 +81,9 @@ a {
 .away {
 	left: -9999em;
 	position: absolute;
+	}
+
+.home__intro__social svg {
+	fill: $text-color;
+	width: 2.4rem; 
 	}
