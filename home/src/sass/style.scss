@@ -48,6 +48,7 @@ body {
 	flex-direction: column;
 	font-family: sans-serif;
 	font-size: 1.2rem;
+	line-height: 1.4;
 	min-height: 100vh;
 	}
 
@@ -63,7 +64,8 @@ body {
 		font-family: Inter-UI-Bold;
 		}
 	em, 
-	i {
+	i, 
+	.home__info__location {
 		font-family: Inter-UI-RegularItalic;
 		}
 	}
@@ -83,7 +85,41 @@ a {
 	position: absolute;
 	}
 
-.home__intro__social svg {
+.home__info, 
+.home__extra {
+	padding: $spaceBase*2;
+	}
+
+.home__extra {
+	background: #062D3F;
+	padding-bottom: $spaceBase*3;
+	padding-top: $spaceBase*3;
+	}
+
+.home__extra nav ul {
+	display: flex;
+	justify-content: space-between;
+	}
+
+.home__info__name {
+	margin-bottom: $spaceBase*5;
+	}
+
+.home__info__location {
+	margin-bottom: $spaceBase*3;
+	}
+
+.home__info__intro li {
+	margin-bottom: $spaceBase;
+	}
+
+.home__info__social {
+	display: flex;
+	justify-content: space-between;
+	margin-top: $spaceBase*5;
+	}
+
+.home__info__social svg {
 	fill: $text-color;
 	width: 2.4rem; 
 	}
