@@ -132,18 +132,24 @@ a {
 	width: .2rem;
 	}
 
+.home__wrapper {
+	display: flex;
+	flex-direction: column;
+	}
+
 .home__info, 
-.home__extra {
+.home__nav {
 	padding: ($spaceBase*4 + .2rem);
 	}
 
-.home__extra {
+.home__nav {
 	background: #062D3F;
+	order: 1;
 	padding-bottom: $spaceBase*3;
 	padding-top: $spaceBase*4;
 	}
 
-.home__extra nav ul {
+.home__nav ul {
 	display: flex;
 	justify-content: space-between;
 	}
