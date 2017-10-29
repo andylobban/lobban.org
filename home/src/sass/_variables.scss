@@ -13,14 +13,11 @@ $link: #21888A;
 $spaceBase: 0.8rem;
 
 /* TYPE */
-$alpha: 2.4rem;
-$beta: 2.2rem;
-$gamma: 2rem;
-$delta: 1.8rem;
-$epsilon: 1.6rem;
-$zeta: 1.4rem;
-$eta: 1.2rem;
-$theta: 1rem;
+$typeBase: 1.4rem;
+$typeBig: ($typeBase * 1.618);
+$typeBigger: ($typeBase * 2.618);
+$typeMassive: ($typeBase * 4.236);
+$typeSmall: ($typeBase * 0.618em);
 
 /* HEADER */
 $headerHeightNarrow: 60px;
