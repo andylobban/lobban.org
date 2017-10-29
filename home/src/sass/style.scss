@@ -37,6 +37,12 @@
 			 url('/dist/fonts/Inter-UI-RegularItalic.woff') format('woff');
 	}
 
+@font-face {
+	font-family: Eksell-Display-Large;
+	src: url('/dist/fonts/Eksell-Display-Large.woff2') format('woff2'),
+			 url('/dist/fonts/Eksell-Display-Large.woff') format('woff');
+	}
+
 @import "variables";
 
 @import "base";
@@ -58,15 +64,22 @@ body {
 
 .fonts-loaded-2 body {
 	font-family: Inter-UI-Regular;
+	
 	strong, 
 	b, 
 	a {
 		font-family: Inter-UI-Bold;
 		}
+	
 	em, 
 	i, 
 	.home__info__location {
 		font-family: Inter-UI-RegularItalic;
+		}
+	
+	.home__info__name {
+		font-family: Eksell-Display-Large;
+		letter-spacing: .1rem;
 		}
 	}
 
@@ -85,15 +98,49 @@ a {
 	position: absolute;
 	}
 
+.edge {
+	background: #fff;
+	position: fixed;
+	z-index: 9998;
+	}
+
+.edge--top {
+	height: .2rem;
+	left: $spaceBase;
+	right: $spaceBase;
+	top: $spaceBase;
+	}
+
+.edge--bottom {
+	height: .2rem;
+	bottom: $spaceBase;
+	left: $spaceBase;
+	right: $spaceBase;
+	}
+
+.edge--left {
+	bottom: $spaceBase;
+	left: $spaceBase;
+	top: $spaceBase;
+	width: .2rem;
+	}
+
+.edge--right {
+	bottom: $spaceBase;
+	right: $spaceBase;
+	top: $spaceBase;
+	width: .2rem;
+	}
+
 .home__info, 
 .home__extra {
-	padding: $spaceBase*2;
+	padding: ($spaceBase*4 + .2rem);
 	}
 
 .home__extra {
 	background: #062D3F;
 	padding-bottom: $spaceBase*3;
-	padding-top: $spaceBase*3;
+	padding-top: $spaceBase*4;
 	}
 
 .home__extra nav ul {
@@ -103,13 +150,14 @@ a {
 
 .home__info__name {
 	margin-bottom: $spaceBase*5;
+	margin-top: $spaceBase*5;
 	}
 
 .home__info__location {
 	margin-bottom: $spaceBase*3;
 	}
 
-.home__info__intro li {
+.home__info__intro li:not(:last-child) {
 	margin-bottom: $spaceBase;
 	}
 
