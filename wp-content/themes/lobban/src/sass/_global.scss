@@ -5,22 +5,11 @@ body {
     flex-direction: column;
 	}
 
-main {
-	flex: 1 0 auto;
-	@media (min-width: $breakpoint-medium) {
-	    padding-top: 48px;
-	    }
-	@media (min-width: $breakpoint-large) {
-	    padding-top: 54px;
-	    }
-	}
-
 a {
 	border-bottom: 1px solid $link;
 	color: #000;
 	transition: all 0.2s linear;
 	&:hover, &:active, &:focus {
-        box-shadow: inset 0 -$spaceBase 0 $link;
         outline: 0;
     	}
 	}

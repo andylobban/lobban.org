@@ -1,7 +1,6 @@
 .home__info__wrapper {
 	display: flex;
 	flex-direction: column;
-	min-height: 100vh;
 	}
 
 main {
@@ -9,9 +8,13 @@ main {
 	}
 
 a {
-	color: #fff;
+	border: 0;
+	color: #fff !important;
 	font-weight: bold;
 	transition: all 0.2s linear;
+	&:hover, &:active, &:focus {
+        text-decoration: underline;
+    	}
 	}
 
 .home__wrapper {
