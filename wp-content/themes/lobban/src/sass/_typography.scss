@@ -41,14 +41,17 @@
     font-style: normal;
     }
 
-html, 
 body, 
 button, 
 input, 
 select, 
-textarea, 
-.sans-serif {
-    font-family: sans-serif;
+textarea {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: $typeBase;
+    }
+
+body {
+    line-height: 1.4;
     }
  
 h1, 
@@ -70,41 +73,12 @@ i {
     }
 
 .fonts-loaded {
-
-    html, 
-    body, 
-    button, 
-    input, 
-    select, 
-    textarea, 
-    .sans-serif {
-        font-family: 'karlaregular', sans-serif;
-        }
-
     h1, 
     h2, 
     .headline {
         font-family: "teimposheadlineblack", serif;
         font-weight: normal;
         }
-
-    strong, 
-    b, 
-    .button {
-        font-family: 'karlabold', sans-serif;
-        font-style: normal;
-        }
-
-    em, 
-    i {
-        font-family: 'karlaitalic', sans-serif;
-        font-style: normal;
-        }
-
-    }
-
-body {
-    line-height: 1.5;
     }
 
 .break {

@@ -21,13 +21,11 @@
 .masthead__wrapper {
 	display: flex;
 	flex-direction: column;
-	height: $headerHeightNarrow;
 	justify-content: space-around;
 	}
 
 .logo {
-	font-size: $epsilon;
-	margin-bottom: ($spaceLess / 2);
+	margin-bottom: ($spaceBase / 2);
 	}
 
 .logo a {
@@ -59,7 +57,7 @@
 	}
 
 [role="navigation"] li {
-	margin-bottom: $spaceLess;
+	margin-bottom: $spaceBase;
 	@media (min-width: $breakpoint-small) {
 		display: inline-block;
 		margin-left: $spaceBase; 
@@ -69,7 +67,7 @@
 	@media (min-width: $breakpoint-medium) {
 		display: block;
 	    float: left;
-		margin-left: $spaceMore;
+		margin-left: $spaceBase;
 		margin-right: 0;
 		text-align: left;
 	    }
@@ -78,7 +76,6 @@
 [role="navigation"] a {
 	border-bottom: 1px solid #000;
 	color: #333;
-	font-size: $zeta;
 	transition: all 0.2s linear;
 	@media (min-width: $breakpoint-medium) {
 		border-bottom-width: 2px;

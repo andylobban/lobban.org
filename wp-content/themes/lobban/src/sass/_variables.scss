@@ -1,20 +1,25 @@
+$breakpoint-small: 20em;
+$breakpoint-medium: 40em;
+$breakpoint-large: 60em;
+$breakpoint-xlarge: 80em;
+
+$site_max_width: 1280px;
+
 /* COLOURS */
+$text-color: #fff;
 $link: #21888A;
 
 /* SPACING */
-$spaceBase: 1.2rem;
-$spaceLess: ($spaceBase * .5);
-$spaceMore: ($spaceBase * 1.5);
+$spaceBase: 0.8rem;
 
 /* TYPE */
-$alpha: 2.4rem;
-$beta: 2.2rem;
-$gamma: 2rem;
-$delta: 1.8rem;
-$epsilon: 1.6rem;
-$zeta: 1.4rem;
-$eta: 1.2rem;
-$theta: 1rem;
+$typeBase: 1.4rem;
+$typeBig: ($typeBase * 1.618);
+$typeBigger: ($typeBase * 2.618);
+$typeMassive: ($typeBase * 4.236);
+$typeSmall: ($typeBase * 0.618em);
 
-/* HEADER */
-$headerHeightNarrow: 60px;
+/* LAYOUT */
+$minHeight: 480px;
+$mediumWidth: 700px;
+$largeWidth: 1024px;
