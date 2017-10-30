@@ -44,8 +44,7 @@ body {
 .home__info__name {
 	font-family: serif;
 	font-weight: bold;
-	.fonts-loaded-1 body &,
-	.fonts-loaded-2 body & {
+	.fonts-loaded body & {
 		font-family: Eksell-Display-Large;
 		font-weight: normal;
 		letter-spacing: .1rem;
