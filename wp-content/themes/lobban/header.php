@@ -22,7 +22,7 @@
 
 				var fontA = new FontFaceObserver('Eksell-Display-Large');
 
-				Promise.all([fontA.load(), fontB.load(), fontC.load(), fontD.load()]).then(function () {
+				Promise.all([fontA.load()]).then(function () {
 					document.documentElement.className += " fonts-loaded";
 
 					// Optimization for Repeat Views
@@ -38,7 +38,7 @@
     <body <?php body_class( $class ); ?>>
     	<a href="#content" class="away skip-link">Skip to main content</a>
     	<?php if(! is_front_page()) {?>
-        	<header role="banner">
+        	<header class="masthead" role="banner">
 	    		<div class="masthead__wrapper wrapper clearfix">
 					<div class="logo col small-12 medium-5 large-5 xlarge-5 headline">
 						<a href="/">
@@ -47,6 +47,7 @@
 					</div>
 					<nav class="col small-12 medium-9 large-6 switch--medium" role="navigation">
 						<ul>
+							<li><a href="/projects">Projects</a></li>
 							<li><a href="/work">Work</a></li>
 							<li><a href="/journal">Journal</a></li>
 							<li><a href="/info">Info</a></li>

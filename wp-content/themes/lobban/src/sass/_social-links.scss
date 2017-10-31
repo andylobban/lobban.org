@@ -1,0 +1,10 @@
+.social-links {
+	display: flex;
+	justify-content: space-between;
+	margin-top: $spaceBase*4;
+	}
+
+.social-links svg {
+	fill: $text-color;
+	width: 2.4rem;
+	}

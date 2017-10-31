@@ -1,13 +1,10 @@
-		<footer role="contentinfo">
-			<div class="wrapper clearfix">
-				<ul class="footer__social">
-					<li><a href="mailto:andy@lobban.org"><span class="icon icon-mail" aria-hidden="true"><span class="away">Email</span></a></li>
-	                <li><a href="https://twitter.com/nonimage"><span class="icon icon-twitter" aria-hidden="true"><span class="away">Twitter</span></a></li>
-	                <li><a href="https://instagram.com/nonimage/"><span class="icon icon-instagram" aria-hidden="true"><span class="away">Instagram</span></a></li>
-	                <li><a href="https://www.facebook.com/andylobban"><span class="icon icon-facebook" aria-hidden="true"><span class="away">Facebook</span></a></li>
-	            </ul>
-			</div>
-		</footer>
+		<?php if(! is_front_page()) {?>
+			<footer role="contentinfo">
+				<div class="wrapper clearfix">
+					<?php include TEMPLATEPATH . '/social-links.php'; ?>
+				</div>
+			</footer>
+		<?php }?>
 
 		<script src="<?php echo get_template_directory_uri(); ?>/dist/js/core.js"></script>
         
@@ -31,7 +28,7 @@
 				ga('create', 'UA-57516-17', 'auto');
 				ga('send', 'pageview');
 			</script>
-		</span>
+		<?php }?>
         
     </body>
 
