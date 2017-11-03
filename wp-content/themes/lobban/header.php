@@ -39,13 +39,13 @@
     	<a href="#content" class="away skip-link">Skip to main content</a>
     	<?php if(! is_front_page()) {?>
         	<header class="masthead" role="banner">
-	    		<div class="masthead__wrapper wrapper clearfix">
-					<div class="logo col small-12 medium-5 large-5 xlarge-5 headline">
+	    		<div class="masthead__wrapper wrapper">
+					<div class="logo">
 						<a href="/">
-							Andy Lobban
+							Logo title
 						</a>
 					</div>
-					<nav class="col small-12 medium-9 large-6 switch--medium" role="navigation">
+					<nav role="navigation">
 						<ul>
 							<li><a href="/projects">Projects</a></li>
 							<li><a href="/work">Work</a></li>

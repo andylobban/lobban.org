@@ -12,7 +12,12 @@ body {
     flex-direction: column;
 	}
 
-a {
+main {
+	margin-top: 7.6rem;
+	padding-top: $spaceBase*2;
+	}
+
+main a {
 	border-bottom: 1px solid $link;
 	color: #000;
 	transition: all 0.2s linear;

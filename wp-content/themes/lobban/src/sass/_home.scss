@@ -1,5 +1,9 @@
 .masthead {
-	background: #FF654B;
+	background: $themePrimaryColor;
+	}
+
+.masthead a {
+	color: #fff;
 	}
 
 .home__info__wrapper {
@@ -35,6 +39,7 @@
 
 .home__info {
 	background: #FF654B;
+	margin-top: 0;
 	@media (min-height: $minHeight) {
 		align-items: center;
 		display: flex;
@@ -77,6 +82,10 @@
 
 .home__info__intro li:not(:last-child) {
 	margin-bottom: $spaceBase;
+	}
+
+.home__info .social-links {
+	margin-top: $spaceBase*4;
 	}
 
 .home__info .social-links svg {

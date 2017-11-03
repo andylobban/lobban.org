@@ -1,66 +1,59 @@
 [role="banner"] {
-	flex: none;
-	padding: 0 $spaceBase;
-	@media (min-width: $breakpoint-small) {
-	    left: 0;
-	    position: fixed;
-	    right: 0;
-		top: 0;
-		z-index: 9999;
+    left: 0;
+    line-height: 1;
+    padding-bottom: $spaceBase*2;
+	padding-top: $spaceBase;
+    position: fixed;
+    right: 0;
+	top: 0;
+	z-index: 9999;
+	@media (min-width: $mediumWidth) {
+		padding-bottom: $spaceBase*3;
+	    padding-top: $spaceBase*3;
 	    }
 	}
 
 .masthead__wrapper {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
+	@media (min-width: $mediumWidth) {
+	    display: grid;
+	    grid-template-columns: 1fr max(400px);
+	    }
 	}
 
 .logo {
-	margin-bottom: ($spaceBase / 2);
+	margin-bottom: $spaceBase*2;
+	font-size: $typeBig;
+	@media (min-width: $mediumWidth) {
+	    margin-bottom: 0;
+	    }
 	}
 
 .logo a {
-	border: 0;
-	color: #000;
 	display: block;
-	line-height: 1;
 	text-align: center;
-	transition: color 0.3s linear;
-	&:hover, &:focus, &:active {
-		box-shadow: none;
-		color: #000;
-		}
-	}
-
-[role="navigation"] {
-	line-height: 1;
-	text-align: center;
-	}
-
-[role="navigation"] ul {
-	display: inline-block;
-	margin: 0 auto;
-	text-align: center;
-	transition: all 0.2s linear;
-	@media (min-width: $breakpoint-medium) {
-		text-align: left;
+	@media (min-width: $mediumWidth) {
+	    text-align: left;
 	    }
 	}
 
-[role="navigation"] li {
-	margin-bottom: $spaceBase;
-	@media (min-width: $breakpoint-small) {
-		display: inline-block;
-		margin-left: $spaceBase; 
-		margin-right: $spaceBase; 
-		text-align: center; 
+.masthead [role="navigation"] {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	}
+
+.masthead [role="navigation"] ul {
+	display: flex;
+	justify-content: space-between;
+	}
+
+.masthead [role="navigation"] li {
+	padding-left: $spaceBase;
+	padding-right: $spaceBase;
+	}
+
+.masthead a {
+	&:hover, &active {
+		text-decoration: underline;
 		}
-	@media (min-width: $breakpoint-medium) {
-		display: block;
-	    float: left;
-		margin-left: $spaceBase;
-		margin-right: 0;
-		text-align: left;
-	    }
 	}

@@ -1,17 +1,13 @@
 <?php get_header(); ?>
 
-<main class="wrapper clearfix" id="content" role="main">
-    <div class="col small-12 medium-12 large-12 xlarge-12">
-        <h1 class="page__header">Journal</h1>
-    </div>
+<main class="page wrapper" id="content" role="main">
+    <h1 class="page__header">Journal</h1>
     <?php if ( have_posts() ) : ?>
     <?php while ( have_posts() ) : the_post(); ?>
         <article <?php post_class( 'article journal__list__item clearfix' ); ?>>
-            <div class="col small-12 medium-2 large-2 xlarge-2">
-                <time><?php the_time('d/m/Y'); ?></time>
-            </div>
-            <div class="col small-12 medium-10 large-7 xlarge-6">
-                <h2>
+            <time class="article__date"><?php the_time('d/m/Y'); ?></time>
+            <div class="article__body">
+                <h2 class="headline">
                     <a href="<?php the_permalink(); ?>">
                         <?php the_title(); ?>
                     </a>
