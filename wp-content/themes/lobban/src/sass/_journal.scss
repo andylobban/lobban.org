@@ -1,14 +1,14 @@
 .article {
-	@media (min-width: $mediumWidth) {
-	    display: grid;
-	    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-	    }
+	margin-bottom: $spaceBase*4;
 	}
 
 .article__date {
+	color: lighten( $textColor, 50% );
+	font-size: $typeSmall;
 	font-style: italic;
 	@media (min-width: $mediumWidth) {
 		grid-column: 1 / span 2;
+		padding-top: 1rem;
 		}
 	@media (min-width: $largeWidth) {
 		grid-column: 2 / span 1;
@@ -24,7 +24,14 @@
 		}
 	}
 
+.article__body__title {
+	font-size: $typeBig;
+	margin-bottom: $spaceBase;
+	}
 
+.article p {
+	margin-bottom: $typeBase*0.618;
+	}
 
 .journal__extras {
 	font-size: 0.8em;

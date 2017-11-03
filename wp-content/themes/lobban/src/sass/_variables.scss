@@ -6,7 +6,7 @@ $breakpoint-xlarge: 80em;
 $site_max_width: 1280px;
 
 /* COLOURS */
-$text-color: #333;
+$textColor: #333;
 $link: #21888A;
 $themePrimaryColor: #FF654B;
 
@@ -18,7 +18,7 @@ $typeBase: 1.4rem;
 $typeBig: ($typeBase * 1.618);
 $typeBigger: ($typeBase * 2.618);
 $typeMassive: ($typeBase * 4.236);
-$typeSmall: ($typeBase * 0.618em);
+$typeSmall: ($typeBase * 0.618);
 
 /* LAYOUT */
 $minHeight: 480px;

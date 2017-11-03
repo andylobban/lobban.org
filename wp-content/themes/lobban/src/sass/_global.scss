@@ -14,17 +14,22 @@ body {
 
 main {
 	margin-top: 7rem;
-	
 	}
 
 main a {
-	border-bottom: 1px solid $link;
+	border-bottom: 1px solid $themePrimaryColor;
 	color: #000;
 	transition: all 0.2s linear;
 	&:hover, &:active, &:focus {
         outline: 0;
     	}
 	}
+
+.page__header {
+	color: $themePrimaryColor;
+    margin-bottom: $spaceBase*4;
+    padding-top: $spaceBase*4;
+    }
 
 img {
 	height: auto;

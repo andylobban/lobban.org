@@ -14,7 +14,7 @@ textarea {
     }
 
 body {
-    line-height: 1.4;
+    line-height: 1.5;
     }
  
 .headline,
@@ -41,12 +41,9 @@ i,
     }
 
 .page__header {
-    background: $themePrimaryColor;
-    color: #fff;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    font-weight: 500;
-    font-size: $typeBase;
-    margin-bottom: $spaceBase*2;
+    font-size: $typeBig;
+    padding-bottom: $spaceBase*3;
+    text-align: center;
     text-transform: uppercase;
     }
 
