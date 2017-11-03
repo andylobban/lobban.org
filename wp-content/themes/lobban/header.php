@@ -42,7 +42,7 @@
 	    		<div class="masthead__wrapper wrapper">
 					<div class="logo">
 						<a href="/">
-							Logo title
+							Andy Lobban
 						</a>
 					</div>
 					<nav role="navigation">
