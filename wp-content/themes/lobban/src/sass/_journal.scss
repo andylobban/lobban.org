@@ -63,12 +63,16 @@
 	}
 
 .journal__extras {
-	font-size: 0.8em;
+	margin-top: $spaceBase*6;
 	}
 
-.journal__extras h2 {
-	font-size: 1.2em;
-	letter-spacing: 0;
+.journal__extras__wrapper {
+	@media (min-width: $mediumWidth) {
+		grid-column: 3 / span 8;
+		}
+	@media (min-width: $largeWidth) {
+		grid-column: 4 / span 6;
+		}
 	}
 
 .journal__extras li {
