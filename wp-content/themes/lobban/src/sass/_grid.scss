@@ -11,7 +11,13 @@ $breakpoint-xlarge: 80em;
 
 $maxWidth: 1280px;
 
-.grid {
+.grid--small {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+.grid, 
+.grid--small {
     margin-left: auto;
     margin-right: auto;
     max-width: $maxWidth;

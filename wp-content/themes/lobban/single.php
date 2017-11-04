@@ -1,26 +1,33 @@
 <?php get_header(); ?>
 
-<main id="content" role="main">
-	<div class="wrapper clearfix">
-		<?php if ( have_posts() ) : ?>
-		<?php while ( have_posts() ) : the_post(); ?>
-			<article class="article single push--bottom clearfix">
-				<div class="col small-12 medium-2 large-2 xlarge-2">
-					<time><?php the_time('d/m/Y'); ?></time>
-				</div>
-				<div class="col small-12 medium-10 large-10 xlarge-10">
-					<h1 class="page__header">
-						<?php the_title(); ?>
-					</h1>
-				</div>
-				<div class="article__content col small-12 medium-10 push--medium-2 large-7 push--large-2 xlarge-6 push--xlarge-2">
-					<?php the_content(); ?>
-				</div>
-			</article>
-		<?php endwhile; ?>
-		<?php endif; ?>
-		<?php get_sidebar(); ?>
-	</div>
-</div>
+<main class="page" id="content" role="main">
+    <h1 class="page__header headline">Journal</h1>
+    <?php if ( have_posts() ) : ?>
+    <?php while ( have_posts() ) : the_post(); ?>
+        <article <?php post_class( 'article single grid' ); ?>>
+            <time class="article__date">
+                <a href="<?php the_permalink(); ?>">
+                    <?php if ( get_the_time('Y') == date('Y')) { ?> 
+                        <?php the_time('j F') ?> 
+                    <?php } else { ?> 
+                        <?php the_time('j F Y') ?> 
+                    <?php } ?>
+                </a>
+            </time>
+            <div class="article__body">
+                <h2 class="headline article__body__title">
+                    <a href="<?php the_permalink(); ?>">
+                        <?php the_title(); ?>
+                    </a>
+                </h2>
+                <div class="article__content">
+                    <?php the_content(); ?>
+                </div>
+            </div>
+        </article>
+    <?php endwhile; ?>
+    <?php endif; ?>
+    <?php get_sidebar(); ?>
+</main>
 
 <?php get_footer(); ?>
