@@ -1,6 +1,6 @@
 <div class="journal__extras grid">
 	<div class="journal__extras__wrapper">
-		<h2>More Journal</h2>
+		<h2 class="sub-headline">More</h2>
 		<ul>
 			<?php wp_list_categories( 'title_li=' ); ?> 
 		</ul>

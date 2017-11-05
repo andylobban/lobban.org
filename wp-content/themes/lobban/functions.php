@@ -24,3 +24,7 @@ wp_deregister_style( 'cleaner-gallery' );
 wp_deregister_style('jetpack_css');
 wp_deregister_script('devicepx');
 }
+
+add_filter('get_the_archive_title', function ($title) {
+    return preg_replace('/^\w+: /', '', $title);
+});

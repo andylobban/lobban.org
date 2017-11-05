@@ -1,7 +1,9 @@
 <?php get_header(); ?>
 
 <main class="page" id="content" role="main">
-    <h1 class="page__header headline">Journal</h1>
+    <div class="grid">
+        <h1 class="page__header headline">Journal</h1>
+    </div>
     <?php if ( have_posts() ) : ?>
     <?php while ( have_posts() ) : the_post(); ?>
         <article <?php post_class( 'article journal__list__item grid' ); ?>>
@@ -28,12 +30,10 @@
     <?php endwhile; ?>
     <div class="pagination grid grid--small">
         <div class="pagination__item--newer">
-            <svg viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.83-9.34 9.174 9.34 9.167L16.67 24 4.5 12.004z"/></svg>
-            <?php previous_posts_link( 'Newer' ); ?>
+            <?php previous_posts_link( '<svg viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.83-9.34 9.174 9.34 9.167L16.67 24 4.5 12.004z"/></svg> Newer' ); ?>
         </div>
         <div class="pagination__item--older">
-            <?php next_posts_link( 'Older' ); ?>
-            <svg viewBox="0 0 24 24"><path d="M7.33 24L4.5 21.17l9.34-9.174L4.5 2.83 7.33 0 19.5 11.996z"/></svg>
+            <?php next_posts_link( 'Older <svg viewBox="0 0 24 24"><path d="M7.33 24L4.5 21.17l9.34-9.174L4.5 2.83 7.33 0 19.5 11.996z"/></svg>' ); ?>
         </div>
     </div>
     <?php endif; ?>

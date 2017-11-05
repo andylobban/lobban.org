@@ -40,7 +40,7 @@
     	<?php if(! is_front_page()) {?>
         	<header class="masthead" role="banner">
 	    		<div class="masthead__wrapper grid">
-					<div class="logo">
+					<div class="logo headline">
 						<a href="/">
 							Andy Lobban
 						</a>

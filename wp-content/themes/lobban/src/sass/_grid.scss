@@ -13,6 +13,7 @@ $maxWidth: 1280px;
 
 .grid--small {
     display: grid;
+    grid-column-gap: $spaceBase;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
 
@@ -25,6 +26,7 @@ $maxWidth: 1280px;
     padding-right: $spaceBase*2;
     @media (min-width: $mediumWidth) {
         display: grid;
+        grid-column-gap: $spaceBase*2;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         }
     }

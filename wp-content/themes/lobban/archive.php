@@ -1,17 +1,23 @@
 <?php get_header(); ?>
 
-<main class="wrapper clearfix" id="content" role="main">
-    <div class="col small-12 medium-12 large-12 xlarge-12">
-        <h1 class="page__header">Journal</h1>
+<main class="page" id="content" role="main">
+    <div class="grid">
+        <h1 class="page__header headline">Journal - <?php echo the_archive_title( '', false ); ?></h1>
     </div>
     <?php if ( have_posts() ) : ?>
     <?php while ( have_posts() ) : the_post(); ?>
-        <article <?php post_class( 'article journal__list__item clearfix' ); ?>>
-            <div class="col small-12 medium-2 large-2 xlarge-2">
-                <time><?php the_time('d/m/Y'); ?></time>
-            </div>
-            <div class="col small-12 medium-10 large-7 xlarge-6">
-                <h2>
+        <article <?php post_class( 'article journal__list__item grid' ); ?>>
+            <time class="article__date">
+                <a href="<?php the_permalink(); ?>">
+                    <?php if ( get_the_time('Y') == date('Y')) { ?> 
+                        <?php the_time('j F') ?> 
+                    <?php } else { ?> 
+                        <?php the_time('j F Y') ?> 
+                    <?php } ?>
+                </a>
+            </time>
+            <div class="article__body">
+                <h2 class="headline article__body__title">
                     <a href="<?php the_permalink(); ?>">
                         <?php the_title(); ?>
                     </a>
@@ -22,9 +28,13 @@
             </div>
         </article>
     <?php endwhile; ?>
-    <div class="pagination push--top push--bottom clearfix">
-        <div class="pagination__newer col small-6 medium-5 large-4 xlarge-3 push--medium-2 push--large-2 push--xlarge-2"><?php previous_posts_link( 'Newer' ); ?></div>
-        <div class="pagination__older col small-6 medium-5 large-3 xlarge-3"><?php next_posts_link( 'Older' ); ?></div>
+    <div class="pagination grid grid--small">
+        <div class="pagination__item--newer">
+            <?php previous_posts_link( '<svg viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.83-9.34 9.174 9.34 9.167L16.67 24 4.5 12.004z"/></svg> Newer' ); ?>
+        </div>
+        <div class="pagination__item--older">
+            <?php next_posts_link( 'Older <svg viewBox="0 0 24 24"><path d="M7.33 24L4.5 21.17l9.34-9.174L4.5 2.83 7.33 0 19.5 11.996z"/></svg>' ); ?>
+        </div>
     </div>
     <?php endif; ?>
     <?php get_sidebar(); ?>

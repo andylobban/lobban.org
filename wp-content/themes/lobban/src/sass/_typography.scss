@@ -17,8 +17,7 @@ body {
     line-height: 1.5;
     }
  
-.headline,
-.logo {
+.headline {
 	font-family: serif;
     font-weight: bold;
     .fonts-loaded & {
@@ -27,6 +26,12 @@ body {
         letter-spacing: .1rem;
         }
 	}
+
+.sub-headline {
+    font-size: $typeBase;
+    font-weight: 700;
+    text-transform: uppercase;
+    }
 
 strong, 
 b {
@@ -41,10 +46,7 @@ i,
     }
 
 .page__header {
-    font-size: $typeBig;
-    padding-bottom: $spaceBase*3;
-    text-align: center;
-    text-transform: uppercase;
+    font-size: $typeBigger;
     }
 
 .break {

@@ -13,7 +13,12 @@ body {
 	}
 
 main {
-	margin-top: 7rem;
+	margin-top: 7.6rem;
+	padding-top: $spaceBase*3;
+	@media (min-width: $mediumWidth) {
+		margin-top: 7rem;
+		padding-top: $spaceBase*5;
+		}
 	}
 
 main a {
@@ -27,8 +32,13 @@ main a {
 
 .page__header {
 	color: $themePrimaryColor;
-    margin-bottom: $spaceBase*4;
-    padding-top: $spaceBase*4;
+    padding-bottom: $spaceBase*3;
+    @media (min-width: $mediumWidth) {
+		grid-column: 1 / span 12;
+		}
+	@media (min-width: $largeWidth) {
+		grid-column: 2 / span 10;
+		}
     }
 
 img {

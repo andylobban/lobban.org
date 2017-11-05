@@ -16,15 +16,10 @@
 .logo {
 	margin-bottom: $spaceBase*2;
 	font-size: $typeBig;
+	text-align: center;
 	@media (min-width: $mediumWidth) {
 		grid-column: 1 / span 6;
 	    margin-bottom: 0;
-	    }
-	}
-
-.logo a {
-	text-align: center;
-	@media (min-width: $mediumWidth) {
 	    text-align: left;
 	    }
 	}

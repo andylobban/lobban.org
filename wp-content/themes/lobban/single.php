@@ -1,25 +1,20 @@
 <?php get_header(); ?>
 
 <main class="page" id="content" role="main">
-    <h1 class="page__header headline">Journal</h1>
-    <?php if ( have_posts() ) : ?>
+	<?php if ( have_posts() ) : ?>
     <?php while ( have_posts() ) : the_post(); ?>
         <article <?php post_class( 'article single grid' ); ?>>
             <time class="article__date">
-                <a href="<?php the_permalink(); ?>">
-                    <?php if ( get_the_time('Y') == date('Y')) { ?> 
-                        <?php the_time('j F') ?> 
-                    <?php } else { ?> 
-                        <?php the_time('j F Y') ?> 
-                    <?php } ?>
-                </a>
+                <?php if ( get_the_time('Y') == date('Y')) { ?> 
+                    <?php the_time('j F') ?> 
+                <?php } else { ?> 
+                    <?php the_time('j F Y') ?> 
+                <?php } ?>
             </time>
             <div class="article__body">
-                <h2 class="headline article__body__title">
-                    <a href="<?php the_permalink(); ?>">
-                        <?php the_title(); ?>
-                    </a>
-                </h2>
+            	<h1 class="headline article__body__title">
+                    <?php the_title(); ?>
+                </h1>
                 <div class="article__content">
                     <?php the_content(); ?>
                 </div>
