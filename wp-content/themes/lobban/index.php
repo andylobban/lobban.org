@@ -2,7 +2,7 @@
 
 <main id="content" role="main">
     <div class="grid">
-        <h1 class="page__header headline">Journal</h1>
+        <h1 class="page__header headline">Journal<?php if(! is_home()) {?><?php echo the_archive_title( ' - ', false ); ?><?php }?></h1>
     </div>
     <?php if ( have_posts() ) : ?>
     <?php while ( have_posts() ) : the_post(); ?>
