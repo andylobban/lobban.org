@@ -46,6 +46,14 @@ img {
 	width: 100%;
 	}
 
+figcaption {
+	display: inline-block;
+	float: right;
+	font-size: $typeSmall;
+	font-style: italic;
+	margin-top: $spaceBase;
+	}
+
 .away {
 	left: -9999em;
 	position: absolute;
