@@ -15,3 +15,12 @@
 		grid-column: 7 / span 5;
 		}
 	}
+
+.info__section {
+	@media (min-width: $mediumWidth) {
+		grid-column: 1 / span 12;
+		}
+	@media (min-width: $largeWidth) {
+		grid-column: 2 / span 10;
+		}
+	}

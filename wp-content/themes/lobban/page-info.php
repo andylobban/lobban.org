@@ -14,7 +14,7 @@ Template Name: Info
                 <?php the_title(); ?>
             </h1>
             <section class="info__intro body-copy">
-                <p>I live in Edinburgh, Scotland. I’m currently a designer at <a href="http://stormid.com">Storm ID</a>.</p>
+                <p>I live in Edinburgh, Scotland. I’m a principal product designer at <a href="http://fanduel.com">FanDuel</a>. Previously I designed at <a href="http://stormid.com">Storm ID</a> and freelance as <a href="http://nonimage.com">Nonimage</a>.</p>
                 <h2>Contact</h2>
                 <?php include TEMPLATEPATH . '/social-links.php'; ?>
             </section>
@@ -24,8 +24,8 @@ Template Name: Info
                     Photo by <a href="http://www.wojtekkutyla.com/">Wojtek Kutyla</a>
                 </figcaption>
             </figure>
-            <section>
-                <h2>Current projects</h2>
+            <section class="info__section">
+                <h2 class="sub-headline">Current projects</h2>
                 <ul>
                     <li>
                         <h3><a href="http://lobban.org/journal">Journal</a></h3>
@@ -57,8 +57,8 @@ Template Name: Info
                     </li>
                 </ul>
             </section>
-            <section>
-                <h2>Work</h2>
+            <section class="info__section">
+                <h2 class="sub-headline">Work</h2>
                 <ul>
                     <li>
                         <h3>2010-present: Designer at <a href="http://stormid.com" rel="me">Storm ID</a></h3>
@@ -78,8 +78,8 @@ Template Name: Info
                     </li>
                 </ul>
             </section>
-            <section>
-                <h2>Past projects</h2>
+            <section class="info__section">
+                <h2 class="sub-headline">Past projects</h2>
                 <ul>
                     <li>
                         <h3>2009-2012:&nbsp;<a href="http://lobban.org/offthebeatentracks" rel="me">Off The Beaten Tracks</a></h3>
@@ -107,8 +107,8 @@ Template Name: Info
                     </li>
                 </ul>
             </section>
-            <section>
-                <h2>Chat</h2>
+            <section class="info__section">
+                <h2 class="sub-headline">Chat</h2>
                 <ul class="modules clearfix">
                     <li>
                         <h3><a title="Andy Lobban interview on Clear-Minded Creative" href="http://www.clearmindedcreative.com/andy-lobban/">Interview on Clear-Minded Creative</a></h3>
@@ -120,9 +120,9 @@ Template Name: Info
                     </li>
                 </ul>
             </section>
-            <section>
+            <section class="info__section">
                 <div>
-                    <h2>I’m social</h2>
+                    <h2 class="sub-headline">I’m social</h2>
                     <p>You can find me on these networks, at least in spirit.</p>
                 </div>
                 <ul class="body-copy">
@@ -151,8 +151,8 @@ Template Name: Info
                     <li><a class="url ss-zerply" href="http://zerply.com/nonimage" rel="me">Zerply</a></li>
                 </ul>
             </section>
-            <section>
-                <h2>B-sides &amp; rareties</h2>
+            <section class="info__section">
+                <h2 class="sub-headline">B-sides &amp; rareties</h2>
                 <p>You’ll find some more old, abandoned nonsense in the <a href="/info/archive">Archive</a>.</p>
             </section>
         </div>
