@@ -22,7 +22,7 @@
                         <?php the_title(); ?>
                     </a>
                 </h2>
-                <div class="article__content">
+                <div class="article__content body-copy">
                     <?php the_content(); ?>
                 </div>
             </div>

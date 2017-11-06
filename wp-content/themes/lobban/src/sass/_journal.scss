@@ -35,10 +35,6 @@
 	margin-bottom: $spaceBase;
 	}
 
-.article p {
-	margin-bottom: $typeBase*0.618;
-	}
-
 .pagination__item--newer {
 	grid-column: 1 / span 3;
 	@media (min-width: $mediumWidth) {

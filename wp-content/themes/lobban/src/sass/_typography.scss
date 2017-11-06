@@ -27,6 +27,10 @@ body {
         }
 	}
 
+.body-copy p {
+    margin-bottom: $typeBase*0.618;
+    }
+
 .sub-headline {
     font-size: $typeBase;
     font-weight: 700;

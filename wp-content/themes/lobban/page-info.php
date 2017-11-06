@@ -13,7 +13,7 @@ Template Name: Info
             <h1 class="headline page__header">
                 <?php the_title(); ?>
             </h1>
-            <section class="info__intro">
+            <section class="info__intro body-copy">
                 <p>I live in Edinburgh, Scotland. I’m currently a designer at <a href="http://stormid.com">Storm ID</a>.</p>
                 <h2>Contact</h2>
                 <?php include TEMPLATEPATH . '/social-links.php'; ?>
@@ -125,7 +125,7 @@ Template Name: Info
                     <h2>I’m social</h2>
                     <p>You can find me on these networks, at least in spirit.</p>
                 </div>
-                <ul>
+                <ul class="body-copy">
                     <li><a class="url ss-twitter" href="http://twitter.com/nonimage" rel="me">Twitter</a></li>
                     <li><a class="url ss-instagram" href="http://instagram.com/nonimage" rel="me">Instagram</a></li>
                     <li><a class="url ss-pinboard" href="http://pinboard.in/u:nonimage" rel="me">Pinboard</a></li>

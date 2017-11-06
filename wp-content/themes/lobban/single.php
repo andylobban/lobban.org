@@ -15,7 +15,7 @@
             	<h1 class="headline article__body__title">
                     <?php the_title(); ?>
                 </h1>
-                <div class="article__content">
+                <div class="article__content body-copy">
                     <?php the_content(); ?>
                 </div>
             </div>

@@ -8,7 +8,7 @@
             	<h1 class="headline page__header">
                     <?php the_title(); ?>
                 </h1>
-                <div class="article__content">
+                <div class="article__content body-copy">
                     <?php the_content(); ?>
                 </div>
             </div>
