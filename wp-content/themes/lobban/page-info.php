@@ -6,7 +6,7 @@ Template Name: Info
 
 <?php get_header(); ?>
 
-<main class="page page--info" id="content" role="main">
+<main class="page--info" id="content" role="main">
     <?php if ( have_posts() ) : ?>
     <?php while ( have_posts() ) : the_post(); ?>
         <div class="grid">

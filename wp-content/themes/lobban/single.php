@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 
-<main class="page" id="content" role="main">
+<main id="content" role="main">
 	<?php if ( have_posts() ) : ?>
     <?php while ( have_posts() ) : the_post(); ?>
-        <article <?php post_class( 'article single grid' ); ?>>
+        <article <?php post_class( 'article grid' ); ?>>
             <time class="article__date">
                 <?php if ( get_the_time('Y') == date('Y')) { ?> 
                     <?php the_time('j F') ?> 

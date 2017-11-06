@@ -1,12 +1,12 @@
 <?php get_header(); ?>
 
-<main class="page" id="content" role="main">
+<main id="content" role="main">
     <div class="grid">
         <h1 class="page__header headline">Journal</h1>
     </div>
     <?php if ( have_posts() ) : ?>
     <?php while ( have_posts() ) : the_post(); ?>
-        <article <?php post_class( 'article journal__list__item grid' ); ?>>
+        <article <?php post_class( 'article grid' ); ?>>
             <time class="article__date">
                 <a href="<?php the_permalink(); ?>">
                     <?php if ( get_the_time('Y') == date('Y')) { ?> 
