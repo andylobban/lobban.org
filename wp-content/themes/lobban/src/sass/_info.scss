@@ -1,4 +1,5 @@
 .info__intro {
+	margin-bottom: $spaceBase*4;
 	@media (min-width: $mediumWidth) {
 		grid-column: 1 / span 6;
 		}
@@ -8,6 +9,7 @@
 	}
 
 .info__pic {
+	margin-bottom: $spaceBase*4;
 	@media (min-width: $mediumWidth) {
 		grid-column: 7 / span 6;
 		}
@@ -17,6 +19,7 @@
 	}
 
 .info__section {
+	margin-bottom: $spaceBase*4;
 	@media (min-width: $mediumWidth) {
 		grid-column: 1 / span 12;
 		}

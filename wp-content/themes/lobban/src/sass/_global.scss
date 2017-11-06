@@ -47,11 +47,11 @@ img {
 	}
 
 figcaption {
-	display: inline-block;
-	float: right;
+	display: block;
 	font-size: $typeSmall;
 	font-style: italic;
 	margin-top: $spaceBase;
+	text-align: right;
 	}
 
 .away {

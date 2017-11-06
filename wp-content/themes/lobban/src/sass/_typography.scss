@@ -6,10 +6,10 @@
 
 html {
     @media (min-width: $mediumWidth) {
-        font-size: 65%;
+        font-size: 70%;
         }
     @media (min-width: $largeWidth) {
-        font-size: 75%;
+        font-size: 80%;
         }
     }
 
@@ -25,31 +25,6 @@ textarea {
 body {
     line-height: 1.5;
     }
- 
-.headline {
-	font-family: serif;
-    font-weight: bold;
-    .fonts-loaded & {
-        font-family: Eksell-Display-Large;
-        font-weight: normal;
-        letter-spacing: .1rem;
-        }
-	}
-
-.sub-headline,
-.body-copy h2 {
-    font-size: $typeBig;
-    font-weight: 500;
-    }
-
-.body-copy h2 {
-    margin-bottom: $spaceBase;
-    margin-top: $spaceBase*3;
-    }
-
-.body-copy p {
-    margin-bottom: $typeBase*0.618;
-    }
 
 strong, 
 b {
@@ -64,9 +39,30 @@ i,
     }
 
 .page__header {
-    font-size: $typeBigger;
+    font-size: $typeMassive;
     }
 
-.break {
-    display: inline-block;
+.headline {
+    font-family: serif;
+    font-weight: bold;
+    .fonts-loaded & {
+        font-family: Eksell-Display-Large;
+        font-weight: normal;
+        letter-spacing: .1rem;
+        }
+    }
+
+.sub-headline,
+.body-copy h2 {
+    font-size: $typeBig;
+    font-weight: 500;
+    }
+
+.body-copy h2 {
+    margin-bottom: $spaceBase;
+    margin-top: $spaceBase*3;
+    }
+
+.body-copy p {
+    margin-bottom: $typeBase*0.618;
     }
