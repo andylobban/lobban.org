@@ -4,6 +4,15 @@
              url('../fonts/Eksell-Display-Large.woff') format('woff');
     }
 
+html {
+    @media (min-width: $mediumWidth) {
+        font-size: 70%;
+        }
+    @media (min-width: $largeWidth) {
+        font-size: 75%;
+        }
+    }
+
 body, 
 button, 
 input, 
