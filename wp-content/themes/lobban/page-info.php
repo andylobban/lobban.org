@@ -125,29 +125,29 @@ Template Name: Info
                         <p>You can find me on these networks, at least in spirit.</p>
                     </div>
                     <ul class="body-copy">
-                        <li><a class="url ss-twitter" href="http://twitter.com/nonimage" rel="me">Twitter</a></li>
-                        <li><a class="url ss-instagram" href="http://instagram.com/nonimage" rel="me">Instagram</a></li>
-                        <li><a class="url ss-pinboard" href="http://pinboard.in/u:nonimage" rel="me">Pinboard</a></li>
-                        <li><a class="url ss-spotify" href="http://open.spotify.com/user/nonimage" rel="me">Spotify</a></li>
-                        <li><a class="url ss-readmill" href="http://www.goodreads.com/user/show/5679909-nonimage" rel="me">Goodreads</a></li>
-                        <li><a class="url ss-facebook" href="http://facebook.com/andylobban" rel="me">Facebook</a></li>
-                        <li><a class="url bandcamp ss-link" href="http://bandcamp.com/nonimage" rel="me">Bandcamp</a></li>
-                        <li><a class="url ss-github" href="http://github.com/nonimage" rel="me">Github</a></li>
-                        <li><a class="url ss-delicious" href="http://delicious.com/nonimage" rel="me">Delicious</a></li>
-                        <li><a class="url ss-dribbble" href="http://dribbble.com/nonimage" rel="me">Dribbble</a></li>
-                        <li><a class="url ss-flickr" href="http://flickr.com/photos/nonimage" rel="me">Flickr</a></li>
-                        <li><a class="url ss-foursquare" href="http://foursquare.com/nonimage" rel="me">Foursquare</a></li>
-                        <li><a class="url ss-googleplus" href="https://plus.google.com/108664505197038367823/posts" rel="me">Google +</a></li>
-                        <li><a class="url ss-kickstarter" href="http://kickstarter.com/profile/nonimage" rel="me">Kickstarter</a></li>
-                        <li><a class="url lanyrd ss-link" href="http://lanyrd.com/profile/nonimage" rel="me">Lanyrd</a></li>
-                        <li><a class="url ss-lastfm" href="http://last.fm/user/nonimage" rel="me">Last.fm</a></li>
-                        <li><a class="url ss-linkedin" href="http://linkedin.com/in/nonimage" rel="me">LinkedIn</a></li>
-                        <li><a class="url mixcloud ss-link" href="http://mixcloud.com/nonimage" rel="me">Mixcloud</a></li>
-                        <li><a class="url ss-tumblr" href="http://nonimage.tumblr.com" rel="me">Tumblr</a></li>
-                        <li><a class="url ss-vimeo" href="http://vimeo.com/nonimage" rel="me">Vimeo</a></li>
-                        <li><a class="url ss-vine" href="https://vine.co/u/906274204301803520" rel="me">Vine</a></li>
-                        <li><a class="url ss-youtube" href="http://youtube.com/user/nonimage" rel="me">YouTube</a></li>
-                        <li><a class="url ss-zerply" href="http://zerply.com/nonimage" rel="me">Zerply</a></li>
+                        <li><a class="url" href="http://twitter.com/nonimage" rel="me">Twitter</a></li>
+                        <li><a class="url" href="http://instagram.com/nonimage" rel="me">Instagram</a></li>
+                        <li><a class="url" href="http://pinboard.in/u:nonimage" rel="me">Pinboard</a></li>
+                        <li><a class="url" href="http://open.spotify.com/user/nonimage" rel="me">Spotify</a></li>
+                        <li><a class="url" href="http://www.goodreads.com/user/show/5679909-nonimage" rel="me">Goodreads</a></li>
+                        <li><a class="url" href="http://facebook.com/andylobban" rel="me">Facebook</a></li>
+                        <li><a class="url" href="http://bandcamp.com/nonimage" rel="me">Bandcamp</a></li>
+                        <li><a class="url" href="http://github.com/nonimage" rel="me">Github</a></li>
+                        <li><a class="url" href="http://delicious.com/nonimage" rel="me">Delicious</a></li>
+                        <li><a class="url" href="http://dribbble.com/nonimage" rel="me">Dribbble</a></li>
+                        <li><a class="url" href="http://flickr.com/photos/nonimage" rel="me">Flickr</a></li>
+                        <li><a class="url" href="http://foursquare.com/nonimage" rel="me">Foursquare</a></li>
+                        <li><a class="url" href="https://plus.google.com/108664505197038367823/posts" rel="me">Google +</a></li>
+                        <li><a class="url" href="http://kickstarter.com/profile/nonimage" rel="me">Kickstarter</a></li>
+                        <li><a class="url" href="http://lanyrd.com/profile/nonimage" rel="me">Lanyrd</a></li>
+                        <li><a class="url" href="http://last.fm/user/nonimage" rel="me">Last.fm</a></li>
+                        <li><a class="url" href="http://linkedin.com/in/nonimage" rel="me">LinkedIn</a></li>
+                        <li><a class="url" href="http://mixcloud.com/nonimage" rel="me">Mixcloud</a></li>
+                        <li><a class="url" href="http://nonimage.tumblr.com" rel="me">Tumblr</a></li>
+                        <li><a class="url" href="http://vimeo.com/nonimage" rel="me">Vimeo</a></li>
+                        <li><a class="url" href="https://vine.co/u/906274204301803520" rel="me">Vine</a></li>
+                        <li><a class="url" href="http://youtube.com/user/nonimage" rel="me">YouTube</a></li>
+                        <li><a class="url" href="http://zerply.com/nonimage" rel="me">Zerply</a></li>
                     </ul>
                 </section>
                 <section class="info__section">
