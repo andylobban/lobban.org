@@ -1,20 +1,37 @@
+.page--info h1 {
+	@media (min-width: $largeWidth) {
+		grid-column: 4 / span 6;
+		}
+	}
+
 .info__pic {
+	position: relative;
 	margin-bottom: $spaceBase*4;
 	@media (min-width: $mediumWidth) {
-		grid-column: 1 / span 4;
+		grid-column: 1 / span 6;
 		}
 	@media (min-width: $largeWidth) {
-		grid-column: 2 / span 3;
+		grid-column: 1 / span 6;
 		}
+	}
+
+.info__pic__shade {
+	background: rgba($themePrimaryColor,0.25);
+	display: block;
+	height: 85%;
+	left: 4rem;
+	position: absolute;
+	top: 2rem;
+	width: 100%;
 	}
 
 .info__body {
 	margin-bottom: $spaceBase*4;
 	@media (min-width: $mediumWidth) {
-		grid-column: 6 / span 7;
+		grid-column: 7 / span 6;
 		}
 	@media (min-width: $largeWidth) {
-		grid-column: 6 / span 6;
+		grid-column: 8 / span 5;
 		}
 	}
 

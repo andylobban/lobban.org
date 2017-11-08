@@ -18,6 +18,7 @@ Template Name: Info
                 <figcaption>
                     Photo by <a href="http://www.wojtekkutyla.com/">Wojtek Kutyla</a>
                 </figcaption>
+                <div class="info__pic__shade"></div>
             </figure>
             <div class="info__body body-copy">
                 <p>I’m a principal product designer at <a href="http://fanduel.com">FanDuel</a> in <em>Edinburgh, Scotland</em>. Previously I work at <a href="http://stormid.com">Storm ID</a> and freelanced as <a href="http://nonimage.com">Nonimage</a>.</p>
