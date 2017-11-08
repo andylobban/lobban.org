@@ -17,10 +17,8 @@ body {
 	}
 
 main {
-	margin-top: 7.6rem;
 	padding-top: $spaceBase*3;
 	@media (min-width: $mediumWidth) {
-		margin-top: 7rem;
 		padding-top: $spaceBase*5;
 		}
 	}

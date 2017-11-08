@@ -91,8 +91,11 @@
 
 .home__nav {
 	background: #062D3F;
+	font-size: $typeSmall;
+	font-weight: 500;
 	padding-bottom: $spaceBase*3;
 	padding-top: $spaceBase*4;
+	text-transform: uppercase;
 	@media (min-height: $minHeight) {
 		align-items: center;
 		display: flex;
@@ -110,13 +113,6 @@
 	@media (min-width: $largeWidth) {
 		padding-right: ($spaceBase*7 + .4rem);
 	    }
-	}
-
-.home__nav ul {
-	display: flex;
-	justify-content: space-between;
-	max-width: 400px;
-	width: 100%;
 	}
 
 .home__nav a {
