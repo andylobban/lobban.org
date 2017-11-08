@@ -1,24 +1,11 @@
-.masthead {
-	background: $themePrimaryColor;
-	}
-
-.masthead a {
-	color: #fff;
-	}
-
 .home__info__wrapper {
 	display: flex;
 	flex-direction: column;
 	}
 
 .home__wrapper a {
-	border: 0;
+	border-color: #fff;
 	color: #fff;
-	font-weight: bold;
-	transition: all 0.2s linear;
-	&:hover, &:active, &:focus {
-        text-decoration: underline;
-    	}
 	}
 
 .home__wrapper {
@@ -120,6 +107,12 @@
 	justify-content: space-between;
 	max-width: 400px;
 	width: 100%;
+	}
+
+.home__nav a {
+	&:hover, &:active {
+		border-bottom: 1px solid $themeSecondaryColor;
+		}
 	}
 
 .edge {

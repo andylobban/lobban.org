@@ -1,4 +1,5 @@
-[role="banner"] {
+.masthead {
+	background: $themePrimaryColor;
     left: 0;
     line-height: 1;
     padding-bottom: $spaceBase*2;
@@ -53,7 +54,8 @@
 	}
 
 .masthead a {
-	&:hover, &active {
-		text-decoration: underline;
+	color: $themeSecondaryColor;
+	&:hover, &:active {
+		border-bottom: 1px solid $themeSecondaryColor;
 		}
 	}
