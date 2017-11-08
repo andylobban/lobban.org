@@ -1,15 +1,19 @@
+html {
+	height: 100%;
+	}
+
+body {
+	background: #f8f7f3; 
+	display: grid;
+  	grid-template-rows: 1fr auto;
+	min-height: 100%;
+	}
+
 .skip-link.away:focus {
 	background: #fff;
 	left: 1em !important;
 	padding: 0.5em;
 	z-index: 999;
-	}
-
-body {
-	background: #f8f7f3; 
-	display: flex;
-	min-height: 100vh;
-    flex-direction: column;
 	}
 
 main {

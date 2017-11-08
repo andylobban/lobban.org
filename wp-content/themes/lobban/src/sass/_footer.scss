@@ -1,5 +1,7 @@
 [role="contentinfo"] {
 	background: #fff;
+	grid-row-start: 3;
+  	grid-row-end: 4;
 	margin-top: $spaceBase*6;
 	padding: $spaceBase*3 $spaceBase*2;
 	text-align: center;
