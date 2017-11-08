@@ -30,6 +30,7 @@ main a {
 	color: #000;
 	transition: all 0.2s linear;
 	&:hover, &:active, &:focus {
+		border-color: #000;
         outline: 0;
     	}
 	}

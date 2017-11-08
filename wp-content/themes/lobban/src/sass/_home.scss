@@ -52,9 +52,9 @@
 
 .home__info__name {
 	font-family: serif;
-	font-size: $typeBigger;
+	font-size: $typeMassive;
 	font-weight: bold;
-	margin-bottom: $spaceBase*3;
+	margin-bottom: $spaceBase*4;
 	
 	.fonts-loaded body & {
 		font-family: Eksell-Display-Large;

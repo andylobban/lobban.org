@@ -20,8 +20,7 @@ Template Name: Info
                 </figcaption>
             </figure>
             <div class="info__body body-copy">
-                <p>I live in Edinburgh, Scotland. I’m a principal product designer at <a href="http://fanduel.com">FanDuel</a>. Previously I designed at <a href="http://stormid.com">Storm ID</a> and freelance as <a href="http://nonimage.com">Nonimage</a>.</p>
-                <h2>Contact</h2>
+                <p>I’m a principal product designer at <a href="http://fanduel.com">FanDuel</a> in <em>Edinburgh, Scotland</em>. Previously I work at <a href="http://stormid.com">Storm ID</a> and freelanced as <a href="http://nonimage.com">Nonimage</a>.</p>
                 <?php include TEMPLATEPATH . '/social-links.php'; ?>
                 <section class="info__section">
                     <h2 class="sub-headline">Current projects</h2>
