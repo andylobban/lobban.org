@@ -1,5 +1,4 @@
 .masthead {
-	background: $themePrimaryColor;
     left: 0;
     line-height: 1;
     padding-bottom: $spaceBase*2;
@@ -45,8 +44,10 @@
 	}
 
 .masthead [role="navigation"] li {
+	font-size: $typeSmall;
 	padding-left: $spaceBase;
 	padding-right: $spaceBase;
+	text-transform: uppercase;
 	@media (min-width: $mediumWidth) {
 		padding-left: 0;
 		padding-right: 0;
@@ -54,8 +55,5 @@
 	}
 
 .masthead a {
-	color: $themeSecondaryColor;
-	&:hover, &:active {
-		border-bottom: 1px solid $themeSecondaryColor;
-		}
+	color: $themePrimaryColor;
 	}

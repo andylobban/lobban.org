@@ -42,7 +42,9 @@ i,
     font-size: $typeMassive;
     }
 
-.headline {
+.headline, 
+.sub-headline,
+.body-copy h2 {
     font-family: serif;
     font-weight: bold;
     .fonts-loaded & {
@@ -55,7 +57,6 @@ i,
 .sub-headline,
 .body-copy h2 {
     font-size: $typeBig;
-    font-weight: bold;
     }
 
 .body-copy h2 {

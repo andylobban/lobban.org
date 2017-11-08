@@ -6,6 +6,9 @@
 .home__wrapper a {
 	border-color: #fff;
 	color: #fff;
+	&:hover, &:active, &:focus {
+		box-shadow: inset 0 -1em 0 lighten($themePrimaryColor,10%);
+    	}
 	}
 
 .home__wrapper {
@@ -75,8 +78,15 @@
 	margin-top: $spaceBase*4;
 	}
 
-.home__info .social-links svg {
-	fill: #fff;
+.home__info .social-links a {
+	svg {
+		fill: $themeSecondaryColor;
+		}
+	&:hover, &:active, &:focus {
+		svg {
+			fill: $themeSecondaryColor;
+			}
+		}
 	}
 
 .home__nav {
@@ -110,9 +120,12 @@
 	}
 
 .home__nav a {
-	&:hover, &:active {
-		border-bottom: 1px solid $themeSecondaryColor;
-		}
+	transition: all $transition;
+	&:hover, &:active, &:focus {
+		box-shadow: inset 0 -.2rem 0 $themeSecondaryColor;
+		color: $themeSecondaryColor;
+        outline: 0;
+    	}
 	}
 
 .edge {

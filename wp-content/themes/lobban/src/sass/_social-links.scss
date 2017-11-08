@@ -5,10 +5,13 @@
 	}
 
 .social-links a {
-	border: 0;
-	}
-
-.social-links svg {
-	fill: $textColor;
-	width: 2.4rem;
+	box-shadow: none;
+	svg {
+		fill: $textColor;
+		transition: all $transition;
+		width: 2.4rem;
+		}
+	&:hover, &:active, &:focus {
+		box-shadow: none !important;
+		}
 	}
