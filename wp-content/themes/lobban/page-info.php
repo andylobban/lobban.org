@@ -17,9 +17,13 @@ Template Name: Info
                 <img src="<?php echo get_template_directory_uri(); ?>/dist/images/andy-lobban.jpg" alt="Photo of Andy Lobban" width="700" height="525" />
                 <div class="info__pic__shade"></div>
             </div>
-            <section class="info__body body-copy">
-                <p>I’m a principal product designer at <a href="http://fanduel.com">FanDuel</a> in <em>Edinburgh, Scotland</em>. Previously I work at <a href="http://stormid.com">Storm ID</a> and freelanced as <a href="http://nonimage.com">Nonimage</a>.</p>
-                <?php include TEMPLATEPATH . '/social-links.php'; ?>
+            <section class="info__intro body-copy">
+                <div>
+                    <p><em>Edinburgh, Scotland</em></p>
+                    <p>Principal product designer at <a href="/work">FanDuel</a></p>
+                    <p>Previously <a href="http://stormid.com">Storm ID</a> and <a href="http://nonimage.com">Nonimage</a>.</p>
+                    <?php include TEMPLATEPATH . '/social-links.php'; ?>
+                </div>
             </section>
         </div>
         <div class="grid">

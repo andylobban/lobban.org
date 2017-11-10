@@ -7,9 +7,9 @@
 .info__pic {
 	display: grid;
 	grid-template: repeat(1, [row] 1fr) / repeat(6, [col] 1fr);
-	margin-bottom: $spaceBase*4;
+	margin-bottom: $spaceBase*5;
 	@media (min-width: $mediumWidth) {
-		grid-column: 1 / span 5;
+		grid-column: 1 / span 4;
 		}
 	@media (min-width: $largeWidth) {
 		grid-column: 1 / span 6;
@@ -23,11 +23,12 @@
 	}
 
 .info__pic h1 {
-	grid-column: col 5 / span 2;
+	font-size: $typeRidiculous;
+	grid-column: col 4 / span 3;
 	margin-top: $spaceBase;
 	z-index: 3;
-	@media (min-width: $largeWidth) {
-	    font-size: $typeRidiculous;
+	@media (min-width: $mediumWidth) {
+		grid-column: col 5 / span 2;
 	    }
 	}
 
@@ -38,19 +39,30 @@
 .info__pic__shade {
 	border: .2rem solid $themePrimaryColor;
 	grid-column: col 2 / span 5;
-	height: 95%;
+	height: 90%;
 	margin-top: $spaceBase*5;
 	z-index: 2;
+	@media (min-width: $largeWidth) {
+	    margin-right: $spaceBase*3;
+	    }
 	}
 
-.info__body {
+.info__intro {
 	margin-bottom: $spaceBase*4;
 	@media (min-width: $mediumWidth) {
-		grid-column: 7 / span 6;
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		grid-column: 6 / span 6;
+		justify-content: space-around;
 		}
 	@media (min-width: $largeWidth) {
-		grid-column: 8 / span 5;
+		grid-column: 8 / span 4;
 		}
+	}
+
+.info__intro .social-links {
+	margin-top: $spaceBase*4;
 	}
 
 .info__section {
