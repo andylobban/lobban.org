@@ -68,6 +68,6 @@
 .info__section {
 	margin-bottom: $spaceBase*4;
 	@media (min-width: $mediumWidth) {
-		grid-column: 1 / span 12;
+		grid-column: span 6;
 		}
 	}

@@ -27,20 +27,24 @@ Template Name: Info
             </section>
         </div>
         <div class="grid">
-            <section class="info__section">
-                <h2 class="sub-headline">Current projects</h2>
+            <section class="info__section body-copy">
+                <h2 class="headline--sub">Current personal projects</h2>
                 <ul>
-                    <li>
-                        <h3><a href="http://lobban.org/journal">Journal</a></h3>
-                        <p>Occasional writing, links and some photos.</p>
-                    </li>
                     <li>
                         <h3><a href="http://gerrylovesrecords.com" rel="me">Gerry Loves Records</a></h3>
                         <p>A small record label specialising in quality vinyl.</p>
                     </li>
                     <li>
-                        <h3><a href="http://secreteditions.com">Secret Editions</a></h3>
+                        <h3><a href="http://secreteditions.com" rel="me">Secret Editions</a></h3>
                         <p>A tiny record label releasing experimental (pop) music.</p>
+                    </li>
+                    <li>
+                        <h3><a href="http://refreshedinburgh.org">Refresh Edinburgh</a></h3>
+                        <p>A designer/developer/tech meetup. With gin.</p>
+                    </li>
+                    <li>
+                        <h3><a href="http://lobban.org/journal">Journal</a></h3>
+                        <p>Occasional writing, links and some photos.</p>
                     </li>
                     <li>
                         <h3><a href="http://film.lobban.org" rel="me">Photoblog</a></h3>
@@ -50,25 +54,25 @@ Template Name: Info
                         <h3><a href="http://instant.lobban.org" rel="me">Instant</a></h3>
                         <p>A blog of scans from my <a href="http://www.fujifilm.com/products/instant_photo/cameras/instax_mini_8/">Instax</a> photos.</p>
                     </li>
-                    <li>
-                        <h3><a href="http://theshyretirers.com" rel="me">The Shy Retirers</a></h3>
-                        <p>An aggregator of posts from Scottish music blogs.</p>
-                    </li>
-                    <li>
-                        <h3><a href="http://twitter.com/sleevesreceived" rel="me">Sleeves Received Twitter</a></h3>
-                        <p>An unofficial Twitter feed for The Wire's Sleeves Received blog.</p>
-                    </li>
                 </ul>
             </section>
-            <section class="info__section">
-                <h2 class="sub-headline">Work</h2>
+            <section class="info__section body-copy">
+                <h2 class="headline--sub">Work</h2>
                 <ul>
                     <li>
-                        <h3>2010-present: Designer at <a href="http://stormid.com" rel="me">Storm ID</a></h3>
+                        <h3>2016-present: Principal product designer at <a href="http://fanduel.com" rel="me">FanDuel</a></h3>
+                        <p></p>
+                    </li>
+                    <li>
+                        <h3>2015-2016: Product designer at <a href="http://fanduel.com" rel="me">FanDuel</a></h3>
+                        <p></p>
+                    </li>
+                    <li>
+                        <h3>2010-2015: Designer at <a href="http://stormid.com" rel="me">Storm ID</a></h3>
                         <p>Digital design and front end development (HTML and CSS with a little JS) with a bit of UX design thrown in.</p>
                     </li>
                     <li>
-                        <h3>2007-2010: Freelance designer at <a href="http://nonimage.com" rel="me">Nonimage</a></h3>
+                        <h3>2007-2010: Freelance designer as <a href="http://nonimage.com" rel="me">Nonimage</a></h3>
                         <p>Freelance web and print design.</p>
                     </li>
                     <li>
@@ -81,9 +85,17 @@ Template Name: Info
                     </li>
                 </ul>
             </section>
-            <section class="info__section">
-                <h2 class="sub-headline">Past projects</h2>
+            <section class="info__section body-copy">
+                <h2 class="headline--sub">Past projects</h2>
                 <ul>
+                    <li>
+                        <h3>2015: <a href="http://twitter.com/sleevesreceived" rel="me">Sleeves Received Twitter</a></h3>
+                        <p>An unofficial Twitter feed for The Wire's Sleeves Received blog.</p>
+                    </li>
+                    <li>
+                        <h3>2012-2016: <a href="http://theshyretirers.com" rel="me">The Shy Retirers</a></h3>
+                        <p>An aggregator of posts from Scottish music blogs.</p>
+                    </li>
                     <li>
                         <h3>2009-2012:&nbsp;<a href="http://lobban.org/offthebeatentracks" rel="me">Off The Beaten Tracks</a></h3>
                         <p>A musical project in unusual surroundings. Acoustic sessions in odd places around Edinburgh and beyond. Co-run with <a title="Alex Kirk aka Ted's Records" href="http://tedsrecords.com/">Alex Kirk</a>.</p>
@@ -110,8 +122,8 @@ Template Name: Info
                     </li>
                 </ul>
             </section>
-            <section class="info__section">
-                <h2 class="sub-headline">Chat</h2>
+            <section class="info__section body-copy">
+                <h2 class="headline--sub">Chat</h2>
                 <ul class="modules clearfix">
                     <li>
                         <h3><a title="Andy Lobban interview on Clear-Minded Creative" href="http://www.clearmindedcreative.com/andy-lobban/">Interview on Clear-Minded Creative</a></h3>
@@ -123,9 +135,9 @@ Template Name: Info
                     </li>
                 </ul>
             </section>
-            <section class="info__section">
+            <section class="info__section body-copy">
                 <div>
-                    <h2 class="sub-headline">I’m social</h2>
+                    <h2 class="headline--sub">I’m social</h2>
                     <p>You can find me on these networks, at least in spirit.</p>
                 </div>
                 <ul class="body-copy">
@@ -155,7 +167,7 @@ Template Name: Info
                 </ul>
             </section>
             <section class="info__section">
-                <h2 class="sub-headline">B-sides &amp; rareties</h2>
+                <h2 class="headline--sub">B-sides &amp; rareties</h2>
                 <p>You’ll find some more old, abandoned nonsense in the <a href="/info/archive">Archive</a>.</p>
             </section>
         </div>
