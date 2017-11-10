@@ -6,12 +6,10 @@
 
 .info__pic {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  	grid-template-rows: 1fr;
-  	grid-template-areas: "column column column column column column";
+	grid-template: repeat(1, [row] 1fr) / repeat(6, [col] 1fr);
 	margin-bottom: $spaceBase*4;
 	@media (min-width: $mediumWidth) {
-		grid-column: 1 / span 6;
+		grid-column: 1 / span 5;
 		}
 	@media (min-width: $largeWidth) {
 		grid-column: 1 / span 6;
@@ -21,27 +19,28 @@
 .info__pic h1, 
 .info__pic img, 
 .info__pic__shade {
-  	grid-row: row 1 / span 1;
+  	grid-row: row 1;
 	}
 
 .info__pic h1 {
 	grid-column: col 5 / span 2;
-  	grid-row: row 1;
 	margin-top: $spaceBase;
-	z-index: 2;
+	z-index: 3;
+	@media (min-width: $largeWidth) {
+	    font-size: $typeRidiculous;
+	    }
 	}
 
 .info__pic img {
 	grid-column: col 1 / span 5;
-  	grid-row: row 1;
 	}
 
 .info__pic__shade {
-	background: rgba($themePrimaryColor,0.25);
-	grid-column: col 2 / span 11;
+	border: .2rem solid $themePrimaryColor;
+	grid-column: col 2 / span 5;
 	height: 95%;
 	margin-top: $spaceBase*5;
-	z-index: 3;
+	z-index: 2;
 	}
 
 .info__body {
@@ -56,4 +55,7 @@
 
 .info__section {
 	margin-bottom: $spaceBase*4;
+	@media (min-width: $mediumWidth) {
+		grid-column: 1 / span 12;
+		}
 	}
