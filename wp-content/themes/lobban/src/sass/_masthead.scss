@@ -1,4 +1,5 @@
 .masthead {
+	border-bottom: 1px solid rgba($themePrimaryColor, .1);
     line-height: 1;
     padding-bottom: $spaceBase*2;
 	padding-top: $spaceBase;
@@ -17,6 +18,10 @@
 	    margin-bottom: 0;
 	    text-align: left;
 	    }
+	}
+
+.logo a {
+	color: #000;
 	}
 
 .masthead [role="navigation"] {
@@ -51,6 +56,6 @@
 	    }
 	}
 
-.masthead a {
+.masthead [role="navigation"] a {
 	color: $themePrimaryColor;
 	}
