@@ -15,7 +15,33 @@ Template Name: Projects
                     <?php the_title(); ?>
                 </h1>
                 <div class="article__content body-copy">
-                    <ul class="grid">
+                    <ul>
+                        <li>
+                            <h3><a href="http://gerrylovesrecords.com" rel="me">Gerry Loves Records</a></h3>
+                            <p>A small record label specialising in quality vinyl.</p>
+                        </li>
+                        <li>
+                            <h3><a href="http://secreteditions.com" rel="me">Secret Editions</a></h3>
+                            <p>A tiny record label releasing experimental (pop) music.</p>
+                        </li>
+                        <li>
+                            <h3><a href="http://refreshedinburgh.org">Refresh Edinburgh</a></h3>
+                            <p>Sometime co-organiser of a design/dev/tech meetup. With gin.</p>
+                        </li>
+                        <li>
+                            <h3><a href="http://lobban.org/journal">Journal</a></h3>
+                            <p>Occasional writing, links and some photos.</p>
+                        </li>
+                        <li>
+                            <h3><a href="http://film.lobban.org" rel="me">Photoblog</a></h3>
+                            <p>A blog of attempts at film photography.</p>
+                        </li>
+                        <li>
+                            <h3><a href="http://instant.lobban.org" rel="me">Instant</a></h3>
+                            <p>A blog of scans from my Instax photos.</p>
+                        </li>
+                    </ul>
+                    <ul>
                         <li>
                             <h3>2015: <a href="http://twitter.com/sleevesreceived" rel="me">Sleeves Received Twitter</a></h3>
                             <p>An unofficial Twitter feed for The Wire's Sleeves Received blog.</p>

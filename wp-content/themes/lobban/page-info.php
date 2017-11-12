@@ -52,7 +52,7 @@ Template Name: Info
                     </li>
                     <li>
                         <h3><a href="http://instant.lobban.org" rel="me">Instant</a></h3>
-                        <p>A blog of scans from my <a href="http://www.fujifilm.com/products/instant_photo/cameras/instax_mini_8/">Instax</a> photos.</p>
+                        <p>A blog of scans from my Instax photos.</p>
                     </li>
                     <li>
                         <p><a href="/projects" class="button">Older projects</a></p>
