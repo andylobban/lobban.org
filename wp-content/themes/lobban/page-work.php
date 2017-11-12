@@ -12,10 +12,10 @@ Template Name: Work
         <div class="grid wrapper">
             <div class="article__body">
                 <h1 class="headline page__header">
-                    <?php the_title(); ?>
+                    Work
                 </h1>
                 <div class="article__content body-copy">
-                    <?php the_content(); ?>
+                    Coming soon...
                 </div>
             </div>
         </div>
