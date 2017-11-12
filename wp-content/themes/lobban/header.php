@@ -39,7 +39,7 @@
     	<a href="#content" class="away skip-link">Skip to main content</a>
     	<?php if(! is_front_page()) {?>
         	<header class="masthead" role="banner">
-	    		<div class="masthead__wrapper grid">
+	    		<div class="masthead__wrapper grid wrapper">
 					<div class="logo headline">
 						<a href="/">
 							Andy Lobban

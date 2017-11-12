@@ -1,4 +1,4 @@
-<div class="journal__extras grid">
+<div class="journal__extras grid wrapper">
 	<div class="journal__extras__wrapper">
 		<h2 class="sub-headline">More</h2>
 		<ul>

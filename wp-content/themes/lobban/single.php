@@ -3,7 +3,7 @@
 <main id="content" role="main">
 	<?php if ( have_posts() ) : ?>
     <?php while ( have_posts() ) : the_post(); ?>
-        <article <?php post_class( 'article grid' ); ?>>
+        <article <?php post_class( 'article grid wrapper' ); ?>>
             <time class="article__date">
                 <?php if ( get_the_time('Y') == date('Y')) { ?> 
                     <?php the_time('j F') ?> 

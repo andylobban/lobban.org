@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <main id="content" role="main">
-    <div class="grid">
+    <div class="grid wrapper">
         <div class="article__body">
         	<h1 class="headline page__header">
                 Not Found

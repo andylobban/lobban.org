@@ -1,12 +1,12 @@
 <?php get_header(); ?>
 
 <main id="content" role="main">
-    <div class="grid">
+    <div class="grid wrapper">
         <h1 class="page__header headline">Journal<?php if(! is_home()) {?><?php echo the_archive_title( ' - ', false ); ?><?php }?></h1>
     </div>
     <?php if ( have_posts() ) : ?>
     <?php while ( have_posts() ) : the_post(); ?>
-        <article <?php post_class( 'article grid' ); ?>>
+        <article <?php post_class( 'article grid wrapper' ); ?>>
             <time class="article__date">
                 <a href="<?php the_permalink(); ?>">
                     <?php if ( get_the_time('Y') == date('Y')) { ?> 
@@ -28,7 +28,7 @@
             </div>
         </article>
     <?php endwhile; ?>
-    <div class="pagination grid grid--small">
+    <div class="pagination grid wrapper grid--small">
         <div class="pagination__item--newer">
             <?php previous_posts_link( '<svg viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.83-9.34 9.174 9.34 9.167L16.67 24 4.5 12.004z"/></svg> Newer' ); ?>
         </div>
