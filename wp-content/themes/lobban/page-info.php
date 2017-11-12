@@ -55,7 +55,7 @@ Template Name: Info
                         <p>A blog of scans from my <a href="http://www.fujifilm.com/products/instant_photo/cameras/instax_mini_8/">Instax</a> photos.</p>
                     </li>
                     <li>
-                        <p><a href="/projects">Older projects</a></p>
+                        <p><a href="/projects" class="button">Older projects</a></p>
                     </li>
                 </ul>
             </section>
@@ -87,7 +87,7 @@ Template Name: Info
                         <p>Design for print and web, pre-production, printing, finishing, publishing, marketing.</p>
                     </li>
                     <li>
-                        <p><a href="/work">My work</a></p>
+                        <p><a href="/work" class="button">My work</a> <a href="https://www.linkedin.com/in/andylobban/" class="button">LinkedIn</a></p>
                     </li>
                 </ul>
             </section>
