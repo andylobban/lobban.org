@@ -74,20 +74,29 @@
 
 .journal__extras__wrapper {
 	@media (min-width: $mediumWidth) {
-		grid-column: 1 / span 12;
+		grid-column: 3 / span 8;
 		}
 	@media (min-width: $largeWidth) {
-		grid-column: 4 / span 8;
+		grid-column: 4 / span 6;
 		}
 	}
 
 .journal__extras ul {
-	margin-top: $spaceBase*2;
+	grid-row-gap: $spaceBase;
+	margin-top: $spaceBase*3;
 	}
 
-.journal__extras li {
+.category-list li {
 	display: inline-block;
+	margin-bottom: $spaceBase;
 	margin-right: $spaceBase*2;
+	}
+
+.year-list li {
+	grid-column: span 1;
+	@media (min-width: $mediumWidth) {
+		grid-column: span 2;
+		}
 	}
 
 .article.category-link h1, 
