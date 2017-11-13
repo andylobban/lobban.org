@@ -10,7 +10,7 @@ body {
 	}
 
 .skip-link.away:focus {
-	background: #fff;
+	background: $whiteish;
 	left: 1em !important;
 	padding: 0.5em;
 	z-index: 999;
@@ -26,13 +26,12 @@ main a {
 	transition: all $transition;
 	&:hover, &:active, &:focus {
 		box-shadow: inset 0 -1em 0 $themePrimaryColor;
-		color: #fff;
+		color: $whiteish;
         outline: 0;
     	}
 	}
 
 .page__header {
-	color: #110604;
     padding-bottom: $spaceBase*3;
     text-transform: uppercase;
     @media (min-width: $mediumWidth) {

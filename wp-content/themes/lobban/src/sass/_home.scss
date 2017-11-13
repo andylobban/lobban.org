@@ -4,8 +4,8 @@
 	}
 
 .home__wrapper a {
-	border-color: #fff;
-	color: #fff;
+	border-color: $whiteish;
+	color: $whiteish;
 	&:hover, &:active, &:focus {
 		box-shadow: inset 0 -1em 0 lighten($themePrimaryColor,10%);
     	}
@@ -23,7 +23,7 @@
 
 .home__info,
 .home__nav {
-	color: #fff;
+	color: $whiteish;
 	padding: ($spaceBase*4 + .2rem);
 	}
 
@@ -125,7 +125,7 @@
 	}
 
 .edge {
-	background: #fff;
+	background: $whiteish;
 	position: fixed;
 	z-index: 9998;
 	}

@@ -6,10 +6,11 @@ $breakpoint-xlarge: 80em;
 $site_max_width: 1280px;
 
 /* COLOURS */
-$textColor: #1f0f0d;
-$link: #21888A;
 $themePrimaryColor: #FF654B;
 $themeSecondaryColor: #fff;
+$textColor: mix(black, $themePrimaryColor, 85%);
+$link: #21888A;
+$whiteish: mix(white, $themePrimaryColor, 97%);
 
 /* SPACING */
 $spaceBase: 0.8rem;
