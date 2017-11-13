@@ -9,8 +9,8 @@ Template Name: Work
 <main class="page--work" id="content" role="main">
     <?php if ( have_posts() ) : ?>
     <?php while ( have_posts() ) : the_post(); ?>
-        <div class="grid wrapper">
-            <div class="article__body">
+        <div class="work__section--fanduel">
+            <div class="grid wrapper">
                 <h1 class="headline page__header">
                     Work
                 </h1>
