@@ -6,10 +6,10 @@
 
 .info__pic {
 	display: grid;
-	grid-template: repeat(1, [row] 1fr) / repeat(6, [col] 1fr);
+	grid-template: repeat(1, [row] 1fr) / repeat(12, [col] 1fr);
 	margin-bottom: $spaceBase*5;
 	@media (min-width: $mediumWidth) {
-		grid-column: 1 / span 4;
+		grid-column: 1 / span 5;
 		}
 	@media (min-width: $largeWidth) {
 		grid-column: 1 / span 6;
@@ -24,26 +24,24 @@
 
 .info__pic h1 {
 	font-size: $typeRidiculous;
-	grid-column: col 4 / span 3;
+	grid-column: col 1 / span 12;
 	margin-top: $spaceBase;
+	text-align: right;
 	z-index: 3;
-	@media (min-width: $mediumWidth) {
-		grid-column: col 5 / span 2;
-	    }
 	}
 
 .info__pic img {
-	grid-column: col 1 / span 5;
+	grid-column: col 1 / span 10;
 	}
 
 .info__pic__shade {
 	border: .2rem solid $themePrimaryColor;
-	grid-column: col 2 / span 5;
-	height: 90%;
+	grid-column: col 2 / span 10;
+	margin-bottom: -$spaceBase*2;
 	margin-top: $spaceBase*5;
 	z-index: 2;
 	@media (min-width: $largeWidth) {
-	    margin-right: $spaceBase*3;
+		grid-column: col 2 / span 10;
 	    }
 	}
 
