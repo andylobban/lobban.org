@@ -13,5 +13,8 @@
 		}
 	&:hover, &:active, &:focus {
 		box-shadow: none !important;
+		svg {
+			fill: $themePrimaryColor;
+			}
 		}
 	}
