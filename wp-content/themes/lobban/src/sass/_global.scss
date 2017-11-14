@@ -11,6 +11,7 @@ body {
 
 .skip-link.away:focus {
 	background: $whiteish;
+	color: $themePrimaryColor;
 	left: 1em !important;
 	padding: 0.5em;
 	z-index: 999;
