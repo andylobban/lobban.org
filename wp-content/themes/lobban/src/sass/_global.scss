@@ -21,7 +21,7 @@ main {
 	padding-top: $spaceBase*3;
 	}
 
-main a {
+a {
 	box-shadow: inset 0 -.2rem 0 lighten($themePrimaryColor,10%);
 	color: $textColor;
 	transition: all $transition;
@@ -33,6 +33,7 @@ main a {
 	}
 
 .page__header {
+	color: $themePrimaryColor;
     padding-bottom: $spaceBase*3;
     text-transform: uppercase;
     @media (min-width: $mediumWidth) {

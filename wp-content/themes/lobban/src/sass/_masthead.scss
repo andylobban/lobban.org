@@ -25,7 +25,10 @@
 	}
 
 .logo a {
-	color: $textColor;
+	box-shadow: none;
+	&:hover, &:active, &:focus {
+		color: $textColor;
+    	}
 	}
 
 .masthead [role="navigation"] {
@@ -69,8 +72,4 @@
 		padding-left: 0;
 		padding-right: 0;
 	    }
-	}
-
-.masthead [role="navigation"] a {
-	color: $themePrimaryColor;
 	}
