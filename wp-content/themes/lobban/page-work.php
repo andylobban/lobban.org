@@ -25,7 +25,8 @@ Template Name: Work
                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
                 <div class="work__section__support">
-                    <img src="<?php echo get_template_directory_uri(); ?>/dist/images/fanduel-screens.png" alt="FanDuel" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/dist/images/fanduel.jpg" alt="FanDuel" />
+                    <div class="work__section__support__shade"></div>
                 </div>
             </div>
             <div class="work__section work__section--stormid grid grid--small">

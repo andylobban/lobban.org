@@ -1,6 +1,5 @@
 .work__section {
-	margin-bottom: $spaceBase*2;
-	padding: $spaceBase*2;
+	margin-bottom: $spaceBase*4;
 	grid-column: span 12;
 	@media (min-width: $largeWidth) {
 	    padding: $spaceBase*4 0;
@@ -23,12 +22,18 @@
 	}
 
 .work__section__title {
-	font-weight: bold;
+	font-size: $typeSmall;
+	font-weight: 500;
 	margin-bottom: $spaceBase;
+	text-transform: uppercase;
 	}
 
 .work__section__support {
+	align-self: center;
 	grid-column: span 6;
+	justify-self: center;
+	position: relative;
+	max-width: 400px;
 	@media (min-width: $mediumWidth) {
 	    grid-column: 7 / span 6;
 	    }
@@ -37,12 +42,14 @@
 	    }
 	}
 
-.work__section--fanduel {
-	background: #1493FF;
-	color: $whiteish;
+.work__section__support__shade {
+	bottom: $spaceBase*2;
+	left: $spaceBase*2;
+	position: absolute;
+	right: -$spaceBase*2;
+	top: -$spaceBase*2;
 	}
 
-.work__section--stormid {
-	background: #161616;
-	color: $whiteish;
+.work__section--fanduel .work__section__support__shade {
+	border: 2px solid #1493FF;
 	}
