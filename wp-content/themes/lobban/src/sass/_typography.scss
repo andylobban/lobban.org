@@ -58,16 +58,17 @@ i,
 .headline--sub,
 .body-copy h2 {
     font-size: $typeBigger;
+    margin-bottom: $spaceBase*2;
     }
 
 .body-copy h2 {
-    margin-bottom: $spaceBase;
     margin-top: $spaceBase*3;
     }
 
 .body-copy h3 {
     font-size: $typeBase;
     font-weight: 700;
+    margin-bottom: $spaceBase;
     }
 
 .body-copy p {

@@ -7,7 +7,7 @@
 .info__pic {
 	display: grid;
 	grid-template: repeat(1, [row] 1fr) / repeat(12, [col] 1fr);
-	margin-bottom: $spaceBase*5;
+	margin-bottom: $spaceBase*7;
 	position: relative;
 	@media (min-width: $mediumWidth) {
 		grid-column: 1 / span 6;
@@ -53,7 +53,8 @@
 	}
 
 .info__intro {
-	margin-bottom: $spaceBase*4;
+	margin-bottom: $spaceBase*5;
+	text-align: center;
 	@media (min-width: $mediumWidth) {
 		display: flex;
 		flex-direction: column;
@@ -88,6 +89,10 @@
 		}
 	}
 
+.info__section h3 {
+	margin-bottom: $spaceBase/2;
+	}
+
 .info__section ul {
 	@media (min-width: $mediumWidth) {
 		grid-column: 2 / span 10;
@@ -98,7 +103,7 @@
 	}
 
 .info__section li {
-	margin-bottom: $spaceBase;
+	margin-bottom: $spaceBase*2;
 	@media (min-width: $mediumWidth) {
 		grid-column: span 12;
 		}
