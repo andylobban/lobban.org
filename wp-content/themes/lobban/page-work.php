@@ -9,13 +9,16 @@ Template Name: Work
 <main class="page--work" id="content" role="main">
     <?php if ( have_posts() ) : ?>
     <?php while ( have_posts() ) : the_post(); ?>
+        <div class="grid grid--small wrapper page__header__wrapper">
+            <div class="page__header__shade"></div>
+            <h1 class="page__header headline">Work</h1>
+        </div>
         <div class="grid wrapper">
-            <h1 class="headline page__header">Work</h1>
             <div class="work__section work__section--fanduel grid grid--small">
+                <h2 class="work__section__logo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/dist/images/fanduel-horizontal-logo.svg" alt="FanDuel" />
+                </h2>
                 <div class="work__section__content">
-                    <h2 class="work__section__logo">
-                        <img src="<?php echo get_template_directory_uri(); ?>/dist/images/fanduel-horizontal-logo.svg" alt="FanDuel" />
-                    </h2>
                     <h3 class="work__section__title">Principal product designer</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

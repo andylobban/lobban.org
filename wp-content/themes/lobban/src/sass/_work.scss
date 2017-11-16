@@ -43,13 +43,15 @@
 	}
 
 .work__section__support__shade {
-	bottom: $spaceBase*2;
+	border-style: solid;
+	border-width: .2rem;
+	bottom: -$spaceBase*2;
 	left: $spaceBase*2;
 	position: absolute;
 	right: -$spaceBase*2;
-	top: -$spaceBase*2;
+	top: $spaceBase*2;
 	}
 
 .work__section--fanduel .work__section__support__shade {
-	border: 2px solid #1493FF;
+	border-color: #1493FF;
 	}
