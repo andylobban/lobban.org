@@ -8,8 +8,9 @@
 	display: grid;
 	grid-template: repeat(1, [row] 1fr) / repeat(12, [col] 1fr);
 	margin-bottom: $spaceBase*5;
+	position: relative;
 	@media (min-width: $mediumWidth) {
-		grid-column: 1 / span 5;
+		grid-column: 1 / span 6;
 		}
 	@media (min-width: $largeWidth) {
 		grid-column: 1 / span 6;
@@ -32,26 +33,31 @@
 
 .info__pic img {
 	grid-column: col 1 / span 10;
+	@media (min-width: $mediumWidth) {
+		grid-column: col 1 / span 9;
+		}
+	@media (min-width: $largeWidth) {
+		grid-column: col 1 / span 10;
+		}
 	}
 
 .info__pic__shade {
-	border: .2rem solid $themePrimaryColor;
-	grid-column: col 2 / span 10;
-	margin-bottom: -$spaceBase*2;
-	margin-top: $spaceBase*5;
+	border: .2rem solid $textColor;
+	bottom: -$spaceBase*2;
+	grid-column: col 1 / span 10;
+	left: $spaceBase*2;
+	position: absolute;
+	right: -$spaceBase*2;
+	top: $spaceBase*2;
 	z-index: 2;
-	@media (min-width: $largeWidth) {
-		grid-column: col 2 / span 10;
-	    }
 	}
 
 .info__intro {
 	margin-bottom: $spaceBase*4;
 	@media (min-width: $mediumWidth) {
-		align-items: center;
 		display: flex;
 		flex-direction: column;
-		grid-column: 6 / span 6;
+		grid-column: 7 / span 6;
 		justify-content: space-around;
 		}
 	@media (min-width: $largeWidth) {

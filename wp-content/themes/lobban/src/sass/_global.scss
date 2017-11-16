@@ -35,7 +35,6 @@ a {
 .page__header {
 	color: $themePrimaryColor;
     padding-bottom: $spaceBase*3;
-    text-transform: uppercase;
     @media (min-width: $mediumWidth) {
 		grid-column: 1 / span 12;
 		}

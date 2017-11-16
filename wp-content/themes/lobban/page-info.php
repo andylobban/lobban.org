@@ -20,8 +20,9 @@ Template Name: Info
             <section class="info__intro body-copy">
                 <div>
                     <p><em>Edinburgh, Scotland</em></p>
-                    <p>Principal product designer at <a href="/work">FanDuel</a></p>
-                    <p>Previously <a href="http://stormid.com">Storm ID</a> and <a href="http://nonimage.com">Nonimage</a>.</p>
+                    <p>Principal product designer at <a href="/work">FanDuel</a>.</p>
+                    <p>Co-owner of <a href="http://gerrylovesrecords.com">Gerry Loves Records</a>.</p>
+                    <p>Husband and father.</p>
                     <?php include TEMPLATEPATH . '/social-links.php'; ?>
                 </div>
             </section>
