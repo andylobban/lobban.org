@@ -24,15 +24,13 @@
 	}
 
 .info__pic h1 {
-	font-size: $typeRidiculous;
 	grid-column: col 1 / span 12;
-	margin-top: $spaceBase;
 	text-align: right;
 	z-index: 3;
 	}
 
 .info__pic img {
-	grid-column: col 1 / span 10;
+	grid-column: col 1 / span 11;
 	@media (min-width: $mediumWidth) {
 		grid-column: col 1 / span 9;
 		}
@@ -44,7 +42,7 @@
 .info__pic__shade {
 	border: .2rem solid $textColor;
 	bottom: -$spaceBase*2;
-	grid-column: col 1 / span 10;
+	grid-column: col 1 / span 11;
 	left: $spaceBase*2;
 	position: absolute;
 	right: -$spaceBase*2;

@@ -14,7 +14,7 @@ $maxWidth: 1280px;
 .grid--small {
     display: grid;
     grid-column-gap: $spaceBase;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(6, [col] 1fr);
     }
 
 .grid, 
@@ -22,7 +22,7 @@ $maxWidth: 1280px;
     @media (min-width: $mediumWidth) {
         display: grid;
         grid-column-gap: $spaceBase*2;
-        grid-template-columns: repeat(12, 1fr);
+        grid-template-columns: repeat(12, [col] 1fr);
         }
     }
 

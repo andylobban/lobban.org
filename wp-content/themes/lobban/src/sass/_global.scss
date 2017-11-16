@@ -32,14 +32,36 @@ a {
     	}
 	}
 
+.page__header__shade, 
+.page__header {
+	grid-row: row 1;
+	}
+
+.page__header__wrapper {
+	grid-template-rows: repeat(1, [row] 1fr);
+	padding-bottom: $spaceBase*3;
+	}
+
+.page__header__shade {
+	border: .2rem solid $textColor;
+	grid-column: col 1 / span 2;
+	@media (min-width: $mediumWidth) {
+    	font-size: $typeRidiculous;
+		grid-column: col 1 / span 3;
+		}
+	}
+
 .page__header {
 	color: $themePrimaryColor;
-    padding-bottom: $spaceBase*3;
+	font-size: $typeMassive;
+	grid-column: col 2 / span 5;
+	margin-top: $spaceBase;
     @media (min-width: $mediumWidth) {
-		grid-column: 1 / span 12;
+    	font-size: $typeRidiculous;
+		grid-column: col 2 / span 11;
 		}
 	@media (min-width: $largeWidth) {
-		grid-column: 2 / span 10;
+		grid-column: col 2 / span 10;
 		}
     }
 
