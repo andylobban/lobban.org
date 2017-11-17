@@ -9,7 +9,7 @@
 .work__section__content {
 	grid-column: span 6;
 	@media (min-width: $mediumWidth) {
-	    grid-column: span 6;
+	    grid-column: col 1 / span 6;
 	    }
 	@media (min-width: $largeWidth) {
 	    grid-column: 2 / span 5;
@@ -17,8 +17,17 @@
 	}
 
 .work__section__logo {
+	grid-column: col 1 / span 6;
 	margin-bottom: $spaceBase*2;
-	max-width: 20rem;
+	@media (min-width: $mediumWidth) {
+	    grid-column: col 1 / span 12;
+	    }
+	@media (min-width: $largeWidth) {
+	    grid-column: col 2 / span 10;
+	    }
+	img {
+		max-width: 20rem;
+		}
 	}
 
 .work__section__title {
