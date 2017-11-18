@@ -25,7 +25,7 @@
     "lint-scss": "stylelint src/sass/*.scss --syntax scss || true",
     "uglify": "mkdirp dist/js -p && uglifyjs src/js/*.js -m -o dist/js/app.js && uglifyjs src/js/*.js -m -c -o dist/js/app.min.js",
     "imagemin": "imagemin src/images/* -o dist/images",
-    "icons": "svgo -f src/images/icons -o dist/images/icons",
+    "icons": "svgo -f src/images/*.svg -o dist/images/*.svg",
     "serve": "browser-sync start --server --files \"dist/css/*.css, dist/js/*.js, **/*.html, **/*.php, !node_modules/**/*.html\"",
     "build:css": "run-s lint-scss scss autoprefixer",
     "build:js": "run-s lint uglify",
