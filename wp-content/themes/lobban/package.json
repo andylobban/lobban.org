@@ -28,7 +28,7 @@
     "icons": "svgo -f src/images/*.svg -o dist/images/*.svg",
     "fonts": "cp src/fonts/* dist/fonts",
     "assets": "cp src/assets/* dist/assets",
-    "serve": "browser-sync start --server --files \"dist/css/*.css, dist/js/*.js, **/*.html, **/*.php, !node_modules/**/*.html\"",
+    "serve": "browser-sync start --server --files \"dist/css/*.css, dist/js/*.js, dist/fonts/*, dist/images/*, **/*.php\"",
     "build:css": "run-s lint-scss scss autoprefixer",
     "build:js": "run-s lint uglify",
     "build:images": "run-s imagemin icons",
