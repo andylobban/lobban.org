@@ -17,14 +17,7 @@
 	}
 
 .work__section__logo {
-	grid-column: col 1 / span 6;
 	margin-bottom: $spaceBase*2;
-	@media (min-width: $mediumWidth) {
-	    grid-column: col 1 / span 12;
-	    }
-	@media (min-width: $largeWidth) {
-	    grid-column: col 2 / span 10;
-	    }
 	img {
 		max-width: 20rem;
 		}
@@ -35,6 +28,10 @@
 	font-weight: 500;
 	margin-bottom: $spaceBase;
 	text-transform: uppercase;
+	}
+
+.work__section .button {
+	margin-top: $spaceBase*2;
 	}
 
 .work__section__support {
