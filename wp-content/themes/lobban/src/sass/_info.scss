@@ -48,6 +48,12 @@
 	right: -$spaceBase*2;
 	top: $spaceBase*2;
 	z-index: 2;
+	@media (min-width: $mediumWidth) {
+		grid-column: col 1 / span 10;
+		}
+	@media (min-width: $largeWidth) {
+		grid-column: col 1 / span 11;
+		}
 	}
 
 .info__intro {

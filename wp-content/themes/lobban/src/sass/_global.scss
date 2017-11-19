@@ -43,22 +43,26 @@ a {
 	}
 
 .page__header__shade {
-	border: .2rem solid $textColor;
-	grid-column: col 1 / span 2;
+	align-self: end;
+	background: $textColor;
+	height: .4rem;
+	grid-column: col 1 / span 1;
 	@media (min-width: $mediumWidth) {
-    	font-size: $typeRidiculous;
-		grid-column: col 1 / span 3;
+		grid-column: col 1 / span 2;
+		}
+	@media (min-width: $largeWidth) {
+		grid-column: col 2 / span 2;
 		}
 	}
 
 .page__header {
 	color: $themePrimaryColor;
 	font-size: $typeMassive;
-	grid-column: col 2 / span 5;
+	grid-column: col 1 / span 6;
 	margin-top: $spaceBase;
     @media (min-width: $mediumWidth) {
     	font-size: $typeRidiculous;
-		grid-column: col 2 / span 11;
+		grid-column: col 1 / span 12;
 		}
 	@media (min-width: $largeWidth) {
 		grid-column: col 2 / span 10;
