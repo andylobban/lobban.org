@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<main id="content" role="main">
+<main class="page--journal" id="content" role="main">
     <div class="grid grid--small wrapper page__header__wrapper">
         <div class="page__header__shade"></div>
         <h1 class="page__header headline">Journal<?php if(! is_home()) {?><?php echo the_archive_title( ' - ', false ); ?><?php }?></h1>

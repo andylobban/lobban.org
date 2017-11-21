@@ -23,8 +23,14 @@ textarea {
     font-size: $typeBase;
     }
 
-body {
+body, 
+code {
     line-height: 1.5;
+    }
+
+body {
+    font-variant-ligatures: common-ligatures;
+    font-feature-settings: "liga","clig";
     }
 
 strong, 
@@ -55,22 +61,69 @@ i,
         }
     }
 
+.body-copy {
+    hyphens: auto;
+    }
+
 .headline--sub,
 .body-copy h2 {
     font-size: $typeBigger;
-    margin-bottom: $spaceBase*2;
     }
 
-.body-copy h2 {
-    margin-top: $spaceBase*3;
+.body-copy h2:not(:first-child) {
+    margin-top: $spaceBase*2;
+    }
+
+.body-copy h3, 
+.body-copy h4 {
+    font-size: $typeBase;
+    font-weight: 700;
+    margin-bottom: $spaceBase/2;
+    margin-top: 0;
     }
 
 .body-copy h3 {
-    font-size: $typeBase;
-    font-weight: 700;
-    margin-bottom: $spaceBase;
+    font-size: $typeBig;
+    margin-top: $spaceBase*2;
     }
 
 .body-copy p {
-    margin-bottom: $typeBase*0.618;
+    margin-bottom: $spaceBase;
     }
+
+.body-copy ul, 
+.body-copy ol {
+    list-style-position: inside;
+    @media (min-width: $mediumWidth) {
+        list-style-position: outside;
+        }
+    }
+
+.body-copy li {
+    margin-bottom: $spaceBase;
+    }
+
+.body-copy ol li {
+    list-style-type: lower-roman;
+    }
+
+.body-copy ul li {
+    list-style-type: disc;
+    }
+
+.body-copy blockquote {
+    border-left: $spaceBase/2 solid $themePrimaryColor;
+    font-style: italic;
+    padding-left: $spaceBase*2;
+    }
+
+.body-copy code {
+    font-family: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;
+    }
+
+.break, 
+.category-link a {
+    hyphens: manual;
+    word-break: break-word;
+    }
+    
