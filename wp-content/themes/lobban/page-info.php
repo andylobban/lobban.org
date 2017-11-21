@@ -62,7 +62,7 @@ Template Name: Info
             </section>
             <section class="info__section body-copy grid">
                 <h2 class="headline--sub">Work</h2>
-                <ul class="grid">
+                <ul>
                     <li>
                         <h3>2016-present: Principal product designer at <a href="http://fanduel.com" rel="me">FanDuel</a></h3>
                         <p>Design lead, plus line management and design team direction.</p>
@@ -94,7 +94,7 @@ Template Name: Info
             </section>
             <section class="info__section body-copy grid">
                 <h2 class="headline--sub">Interviews</h2>
-                <ul class="grid">
+                <ul>
                     <li>
                         <h3><a title="Andy Lobban interview on Clear-Minded Creative" href="http://www.clearmindedcreative.com/andy-lobban/">Interview on Clear-Minded Creative</a></h3>
                         <p>Milo McLaughlin asked me about design, Gerry Loves Records and Off The Beaten Tracks, among other things.</p>

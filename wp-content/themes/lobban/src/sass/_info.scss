@@ -94,7 +94,8 @@
 	}
 
 .info__section h3 {
-	margin-bottom: $spaceBase/2;
+	font-size: $typeBase;
+	margin-top: 0;
 	}
 
 .info__section ul {
@@ -106,14 +107,15 @@
 		}
 	}
 
-.info__section li {
+.info__section ul li {
+	list-style-type: none;
 	margin-bottom: $spaceBase*2;
 	@media (min-width: $mediumWidth) {
 		grid-column: span 12;
 		}
 	}
 
-.info__section--projects li {
+.info__section--projects ul li {
 	@media (min-width: $mediumWidth) {
 	    grid-column: span 6;
 	    }
@@ -122,13 +124,7 @@
 	    }
 	}
 
-.info__section--social ul {
-	@media (min-width: $largeWidth) {
-	    display: grid;
-	    }
-	}
-
-.info__section--social li {
+.info__section--social ul li {
 	grid-column: span 3;
 	@media (min-width: $mediumWidth) {
 	    grid-column: span 4;
