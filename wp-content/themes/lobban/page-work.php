@@ -34,7 +34,7 @@ Template Name: Work
                         <img src="<?php echo get_template_directory_uri(); ?>/dist/images/storm-id-logo.svg" alt="Storm ID" />
                     </h2>
                     <h3 class="work__section__title">Digital designer</h3>
-                    <p>Digital design for web and native apps for one of Scotland's leading agencies and consultancies. Wireframing, concepts, HTML/CSS development. I worked on project for a range of clients including The Scottish Government, ESPC, The R&amp;A, The City of Edinburgh Council, Standard Life, Young Scot, DC Thomson, Tramway, and ScotCen.</p>
+                    <p>Design for web and native apps for one of Scotland's leading agencies and consultancies. Wireframing, concepts, HTML/CSS development. I worked on project for a range of clients including The Scottish Government, ESPC, The R&amp;A, The City of Edinburgh Council, Standard Life, Young Scot, DC Thomson, Tramway, and ScotCen.</p>
                 </div>
             </div>
         </div>
