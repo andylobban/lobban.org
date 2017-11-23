@@ -56,7 +56,7 @@ Template Name: Info
                         <p>A blog of scans from my Instax photos.</p>
                     </li>
                     <li>
-                        <p><a href="/projects" class="button">Older projects</a></p>
+                        <p><a href="/info/projects" class="button">Older projects</a></p>
                     </li>
                 </ul>
             </section>
