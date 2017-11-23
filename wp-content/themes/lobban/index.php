@@ -18,14 +18,18 @@
                 </a>
             </time>
             <div class="article__body">
-                <h2 class="headline article__body__title">
-                    <a href="<?php the_permalink(); ?>">
-                        <?php the_title(); ?>
-                    </a>
-                </h2>
-                <div class="article__content body-copy">
-                    <?php the_content(); ?>
-                </div>
+                <?php if( !in_category( 'link' ) ): ?>
+                    <h2 class="headline article__body__title">
+                        <a href="<?php the_permalink(); ?>">
+                            <?php the_title(); ?>
+                        </a>
+                    </h2>
+                <?php endif; ?>
+                <?php if( in_category( 'link' ) ): ?>
+                    <div class="article__content body-copy">
+                        <?php the_content(); ?>
+                    </div>
+                <?php endif; ?>
             </div>
         </article>
     <?php endwhile; ?>

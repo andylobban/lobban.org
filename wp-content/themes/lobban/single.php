@@ -5,11 +5,7 @@
     <?php while ( have_posts() ) : the_post(); ?>
         <article <?php post_class( 'article article--single grid wrapper' ); ?>>
             <time class="article__date">
-                <?php if ( get_the_time('Y') == date('Y')) { ?> 
-                    <?php the_time('j F') ?> 
-                <?php } else { ?> 
-                    <?php the_time('j F Y') ?> 
-                <?php } ?>
+                <?php the_time('j F Y') ?>
             </time>
             <div class="article__body">
             	<h1 class="headline article__body__title">
