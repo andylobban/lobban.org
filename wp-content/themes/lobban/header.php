@@ -48,7 +48,7 @@
 					<nav role="navigation">
 						<ul>
 							<li><a href="/work">Work</a></li>
-							<li><a href="/writing">Journal</a></li>
+							<li><a href="/journal">Journal</a></li>
 							<li><a href="/info">Info</a></li>
 						</ul>
 					</nav>
