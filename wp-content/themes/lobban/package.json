@@ -61,7 +61,6 @@
     "postcss-cli": "^2.5.2",
     "rimraf": "^2.5.4",
     "stylelint": "^7.8.0",
-    "svg-sprite-generator": "0.0.7",
     "svgo": "^0.6.6",
     "uglify-js": "^2.6.2"
   }
