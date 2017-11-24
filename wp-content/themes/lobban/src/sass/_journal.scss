@@ -6,7 +6,6 @@
 	display: block;
 	font-size: $typeSmall;
 	font-style: italic;
-	margin-bottom: $spaceBase;
 	text-transform: uppercase;
 	@media (min-width: $mediumWidth) {
 		grid-column: 1 / span 2;
@@ -25,7 +24,7 @@
 
 .category-link .article__date {
 	@media (min-width: $mediumWidth) {
-		padding-top: 0.9rem;
+		padding-top: 0.3rem;
 		}
 	}
 
@@ -108,15 +107,6 @@
 	@media (min-width: $mediumWidth) {
 		grid-column: span 2;
 		}
-	}
-
-.category-link .article__content {
-	@media (min-width: $breakpoint-medium) {
-	    margin-top: 0.25em;
-	    }
-	@media (min-width: $breakpoint-large) {
-	    margin-top: 0.45em;
-	    }
 	}
 
 .category-link .article__content a {
