@@ -8,7 +8,6 @@ Template Name: Home
     <div class="home__wrapper">
         <nav class="home__nav" role="navigation">
             <ul>
-                <li><a href="/projects">Projects</a></li>
                 <li><a href="/work">Work</a></li>
                 <li><a href="/journal">Journal</a></li>
                 <li><a href="/info">Info</a></li>
