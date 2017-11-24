@@ -1,9 +1,6 @@
 .work__section {
-	margin-bottom: $spaceBase*4;
+	margin-bottom: $spaceBase*10;
 	grid-column: span 12;
-	@media (min-width: $largeWidth) {
-	    padding: $spaceBase*4 0;
-	    }
 	}
 
 .work__section__content {
@@ -35,13 +32,15 @@
 	}
 
 .work__section__support {
-	align-self: center;
+	align-self: flex-start;
 	grid-column: span 6;
 	justify-self: center;
-	position: relative;
+	margin-top: $spaceBase*2;
 	max-width: 400px;
+	position: relative;
 	@media (min-width: $mediumWidth) {
 	    grid-column: 7 / span 6;
+	    margin-top: 0;
 	    }
 	@media (min-width: $largeWidth) {
 	    grid-column: 8 / span 4;

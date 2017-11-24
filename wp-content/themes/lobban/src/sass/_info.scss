@@ -83,6 +83,7 @@
 
 .info__section .headline--sub {
 	line-height: 1;
+	margin-bottom: $spaceBase;
 	margin-top: 0;
 	@media (min-width: $mediumWidth) {
 		grid-column: 2/ span 10;
