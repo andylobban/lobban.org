@@ -45,6 +45,7 @@
 							Andy Lobban
 						</a>
 					</div>
+		<?php }?>
 					<nav role="navigation">
 						<ul>
 							<li><a href="/work">Work</a></li>
@@ -52,6 +53,7 @@
 							<li><a href="/info">Info</a></li>
 						</ul>
 					</nav>
+		<?php if(! is_front_page()) {?>
 				</div>
 			</header>
 		<?php }?>
