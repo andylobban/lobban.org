@@ -2,9 +2,9 @@
 	border-bottom: 1px solid rgba($themePrimaryColor, .1);
     line-height: 1;
     padding: $spaceBase 0;
-	@media (min-width: 600px) {
-		padding-bottom: $spaceBase*3;
-	    padding-top: $spaceBase*3;
+	@media (min-width: 550px) {
+		padding-bottom: $spaceBase*2;
+	    padding-top: $spaceBase*2;
 	    }
 	}
 
@@ -13,7 +13,7 @@
 	margin-bottom: $spaceBase*2;
 	font-size: $typeBig;
 	text-align: center;
-	@media (min-width: 600px) {
+	@media (min-width: 550px) {
 	    grid-column: span 2;
 	    margin-bottom: 0;
 	    text-align: left;
@@ -26,14 +26,14 @@
 .logo a {
 	box-shadow: none;
 	&:hover, &:active, &:focus {
-		color: $textColor;
+		color: $themePrimaryColor;
     	}
 	}
 
 .masthead [role="navigation"] {
 	grid-column: span 6;
 	width: 100%;
-	@media (min-width: 500px) {
+	@media (min-width: 550px) {
 		align-items: flex-end;
 		display: flex;
 		flex-direction: column;
@@ -52,7 +52,7 @@
 	justify-content: space-between;
 	max-width: 300px;
 	width: 100%;
-	@media (min-width: 500px) {
+	@media (min-width: 550px) {
 		margin-left: 0;
 		margin-right: 0;
 	    }

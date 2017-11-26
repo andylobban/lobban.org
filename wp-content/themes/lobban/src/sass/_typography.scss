@@ -9,11 +9,8 @@ html {
     @media (min-width: $standardWidth) {
         font-size: 110%;
         }
-    @media (min-width: $mediumWidth) {
-        font-size: 70%;
-        }
     @media (min-width: $largeWidth) {
-        font-size: 100%;
+        font-size: 120%;
         }
     }
 

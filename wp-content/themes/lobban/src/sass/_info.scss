@@ -9,6 +9,11 @@
 	grid-template: repeat(1, [row] 1fr) / repeat(12, [col] 1fr);
 	margin-bottom: $spaceBase*7;
 	position: relative;
+	@media (max-width: ($mediumWidth - 1px)) {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 400px;
+		}
 	@media (min-width: $mediumWidth) {
 		grid-column: 1 / span 6;
 		}
@@ -25,12 +30,13 @@
 
 .info__pic h1 {
 	grid-column: col 1 / span 12;
+	margin-top: $spaceBase*2;
 	text-align: right;
 	z-index: 3;
 	}
 
 .info__pic img {
-	grid-column: col 1 / span 11;
+	grid-column: col 1 / span 10;
 	@media (min-width: $mediumWidth) {
 		grid-column: col 1 / span 9;
 		}
@@ -42,17 +48,17 @@
 .info__pic__shade {
 	border: .2rem solid $textColor;
 	bottom: -$spaceBase*2;
-	grid-column: col 1 / span 11;
+	grid-column: col 1 / span 10;
 	left: $spaceBase*2;
 	position: absolute;
 	right: -$spaceBase*2;
 	top: $spaceBase*2;
 	z-index: 2;
 	@media (min-width: $mediumWidth) {
-		grid-column: col 1 / span 10;
+		grid-column: col 1 / span 9;
 		}
 	@media (min-width: $largeWidth) {
-		grid-column: col 1 / span 11;
+		grid-column: col 1 / span 10;
 		}
 	}
 
@@ -71,11 +77,11 @@
 	}
 
 .info__intro .social-links {
-	margin-top: $spaceBase*4;
+	margin: $spaceBase*4 auto 0 auto;
 	}
 
 .info__section {
-	margin-top: $spaceBase*6;
+	margin-top: $spaceBase*4;
 	@media (min-width: $mediumWidth) {
 		grid-column: span 12;
 		}

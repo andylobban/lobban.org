@@ -16,7 +16,7 @@
 .work__section__logo {
 	margin-bottom: $spaceBase*2;
 	img {
-		max-width: 20rem;
+		max-width: 12rem;
 		}
 	}
 
@@ -39,7 +39,7 @@
 	max-width: 400px;
 	position: relative;
 	@media (min-width: $mediumWidth) {
-	    grid-column: 7 / span 6;
+	    grid-column: 8 / span 5;
 	    margin-top: 0;
 	    }
 	@media (min-width: $largeWidth) {

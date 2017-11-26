@@ -20,16 +20,16 @@ Template Name: Info
             <section class="info__intro body-copy">
                 <div>
                     <p><em>Edinburgh, Scotland</em></p>
-                    <p>Principal product designer at <a href="/work">FanDuel</a>.</p>
-                    <p>Co-owner of <a href="http://gerrylovesrecords.com">Gerry Loves Records</a>.</p>
-                    <p>Husband and father.</p>
+                    <p>Principal product designer at <a href="/work">FanDuel</a></p>
+                    <p>Co-owner of <a href="http://gerrylovesrecords.com">Gerry Loves Records</a></p>
+                    <p>Husband and father</p>
                     <?php include TEMPLATEPATH . '/social-links.php'; ?>
                 </div>
             </section>
         </div>
         <div class="grid wrapper">
             <section class="info__section info__section--projects body-copy grid">
-                <h2 class="headline--sub">Personal projects</h2>
+                <h2 class="headline--sub">Projects</h2>
                 <ul class="grid">
                     <li>
                         <h3><a href="http://gerrylovesrecords.com" rel="me">Gerry Loves Records</a></h3>
