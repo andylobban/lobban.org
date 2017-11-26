@@ -10,6 +10,7 @@ $themePrimaryColor: #FF654B;
 $themeSecondaryColor: #fff;
 $textColor: mix(black, $themePrimaryColor, 80%);
 $whiteish: mix(white, $themePrimaryColor, 97%);
+$headingColor: darken($themePrimaryColor,40%);
 
 /* SPACING */
 $spaceBase: 0.8rem;
