@@ -24,11 +24,16 @@
 .home__info,
 .home__nav {
 	color: $whiteish;
-	padding: ($spaceBase*4 + .2rem);
+	padding: $spaceBase*2;
+	@media (min-width: $standardWidth) {
+	    padding: ($spaceBase*2 + .1rem);
+	    }
 	}
 
 .home__info {
 	background: #FF654B;
+	display: flex;
+	justify-content: center;
 	margin-top: 0;
 	@media (min-height: $minHeight) {
 		align-items: center;
@@ -39,7 +44,9 @@
 	    justify-content: center;
 	    }
 	@media (min-width: $mediumWidth) {
+		display: flex;
 		height: 100vh;
+		justify-content: center;
 		padding-left: ($spaceBase*5 + .2rem);
 		width: 50vw;
 	    }
@@ -55,9 +62,9 @@
 
 .home__info__name {
 	font-family: serif;
-	font-size: $typeMassive;
+	font-size: $typeBigger;
 	font-weight: bold;
-	margin-bottom: $spaceBase*4;
+	margin-bottom: $spaceBase*2;
 	
 	.fonts-loaded body & {
 		font-family: Eksell-Display-Large;
@@ -66,16 +73,13 @@
 		}
 	}
 
-.home__info__location {
-	margin-bottom: $spaceBase*2;
-	}
-
+.home__info__location, 
 .home__info__intro li:not(:last-child) {
 	margin-bottom: $spaceBase;
 	}
 
 .home__info .social-links {
-	margin-top: $spaceBase*4;
+	margin-top: $spaceBase*3;
 	}
 
 .home__info .social-links a {
@@ -91,8 +95,10 @@
 
 .home__nav {
 	background: #062D3F;
+	display: flex;
 	font-size: $typeSmall;
 	font-weight: 500;
+	justify-content: center;
 	padding-bottom: $spaceBase*3;
 	padding-top: $spaceBase*4;
 	text-transform: uppercase;
@@ -124,7 +130,8 @@
     	}
 	}
 
-.edge {
+@media (min-width: $standardWidth) {
+    .edge {
 	background: $whiteish;
 	position: fixed;
 	z-index: 9998;
@@ -132,7 +139,7 @@
 
 .edge--top,
 .edge--bottom {
-	height: .2rem;
+	height: .1rem;
 	left: $spaceBase;
 	right: $spaceBase;
 	@media (min-width: $largeWidth) {
@@ -160,7 +167,7 @@
 .edge--right {
 	bottom: $spaceBase;
 	top: $spaceBase;
-	width: .2rem;
+	width: .1rem;
 	@media (min-width: $largeWidth) {
 	    bottom: $spaceBase*3;
 		top: $spaceBase*3;
@@ -181,3 +188,4 @@
 		right: $spaceBase*3;
 	    }
 	}
+    }

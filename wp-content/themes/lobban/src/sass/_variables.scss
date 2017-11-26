@@ -15,17 +15,18 @@ $whiteish: mix(white, $themePrimaryColor, 97%);
 $spaceBase: 0.8rem;
 
 /* TYPE */
-$typeBase: 1.4rem;
-$typeBig: ($typeBase * 1.414);
-$typeBigger: ($typeBase * 1.999);
-$typeMassive: ($typeBase * 2.827);
+$typeBase: 1rem;
+$typeSmall: (0.707rem);
+$typeBig: (1.414rem);
+$typeBigger: (1.999rem);
+$typeMassive: (2.827rem);
 $typeRidiculous: ($typeMassive * 2);
-$typeSmall: ($typeBase * 0.707);
 
 /* ANIMATION */
 $transition: .2s cubic-bezier(0.33,0.66,0.66,1);
 
 /* LAYOUT */
 $minHeight: 480px;
+$standardWidth: 360px;
 $mediumWidth: 700px;
 $largeWidth: 1024px;
