@@ -9,7 +9,7 @@
 	text-transform: uppercase;
 	@media (min-width: $mediumWidth) {
 		grid-column: 1 / span 2;
-		padding-top: 1rem;
+		padding-top: .5rem;
 		}
 	@media (min-width: $largeWidth) {
 		grid-column: 2 / span 2;
@@ -18,7 +18,7 @@
 
 .article--single .article__date {
 	@media (min-width: $mediumWidth) {
-		padding-top: 1.6rem;
+		padding-top: 1rem;
 		}
 	}
 
@@ -46,7 +46,11 @@
 .article__body__title {
 	color: $headingColor;
 	font-size: $typeMassive;
-	margin-bottom: $spaceBase;
+	line-height: 1;
+	}
+
+.single .article__body__title {
+	margin-bottom: $spaceBase*2; 
 	}
 
 .page--journal .article__body__title {

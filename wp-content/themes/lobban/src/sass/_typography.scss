@@ -71,6 +71,11 @@ i,
     font-size: $typeBigger;
     }
 
+.body-copy h2 {
+    line-height: 1;
+    margin-bottom: $spaceBase;
+    }
+
 .body-copy h2:not(:first-child) {
     margin-top: $spaceBase*2;
     }
