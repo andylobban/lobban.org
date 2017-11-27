@@ -1,10 +1,9 @@
+$headerHeightSmall: 4rem;
+$borderWidth: .1rem;
+
 body.home {
 	background: $themePrimaryColor;
 	color: $whiteish;
-	@media (min-width: $mediumWidth) {
-		display: flex;
-		flex-direction: row;
-	    }
 	}
 
 .home a {
@@ -15,28 +14,26 @@ body.home {
     	}
 	}
 
-.home__info,
-.home nav {
-	padding: $spaceBase*2;
-	@media (min-width: $standardWidth) {
-	    padding: ($spaceBase*2 + .1rem);
-	    }
+.home .masthead {
+	align-items: center;
+	border-bottom: 0;
+	display: flex;
+	height: $headerHeightSmall;
+	padding-bottom: 0;
+	padding-top: 0;
+	position: relative;
+	width: 100%;
+	z-index: 9999;
 	}
 
 .home__info {
+	align-items: center;
 	display: flex;
 	justify-content: center;
 	margin-top: 0;
-	@media (min-width: $mediumWidth) {
-		align-items: center;
-		display: flex;
-		height: 100vh;
-		justify-content: center;
-		padding-left: ($spaceBase*5 + .1rem);
-		width: 50vw;
-	    }
-	@media (min-width: $largeWidth) {
-		padding-left: ($spaceBase*7 + .1rem);
+	padding: 0 $spaceBase*2 $spaceBase*2 $spaceBase*2;
+	@media (min-width: $standardWidth) {
+	    padding: 0 ($spaceBase*3 + $borderWidth) ($spaceBase*3 + $borderWidth) ($spaceBase*3 + $borderWidth);
 	    }
 	}
 
@@ -78,26 +75,14 @@ body.home {
 		}
 	}
 
-.home nav {
+.home [role="navigation"] {
 	display: flex;
 	font-size: $typeSmall;
 	font-weight: 500;
 	justify-content: center;
-	padding-bottom: $spaceBase*2;
-	padding-top: $spaceBase*2;
 	text-transform: uppercase;
-	@media (min-width: $standardWidth) {
-		padding-top: ($spaceBase*3 +.1rem);
-	    }
 	@media (min-width: $mediumWidth) {
-		align-items: center;
-		height: 100vh;
-		order: 2;
-		padding-right: ($spaceBase*5 + .1rem);
-		width: 50vw;
-	    }
-	@media (min-width: $largeWidth) {
-		padding-right: ($spaceBase*7 + .1rem);
+	    grid-column: span 12;
 	    }
 	}
 
@@ -112,58 +97,57 @@ body.home {
 
 @media (min-width: $standardWidth) {
     .edge {
-		background: $whiteish;
+		background: $themePrimaryColor;
+		border-color: $whiteish;
+		border-style: solid;
 		position: fixed;
 		z-index: 9998;
 		}
 
 	.edge--top,
 	.edge--bottom {
-		height: .1rem;
+		height: ($spaceBase + $borderWidth);
 		left: $spaceBase;
 		right: $spaceBase;
 		@media (min-width: $largeWidth) {
+			height: $spaceBase*3;
 			left: $spaceBase*3;
 			right: $spaceBase*3;
 		    }
 		}
 
 	.edge--top {
-		top: $spaceBase;
+		border-bottom-width: $borderWidth;
+		height: ($headerHeightSmall + $borderWidth);
 		@media (min-width: $largeWidth) {
-			top: $spaceBase*3;
+			height: ($headerHeightSmall + $borderWidth);
 		    }
 		}
 
 	.edge--bottom {
-		bottom: $spaceBase;
-		@media (min-width: $largeWidth) {
-			bottom: $spaceBase*3;
-		    }
+		border-top-width: $borderWidth;
+		bottom: 0;
+		
 		}
 
 	.edge--left,
 	.edge--right {
 		bottom: $spaceBase;
-		top: $spaceBase;
-		width: .1rem;
+		top: $headerHeightSmall;
+		width: ($spaceBase + $borderWidth);
 		@media (min-width: $largeWidth) {
 		    bottom: $spaceBase*3;
-			top: $spaceBase*3;
+			top: ($headerHeightSmall + $borderWidth);
+			width: ($spaceBase*3 + $borderWidth);
 		    }
 		}
 
 	.edge--left {
-		left: $spaceBase;
-		@media (min-width: $largeWidth) {
-			left: $spaceBase*3;
-		    }
+		border-right-width: $borderWidth;
 		}
 
 	.edge--right {
-		right: $spaceBase;
-		@media (min-width: $largeWidth) {
-			right: $spaceBase*3;
-		    }
+		border-left-width: $borderWidth;
+		right: 0;
 		}
     }

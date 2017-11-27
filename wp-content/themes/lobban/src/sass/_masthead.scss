@@ -1,7 +1,7 @@
 .masthead {
-	border-bottom: 1px solid rgba($themePrimaryColor, .1);
+	border-bottom: 1px solid lighten($themePrimaryColor, 30%);
     line-height: 1;
-    padding: $spaceBase 0;
+    padding: $spaceBase 0 $spaceBase*2;
 	@media (min-width: 550px) {
 		padding-bottom: $spaceBase*2;
 	    padding-top: $spaceBase*2;
@@ -33,40 +33,39 @@
 .masthead [role="navigation"] {
 	grid-column: span 6;
 	width: 100%;
-	@media (min-width: 550px) {
-		align-items: flex-end;
-		display: flex;
-		flex-direction: column;
-	    grid-column: 3 / span 4;
-	    justify-content: center;
-	    }
-	@media (min-width: $mediumWidth) {
-		grid-column: 7 / span 6;
-	    }
+	:not(.home) > & {
+		@media (min-width: 550px) {
+			align-items: flex-end;
+			display: flex;
+			flex-direction: column;
+		    grid-column: 3 / span 4;
+		    justify-content: center;
+		    }
+		@media (min-width: $mediumWidth) {
+			grid-column: 7 / span 6;
+		    }
+		}
 	}
 
-[role="navigation"] ul {
+.masthead [role="navigation"] ul {
 	display: flex;
 	margin-left: auto;
 	margin-right: auto;
 	justify-content: space-between;
 	max-width: 300px;
 	width: 100%;
-	@media (min-width: 550px) {
-		margin-left: 0;
-		margin-right: 0;
-	    }
-	}
-
-[role="navigation"] li {
-	font-size: $typeSmall;
-	font-weight: 500;
-	text-transform: uppercase;
+	:not(.home) > & {
+		@media (min-width: 550px) {
+			margin-left: 0;
+			margin-right: 0;
+		    }
+		}
 	}
 
 .masthead [role="navigation"] li {
-	padding-left: $spaceBase;
-	padding-right: $spaceBase;
+	font-size: $typeSmall;
+	font-weight: 500;
+	text-transform: uppercase;
 	@media (min-width: $mediumWidth) {
 		padding-left: 0;
 		padding-right: 0;

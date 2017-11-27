@@ -37,15 +37,15 @@
 
     <body <?php body_class( $class ); ?>>
     	<a href="#content" class="away skip-link">Skip to main content</a>
-    	<?php if(! is_front_page()) {?>
         	<header class="masthead" role="banner">
 	    		<div class="masthead__wrapper grid grid--small wrapper">
-					<div class="logo headline">
-						<a href="/">
-							Andy Lobban
-						</a>
-					</div>
-		<?php }?>
+	    			<?php if(! is_front_page()) {?>
+						<div class="logo headline">
+							<a href="/">
+								Andy Lobban
+							</a>
+						</div>
+					<?php }?>
 					<nav role="navigation">
 						<ul>
 							<li><a href="/work">Work</a></li>
@@ -53,8 +53,6 @@
 							<li><a href="/info">Info</a></li>
 						</ul>
 					</nav>
-		<?php if(! is_front_page()) {?>
 				</div>
 			</header>
-		<?php }?>
 		
