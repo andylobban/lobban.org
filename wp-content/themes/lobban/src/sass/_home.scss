@@ -35,6 +35,14 @@ body.home {
 	@media (min-width: $standardWidth) {
 	    padding: 0 ($spaceBase*3 + $borderWidth) ($spaceBase*3 + $borderWidth) ($spaceBase*3 + $borderWidth);
 	    }
+	@media (min-width: $mediumWidth) and (min-height: $minHeight) {
+		align-items: flex-end;
+		justify-content: left;
+	    padding: 0 ($spaceBase*3 + $borderWidth) ($spaceBase*3 + $borderWidth) ($spaceBase*3 + $borderWidth);
+	    }
+	@media (min-width: $largeWidth) and (min-height: $minHeight) {
+	    padding: 0 ($spaceBase*6 + $borderWidth) ($spaceBase*6 + $borderWidth) ($spaceBase*6 + $borderWidth);
+	    }
 	}
 
 .home__info__wrapper {
