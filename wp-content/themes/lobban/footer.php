@@ -18,7 +18,7 @@
 		</script>
 
 		<?php if(! is_front_page()) {?>
-	        <script src="<?php echo get_template_directory_uri(); ?>/dist/js/libs/fluidvids.min.js"></script>
+	        <script src="<?php echo get_template_directory_uri(); ?>/dist/js/app.js"></script>
 
 			<script>
 				fluidvids.init({
