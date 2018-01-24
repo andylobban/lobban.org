@@ -122,7 +122,7 @@ Template Name: Info
                     <li><a class="url" href="http://last.fm/user/nonimage" rel="me">Last.fm</a></li>
                     <li><a class="url" href="http://linkedin.com/in/andylobban" rel="me">LinkedIn</a></li>
                     <li><a class="url" href="http://mixcloud.com/andylobban" rel="me">Mixcloud</a></li>
-                    <li><a class="url" href="http://pinboard.in/u:nonimage" rel="me">Pinboard</a></li>
+                    <li><a class="url" href="https://pinboard.in/u:andylobban/" rel="me">Pinboard</a></li>
                     <li><a class="url" href="http://open.spotify.com/user/nonimage" rel="me">Spotify</a></li>
                     <li><a class="url" href="http://andylobban.tumblr.com" rel="me">Tumblr</a></li>
                     <li><a class="url" href="http://twitter.com/andylobban" rel="me">Twitter</a></li>
