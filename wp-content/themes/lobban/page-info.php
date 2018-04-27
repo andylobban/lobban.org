@@ -68,12 +68,8 @@ Template Name: Info
                         <p>I should really write something here</p>
                     </li>
                     <li>
-                        <h3>2016-2017: Principal product designer at <a href="http://fanduel.com" rel="me">FanDuel</a></h3>
-                        <p>Lead designer, manager and team direction</p>
-                    </li>
-                    <li>
-                        <h3>2015-2016: Product designer at <a href="http://fanduel.com" rel="me">FanDuel</a></h3>
-                        <p>Digital product design for Android, iOS and web apps</p>
+                        <h3>2015-2017: Principal product designer at <a href="http://fanduel.com" rel="me">FanDuel</a></h3>
+                        <p>Lead product design for Android, iOS and web apps, as well as management and team direction</p>
                     </li>
                     <li>
                         <h3>2010-2015: Designer at <a href="http://stormid.com" rel="me">Storm ID</a></h3>
