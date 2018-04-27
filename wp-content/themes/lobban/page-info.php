@@ -20,7 +20,7 @@ Template Name: Info
             <section class="info__intro body-copy">
                 <div>
                     <p><em>Edinburgh, Scotland</em></p>
-                    <p>Principal product designer at <a href="/work">FanDuel</a></p>
+                    <p>Design Director at <a href="/work">FanDuel</a></p>
                     <p>Co-owner of <a href="http://gerrylovesrecords.com">Gerry Loves Records</a></p>
                     <p>Husband and father</p>
                     <?php include TEMPLATEPATH . '/social-links.php'; ?>
@@ -64,28 +64,32 @@ Template Name: Info
                 <h2 class="headline--sub">Work</h2>
                 <ul>
                     <li>
-                        <h3>2016-present: Principal product designer at <a href="http://fanduel.com" rel="me">FanDuel</a></h3>
-                        <p>Design lead, plus line management and design team direction.</p>
+                        <h3>2018-present: Design Director at <a href="http://fanduel.com" rel="me">FanDuel</a></h3>
+                        <p>I should really write something here</p>
+                    </li>
+                    <li>
+                        <h3>2016-2017: Principal product designer at <a href="http://fanduel.com" rel="me">FanDuel</a></h3>
+                        <p>Lead designer, manager and team direction</p>
                     </li>
                     <li>
                         <h3>2015-2016: Product designer at <a href="http://fanduel.com" rel="me">FanDuel</a></h3>
-                        <p>Digital product design for Android, iOS and web apps.</p>
+                        <p>Digital product design for Android, iOS and web apps</p>
                     </li>
                     <li>
                         <h3>2010-2015: Designer at <a href="http://stormid.com" rel="me">Storm ID</a></h3>
-                        <p>Digital design and frontend development with a bit of UX.</p>
+                        <p>Digital design, frontend development, a bit of user research</p>
                     </li>
                     <li>
                         <h3>2007-2010: Freelance designer as <a href="http://nonimage.com" rel="me">Nonimage</a></h3>
-                        <p>Freelance digital and print design.</p>
+                        <p>Freelance digital and print design</p>
                     </li>
                     <li>
                         <h3>2004-2007: Designer at What's On Publications</h3>
-                        <p>Magazine and advertising design.</p>
+                        <p>Magazine and advertising design</p>
                     </li>
                     <li>
                         <h3>2000-2004: BA Hons in Graphic Communcation at Napier University, Edinburgh</h3>
-                        <p>Design for print and web, pre-production, printing, finishing, publishing, marketing.</p>
+                        <p>Design for print and web, pre-production, printing, finishing, publishing, marketing</p>
                     </li>
                     <li>
                         <p><a href="/work" class="button">My work</a> <a href="https://www.linkedin.com/in/andylobban/" class="button">LinkedIn</a></p>

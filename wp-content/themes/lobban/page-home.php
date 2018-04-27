@@ -10,7 +10,7 @@ Template Name: Home
             <h1 class="home__info__name">Andy Lobban</h1>
             <p class="home__info__location">Edinburgh, Scotland</p>
             <ul class="home__info__intro">
-                <li>Principal product designer at <a href="https://fanduel.com">FanDuel</a></li>
+                <li>Design Director at <a href="https://fanduel.com">FanDuel</a></li>
                 <li>Co-owner of <a href="http://gerrylovesrecords.com">Gerry Loves Records</a></li>
                 <li>Owner of <a href="http://secreteditions.com">Secret Editions</a></li>
                 <li>Some <a href="/info">other stuff</a></li>
