@@ -14,31 +14,20 @@ body.home {
     	}
 	}
 
-.home .masthead {
-	align-items: center;
-	border-bottom: 0;
-	display: flex;
-	height: $headerHeightSmall;
-	padding-bottom: 0;
-	padding-top: 0;
-	position: relative;
-	width: 100%;
-	z-index: 9999;
-	}
-
 .home__info {
 	align-items: center;
 	display: flex;
 	justify-content: center;
 	margin-top: 0;
-	padding: 0 $spaceBase*2 $spaceBase*2 $spaceBase*2;
+	padding: $spaceBase*4 $spaceBase*2 $spaceBase*2 $spaceBase*2;
 	@media (min-width: $standardWidth) {
-	    padding: 0 ($spaceBase*3 + $borderWidth) ($spaceBase*3 + $borderWidth) ($spaceBase*3 + $borderWidth);
+	    padding: ($spaceBase*5 + $borderWidth) ($spaceBase*3 + $borderWidth) ($spaceBase*3 + $borderWidth) ($spaceBase*3 + $borderWidth);
 	    }
 	@media (min-width: $mediumWidth) and (min-height: $minHeight) {
 		align-items: flex-end;
 		justify-content: left;
 	    padding: 0 ($spaceBase*3 + $borderWidth) ($spaceBase*3 + $borderWidth) ($spaceBase*3 + $borderWidth);
+	    height: 100vh;
 	    }
 	@media (min-width: $largeWidth) and (min-height: $minHeight) {
 	    padding: 0 ($spaceBase*6 + $borderWidth) ($spaceBase*6 + $borderWidth) ($spaceBase*6 + $borderWidth);
@@ -47,14 +36,17 @@ body.home {
 
 .home__info__wrapper {
 	width: 100%;
-	max-width: 400px;
+	max-width: 570px;
+	}
+
+.home__info .body-copy {
+	hyphens: none;
 	}
 
 .home__info__name {
 	font-family: serif;
 	font-size: $typeBigger;
 	font-weight: bold;
-	margin-bottom: $spaceBase*2;
 	
 	.fonts-loaded body & {
 		font-family: Eksell-Display-Large;
@@ -63,9 +55,8 @@ body.home {
 		}
 	}
 
-.home__info__location, 
-.home__info__intro li:not(:last-child) {
-	margin-bottom: $spaceBase;
+.home__info__location {
+	margin-bottom: $spaceBase*2;
 	}
 
 .home__info .social-links {
@@ -126,26 +117,21 @@ body.home {
 
 	.edge--top {
 		border-bottom-width: $borderWidth;
-		height: ($headerHeightSmall + $borderWidth);
-		@media (min-width: $largeWidth) {
-			height: ($headerHeightSmall + $borderWidth);
-		    }
 		}
 
 	.edge--bottom {
 		border-top-width: $borderWidth;
 		bottom: 0;
-		
 		}
 
 	.edge--left,
 	.edge--right {
 		bottom: $spaceBase;
-		top: $headerHeightSmall;
+		top: $spaceBase;
 		width: ($spaceBase + $borderWidth);
 		@media (min-width: $largeWidth) {
 		    bottom: $spaceBase*3;
-			top: ($headerHeightSmall + $borderWidth);
+			top: $spaceBase*3;
 			width: ($spaceBase*3 + $borderWidth);
 		    }
 		}

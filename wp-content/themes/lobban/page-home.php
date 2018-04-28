@@ -9,9 +9,9 @@ Template Name: Home
         <div class="home__info__wrapper">
             <h1 class="home__info__name">Andy Lobban</h1>
             <p class="home__info__location">Edinburgh, Scotland</p>
-            <div class="home__info__intro">
+            <div class="home__info__intro body-copy">
                 <p>Design Director at <a href="https://fanduel.com">FanDuel</a>, co-owner of <a href="http://gerrylovesrecords.com">Gerry Loves Records</a>, owner of <a href="http://secreteditions.com">Secret Editions</a>. </p>
-                <p>You can see some <a href="/work">work</a>, read some <a href="/journal">posts</a>, or get more <a href="/info">info</a>.</p>
+                <p>See some <a href="/work">work</a>, read some <a href="/journal">posts</a>, or get more <a href="/info">info</a>.</p>
             </div>
             <?php include TEMPLATEPATH . '/social-links.php'; ?>
         </div>
