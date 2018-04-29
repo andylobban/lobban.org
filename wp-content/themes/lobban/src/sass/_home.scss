@@ -2,7 +2,7 @@ $headerHeightSmall: 4rem;
 $borderWidth: .1rem;
 
 body.home {
-	background: $themePrimaryColor;
+	background: $themePrimaryColor center / cover no-repeat url("../images/bg.jpg");
 	color: $whiteish;
 	}
 
@@ -96,7 +96,7 @@ body.home {
 
 @media (min-width: $standardWidth) {
     .edge {
-		background: $themePrimaryColor;
+		background: transparent;
 		border-color: $whiteish;
 		border-style: solid;
 		position: fixed;
