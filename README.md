@@ -16,3 +16,4 @@ For licensing reasons fonts, Wordpress core files, and Wordpress plugins are not
 - [Cleaner Gallery](https://wordpress.org/plugins/cleaner-gallery/)
 - [iThemes Security](https://wordpress.org/plugins/better-wp-security/)
 - [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/)
+- [WP Super Cache](https://wordpress.org/plugins/wp-super-cache/)
