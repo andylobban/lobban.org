@@ -20,7 +20,7 @@ Template Name: Info
             <section class="info__intro body-copy">
                 <div>
                     <p><em>Edinburgh, Scotland</em></p>
-                    <p>Design Director at <a href="/work">FanDuel</a></p>
+                    <p>Head of UX &amp; Design at <a href="/work">FanDuel</a></p>
                     <p>Co-owner of <a href="http://gerrylovesrecords.com">Gerry Loves Records</a></p>
                     <p>Husband and father</p>
                     <?php include TEMPLATEPATH . '/social-links.php'; ?>
@@ -64,12 +64,12 @@ Template Name: Info
                 <h2 class="headline--sub">Work</h2>
                 <ul>
                     <li>
-                        <h3>2018-present: Design Director at <a href="http://fanduel.com" rel="me">FanDuel</a></h3>
+                        <h3>2018-present: Head of UX &amp; Design at <a href="http://fanduel.com" rel="me">FanDuel</a></h3>
                         <p>I should really write something here</p>
                     </li>
                     <li>
                         <h3>2015-2017: Principal product designer at <a href="http://fanduel.com" rel="me">FanDuel</a></h3>
-                        <p>Lead product design for Android, iOS and web apps, as well as management and team direction</p>
+                        <p>Product design lead for Android, iOS and web apps, as well as management and team direction</p>
                     </li>
                     <li>
                         <h3>2010-2015: Designer at <a href="http://stormid.com" rel="me">Storm ID</a></h3>

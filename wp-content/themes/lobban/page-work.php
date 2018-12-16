@@ -19,9 +19,9 @@ Template Name: Work
                     <h2 class="work__section__logo">
                     <img src="<?php echo get_template_directory_uri(); ?>/dist/images/fanduel-horizontal-logo.svg" alt="FanDuel" />
                 </h2>
-                    <h3 class="work__section__title">Design director</h3>
-                    <p>Digital product design for native and web apps. FanDuel's mission is to make sports more exciting, through our fantasy sports apps in the US market. It's one of Scotland's two <a href="https://en.wikipedia.org/wiki/Unicorn_(finance)">unicorn</a> companies. I lead the product design and user research team.</p>
-                    <p><a href="#" class="button">Case study</a></p>
+                    <h3 class="work__section__title">Head of UX &amp; Design &nbsp;&nbsp;<em>2018&ndash;Now</em></h3>
+                    <h3 class="work__section__title">Principal Product Designer &nbsp;&nbsp;<em>2015&ndash;2017</em></h3>
+                    <p>FanDuel's mission is to make sports more exciting, through our fantasy sports and sports betting apps in the US market. I lead the UX &amp; Design team for our products.</p>
                 </div>
                 <div class="work__section__support">
                     <img src="<?php echo get_template_directory_uri(); ?>/dist/images/fanduel.jpg" alt="FanDuel" />
