@@ -5,7 +5,7 @@
 .article__date {
 	display: block;
 	font-size: $typeSmall;
-	font-style: italic;
+	letter-spacing: $letterSpacing;
 	text-transform: uppercase;
 	@media (min-width: $mediumWidth) {
 		grid-column: 1 / span 2;

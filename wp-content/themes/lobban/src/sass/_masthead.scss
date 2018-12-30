@@ -65,6 +65,7 @@
 .masthead [role="navigation"] li {
 	font-size: $typeSmall;
 	font-weight: 500;
+	letter-spacing: $letterSpacing;
 	text-transform: uppercase;
 	@media (min-width: $mediumWidth) {
 		padding-left: 0;

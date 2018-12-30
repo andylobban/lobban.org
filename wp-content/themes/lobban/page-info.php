@@ -19,7 +19,7 @@ Template Name: Info
             </div>
             <section class="info__intro body-copy">
                 <div>
-                    <p><em>Edinburgh, Scotland</em></p>
+                    <p class="info__intro__location">Edinburgh, Scotland</p>
                     <p>Head of UX &amp; Design at <a href="/work">FanDuel</a></p>
                     <p>Co-owner of <a href="http://gerrylovesrecords.com">Gerry Loves Records</a></p>
                     <p>Husband and father</p>

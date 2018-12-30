@@ -56,7 +56,10 @@ body.home {
 	}
 
 .home__info__location {
+	font-size: $typeSmall;
+	letter-spacing: $letterSpacing;
 	margin-bottom: $spaceBase*2;
+	text-transform: uppercase;
 	}
 
 .home__info .social-links {

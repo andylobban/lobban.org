@@ -77,6 +77,12 @@
 		}
 	}
 
+.info__intro__location {
+	font-size: $typeSmall;
+	letter-spacing: $letterSpacing;
+	text-transform: uppercase;
+	}
+
 .info__intro .social-links {
 	margin: $spaceBase*4 auto 0 auto;
 	}
