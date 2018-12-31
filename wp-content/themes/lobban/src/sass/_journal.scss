@@ -8,10 +8,13 @@
 	letter-spacing: $letterSpacing;
 	text-transform: uppercase;
 	@media (min-width: $mediumWidth) {
-		grid-column: 1 / span 2;
+		grid-column: 2 / span 10;
 		padding-top: .7rem;
 		}
 	@media (min-width: $largeWidth) {
+		grid-column: 1 / span 2;
+		}
+	@media (min-width: $siteMaxWidth) {
 		grid-column: 2 / span 2;
 		}
 	}
@@ -34,12 +37,25 @@
 	color: lighten( $textColor, 50% );
 	}
 
-.article__body {
+.article__body, 
+.journal__extras__wrapper {
 	@media (min-width: $mediumWidth) {
-		grid-column: 3 / span 8;
+		grid-column: 2 / span 10;
 		}
 	@media (min-width: $largeWidth) {
-		grid-column: 4 / span 6;
+		grid-column: 3 / span 8;
+		}
+	@media (min-width: $siteMaxWidth) {
+		grid-column: 4 / span 7;
+		}
+	}
+
+.page--journal .article__body {
+	@media (min-width: $largeWidth) {
+		grid-column: 3 / span 10;
+		}
+	@media (min-width: $siteMaxWidth) {
+		grid-column: 4 / span 9;
 		}
 	}
 
@@ -60,10 +76,13 @@
 .pagination__item--newer {
 	grid-column: 1 / span 3;
 	@media (min-width: $mediumWidth) {
-		grid-column: 3 / span 2;
+		grid-column: 2 / span 5;
 		}
 	@media (min-width: $largeWidth) {
-		grid-column: 4 / span 2;
+		grid-column: 3 / span 4;
+		}
+	@media (min-width: $siteMaxWidth) {
+		grid-column: 4 / span 3;
 		}
 	}
 
@@ -71,10 +90,10 @@
 	grid-column: 4 / span 3;
 	text-align: right;
 	@media (min-width: $mediumWidth) {
-		grid-column: 9 / span 2;
+		grid-column: 7 / span 5;
 		}
 	@media (min-width: $largeWidth) {
-		grid-column: 8 / span 2;
+		grid-column: 7 / span 6;
 		}
 	}
 
@@ -91,15 +110,6 @@
 
 .journal__extras {
 	margin-top: $spaceBase*6;
-	}
-
-.journal__extras__wrapper {
-	@media (min-width: $mediumWidth) {
-		grid-column: 3 / span 8;
-		}
-	@media (min-width: $largeWidth) {
-		grid-column: 4 / span 6;
-		}
 	}
 
 .journal__extras ul {

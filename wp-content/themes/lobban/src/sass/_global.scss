@@ -49,10 +49,13 @@ a {
 	grid-column: col 1 / span 1;
 	margin-bottom: -$spaceBase;
 	@media (min-width: $mediumWidth) {
-		grid-column: col 1 / span 2;
+		grid-column: col 2 / span 2;
 		}
 	@media (min-width: $largeWidth) {
-		grid-column: col 2 / span 2;
+		grid-column: col 3 / span 2;
+		}
+	@media (min-width: $siteMaxWidth) {
+		grid-column: col 4 / span 2;
 		}
 	}
 
@@ -63,10 +66,14 @@ a {
 	grid-column: col 1 / span 6;
     @media (min-width: $mediumWidth) {
     	font-size: $typeRidiculous;
-		grid-column: col 1 / span 12;
+		grid-column: col 2 / span 10;
 		}
 	@media (min-width: $largeWidth) {
-		grid-column: col 2 / span 10;
+    	font-size: $typeRidiculous;
+		grid-column: col 3 / span 8;
+		}
+	@media (min-width: $siteMaxWidth) {
+		grid-column: col 4 / span 7;
 		}
     }
 
