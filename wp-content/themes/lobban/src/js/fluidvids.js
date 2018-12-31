@@ -50,7 +50,6 @@
       fluidvids[key] = obj[key];
     }
     fluidvids.render();
-    addStyles();
   };
 
   return fluidvids;
