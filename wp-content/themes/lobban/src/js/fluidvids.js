@@ -16,15 +16,6 @@
     players: ['www.youtube.com', 'player.vimeo.com']
   };
 
-  var css = [
-    '.fluidvids {',
-      'width: 100%; max-width: 100%; position: relative;',
-    '}',
-    '.fluidvids-item {',
-      'position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;',
-    '}'
-  ].join('');
-
   var head = document.head || document.getElementsByTagName('head')[0];
 
   function matches (src) {
@@ -44,12 +35,6 @@
     wrap.className += 'fluidvids';
     wrap.style.paddingTop = getRatio(elem.height, elem.width);
     wrap.appendChild(elem);
-  }
-
-  function addStyles () {
-    var div = document.createElement('div');
-    div.innerHTML = '<p>x</p><style>' + css + '</style>';
-    head.appendChild(div.childNodes[1]);
   }
 
   fluidvids.render = function () {

@@ -94,3 +94,24 @@ figcaption {
 	left: -9999em;
 	position: absolute;
 	}
+
+.fluidvids,
+.wp-block-embed-speaker-deck.wp-embed-aspect-16-9 .wp-block-embed__wrapper {
+    max-width: 100%; 
+    position: relative;
+    width: 100%;
+    }
+    
+.fluidvids-item,
+.wp-block-embed-speaker-deck.wp-embed-aspect-16-9 .wp-block-embed__wrapper iframe {
+    height: 100%;
+    left: 0px; 
+    position: absolute; 
+    top: 0px; 
+    width: 100%; 
+    }
+
+.wp-block-embed-speaker-deck.wp-embed-aspect-16-9 .wp-block-embed__wrapper {
+	padding-top: 56.25%;
+	}
+	
