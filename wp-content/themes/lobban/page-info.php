@@ -127,6 +127,7 @@ Template Name: Info
                     <li><a class="url" href="http://andylobban.tumblr.com" rel="me">Tumblr</a></li>
                     <li><a class="url" href="http://twitter.com/andylobban" rel="me">Twitter</a></li>
                     <li><a class="url" href="http://vimeo.com/andylobban" rel="me">Vimeo</a></li>
+                    <li><a class="url" href="https://vsco.co/andylobban/" rel="me">VSCO</a></li>
                     <li><a class="url" href="https://www.youtube.com/c/AndyLobban" rel="me">YouTube</a></li>
                     <li>(<a href="/info/archive">Abandoned profiles</a>)</li>
                 </ul>
