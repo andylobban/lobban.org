@@ -1,19 +1,21 @@
-Lobban.org, my personal site, running on Wordpress.
+# Lobban.org
 
-You'll need [Node](https://nodejs.org/) and [NPM](https://www.npmjs.com/) installed on your machine to build the theme.
+[My personal website](https://lobban.org), powered [Hugo](https://gohugo.io).
 
-- Open the `lobban` theme directory in Terminal.
-- `sudo npm install`
-- `npm run watch`
+## Installation
 
-For licensing reasons fonts, Wordpress core files, and Wordpress plugins are not included in this repo.
+You'll need to install
+
+* [Homebrew](https://brew.sh)
+* [Hugo](https://gohugo.io/getting-started/quick-start/#step-1-install-hugo) (step 1 only)
+
+If you run into any problems, or want help getting started give @sbradford a shout
+
+### Run the site locally
+
+1. Run `hugo server -D` in the command line
+2. Visit [http://localhost:1313](http://localhost:1313) in your browser
+
 
 ## Fonts needed
 - [Eksell Display Large](https://lettersfromsweden.se/ekselldisplay/)
-
-## Plugins (for my own memory)
-- [BackWPup](https://wordpress.org/plugins/backwpup/)
-- [Cleaner Gallery](https://wordpress.org/plugins/cleaner-gallery/)
-- [iThemes Security](https://wordpress.org/plugins/better-wp-security/)
-- [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/)
-- [WP Super Cache](https://wordpress.org/plugins/wp-super-cache/)
