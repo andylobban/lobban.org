@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        {{ $style := resources.Get "scss/style.scss" | toCSS | minify | fingerprint }}
+        <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,700" rel="stylesheet">
+
+        <script>
+			(function() {
+
+				// Optimization for Repeat Views
+				if( sessionStorage.fontsLoadedFoutWithClassPolyfill ) {
+					document.documentElement.className += " fonts-loaded";
+					return;
+				}
+
+				// FontFaceObserver https://github.com/bramstein/fontfaceobserver
+				(function(){function e(e,t){document.addEventListener?e.addEventListener("scroll",t,!1):e.attachEvent("scroll",t)}function t(e){document.body?e():document.addEventListener?document.addEventListener("DOMContentLoaded",function t(){document.removeEventListener("DOMContentLoaded",t),e()}):document.attachEvent("onreadystatechange",function n(){if("interactive"==document.readyState||"complete"==document.readyState)document.detachEvent("onreadystatechange",n),e()})}function n(e){this.a=document.createElement("div"),this.a.setAttribute("aria-hidden","true"),this.a.appendChild(document.createTextNode(e)),this.b=document.createElement("span"),this.c=document.createElement("span"),this.h=document.createElement("span"),this.f=document.createElement("span"),this.g=-1,this.b.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.c.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.f.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.h.style.cssText="display:inline-block;width:200%;height:200%;font-size:16px;max-width:none;",this.b.appendChild(this.h),this.c.appendChild(this.f),this.a.appendChild(this.b),this.a.appendChild(this.c)}function r(e,t){e.a.style.cssText="max-width:none;min-width:20px;min-height:20px;display:inline-block;overflow:hidden;position:absolute;width:auto;margin:0;padding:0;top:-999px;left:-999px;white-space:nowrap;font:"+t+";"}function i(e){var t=e.a.offsetWidth,n=t+100;return e.f.style.width=n+"px",e.c.scrollLeft=n,e.b.scrollLeft=e.b.scrollWidth+100,e.g!==t?(e.g=t,!0):!1}function s(t,n){function r(){var e=s;i(e)&&null!==e.a.parentNode&&n(e.g)}var s=t;e(t.b,r),e(t.c,r),i(t)}function o(e,t){var n=t||{};this.family=e,this.style=n.style||"normal",this.weight=n.weight||"normal",this.stretch=n.stretch||"normal"}function l(){if(null===a){var e=document.createElement("div");try{e.style.font="condensed 100px sans-serif"}catch(t){}a=""!==e.style.font}return a}function c(e,t){return[e.style,e.weight,l()?e.stretch:"","100px",t].join(" ")}var u=null,a=null,f=null;o.prototype.load=function(e,i){var o=this,a=e||"BESbswy",l=i||3e3,h=(new Date).getTime();return new Promise(function(e,i){null===f&&(f=!!window.FontFace);if(f){var p=new Promise(function(e,t){function n(){(new Date).getTime()-h>=l?t():document.fonts.load(c(o,o.family),a).then(function(t){1<=t.length?e():setTimeout(n,25)},function(){t()})}n()}),d=new Promise(function(e,t){setTimeout(t,l)});Promise.race([d,p]).then(function(){e(o)},function(){i(o)})}else t(function(){function t(){var t;if(t=-1!=m&&-1!=g||-1!=m&&-1!=S||-1!=g&&-1!=S)(t=m!=g&&m!=S&&g!=S)||(null===u&&(t=/AppleWebKit\/([0-9]+)(?:\.([0-9]+))/.exec(window.navigator.userAgent),u=!!t&&(536>parseInt(t[1],10)||536===parseInt(t[1],10)&&11>=parseInt(t[2],10))),t=u&&(m==x&&g==x&&S==x||m==T&&g==T&&S==T||m==N&&g==N&&S==N)),t=!t;t&&(null!==C.parentNode&&C.parentNode.removeChild(C),clearTimeout(L),e(o))}function f(){if((new Date).getTime()-h>=l)null!==C.parentNode&&C.parentNode.removeChild(C),i(o);else{var e=document.hidden;if(!0===e||void 0===e)m=p.a.offsetWidth,g=d.a.offsetWidth,S=v.a.offsetWidth,t();L=setTimeout(f,50)}}var p=new n(a),d=new n(a),v=new n(a),m=-1,g=-1,S=-1,x=-1,T=-1,N=-1,C=document.createElement("div"),L=0;C.dir="ltr",r(p,c(o,"sans-serif")),r(d,c(o,"serif")),r(v,c(o,"monospace")),C.appendChild(p.a),C.appendChild(d.a),C.appendChild(v.a),document.body.appendChild(C),x=p.a.offsetWidth,T=d.a.offsetWidth,N=v.a.offsetWidth,f(),s(p,function(e){m=e,t()}),r(p,c(o,'"'+o.family+'",sans-serif')),s(d,function(e){g=e,t()}),r(d,c(o,'"'+o.family+'",serif')),s(v,function(e){S=e,t()}),r(v,c(o,'"'+o.family+'",monospace'))})})},"undefined"!=typeof module?module.exports=o:(window.FontFaceObserver=o,window.FontFaceObserver.prototype.load=o.prototype.load)})();
+
+				var fontA = new FontFaceObserver('Eksell-Display-Large');
+
+				Promise.all([fontA.load()]).then(function () {
+					document.documentElement.className += " fonts-loaded";
+
+					// Optimization for Repeat Views
+					sessionStorage.fontsLoadedFoutWithClassPolyfill = true;
+				});
+			})();
+		</script>
+
+        <title>Andy Lobban</title>
+        <meta name="description" content="Edinburgh, Scotland. Head of UX &amp; Design at FanDuel, co-owner of Gerry Loves Records, owner of Secret Editions."/>
+        <link rel="canonical" href="https://lobban.org/" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Andy Lobban" />
+        <meta property="og:description" content="Edinburgh, Scotland. Head of UX &amp; Design at FanDuel, co-owner of Gerry Loves Records, owner of Secret Editions." />
+        <meta property="og:url" content="https://lobban.org/" />
+        <meta property="og:site_name" content="Andy Lobban" />
+        <meta property="og:image" content="http://lobban.org/wp-content/themes/lobban/dist/images/apple-touch-icon.png" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:description" content="Edinburgh, Scotland. Head of UX &amp; Design at FanDuel, co-owner of Gerry Loves Records, owner of Secret Editions." />
+        <meta name="twitter:title" content="Andy Lobban" />
+        <meta name="twitter:site" content="@andylobban" />
+        <meta name="twitter:image" content="http://lobban.org/wp-content/themes/lobban/dist/images/apple-touch-icon.png" />
+        <meta name="twitter:creator" content="@andylobban" />
+        <script type='application/ld+json'>{"@context":"https://schema.org","@type":"WebSite","@id":"https://lobban.org/#website","url":"https://lobban.org/","name":"Andy Lobban","potentialAction":{"@type":"SearchAction","target":"https://lobban.org/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+        <script type='application/ld+json'>{"@context":"https://schema.org","@type":"Person","url":"https://lobban.org/","sameAs":["https://www.facebook.com/andylobban","https://instagram.com/andylobban","https://www.linkedin.com/in/andylobban","https://www.youtube.com/c/AndyLobban","https://www.pinterest.com/nonimage/","https://twitter.com/andylobban"],"@id":"#person","name":"Andy Lobban"}</script>
+        <meta name="p:domain_verify" content="e35f164dd8f100ee5c0362b57da5479d" />
+
+    </head>
+
+    <body class="{{ block "body_tag".}}{{ end }}">
+		<a href="#content" class="away skip-link">Skip to main content</a>
+    	<header class="masthead" role="banner">
+    		<div class="masthead__wrapper grid grid--small wrapper">
+				<div class="logo headline">
+					<a href="/">
+						Andy Lobban
+					</a>
+				</div>
+				<nav role="navigation">
+					<ul>
+						<li><a href="/work">Work</a></li>
+						<li><a href="/journal">Journal</a></li>
+						<li><a href="/info">Info</a></li>
+					</ul>
+				</nav>
+			</div>
+        </header>
+
+        {{ block "content_wrapper" . }}{{ end }}
+
+        <footer role="contentinfo">
+            <div class="wrapper clearfix">
+                {{ block "socials" . }}{{ partial "socials" .}}{{ end }}
+            </div>
+        </footer>
+
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-57516-17', 'auto');
+            ga('send', 'pageview');
+        </script>
+
+        <script src="<?php echo get_template_directory_uri(); ?>/dist/js/app.js"></script>
+
+        <script>
+            fluidvids.init({
+                selector: ['iframe', 'object'], // runs querySelectorAll()
+                players: ['www.youtube.com', 'player.vimeo.com'] // players to support
+            });
+        </script>
+
+    </body>
+
+</html>

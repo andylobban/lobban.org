@@ -1,0 +1,17 @@
+{{ define "head" }} {{ end }}
+{{ define "body_tag"}}{{ end }}
+
+{{ define "content_wrapper" }}
+    <main id="content" role="main">
+        <div class="grid wrapper">
+            <div class="article__body">
+            	<h1 class="headline page__header">
+                    {{.Title}}
+                </h1>
+                <div class="article__content body-copy">
+                    {{.Content}}
+                </div>
+            </div>
+        </div>
+    </main>
+{{ end }}

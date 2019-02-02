@@ -1,0 +1,13 @@
+<div class="journal__extras grid wrapper">
+	<div class="journal__extras__wrapper">
+		<h2 class="sub-headline">More</h2>
+		<ul class="category-list">
+			{{ range $key, $value := .Site.Taxonomies.categories }}
+				<li><a href="/categories/{{ $key | urlize  }}">{{ $key | humanize }}</a></li>
+			{{ end }}
+		</ul>
+		<ul class="year-list grid grid--small">
+			[years]
+		</ul>
+	</div>
+</div>

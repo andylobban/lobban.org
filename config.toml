@@ -1,0 +1,18 @@
+baseURL = "https://lobban.org"
+languageCode = "en-us"
+title = "Andy Lobban"
+theme = "lobban"
+description = ""
+Paginate = 10
+uglyURLs = false
+
+[Params]
+  RSSLink = "/index.xml"
+  author = "Andy Lobban"
+  twitter = "andylobban"
+  dribbble = "andylobban"
+  medium = "andylobban"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"

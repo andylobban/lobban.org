@@ -1,0 +1,56 @@
+{{ define "head" }} {{ end }}
+{{ define "body_tag"}}work{{ end }}
+
+
+{{ define "content_wrapper" }}
+    <main class="page--journal" id="content" role="main">
+        <div class="grid grid--small wrapper page__header__wrapper">
+            <div class="page__header__shade"></div>
+            <h1 class="page__header headline">Journal</h1>
+        </div>
+        {{ range .Paginator.Pages }}
+            <article class="article grid wrapper {{ range .Params.categories }}category-{{ . | lower }} {{ end }}">
+                <time class="article__date">
+                    <a href="<?php the_permalink(); ?>">
+                        {{.Date.Format "1 January 2006"}}
+                    </a>
+                </time>
+                <div class="article__body">
+                    {{ if isset .Params "categories" }}
+                        {{ if not (in .Params.categories "Links") }}
+                            <h2 class="headline article__body__title">
+                                <a href="{{.Permalink}}">
+                                    {{.Title}}
+                                </a>
+                            </h2>
+                        {{ end }}
+                        {{ if (in .Params.categories "Links") }}
+                            <div class="article__content body-copy">
+                                {{.Content}}
+                            </div>
+                        {{ end }}
+                    {{ end }}
+
+                </div>
+            </article>
+        {{ end }}
+        {{ $paginator := .Paginator }}
+        <div class="pagination grid wrapper grid--small">
+            {{ if $paginator.HasPrev }}
+              <div class="pagination__item--newer">
+                  <a href="{{ $paginator.Prev.URL }}">
+                      <svg viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.83-9.34 9.174 9.34 9.167L16.67 24 4.5 12.004z"/></svg> Newer
+                  </a>
+              </div>
+            {{ end }}
+            {{ if $paginator.HasNext }}
+                <div class="pagination__item--older">
+                    <a href="{{ $paginator.Next.URL }}">
+                        Older <svg viewBox="0 0 24 24"><path d="M7.33 24L4.5 21.17l9.34-9.174L4.5 2.83 7.33 0 19.5 11.996z"/></svg>
+                    </a>
+                </div>
+            {{ end }}
+        </div>
+        {{ block "posts-archive-list" . }}{{ partial "posts-archive-list" .}}{{ end }}
+    </main>
+{{ end }}
