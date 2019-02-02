@@ -16,3 +16,6 @@ uglyURLs = false
 [taxonomies]
   tag = "tags"
   category = "categories"
+
+[permalinks]
+    categories = "/posts/category/:slug/"
