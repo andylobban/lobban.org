@@ -36,7 +36,14 @@
 			})();
 		</script>
 
-        <title>{{ block "title_full" .}}{{ block "title" . }}{{ .Title }}{{ end }} | {{ .Site.Title }}{{ end }}</title>
+        <title>
+    		{{ if isset .Params "title_tag" }}
+    			{{ with .Params.title_tag }}{{ . }}{{ end }}
+            {{ else }}
+                {{ block "title_full" .}}{{ block "title" . }}{{ .Title }}{{ end }} | {{ .Site.Title }}{{ end }}
+            {{ end }}
+    	</title>
+
 	    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
 
         <link rel="canonical" href="{{ .Permalink }}" />
