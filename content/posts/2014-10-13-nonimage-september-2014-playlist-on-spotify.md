@@ -1,9 +1,9 @@
 ---
 title: Nonimage – September 2014 playlist on Spotify
 author: admin
-type: post
+type: posts
 date: 2014-10-13T10:55:56+00:00
-url: /journal/2014/10/13/nonimage-september-2014-playlist-on-spotify/
+url: /posts/2014/10/13/nonimage-september-2014-playlist-on-spotify/
 categories:
   - Links
 tags:

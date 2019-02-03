@@ -1,9 +1,9 @@
 ---
 title: 'Vox Hunt: Flag Me Down'
 author: admin
-type: post
+type: posts
 date: 2006-09-04T13:49:38+00:00
-url: /journal/2006/09/04/vox-hunt-flag-me-down/
+url: /posts/2006/09/04/vox-hunt-flag-me-down/
 yourls_shorturl:
   - http://lobban.org/i/9w
 categories:

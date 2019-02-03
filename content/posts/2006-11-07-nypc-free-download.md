@@ -1,9 +1,9 @@
 ---
 title: NYPC – Free Download
 author: admin
-type: post
+type: posts
 date: 2006-11-07T15:33:28+00:00
-url: /journal/2006/11/07/nypc-free-download/
+url: /posts/2006/11/07/nypc-free-download/
 yourls_shorturl:
   - http://lobban.org/i/7o
 categories:

@@ -1,9 +1,9 @@
 ---
 title: Ondine doesn’t mess about.
 author: admin
-type: post
+type: posts
 date: 2013-03-29T11:28:48+00:00
-url: /journal/2013/03/29/ondine-doesnt-mess-about/
+url: /posts/2013/03/29/ondine-doesnt-mess-about/
 categories:
   - Photos
 tags:

@@ -1,9 +1,9 @@
 ---
 title: Parallels VMs do interesting things sometimes
 author: admin
-type: post
+type: posts
 date: 2015-10-06T14:43:45+00:00
-url: /journal/2015/10/06/parallels-vms-do-interesting-things-sometimes/
+url: /posts/2015/10/06/parallels-vms-do-interesting-things-sometimes/
 categories:
   - Stuff
 

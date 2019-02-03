@@ -1,9 +1,9 @@
 ---
 title: Indians. Predictably, the best band so far.
 author: admin
-type: post
+type: posts
 date: 2013-03-14T19:02:20+00:00
-url: /journal/2013/03/14/indians-predictably-the-best-band-so-far/
+url: /posts/2013/03/14/indians-predictably-the-best-band-so-far/
 categories:
   - Photos
 tags:

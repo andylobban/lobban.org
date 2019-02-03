@@ -1,10 +1,10 @@
 ---
 title: 'PostSecret: Confessions on Life, Death and God on Vimeo'
 author: admin
-type: post
+type: posts
 date: 2012-04-12T12:05:28+00:00
 excerpt: "An old video for PostSecret, but it's wonderful"
-url: /journal/2012/04/12/postsecret-confessions-on-life-death-and-god-on-vimeo/
+url: /posts/2012/04/12/postsecret-confessions-on-life-death-and-god-on-vimeo/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

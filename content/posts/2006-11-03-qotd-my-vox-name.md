@@ -1,9 +1,9 @@
 ---
 title: 'QotD: My Vox Name'
 author: admin
-type: post
+type: posts
 date: 2006-11-03T12:14:13+00:00
-url: /journal/2006/11/03/qotd-my-vox-name/
+url: /posts/2006/11/03/qotd-my-vox-name/
 yourls_shorturl:
   - http://lobban.org/i/a4
 categories:

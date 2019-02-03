@@ -1,9 +1,9 @@
 ---
 title: .@jonniecommon’s badges are the real deal
 author: admin
-type: post
+type: posts
 date: 2013-03-26T20:30:28+00:00
-url: /journal/2013/03/26/jonniecommons-badges-are-the-real-deal/
+url: /posts/2013/03/26/jonniecommons-badges-are-the-real-deal/
 categories:
   - Photos
 tags:

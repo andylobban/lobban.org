@@ -1,9 +1,9 @@
 ---
 title: Creating music samples with vinyl records. Crazy.
 author: admin
-type: post
+type: posts
 date: 2011-10-05T08:35:37+00:00
-url: /journal/2011/10/05/creating-music-samples-with-vinyl-records-crazy/
+url: /posts/2011/10/05/creating-music-samples-with-vinyl-records-crazy/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

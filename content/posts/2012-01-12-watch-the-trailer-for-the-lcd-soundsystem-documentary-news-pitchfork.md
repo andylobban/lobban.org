@@ -1,10 +1,10 @@
 ---
 title: Watch the Trailer for the LCD Soundsystem Documentary | News | Pitchfork
 author: admin
-type: post
+type: posts
 date: 2012-01-12T09:49:35+00:00
 excerpt: The LCD Soundsystem documentary actually looks really good
-url: /journal/2012/01/12/watch-the-trailer-for-the-lcd-soundsystem-documentary-news-pitchfork/
+url: /posts/2012/01/12/watch-the-trailer-for-the-lcd-soundsystem-documentary-news-pitchfork/
 syndication_feed:
   - http://feeds.delicious.com/v2/rss/nonimage/link?count=15
 "wfw:commentRSS":

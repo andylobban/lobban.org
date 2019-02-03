@@ -1,9 +1,9 @@
 ---
 title: 'Vox Hunt: Stuck On You'
 author: admin
-type: post
+type: posts
 date: 2006-08-22T11:46:07+00:00
-url: /journal/2006/08/22/vox-hunt-stuck-on-you/
+url: /posts/2006/08/22/vox-hunt-stuck-on-you/
 yourls_shorturl:
   - http://lobban.org/i/6t
 categories:

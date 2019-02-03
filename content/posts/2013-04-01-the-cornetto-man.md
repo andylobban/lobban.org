@@ -1,9 +1,9 @@
 ---
 title: The Cornetto man
 author: admin
-type: post
+type: posts
 date: 2013-04-01T13:40:53+00:00
-url: /journal/2013/04/01/the-cornetto-man/
+url: /posts/2013/04/01/the-cornetto-man/
 categories:
   - Photos
 tags:

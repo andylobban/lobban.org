@@ -1,10 +1,10 @@
 ---
 title: Kinnon Elliott Illustration and Design
 author: admin
-type: post
+type: posts
 date: 2012-01-05T16:00:58+00:00
 excerpt: Really like this illustration /via @stgramophone
-url: /journal/2012/01/05/kinnon-elliott-illustration-and-design/
+url: /posts/2012/01/05/kinnon-elliott-illustration-and-design/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

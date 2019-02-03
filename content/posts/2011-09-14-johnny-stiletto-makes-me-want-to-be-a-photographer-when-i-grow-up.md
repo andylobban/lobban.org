@@ -1,9 +1,9 @@
 ---
 title: Johnny Stiletto makes me want to be a photographer when I grow up
 author: admin
-type: post
+type: posts
 date: 2011-09-14T06:31:13+00:00
-url: /journal/2011/09/14/johnny-stiletto-makes-me-want-to-be-a-photographer-when-i-grow-up/
+url: /posts/2011/09/14/johnny-stiletto-makes-me-want-to-be-a-photographer-when-i-grow-up/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

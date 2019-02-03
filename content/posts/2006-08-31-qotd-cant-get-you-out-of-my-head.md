@@ -1,9 +1,9 @@
 ---
 title: 'QotD: Can’t Get You Out of My Head'
 author: admin
-type: post
+type: posts
 date: 2006-08-31T16:13:41+00:00
-url: /journal/2006/08/31/qotd-cant-get-you-out-of-my-head/
+url: /posts/2006/08/31/qotd-cant-get-you-out-of-my-head/
 yourls_shorturl:
   - http://lobban.org/i/70
 categories:

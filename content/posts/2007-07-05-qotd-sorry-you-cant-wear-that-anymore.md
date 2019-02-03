@@ -1,9 +1,9 @@
 ---
 title: 'QotD: Sorry, You Can’t Wear That Anymore'
 author: admin
-type: post
+type: posts
 date: 2007-07-05T18:07:37+00:00
-url: /journal/2007/07/05/qotd-sorry-you-cant-wear-that-anymore/
+url: /posts/2007/07/05/qotd-sorry-you-cant-wear-that-anymore/
 yourls_shorturl:
   - http://lobban.org/i/96
 categories:

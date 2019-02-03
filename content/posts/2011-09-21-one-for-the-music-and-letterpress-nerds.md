@@ -1,9 +1,9 @@
 ---
 title: One for the music and letterpress nerds
 author: admin
-type: post
+type: posts
 date: 2011-09-21T12:21:14+00:00
-url: /journal/2011/09/21/one-for-the-music-and-letterpress-nerds/
+url: /posts/2011/09/21/one-for-the-music-and-letterpress-nerds/
 yourls_tweeted:
   - 1
 yourls_shorturl:

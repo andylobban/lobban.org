@@ -1,9 +1,9 @@
 ---
 title: Bands I liked at SXSW 2012
 author: admin
-type: post
+type: posts
 date: 2012-04-07T10:49:23+00:00
-url: /journal/2012/04/07/bands-i-liked-at-sxsw-2012/
+url: /posts/2012/04/07/bands-i-liked-at-sxsw-2012/
 aktt_notify_twitter:
   - yes
 yourls_shorturl:

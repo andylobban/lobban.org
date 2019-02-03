@@ -1,9 +1,9 @@
 ---
 title: This is a sad fuckin’ song
 author: admin
-type: post
+type: posts
 date: 2013-11-22T22:23:14+00:00
-url: /journal/2013/11/22/this-is-a-sad-fuckin-song/
+url: /posts/2013/11/22/this-is-a-sad-fuckin-song/
 categories:
   - Photos
 tags:

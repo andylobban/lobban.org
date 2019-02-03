@@ -1,9 +1,9 @@
 ---
 title: Can you say ‘cheesy Aussie Xmas?’
 author: admin
-type: post
+type: posts
 date: 2012-12-25T04:10:26+00:00
-url: /journal/2012/12/25/can-you-say-cheesy-aussie-xmas/
+url: /posts/2012/12/25/can-you-say-cheesy-aussie-xmas/
 categories:
   - Photos
 tags:

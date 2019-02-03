@@ -1,9 +1,9 @@
 ---
 title: This can’t end well
 author: admin
-type: post
+type: posts
 date: 2011-08-26T09:37:23+00:00
-url: /journal/2011/08/26/this-cant-end-well/
+url: /posts/2011/08/26/this-cant-end-well/
 yourls_tweeted:
   - 1
 yourls_shorturl:

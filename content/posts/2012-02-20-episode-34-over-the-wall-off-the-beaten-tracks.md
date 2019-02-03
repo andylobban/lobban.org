@@ -1,10 +1,10 @@
 ---
 title: 'Episode #34: Over The Wall | Off The Beaten Tracks'
 author: admin
-type: post
+type: posts
 date: 2012-02-20T15:36:01+00:00
 excerpt: The latest episode of @beatentracks that I did is up, featuring Over The Wall
-url: /journal/2012/02/20/episode-34-over-the-wall-off-the-beaten-tracks/
+url: /posts/2012/02/20/episode-34-over-the-wall-off-the-beaten-tracks/
 aktt_notify_twitter:
   - no
 syndication_item_hash:

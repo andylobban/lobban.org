@@ -1,9 +1,9 @@
 ---
 title: John Knox Sex Club at National Portrait Gallery
 author: admin
-type: post
+type: posts
 date: 2012-01-04T11:58:58+00:00
-url: /journal/2012/01/04/john-knox-sex-club-at-national-portrait-gallery/
+url: /posts/2012/01/04/john-knox-sex-club-at-national-portrait-gallery/
 yourls_tweeted:
   - 1
 yourls_shorturl:

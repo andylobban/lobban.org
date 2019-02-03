@@ -1,9 +1,9 @@
 ---
 title: My NYT ‘word cloud portrait’ from SXSW
 author: admin
-type: post
+type: posts
 date: 2013-03-21T18:27:01+00:00
-url: /journal/2013/03/21/nyt-word-cloud-portrait-from-sxsw/
+url: /posts/2013/03/21/nyt-word-cloud-portrait-from-sxsw/
 categories:
   - Nerdery
   - Photos

@@ -1,9 +1,9 @@
 ---
 title: Mitchell Museum – Take The Tongue Out (Miaoux Miaoux remix)
 author: admin
-type: post
+type: posts
 date: 2011-03-10T22:27:01+00:00
-url: /journal/2011/03/10/mitchell-museum-take-the-tongue-out-miaoux-miaoux-remix/
+url: /posts/2011/03/10/mitchell-museum-take-the-tongue-out-miaoux-miaoux-remix/
 yourls_shorturl:
   - http://lobban.org/i/n
 categories:

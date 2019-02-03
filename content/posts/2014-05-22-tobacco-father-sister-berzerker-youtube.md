@@ -1,9 +1,9 @@
 ---
 title: Tobacco – Father Sister Berzerker – YouTube
 author: admin
-type: post
+type: posts
 date: 2014-05-22T10:09:34+00:00
-url: /journal/2014/05/22/tobacco-father-sister-berzerker-youtube/
+url: /posts/2014/05/22/tobacco-father-sister-berzerker-youtube/
 categories:
   - Links
 tags:

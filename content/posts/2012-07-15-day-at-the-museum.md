@@ -1,9 +1,9 @@
 ---
 title: Day at the museum
 author: admin
-type: post
+type: posts
 date: 2012-07-15T12:55:05+00:00
-url: /journal/2012/07/15/day-at-the-museum/
+url: /posts/2012/07/15/day-at-the-museum/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

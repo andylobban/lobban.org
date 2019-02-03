@@ -1,9 +1,9 @@
 ---
 title: That’s tonight taken care of. New records by @lowtheband and @yourfriendscas
 author: admin
-type: post
+type: posts
 date: 2013-03-22T10:04:31+00:00
-url: /journal/2013/03/22/thats-tonight-taken-care-of-new-records-by-lowtheband-and-yourfriendscas/
+url: /posts/2013/03/22/thats-tonight-taken-care-of-new-records-by-lowtheband-and-yourfriendscas/
 categories:
   - Photos
 tags:

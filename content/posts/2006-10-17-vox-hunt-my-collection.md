@@ -1,9 +1,9 @@
 ---
 title: 'Vox Hunt: My Collection'
 author: admin
-type: post
+type: posts
 date: 2006-10-17T11:57:16+00:00
-url: /journal/2006/10/17/vox-hunt-my-collection/
+url: /posts/2006/10/17/vox-hunt-my-collection/
 yourls_shorturl:
   - http://lobban.org/i/7c
 categories:

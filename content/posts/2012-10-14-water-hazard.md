@@ -1,9 +1,9 @@
 ---
 title: Water hazard
 author: admin
-type: post
+type: posts
 date: 2012-10-14T11:04:21+00:00
-url: /journal/2012/10/14/water-hazard/
+url: /posts/2012/10/14/water-hazard/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

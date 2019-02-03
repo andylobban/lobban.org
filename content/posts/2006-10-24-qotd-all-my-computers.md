@@ -1,9 +1,9 @@
 ---
 title: 'QotD: All My Computers'
 author: admin
-type: post
+type: posts
 date: 2006-10-24T09:18:02+00:00
-url: /journal/2006/10/24/qotd-all-my-computers/
+url: /posts/2006/10/24/qotd-all-my-computers/
 yourls_shorturl:
   - http://lobban.org/i/7d
 categories:

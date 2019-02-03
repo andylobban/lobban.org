@@ -1,9 +1,9 @@
 ---
 title: Martha Reeves. Amazing.
 author: admin
-type: post
+type: posts
 date: 2013-08-06T23:32:36+00:00
-url: /journal/2013/08/06/martha-reeves-amazing/
+url: /posts/2013/08/06/martha-reeves-amazing/
 categories:
   - Photos
 tags:

@@ -1,9 +1,9 @@
 ---
 title: Father in law, Christmas
 author: admin
-type: post
+type: posts
 date: 2012-01-05T11:02:09+00:00
-url: /journal/2012/01/05/father-in-law-christmas/
+url: /posts/2012/01/05/father-in-law-christmas/
 yourls_tweeted:
   - 1
 yourls_shorturl:

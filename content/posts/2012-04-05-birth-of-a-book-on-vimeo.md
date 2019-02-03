@@ -1,10 +1,10 @@
 ---
 title: Birth of a Book on Vimeo
 author: admin
-type: post
+type: posts
 date: 2012-04-05T13:59:52+00:00
 excerpt: This short video of a book being made is lovely /via @jessbonkers
-url: /journal/2012/04/05/birth-of-a-book-on-vimeo/
+url: /posts/2012/04/05/birth-of-a-book-on-vimeo/
 syndication_feed_id:
   - 11
 syndication_permalink:

@@ -1,9 +1,9 @@
 ---
 title: Film double exposure
 author: admin
-type: post
+type: posts
 date: 2013-02-19T21:09:05+00:00
-url: /journal/2013/02/19/film-double-exposure/
+url: /posts/2013/02/19/film-double-exposure/
 categories:
   - Photos
 tags:

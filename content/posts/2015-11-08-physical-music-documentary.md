@@ -1,9 +1,9 @@
 ---
 title: Physical music documentary
 author: admin
-type: post
+type: posts
 date: 2015-11-08T11:54:34+00:00
-url: /journal/2015/11/08/physical-music-documentary/
+url: /posts/2015/11/08/physical-music-documentary/
 categories:
   - Music
   - Video

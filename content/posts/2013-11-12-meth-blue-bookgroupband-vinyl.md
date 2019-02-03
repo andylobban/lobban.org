@@ -1,9 +1,9 @@
 ---
 title: ‘Meth blue’ @bookgroupband vinyl
 author: admin
-type: post
+type: posts
 date: 2013-11-12T16:41:10+00:00
-url: /journal/2013/11/12/meth-blue-bookgroupband-vinyl/
+url: /posts/2013/11/12/meth-blue-bookgroupband-vinyl/
 categories:
   - Photos
 tags:

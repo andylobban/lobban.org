@@ -1,9 +1,9 @@
 ---
 title: This is why I need to move
 author: admin
-type: post
+type: posts
 date: 2012-05-03T07:44:32+00:00
-url: /journal/2012/05/03/this-is-why-i-need-to-move/
+url: /posts/2012/05/03/this-is-why-i-need-to-move/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

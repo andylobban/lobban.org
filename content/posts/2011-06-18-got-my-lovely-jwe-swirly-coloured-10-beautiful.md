@@ -1,9 +1,9 @@
 ---
 title: Got my lovely JWE swirly coloured 10″. Beautiful.
 author: admin
-type: post
+type: posts
 date: 2011-06-18T09:45:16+00:00
-url: /journal/2011/06/18/got-my-lovely-jwe-swirly-coloured-10-beautiful/
+url: /posts/2011/06/18/got-my-lovely-jwe-swirly-coloured-10-beautiful/
 yourls_tweeted:
   - 1
 yourls_shorturl:

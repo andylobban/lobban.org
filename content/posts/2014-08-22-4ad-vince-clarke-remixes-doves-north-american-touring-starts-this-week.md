@@ -1,9 +1,9 @@
 ---
 title: 4AD – Vince Clarke Remixes ‘Doves’, North American Touring Starts This Week
 author: admin
-type: post
+type: posts
 date: 2014-08-22T19:34:05+00:00
-url: /journal/2014/08/22/4ad-vince-clarke-remixes-doves-north-american-touring-starts-this-week/
+url: /posts/2014/08/22/4ad-vince-clarke-remixes-doves-north-american-touring-starts-this-week/
 categories:
   - Links
 tags:

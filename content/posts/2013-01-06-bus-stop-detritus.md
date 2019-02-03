@@ -1,9 +1,9 @@
 ---
 title: Bus stop detritus
 author: admin
-type: post
+type: posts
 date: 2013-01-06T13:30:41+00:00
-url: /journal/2013/01/06/bus-stop-detritus/
+url: /posts/2013/01/06/bus-stop-detritus/
 categories:
   - Photos
 tags:

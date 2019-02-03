@@ -1,9 +1,9 @@
 ---
 title: Accessibility testing an ATM by @jmcd
 author: admin
-type: post
+type: posts
 date: 2012-09-28T18:28:37+00:00
-url: /journal/2012/09/28/accessibility-testing-an-atm-by-jmcd/
+url: /posts/2012/09/28/accessibility-testing-an-atm-by-jmcd/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

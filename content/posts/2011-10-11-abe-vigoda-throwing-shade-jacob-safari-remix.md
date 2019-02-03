@@ -1,9 +1,9 @@
 ---
 title: Abe Vigoda – Throwing Shade (Jacob Safari Remix)
 author: admin
-type: post
+type: posts
 date: 2011-10-11T17:29:09+00:00
-url: /journal/2011/10/11/abe-vigoda-throwing-shade-jacob-safari-remix/
+url: /posts/2011/10/11/abe-vigoda-throwing-shade-jacob-safari-remix/
 yourls_tweeted:
   - 1
 yourls_shorturl:

@@ -1,9 +1,9 @@
 ---
 title: .@owensm1th’s very manly hair of the dog
 author: admin
-type: post
+type: posts
 date: 2013-03-31T12:56:40+00:00
-url: /journal/2013/03/31/owensm1ths-very-manly-hair-of-the-dog/
+url: /posts/2013/03/31/owensm1ths-very-manly-hair-of-the-dog/
 categories:
   - Photos
 tags:

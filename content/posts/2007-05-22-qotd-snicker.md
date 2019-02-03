@@ -1,9 +1,9 @@
 ---
 title: 'QotD: *snicker*'
 author: admin
-type: post
+type: posts
 date: 2007-05-22T09:34:01+00:00
-url: /journal/2007/05/22/qotd-snicker/
+url: /posts/2007/05/22/qotd-snicker/
 yourls_shorturl:
   - http://lobban.org/i/90
 categories:

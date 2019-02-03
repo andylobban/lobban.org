@@ -1,9 +1,9 @@
 ---
 title: 'Michael Moore: I was the most hated man in America'
 author: admin
-type: post
+type: posts
 date: 2011-09-13T06:28:45+00:00
-url: /journal/2011/09/13/michael-moore-i-was-the-most-hated-man-in-america/
+url: /posts/2011/09/13/michael-moore-i-was-the-most-hated-man-in-america/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

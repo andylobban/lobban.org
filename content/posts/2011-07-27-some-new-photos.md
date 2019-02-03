@@ -1,9 +1,9 @@
 ---
 title: Some new photos
 author: admin
-type: post
+type: posts
 date: 2011-07-27T12:38:20+00:00
-url: /journal/2011/07/27/some-new-photos/
+url: /posts/2011/07/27/some-new-photos/
 yourls_tweeted:
   - 1
 yourls_shorturl:

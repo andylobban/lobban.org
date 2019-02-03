@@ -1,9 +1,9 @@
 ---
 title: Must have missed the memo about it being uniform day at @stormid
 author: admin
-type: post
+type: posts
 date: 2013-08-08T08:29:47+00:00
-url: /journal/2013/08/08/must-have-missed-the-memo-about-it-being-uniform-day-at-stormid/
+url: /posts/2013/08/08/must-have-missed-the-memo-about-it-being-uniform-day-at-stormid/
 categories:
   - Photos
 tags:

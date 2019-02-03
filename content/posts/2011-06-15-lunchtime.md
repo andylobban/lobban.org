@@ -1,9 +1,9 @@
 ---
 title: Lunchtime
 author: admin
-type: post
+type: posts
 date: 2011-06-15T11:53:04+00:00
-url: /journal/2011/06/15/lunchtime/
+url: /posts/2011/06/15/lunchtime/
 yourls_tweeted:
   - 1
 yourls_shorturl:

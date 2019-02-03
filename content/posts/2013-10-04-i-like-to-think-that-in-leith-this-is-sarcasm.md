@@ -1,9 +1,9 @@
 ---
 title: 'I like to think that in #Leith this is sarcasm'
 author: admin
-type: post
+type: posts
 date: 2013-10-04T13:29:49+00:00
-url: /journal/2013/10/04/i-like-to-think-that-in-leith-this-is-sarcasm/
+url: /posts/2013/10/04/i-like-to-think-that-in-leith-this-is-sarcasm/
 categories:
   - Photos
 tags:

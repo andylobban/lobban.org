@@ -1,9 +1,9 @@
 ---
 title: John Knox Sex Club
 author: admin
-type: post
+type: posts
 date: 2011-12-09T19:11:45+00:00
-url: /journal/2011/12/09/john-knox-sex-club/
+url: /posts/2011/12/09/john-knox-sex-club/
 yourls_tweeted:
   - 1
 yourls_shorturl:

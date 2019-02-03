@@ -1,9 +1,9 @@
 ---
 title: Made it to Austin
 author: admin
-type: post
+type: posts
 date: 2011-03-15T14:48:31+00:00
-url: /journal/2011/03/15/made-it-to-austin/
+url: /posts/2011/03/15/made-it-to-austin/
 yourls_shorturl:
   - http://lobban.org/i/1
 categories:

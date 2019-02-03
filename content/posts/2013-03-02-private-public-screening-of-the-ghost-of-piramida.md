@@ -1,9 +1,9 @@
 ---
 title: Private-public screening of the Ghost of Piramida
 author: admin
-type: post
+type: posts
 date: 2013-03-02T15:40:28+00:00
-url: /journal/2013/03/02/private-public-screening-of-the-ghost-of-piramida/
+url: /posts/2013/03/02/private-public-screening-of-the-ghost-of-piramida/
 categories:
   - Music
   - Stuff

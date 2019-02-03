@@ -1,9 +1,9 @@
 ---
 title: On Adaptive Design
 author: admin
-type: post
+type: posts
 date: 2014-11-28T11:03:29+00:00
-url: /journal/2014/11/28/adaptive-design/
+url: /posts/2014/11/28/adaptive-design/
 dsq_thread_id:
   - 3270467057
 categories:

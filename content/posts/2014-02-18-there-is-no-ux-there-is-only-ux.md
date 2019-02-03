@@ -1,9 +1,9 @@
 ---
 title: There is no UX, there is only UX
 author: admin
-type: post
+type: posts
 date: 2014-02-18T14:03:29+00:00
-url: /journal/2014/02/18/there-is-no-ux-there-is-only-ux/
+url: /posts/2014/02/18/there-is-no-ux-there-is-only-ux/
 categories:
   - Links
 tags:

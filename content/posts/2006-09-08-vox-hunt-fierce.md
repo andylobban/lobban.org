@@ -1,9 +1,9 @@
 ---
 title: 'Vox Hunt: Fierce'
 author: admin
-type: post
+type: posts
 date: 2006-09-08T12:37:18+00:00
-url: /journal/2006/09/08/vox-hunt-fierce/
+url: /posts/2006/09/08/vox-hunt-fierce/
 yourls_shorturl:
   - http://lobban.org/i/9q
 categories:

@@ -1,10 +1,10 @@
 ---
 title: Poly™ on Vimeo
 author: admin
-type: post
+type: posts
 date: 2012-01-04T16:20:50+00:00
 excerpt: Poly looks like a lot of fun for iPad
-url: /journal/2012/01/04/poly-on-vimeo/
+url: /posts/2012/01/04/poly-on-vimeo/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

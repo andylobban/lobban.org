@@ -1,9 +1,9 @@
 ---
 title: Wounded Knee at Pilrig St. Paul’s last night
 author: admin
-type: post
+type: posts
 date: 2012-05-20T10:29:50+00:00
-url: /journal/2012/05/20/wounded-knee-at-pilrig-st-pauls-last-night/
+url: /posts/2012/05/20/wounded-knee-at-pilrig-st-pauls-last-night/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

@@ -1,10 +1,10 @@
 ---
 title: 'How To Steal An LG TV, Brought To You By LG | Co.Create: Creativity  Culture  Commerce'
 author: admin
-type: post
+type: posts
 date: 2012-01-13T09:46:43+00:00
 excerpt: This LG TV ad is pretty clever
-url: /journal/2012/01/13/how-to-steal-an-lg-tv-brought-to-you-by-lg-co-create-creativity-culture-commerce/
+url: /posts/2012/01/13/how-to-steal-an-lg-tv-brought-to-you-by-lg-co-create-creativity-culture-commerce/
 syndication_item_hash:
   - fe5f390034566460cfe6f68debc5d99e
 syndication_permalink:

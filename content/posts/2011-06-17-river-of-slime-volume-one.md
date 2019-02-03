@@ -1,9 +1,9 @@
 ---
 title: River of Slime – Volume One
 author: admin
-type: post
+type: posts
 date: 2011-06-17T10:17:21+00:00
-url: /journal/2011/06/17/river-of-slime-volume-one/
+url: /posts/2011/06/17/river-of-slime-volume-one/
 yourls_tweeted:
   - 1
 yourls_shorturl:

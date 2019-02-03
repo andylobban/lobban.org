@@ -1,9 +1,9 @@
 ---
 title: 'Vox Hunt: Good for a Laugh'
 author: admin
-type: post
+type: posts
 date: 2006-09-13T12:20:01+00:00
-url: /journal/2006/09/13/vox-hunt-good-for-a-laugh/
+url: /posts/2006/09/13/vox-hunt-good-for-a-laugh/
 yourls_shorturl:
   - http://lobban.org/i/75
 categories:

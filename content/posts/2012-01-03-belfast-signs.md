@@ -1,9 +1,9 @@
 ---
 title: Belfast signs
 author: admin
-type: post
+type: posts
 date: 2012-01-03T13:47:56+00:00
-url: /journal/2012/01/03/belfast-signs/
+url: /posts/2012/01/03/belfast-signs/
 yourls_tweeted:
   - 1
 yourls_shorturl:

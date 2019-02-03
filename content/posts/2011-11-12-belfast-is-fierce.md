@@ -1,9 +1,9 @@
 ---
 title: Belfast is fierce
 author: admin
-type: post
+type: posts
 date: 2011-11-12T14:46:06+00:00
-url: /journal/2011/11/12/belfast-is-fierce/
+url: /posts/2011/11/12/belfast-is-fierce/
 yourls_tweeted:
   - 1
 yourls_shorturl:

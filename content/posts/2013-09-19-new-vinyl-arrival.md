@@ -1,9 +1,9 @@
 ---
 title: New vinyl arrival
 author: admin
-type: post
+type: posts
 date: 2013-09-19T16:30:48+00:00
-url: /journal/2013/09/19/new-vinyl-arrival/
+url: /posts/2013/09/19/new-vinyl-arrival/
 categories:
   - Photos
 tags:

@@ -1,9 +1,9 @@
 ---
 title: Happy birthday, Freddie
 author: admin
-type: post
+type: posts
 date: 2011-09-12T14:02:27+00:00
-url: /journal/2011/09/12/happy-birthday-freddie/
+url: /posts/2011/09/12/happy-birthday-freddie/
 yourls_tweeted:
   - 1
 yourls_shorturl:

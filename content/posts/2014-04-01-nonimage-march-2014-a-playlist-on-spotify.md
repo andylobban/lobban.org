@@ -1,9 +1,9 @@
 ---
 title: Nonimage – March 2014 – a playlist on Spotify
 author: admin
-type: post
+type: posts
 date: 2014-04-01T14:29:32+00:00
-url: /journal/2014/04/01/nonimage-march-2014-a-playlist-on-spotify/
+url: /posts/2014/04/01/nonimage-march-2014-a-playlist-on-spotify/
 categories:
   - Links
 tags:

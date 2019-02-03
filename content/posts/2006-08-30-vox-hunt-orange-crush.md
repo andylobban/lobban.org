@@ -1,9 +1,9 @@
 ---
 title: 'Vox Hunt: Orange Crush'
 author: admin
-type: post
+type: posts
 date: 2006-08-30T17:41:15+00:00
-url: /journal/2006/08/30/vox-hunt-orange-crush/
+url: /posts/2006/08/30/vox-hunt-orange-crush/
 yourls_shorturl:
   - http://lobban.org/i/6z
 categories:

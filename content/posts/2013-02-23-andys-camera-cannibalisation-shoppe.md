@@ -1,9 +1,9 @@
 ---
 title: Andy’s camera cannibalisation shoppe
 author: admin
-type: post
+type: posts
 date: 2013-02-23T11:08:24+00:00
-url: /journal/2013/02/23/andys-camera-cannibalisation-shoppe/
+url: /posts/2013/02/23/andys-camera-cannibalisation-shoppe/
 categories:
   - Photos
 tags:

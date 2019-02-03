@@ -1,9 +1,9 @@
 ---
 title: Makeshift Magazine looks pretty great
 author: admin
-type: post
+type: posts
 date: 2011-09-22T20:49:33+00:00
-url: /journal/2011/09/22/makeshift-magazine-looks-pretty-great/
+url: /posts/2011/09/22/makeshift-magazine-looks-pretty-great/
 syndication_feed:
   - http://feeds.delicious.com/v2/rss/nonimage/link?count=15
 "wfw:commentRSS":

@@ -1,10 +1,10 @@
 ---
 title: All Creatures Will Make Merry on Vinyl!
 author: admin
-type: post
+type: posts
 date: 2011-08-24T15:41:52+00:00
 excerpt: You need this in your life. An amazing album in an amazing repackaged red vinylgasm.
-url: /journal/2011/08/24/all-creatures-will-make-merry-on-vinyl/
+url: /posts/2011/08/24/all-creatures-will-make-merry-on-vinyl/
 yourls_tweeted:
   - 1
 yourls_shorturl:

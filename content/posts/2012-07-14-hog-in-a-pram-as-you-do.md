@@ -1,9 +1,9 @@
 ---
 title: Hog in a pram. As you do.
 author: admin
-type: post
+type: posts
 date: 2012-07-14T09:40:06+00:00
-url: /journal/2012/07/14/hog-in-a-pram-as-you-do/
+url: /posts/2012/07/14/hog-in-a-pram-as-you-do/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

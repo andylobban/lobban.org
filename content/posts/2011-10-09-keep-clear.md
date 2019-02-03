@@ -1,9 +1,9 @@
 ---
 title: Keep clear
 author: admin
-type: post
+type: posts
 date: 2011-10-09T10:25:30+00:00
-url: /journal/2011/10/09/keep-clear/
+url: /posts/2011/10/09/keep-clear/
 yourls_tweeted:
   - 1
 yourls_shorturl:

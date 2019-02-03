@@ -1,9 +1,9 @@
 ---
 title: Winter is here again
 author: admin
-type: post
+type: posts
 date: 2013-01-03T11:39:32+00:00
-url: /journal/2013/01/03/winter-is-here-again/
+url: /posts/2013/01/03/winter-is-here-again/
 categories:
   - Photos
 tags:

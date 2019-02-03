@@ -1,9 +1,9 @@
 ---
 title: Where’s Wally?
 author: admin
-type: post
+type: posts
 date: 2011-10-11T12:46:30+00:00
-url: /journal/2011/10/11/wheres-wally/
+url: /posts/2011/10/11/wheres-wally/
 yourls_tweeted:
   - 1
 yourls_shorturl:

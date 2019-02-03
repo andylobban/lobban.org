@@ -1,9 +1,9 @@
 ---
 title: 'QotD: My Current Top 10'
 author: admin
-type: post
+type: posts
 date: 2007-06-13T18:30:27+00:00
-url: /journal/2007/06/13/qotd-my-current-top-10/
+url: /posts/2007/06/13/qotd-my-current-top-10/
 yourls_shorturl:
   - http://lobban.org/i/93
 categories:

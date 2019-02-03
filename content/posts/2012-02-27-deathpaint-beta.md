@@ -1,10 +1,10 @@
 ---
 title: DeathPaint™ beta
 author: admin
-type: post
+type: posts
 date: 2012-02-27T15:09:04+00:00
 excerpt: Cool 3D painting application built with Three.js and WebGL by @cartelle
-url: /journal/2012/02/27/deathpaint-beta/
+url: /posts/2012/02/27/deathpaint-beta/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

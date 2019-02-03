@@ -1,9 +1,9 @@
 ---
 title: 'Vox Hunt: Man, That’s Steep'
 author: admin
-type: post
+type: posts
 date: 2006-10-24T12:07:42+00:00
-url: /journal/2006/10/24/vox-hunt-man-thats-steep/
+url: /posts/2006/10/24/vox-hunt-man-thats-steep/
 yourls_shorturl:
   - http://lobban.org/i/7f
 categories:

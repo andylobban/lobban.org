@@ -1,9 +1,9 @@
 ---
 title: Bouquets and a melon
 author: admin
-type: post
+type: posts
 date: 2013-06-08T20:29:23+00:00
-url: /journal/2013/06/08/bouquets-and-a-melon/
+url: /posts/2013/06/08/bouquets-and-a-melon/
 categories:
   - Photos
 tags:

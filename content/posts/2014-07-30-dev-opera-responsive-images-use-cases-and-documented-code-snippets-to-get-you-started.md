@@ -1,9 +1,9 @@
 ---
 title: 'Dev.Opera — Responsive Images: Use Cases and Documented Code Snippets to Get You Started'
 author: admin
-type: post
+type: posts
 date: 2014-07-30T13:36:36+00:00
-url: /journal/2014/07/30/dev-opera-responsive-images-use-cases-and-documented-code-snippets-to-get-you-started/
+url: /posts/2014/07/30/dev-opera-responsive-images-use-cases-and-documented-code-snippets-to-get-you-started/
 categories:
   - Links
 tags:

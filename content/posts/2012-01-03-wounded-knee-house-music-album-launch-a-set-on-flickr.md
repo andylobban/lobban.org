@@ -1,10 +1,10 @@
 ---
 title: Wounded Knee – House Music album launch – a set on Flickr
 author: admin
-type: post
+type: posts
 date: 2012-01-03T17:10:43+00:00
 excerpt: A few photos from after the @gerryloves Wounded Knee launch show in November
-url: /journal/2012/01/03/wounded-knee-house-music-album-launch-a-set-on-flickr/
+url: /posts/2012/01/03/wounded-knee-house-music-album-launch-a-set-on-flickr/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

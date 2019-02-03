@@ -1,9 +1,9 @@
 ---
 title: .@dash_line wins Hallowe’en
 author: admin
-type: post
+type: posts
 date: 2013-11-01T17:35:25+00:00
-url: /journal/2013/11/01/dash_line-wins-halloween/
+url: /posts/2013/11/01/dash_line-wins-halloween/
 categories:
   - Photos
 tags:

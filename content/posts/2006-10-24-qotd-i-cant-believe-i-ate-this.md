@@ -1,9 +1,9 @@
 ---
 title: 'QotD: I Can’t Believe I Ate This'
 author: admin
-type: post
+type: posts
 date: 2006-10-24T14:04:35+00:00
-url: /journal/2006/10/24/qotd-i-cant-believe-i-ate-this/
+url: /posts/2006/10/24/qotd-i-cant-believe-i-ate-this/
 yourls_shorturl:
   - http://lobban.org/i/7e
 categories:

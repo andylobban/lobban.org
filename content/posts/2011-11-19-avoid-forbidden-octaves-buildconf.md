@@ -1,9 +1,9 @@
 ---
 title: 'Avoid forbidden octaves #buildconf'
 author: admin
-type: post
+type: posts
 date: 2011-11-19T15:22:19+00:00
-url: /journal/2011/11/19/avoid-forbidden-octaves-buildconf/
+url: /posts/2011/11/19/avoid-forbidden-octaves-buildconf/
 yourls_tweeted:
   - 1
 yourls_shorturl:

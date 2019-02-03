@@ -1,9 +1,9 @@
 ---
 title: Headed for Muenster
 author: admin
-type: post
+type: posts
 date: 2012-09-22T09:39:29+00:00
-url: /journal/2012/09/22/headed-for-muenster/
+url: /posts/2012/09/22/headed-for-muenster/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

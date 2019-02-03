@@ -1,9 +1,9 @@
 ---
 title: Testing centre
 author: admin
-type: post
+type: posts
 date: 2012-01-13T14:59:40+00:00
-url: /journal/2012/01/13/testing-centre/
+url: /posts/2012/01/13/testing-centre/
 yourls_shorturl:
   - http://lobban.org/i/er
 categories:

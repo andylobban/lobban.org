@@ -1,9 +1,9 @@
 ---
 title: See monkey
 author: admin
-type: post
+type: posts
 date: 2013-10-19T16:31:16+00:00
-url: /journal/2013/10/19/see-monkey/
+url: /posts/2013/10/19/see-monkey/
 categories:
   - Photos
 tags:

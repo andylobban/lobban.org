@@ -1,9 +1,9 @@
 ---
 title: Korova, Clean George IV, Honeytrap
 author: admin
-type: post
+type: posts
 date: 2007-01-29T14:17:23+00:00
-url: /journal/2007/01/29/korova-clean-george-iv-honeytrap/
+url: /posts/2007/01/29/korova-clean-george-iv-honeytrap/
 yourls_shorturl:
   - http://lobban.org/i/86
 categories:

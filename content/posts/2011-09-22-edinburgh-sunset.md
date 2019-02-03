@@ -1,9 +1,9 @@
 ---
 title: Edinburgh sunset
 author: admin
-type: post
+type: posts
 date: 2011-09-22T12:29:14+00:00
-url: /journal/2011/09/22/edinburgh-sunset/
+url: /posts/2011/09/22/edinburgh-sunset/
 yourls_shorturl:
   - http://lobban.org/i/c8
 yourls_tweeted:

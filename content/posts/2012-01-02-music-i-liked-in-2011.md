@@ -1,9 +1,9 @@
 ---
 title: Music I Liked In 2011
 author: admin
-type: post
+type: posts
 date: 2012-01-02T12:28:07+00:00
-url: /journal/2012/01/02/music-i-liked-in-2011/
+url: /posts/2012/01/02/music-i-liked-in-2011/
 yourls_tweeted:
   - 1
 yourls_shorturl:

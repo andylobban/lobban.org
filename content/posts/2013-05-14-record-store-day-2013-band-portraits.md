@@ -1,9 +1,9 @@
 ---
 title: Record Store Day 2013 band ‘portraits’
 author: admin
-type: post
+type: posts
 date: 2013-05-14T20:02:28+00:00
-url: /journal/2013/05/14/record-store-day-2013-band-portraits/
+url: /posts/2013/05/14/record-store-day-2013-band-portraits/
 categories:
   - Music
   - Photos

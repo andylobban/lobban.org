@@ -1,9 +1,9 @@
 ---
 title: 'QotD: It’s All In The Stars'
 author: admin
-type: post
+type: posts
 date: 2006-10-30T09:28:54+00:00
-url: /journal/2006/10/30/qotd-its-all-in-the-stars/
+url: /posts/2006/10/30/qotd-its-all-in-the-stars/
 yourls_shorturl:
   - http://lobban.org/i/7j
 categories:

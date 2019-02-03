@@ -1,9 +1,9 @@
 ---
 title: 5am, Saturday, on the beach
 author: admin
-type: post
+type: posts
 date: 2013-06-02T13:29:30+00:00
-url: /journal/2013/06/02/5am-saturday-on-the-beach/
+url: /posts/2013/06/02/5am-saturday-on-the-beach/
 categories:
   - Photos
 tags:

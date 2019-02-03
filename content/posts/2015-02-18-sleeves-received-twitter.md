@@ -1,9 +1,9 @@
 ---
 title: Sleeves Received Twitter
 author: admin
-type: post
+type: posts
 date: 2015-02-18T17:25:37+00:00
-url: /journal/2015/02/18/sleeves-received-twitter/
+url: /posts/2015/02/18/sleeves-received-twitter/
 categories:
   - Music
   - Nerdery

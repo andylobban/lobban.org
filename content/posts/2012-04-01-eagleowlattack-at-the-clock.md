@@ -1,9 +1,9 @@
 ---
 title: .eagleowlattack at The Clock
 author: admin
-type: post
+type: posts
 date: 2012-04-01T12:44:59+00:00
-url: /journal/2012/04/01/eagleowlattack-at-the-clock/
+url: /posts/2012/04/01/eagleowlattack-at-the-clock/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

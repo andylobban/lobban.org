@@ -1,9 +1,9 @@
 ---
 title: Hi, how are you? I’m Paddy the catalogue model.
 author: admin
-type: post
+type: posts
 date: 2013-03-14T20:24:03+00:00
-url: /journal/2013/03/14/hi-how-are-you-im-paddy-the-catalogue-model/
+url: /posts/2013/03/14/hi-how-are-you-im-paddy-the-catalogue-model/
 categories:
   - Photos
 tags:

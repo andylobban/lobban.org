@@ -1,9 +1,9 @@
 ---
 title: '2006 Best-ofs: Singles'
 author: admin
-type: post
+type: posts
 date: 2007-01-04T18:52:22+00:00
-url: /journal/2007/01/04/2006-best-ofs-singles/
+url: /posts/2007/01/04/2006-best-ofs-singles/
 yourls_shorturl:
   - http://lobban.org/i/9k
 categories:

@@ -1,10 +1,10 @@
 ---
 title: Music typewriters look really cool
 author: admin
-type: post
+type: posts
 date: 2011-10-17T10:02:54+00:00
 excerpt: I would definitely buy this if I had a spare 6 grand.
-url: /journal/2011/10/17/music-typewriters-look-really-cool/
+url: /posts/2011/10/17/music-typewriters-look-really-cool/
 syndication_feed_id:
   - 11
 syndication_feed:

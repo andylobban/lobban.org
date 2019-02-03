@@ -1,9 +1,9 @@
 ---
 title: Diada Nacional de Catalunya
 author: admin
-type: post
+type: posts
 date: 2013-09-12T22:29:48+00:00
-url: /journal/2013/09/12/diada-nacional-de-catalunya/
+url: /posts/2013/09/12/diada-nacional-de-catalunya/
 categories:
   - Photos
 tags:

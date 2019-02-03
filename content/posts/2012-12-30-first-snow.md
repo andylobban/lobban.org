@@ -1,9 +1,9 @@
 ---
 title: First snow
 author: admin
-type: post
+type: posts
 date: 2012-12-30T08:25:54+00:00
-url: /journal/2012/12/30/first-snow/
+url: /posts/2012/12/30/first-snow/
 categories:
   - Photos
 tags:

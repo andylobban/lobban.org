@@ -1,9 +1,9 @@
 ---
 title: 'QotD: The Best Way To Reach Me'
 author: admin
-type: post
+type: posts
 date: 2006-08-30T17:50:30+00:00
-url: /journal/2006/08/30/qotd-the-best-way-to-reach-me/
+url: /posts/2006/08/30/qotd-the-best-way-to-reach-me/
 yourls_shorturl:
   - http://lobban.org/i/6y
 categories:

@@ -1,9 +1,9 @@
 ---
 title: Edinburgh
 author: admin
-type: post
+type: posts
 date: 2007-04-16T11:06:33+00:00
-url: /journal/2007/04/16/edinburgh/
+url: /posts/2007/04/16/edinburgh/
 yourls_shorturl:
   - http://lobban.org/i/8n
 categories:

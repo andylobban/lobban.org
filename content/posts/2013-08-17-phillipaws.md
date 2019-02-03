@@ -1,9 +1,9 @@
 ---
 title: PhilliPAWS
 author: admin
-type: post
+type: posts
 date: 2013-08-17T09:30:29+00:00
-url: /journal/2013/08/17/phillipaws/
+url: /posts/2013/08/17/phillipaws/
 categories:
   - Photos
 tags:

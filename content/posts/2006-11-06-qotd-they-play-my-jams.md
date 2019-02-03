@@ -1,9 +1,9 @@
 ---
 title: 'QotD: They Play My Jams'
 author: admin
-type: post
+type: posts
 date: 2006-11-06T16:47:08+00:00
-url: /journal/2006/11/06/qotd-they-play-my-jams/
+url: /posts/2006/11/06/qotd-they-play-my-jams/
 yourls_shorturl:
   - http://lobban.org/i/7n
 categories:

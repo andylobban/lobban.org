@@ -1,9 +1,9 @@
 ---
 title: 2 things for a Friday
 author: admin
-type: post
+type: posts
 date: 2011-04-01T18:21:28+00:00
-url: /journal/2011/04/01/2-things-for-a-friday/
+url: /posts/2011/04/01/2-things-for-a-friday/
 yourls_tweeted:
   - 1
 yourls_shorturl:

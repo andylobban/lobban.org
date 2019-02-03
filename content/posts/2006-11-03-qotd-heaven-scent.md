@@ -1,9 +1,9 @@
 ---
 title: 'QotD: Heaven Scent'
 author: admin
-type: post
+type: posts
 date: 2006-11-03T12:23:33+00:00
-url: /journal/2006/11/03/qotd-heaven-scent/
+url: /posts/2006/11/03/qotd-heaven-scent/
 yourls_shorturl:
   - http://lobban.org/i/9z
 categories:

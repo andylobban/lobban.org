@@ -1,9 +1,9 @@
 ---
 title: Saying goodbye.
 author: admin
-type: post
+type: posts
 date: 2013-06-28T17:29:38+00:00
-url: /journal/2013/06/28/saying-goodbye/
+url: /posts/2013/06/28/saying-goodbye/
 categories:
   - Photos
 tags:

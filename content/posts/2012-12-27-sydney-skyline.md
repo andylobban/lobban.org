@@ -1,9 +1,9 @@
 ---
 title: Sydney skyline
 author: admin
-type: post
+type: posts
 date: 2012-12-27T00:55:33+00:00
-url: /journal/2012/12/27/sydney-skyline/
+url: /posts/2012/12/27/sydney-skyline/
 categories:
   - Photos
 tags:

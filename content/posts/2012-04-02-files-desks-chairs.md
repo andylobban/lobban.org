@@ -1,9 +1,9 @@
 ---
 title: Files Desks Chairs
 author: admin
-type: post
+type: posts
 date: 2012-04-02T13:59:39+00:00
-url: /journal/2012/04/02/files-desks-chairs/
+url: /posts/2012/04/02/files-desks-chairs/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

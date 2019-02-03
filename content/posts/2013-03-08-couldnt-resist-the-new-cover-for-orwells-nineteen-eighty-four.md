@@ -1,9 +1,9 @@
 ---
 title: Couldn’t resist the new cover for Orwell’s Nineteen Eighty-Four
 author: admin
-type: post
+type: posts
 date: 2013-03-08T10:20:57+00:00
-url: /journal/2013/03/08/couldnt-resist-the-new-cover-for-orwells-nineteen-eighty-four/
+url: /posts/2013/03/08/couldnt-resist-the-new-cover-for-orwells-nineteen-eighty-four/
 categories:
   - Photos
 tags:

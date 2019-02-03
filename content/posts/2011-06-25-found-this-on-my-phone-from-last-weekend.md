@@ -1,9 +1,9 @@
 ---
 title: Found this on my phone from last weekend
 author: admin
-type: post
+type: posts
 date: 2011-06-25T13:45:40+00:00
-url: /journal/2011/06/25/found-this-on-my-phone-from-last-weekend/
+url: /posts/2011/06/25/found-this-on-my-phone-from-last-weekend/
 yourls_tweeted:
   - 1
 yourls_shorturl:

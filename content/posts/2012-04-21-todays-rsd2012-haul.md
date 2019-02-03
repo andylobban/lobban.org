@@ -1,9 +1,9 @@
 ---
 title: 'Today’s #RSD2012 haul'
 author: admin
-type: post
+type: posts
 date: 2012-04-21T17:45:29+00:00
-url: /journal/2012/04/21/todays-rsd2012-haul/
+url: /posts/2012/04/21/todays-rsd2012-haul/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

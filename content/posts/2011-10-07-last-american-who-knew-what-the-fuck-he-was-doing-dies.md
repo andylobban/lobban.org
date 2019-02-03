@@ -1,9 +1,9 @@
 ---
 title: Last American Who Knew What The Fuck He Was Doing Dies
 author: admin
-type: post
+type: posts
 date: 2011-10-07T09:10:09+00:00
-url: /journal/2011/10/07/last-american-who-knew-what-the-fuck-he-was-doing-dies/
+url: /posts/2011/10/07/last-american-who-knew-what-the-fuck-he-was-doing-dies/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

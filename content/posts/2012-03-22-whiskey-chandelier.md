@@ -1,9 +1,9 @@
 ---
 title: Whiskey chandelier
 author: admin
-type: post
+type: posts
 date: 2012-03-22T13:29:55+00:00
-url: /journal/2012/03/22/whiskey-chandelier/
+url: /posts/2012/03/22/whiskey-chandelier/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

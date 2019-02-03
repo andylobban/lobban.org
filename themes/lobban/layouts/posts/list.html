@@ -1,5 +1,5 @@
 {{ define "head" }} {{ end }}
-{{ define "body_tag"}}work{{ end }}
+{{ define "body_tag"}}posts{{ end }}
 
 
 {{ define "content_wrapper" }}
@@ -11,7 +11,7 @@
         {{ range .Paginator.Pages }}
             <article class="article grid wrapper {{ range .Params.categories }}category-{{ . | lower }} {{ end }}">
                 <time class="article__date">
-                    <a href="<?php the_permalink(); ?>">
+                    <a href="{{.Permalink}}">
                         {{.Date.Format "1 January 2006"}}
                     </a>
                 </time>

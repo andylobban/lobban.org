@@ -1,9 +1,9 @@
 ---
 title: Barry’s at it again
 author: admin
-type: post
+type: posts
 date: 2008-07-10T10:02:51+00:00
-url: /journal/2008/07/10/barrys-at-it-again/
+url: /posts/2008/07/10/barrys-at-it-again/
 yourls_shorturl:
   - http://lobban.org/i/l
 categories:

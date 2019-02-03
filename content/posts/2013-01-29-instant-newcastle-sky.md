@@ -1,9 +1,9 @@
 ---
 title: Instant Newcastle sky
 author: admin
-type: post
+type: posts
 date: 2013-01-29T19:50:59+00:00
-url: /journal/2013/01/29/instant-newcastle-sky/
+url: /posts/2013/01/29/instant-newcastle-sky/
 categories:
   - Photos
 tags:

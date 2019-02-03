@@ -1,10 +1,10 @@
 ---
 title: Sun Kil Moon – “Sunshine In Chicago” – Stereogum
 author: admin
-type: post
+type: posts
 date: 2012-02-24T09:46:59+00:00
 excerpt: The new Sun Kil Moon song is lovely. Looking forward to the album
-url: /journal/2012/02/24/sun-kil-moon-sunshine-in-chicago-stereogum/
+url: /posts/2012/02/24/sun-kil-moon-sunshine-in-chicago-stereogum/
 syndication_permalink:
   - http://stereogum.com/957271/sun-kil-moon-sunshine-in-chicago/mp3s/
 syndication_feed:

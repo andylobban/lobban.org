@@ -1,9 +1,9 @@
 ---
 title: Red balloon
 author: admin
-type: post
+type: posts
 date: 2013-08-06T12:29:49+00:00
-url: /journal/2013/08/06/red-balloon/
+url: /posts/2013/08/06/red-balloon/
 categories:
   - Photos
 tags:

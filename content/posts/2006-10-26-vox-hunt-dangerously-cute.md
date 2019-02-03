@@ -1,9 +1,9 @@
 ---
 title: 'Vox Hunt: Dangerously Cute'
 author: admin
-type: post
+type: posts
 date: 2006-10-26T14:41:53+00:00
-url: /journal/2006/10/26/vox-hunt-dangerously-cute/
+url: /posts/2006/10/26/vox-hunt-dangerously-cute/
 yourls_shorturl:
   - http://lobban.org/i/7h
 categories:

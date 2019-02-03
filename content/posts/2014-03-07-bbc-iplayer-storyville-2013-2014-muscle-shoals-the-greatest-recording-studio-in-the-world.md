@@ -1,9 +1,9 @@
 ---
 title: 'BBC iPlayer – Storyville: 2013-2014: Muscle Shoals: The Greatest Recording Studio in the World'
 author: admin
-type: post
+type: posts
 date: 2014-03-07T10:25:48+00:00
-url: /journal/2014/03/07/bbc-iplayer-storyville-2013-2014-muscle-shoals-the-greatest-recording-studio-in-the-world/
+url: /posts/2014/03/07/bbc-iplayer-storyville-2013-2014-muscle-shoals-the-greatest-recording-studio-in-the-world/
 categories:
   - Links
 tags:

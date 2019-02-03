@@ -1,9 +1,9 @@
 ---
 title: 'Trying out the new #vscocam. Real nice.'
 author: admin
-type: post
+type: posts
 date: 2013-06-06T17:29:27+00:00
-url: /journal/2013/06/06/trying-out-the-new-vscocam-real-nice/
+url: /posts/2013/06/06/trying-out-the-new-vscocam-real-nice/
 categories:
   - Photos
 tags:

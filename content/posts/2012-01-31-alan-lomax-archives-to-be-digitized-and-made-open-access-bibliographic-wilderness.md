@@ -1,10 +1,10 @@
 ---
 title: Alan Lomax archives to be digitized and made open access | Bibliographic Wilderness
 author: admin
-type: post
+type: posts
 date: 2012-01-31T16:53:42+00:00
 excerpt: This is going to be awesome
-url: /journal/2012/01/31/alan-lomax-archives-to-be-digitized-and-made-open-access-bibliographic-wilderness/
+url: /posts/2012/01/31/alan-lomax-archives-to-be-digitized-and-made-open-access-bibliographic-wilderness/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

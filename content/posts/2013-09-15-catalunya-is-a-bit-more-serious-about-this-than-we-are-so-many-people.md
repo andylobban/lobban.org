@@ -1,9 +1,9 @@
 ---
 title: Catalunya is a bit more serious about this than we are. So many people.
 author: admin
-type: post
+type: posts
 date: 2013-09-15T10:29:47+00:00
-url: /journal/2013/09/15/catalunya-is-a-bit-more-serious-about-this-than-we-are-so-many-people/
+url: /posts/2013/09/15/catalunya-is-a-bit-more-serious-about-this-than-we-are-so-many-people/
 categories:
   - Photos
 tags:

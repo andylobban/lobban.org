@@ -1,9 +1,9 @@
 ---
 title: Goodbye Tokyo (and Mt. Fuji)
 author: admin
-type: post
+type: posts
 date: 2013-01-02T16:44:01+00:00
-url: /journal/2013/01/02/goodbye-tokyo-and-mt-fuji/
+url: /posts/2013/01/02/goodbye-tokyo-and-mt-fuji/
 categories:
   - Photos
 tags:

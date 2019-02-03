@@ -1,9 +1,9 @@
 ---
 title: 'QotD: Take Me Away…'
 author: admin
-type: post
+type: posts
 date: 2007-05-15T18:44:08+00:00
-url: /journal/2007/05/15/qotd-take-me-away/
+url: /posts/2007/05/15/qotd-take-me-away/
 yourls_shorturl:
   - http://lobban.org/i/8w
 categories:

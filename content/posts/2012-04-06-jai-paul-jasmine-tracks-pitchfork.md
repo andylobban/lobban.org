@@ -1,10 +1,10 @@
 ---
 title: 'Jai Paul: “Jasmine” | Tracks | Pitchfork'
 author: admin
-type: post
+type: posts
 date: 2012-04-06T17:48:13+00:00
 excerpt: New Jai Paul is pretty great news. Love this.
-url: /journal/2012/04/06/jai-paul-jasmine-tracks-pitchfork/
+url: /posts/2012/04/06/jai-paul-jasmine-tracks-pitchfork/
 syndication_source_uri:
   - http://www.delicious.com/nonimage/link
 syndication_source_id:

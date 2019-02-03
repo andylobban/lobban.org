@@ -1,9 +1,9 @@
 ---
 title: Music I’ve Liked In 2010
 author: admin
-type: post
+type: posts
 date: 2010-12-23T12:05:29+00:00
-url: /journal/2010/12/23/music-ive-liked-in-2010/
+url: /posts/2010/12/23/music-ive-liked-in-2010/
 yourls_shorturl:
   - http://lobban.org/i/f
 categories:

@@ -1,9 +1,9 @@
 ---
 title: Landscape
 author: admin
-type: post
+type: posts
 date: 2013-01-04T11:33:19+00:00
-url: /journal/2013/01/04/landscape/
+url: /posts/2013/01/04/landscape/
 categories:
   - Photos
 tags:

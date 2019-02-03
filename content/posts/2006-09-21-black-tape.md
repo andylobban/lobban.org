@@ -1,9 +1,9 @@
 ---
 title: Black Tape
 author: admin
-type: post
+type: posts
 date: 2006-09-21T14:21:43+00:00
-url: /journal/2006/09/21/black-tape/
+url: /posts/2006/09/21/black-tape/
 yourls_shorturl:
   - http://lobban.org/i/77
 categories:

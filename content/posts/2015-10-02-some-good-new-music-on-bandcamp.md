@@ -1,9 +1,9 @@
 ---
 title: Some good new music on Bandcamp
 author: admin
-type: post
+type: posts
 date: 2015-10-02T12:47:44+00:00
-url: /journal/2015/10/02/some-good-new-music-on-bandcamp/
+url: /posts/2015/10/02/some-good-new-music-on-bandcamp/
 categories:
   - Music
 

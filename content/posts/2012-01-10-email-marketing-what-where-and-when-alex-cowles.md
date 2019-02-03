@@ -1,10 +1,10 @@
 ---
 title: 'Email Marketing: What, Where and When? Alex Cowles'
 author: admin
-type: post
+type: posts
 date: 2012-01-10T12:49:55+00:00
 excerpt: "Check out @grafyte's talk from the November @refreshedi event, full of handy links and facts"
-url: /journal/2012/01/10/email-marketing-what-where-and-when-alex-cowles/
+url: /posts/2012/01/10/email-marketing-what-where-and-when-alex-cowles/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

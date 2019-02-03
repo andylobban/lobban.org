@@ -1,9 +1,9 @@
 ---
 title: A bottle of flowers
 author: admin
-type: post
+type: posts
 date: 2012-08-01T12:44:05+00:00
-url: /journal/2012/08/01/a-bottle-of-flowers/
+url: /posts/2012/08/01/a-bottle-of-flowers/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

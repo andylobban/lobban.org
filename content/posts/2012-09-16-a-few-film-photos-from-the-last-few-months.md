@@ -1,9 +1,9 @@
 ---
 title: A few film photos from the last few months
 author: admin
-type: post
+type: posts
 date: 2012-09-16T19:33:16+00:00
-url: /journal/2012/09/16/a-few-film-photos-from-the-last-few-months/
+url: /posts/2012/09/16/a-few-film-photos-from-the-last-few-months/
 aktt_notify_twitter:
   - no
 yourls_shorturl:

@@ -1,9 +1,9 @@
 ---
 title: '2006 Best-ofs: Albums'
 author: admin
-type: post
+type: posts
 date: 2007-01-02T15:43:00+00:00
-url: /journal/2007/01/02/2006-best-ofs-albums/
+url: /posts/2007/01/02/2006-best-ofs-albums/
 yourls_shorturl:
   - http://lobban.org/i/9j
 categories:

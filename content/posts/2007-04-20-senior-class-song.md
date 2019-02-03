@@ -1,9 +1,9 @@
 ---
 title: Senior Class Song
 author: admin
-type: post
+type: posts
 date: 2007-04-20T16:25:05+00:00
-url: /journal/2007/04/20/senior-class-song/
+url: /posts/2007/04/20/senior-class-song/
 yourls_shorturl:
   - http://lobban.org/i/8r
 categories:

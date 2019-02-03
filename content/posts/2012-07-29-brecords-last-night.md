@@ -1,9 +1,9 @@
 ---
 title: Brecords, last night.
 author: admin
-type: post
+type: posts
 date: 2012-07-29T21:23:33+00:00
-url: /journal/2012/07/29/brecords-last-night/
+url: /posts/2012/07/29/brecords-last-night/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

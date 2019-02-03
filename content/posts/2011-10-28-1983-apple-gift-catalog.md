@@ -1,10 +1,10 @@
 ---
 title: 1983 Apple Gift Catalog
 author: admin
-type: post
+type: posts
 date: 2011-10-28T15:55:46+00:00
 excerpt: I REALLY want one fo those t-shirts.
-url: /journal/2011/10/28/1983-apple-gift-catalog/
+url: /posts/2011/10/28/1983-apple-gift-catalog/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

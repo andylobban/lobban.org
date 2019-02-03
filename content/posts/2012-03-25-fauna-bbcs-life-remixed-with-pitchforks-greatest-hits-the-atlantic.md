@@ -1,10 +1,10 @@
 ---
 title: 'Fauna: BBC’s ‘Life’ Remixed With Pitchfork’s Greatest Hits – The Atlantic'
 author: admin
-type: post
+type: posts
 date: 2012-03-25T14:32:35+00:00
 excerpt: BBC nature videos set to Bjork, Radiohead, Jamie XX and more. Incredible.
-url: /journal/2012/03/25/fauna-bbcs-life-remixed-with-pitchforks-greatest-hits-the-atlantic/
+url: /posts/2012/03/25/fauna-bbcs-life-remixed-with-pitchforks-greatest-hits-the-atlantic/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

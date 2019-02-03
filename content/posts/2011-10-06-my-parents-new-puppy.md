@@ -1,9 +1,9 @@
 ---
 title: My parents’ new puppy
 author: admin
-type: post
+type: posts
 date: 2011-10-06T10:36:12+00:00
-url: /journal/2011/10/06/my-parents-new-puppy/
+url: /posts/2011/10/06/my-parents-new-puppy/
 yourls_tweeted:
   - 1
 yourls_shorturl:

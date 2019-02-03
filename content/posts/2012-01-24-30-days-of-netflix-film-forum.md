@@ -1,10 +1,10 @@
 ---
 title: 30 Days Of Netflix « Film Forum
 author: admin
-type: post
+type: posts
 date: 2012-01-24T11:23:35+00:00
 excerpt: A great guide on what to watch on the Netflix free trial, before they (hopefully) get more deals in place
-url: /journal/2012/01/24/30-days-of-netflix-film-forum/
+url: /posts/2012/01/24/30-days-of-netflix-film-forum/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

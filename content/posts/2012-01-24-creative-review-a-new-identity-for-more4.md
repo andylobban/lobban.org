@@ -1,10 +1,10 @@
 ---
 title: Creative Review – A new identity for More4
 author: admin
-type: post
+type: posts
 date: 2012-01-24T13:55:48+00:00
 excerpt: At first look I really love the new More4 identity
-url: /journal/2012/01/24/creative-review-a-new-identity-for-more4/
+url: /posts/2012/01/24/creative-review-a-new-identity-for-more4/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

@@ -1,9 +1,9 @@
 ---
 title: Favourite Christmas Songs
 author: admin
-type: post
+type: posts
 date: 2007-12-25T20:39:22+00:00
-url: /journal/2007/12/25/favourite-christmas-songs/
+url: /posts/2007/12/25/favourite-christmas-songs/
 yourls_shorturl:
   - http://lobban.org/i/6n
 categories:

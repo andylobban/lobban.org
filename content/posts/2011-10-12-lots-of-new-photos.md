@@ -1,9 +1,9 @@
 ---
 title: Lots of new photos
 author: admin
-type: post
+type: posts
 date: 2011-10-12T18:36:25+00:00
-url: /journal/2011/10/12/lots-of-new-photos/
+url: /posts/2011/10/12/lots-of-new-photos/
 yourls_tweeted:
   - 1
 yourls_shorturl:

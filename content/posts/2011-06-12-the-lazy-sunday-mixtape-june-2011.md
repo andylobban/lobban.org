@@ -1,9 +1,9 @@
 ---
 title: The Lazy Sunday Mixtape – June 2011
 author: admin
-type: post
+type: posts
 date: 2011-06-12T15:35:26+00:00
-url: /journal/2011/06/12/the-lazy-sunday-mixtape-june-2011/
+url: /posts/2011/06/12/the-lazy-sunday-mixtape-june-2011/
 yourls_tweeted:
   - 1
 yourls_shorturl:

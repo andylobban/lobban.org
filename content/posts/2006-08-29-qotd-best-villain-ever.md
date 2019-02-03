@@ -1,9 +1,9 @@
 ---
 title: 'QotD: Best. Villain. Ever.'
 author: admin
-type: post
+type: posts
 date: 2006-08-29T11:21:20+00:00
-url: /journal/2006/08/29/qotd-best-villain-ever/
+url: /posts/2006/08/29/qotd-best-villain-ever/
 yourls_shorturl:
   - http://lobban.org/i/6w
 categories:

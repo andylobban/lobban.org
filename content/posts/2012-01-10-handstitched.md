@@ -1,10 +1,10 @@
 ---
 title: 'Handstitched*'
 author: admin
-type: post
+type: posts
 date: 2012-01-10T13:19:27+00:00
 excerpt: Really enjoying the @_handstitched blog of hand made musical artifacts
-url: /journal/2012/01/10/handstitched/
+url: /posts/2012/01/10/handstitched/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

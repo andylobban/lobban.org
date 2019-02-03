@@ -1,9 +1,9 @@
 ---
 title: Countryside
 author: admin
-type: post
+type: posts
 date: 2012-12-22T23:24:26+00:00
-url: /journal/2012/12/22/countryside/
+url: /posts/2012/12/22/countryside/
 categories:
   - Photos
 tags:

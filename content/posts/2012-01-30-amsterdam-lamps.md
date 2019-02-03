@@ -1,9 +1,9 @@
 ---
 title: Amsterdam lamps
 author: admin
-type: post
+type: posts
 date: 2012-01-30T16:45:38+00:00
-url: /journal/2012/01/30/amsterdam-lamps/
+url: /posts/2012/01/30/amsterdam-lamps/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

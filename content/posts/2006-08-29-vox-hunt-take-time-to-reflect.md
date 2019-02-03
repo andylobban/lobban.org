@@ -1,9 +1,9 @@
 ---
 title: 'Vox Hunt: Take Time To Reflect'
 author: admin
-type: post
+type: posts
 date: 2006-08-29T12:29:42+00:00
-url: /journal/2006/08/29/vox-hunt-take-time-to-reflect/
+url: /posts/2006/08/29/vox-hunt-take-time-to-reflect/
 yourls_shorturl:
   - http://lobban.org/i/6x
 categories:

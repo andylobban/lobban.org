@@ -1,10 +1,10 @@
 ---
 title: 'SILVER & LIGHT on Vimeo'
 author: admin
-type: post
+type: posts
 date: 2012-04-11T12:25:33+00:00
 excerpt: "Love this video about @ianruhter's wet plate photography"
-url: /journal/2012/04/11/silver-light-on-vimeo/
+url: /posts/2012/04/11/silver-light-on-vimeo/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

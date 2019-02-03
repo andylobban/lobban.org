@@ -1,9 +1,9 @@
 ---
 title: Country Gent
 author: admin
-type: post
+type: posts
 date: 2007-08-29T13:40:44+00:00
-url: /journal/2007/08/29/country-gent/
+url: /posts/2007/08/29/country-gent/
 yourls_shorturl:
   - http://lobban.org/i/9b
 categories:

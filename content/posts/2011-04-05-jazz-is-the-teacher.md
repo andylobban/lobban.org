@@ -1,9 +1,9 @@
 ---
 title: Jazz is the teacher
 author: admin
-type: post
+type: posts
 date: 2011-04-05T17:03:54+00:00
-url: /journal/2011/04/05/jazz-is-the-teacher/
+url: /posts/2011/04/05/jazz-is-the-teacher/
 yourls_shorturl:
   - http://lobban.org/i/6p
 yourls_tweeted:

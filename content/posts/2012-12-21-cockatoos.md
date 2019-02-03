@@ -1,9 +1,9 @@
 ---
 title: Cockatoos
 author: admin
-type: post
+type: posts
 date: 2012-12-21T03:16:51+00:00
-url: /journal/2012/12/21/cockatoos/
+url: /posts/2012/12/21/cockatoos/
 categories:
   - Photos
 tags:

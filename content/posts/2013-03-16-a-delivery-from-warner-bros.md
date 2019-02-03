@@ -1,9 +1,9 @@
 ---
 title: A delivery from Warner Bros
 author: admin
-type: post
+type: posts
 date: 2013-03-16T14:55:33+00:00
-url: /journal/2013/03/16/a-delivery-from-warner-bros/
+url: /posts/2013/03/16/a-delivery-from-warner-bros/
 categories:
   - Photos
 tags:

@@ -1,9 +1,9 @@
 ---
 title: First official press photo of new buzz band SVNAGOGUES
 author: admin
-type: post
+type: posts
 date: 2013-03-19T08:50:40+00:00
-url: /journal/2013/03/19/first-official-press-photo-of-new-buzz-band-svnagogues/
+url: /posts/2013/03/19/first-official-press-photo-of-new-buzz-band-svnagogues/
 categories:
   - Photos
 tags:

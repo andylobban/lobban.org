@@ -1,9 +1,9 @@
 ---
 title: Amazing first mince pies of the season by @loislobban
 author: admin
-type: post
+type: posts
 date: 2011-12-01T23:02:49+00:00
-url: /journal/2011/12/02/amazing-first-mince-pies-of-the-season-by-loislobban/
+url: /posts/2011/12/02/amazing-first-mince-pies-of-the-season-by-loislobban/
 yourls_tweeted:
   - 1
 yourls_shorturl:

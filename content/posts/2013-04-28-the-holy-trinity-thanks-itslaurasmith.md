@@ -1,9 +1,9 @@
 ---
 title: The holy trinity (thanks @itslaurasmith)
 author: admin
-type: post
+type: posts
 date: 2013-04-28T17:29:44+00:00
-url: /journal/2013/04/28/the-holy-trinity-thanks-itslaurasmith/
+url: /posts/2013/04/28/the-holy-trinity-thanks-itslaurasmith/
 categories:
   - Photos
 tags:

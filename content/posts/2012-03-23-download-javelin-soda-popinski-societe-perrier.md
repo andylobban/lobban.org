@@ -1,10 +1,10 @@
 ---
 title: 'Download: Javelin – “Soda Popinski” | Société Perrier'
 author: admin
-type: post
+type: posts
 date: 2012-03-23T09:59:18+00:00
 excerpt: I was taken to see Javelin in Austin by @jessbonkers and they were great. You need this song in your life.
-url: /journal/2012/03/23/download-javelin-soda-popinski-societe-perrier/
+url: /posts/2012/03/23/download-javelin-soda-popinski-societe-perrier/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

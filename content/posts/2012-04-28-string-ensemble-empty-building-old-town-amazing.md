@@ -1,9 +1,9 @@
 ---
 title: String ensemble, empty building, old town. Amazing.
 author: admin
-type: post
+type: posts
 date: 2012-04-28T19:44:57+00:00
-url: /journal/2012/04/28/string-ensemble-empty-building-old-town-amazing/
+url: /posts/2012/04/28/string-ensemble-empty-building-old-town-amazing/
 aktt_notify_twitter:
   - yes
 yourls_shorturl:

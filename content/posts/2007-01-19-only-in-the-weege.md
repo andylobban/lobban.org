@@ -1,9 +1,9 @@
 ---
 title: Only in the Weege…
 author: admin
-type: post
+type: posts
 date: 2007-01-19T10:52:10+00:00
-url: /journal/2007/01/19/only-in-the-weege/
+url: /posts/2007/01/19/only-in-the-weege/
 yourls_shorturl:
   - http://lobban.org/i/82
 categories:

@@ -1,9 +1,9 @@
 ---
 title: Take courage
 author: admin
-type: post
+type: posts
 date: 2013-08-25T21:34:25+00:00
-url: /journal/2013/08/25/take-courage/
+url: /posts/2013/08/25/take-courage/
 categories:
   - Photos
 tags:

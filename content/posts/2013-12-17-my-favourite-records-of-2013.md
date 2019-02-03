@@ -1,9 +1,9 @@
 ---
 title: My favourite records of 2013
 author: admin
-type: post
+type: posts
 date: 2013-12-17T09:54:25+00:00
-url: /journal/2013/12/17/my-favourite-records-of-2013/
+url: /posts/2013/12/17/my-favourite-records-of-2013/
 categories:
   - Music
 

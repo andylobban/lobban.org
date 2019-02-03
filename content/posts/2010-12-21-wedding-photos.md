@@ -1,9 +1,9 @@
 ---
 title: Wedding Photos
 author: admin
-type: post
+type: posts
 date: 2010-12-21T12:04:53+00:00
-url: /journal/2010/12/21/wedding-photos/
+url: /posts/2010/12/21/wedding-photos/
 yourls_shorturl:
   - http://lobban.org/i/e
 categories:

@@ -1,9 +1,9 @@
 ---
 title: Nonimage – December 2013 playlist on Spotify
 author: admin
-type: post
+type: posts
 date: 2014-01-03T09:49:24+00:00
-url: /journal/2014/01/03/nonimage-december-2013-playlist-on-spotify/
+url: /posts/2014/01/03/nonimage-december-2013-playlist-on-spotify/
 categories:
   - Links
 tags:

@@ -1,10 +1,10 @@
 ---
 title: 'fourfour: How they lost'
 author: admin
-type: post
+type: posts
 date: 2012-03-01T10:34:29+00:00
 excerpt: "Pricelss. GIFs of all the Oscar loser's faces (via @miaouxmiaoux)"
-url: /journal/2012/03/01/fourfour-how-they-lost/
+url: /posts/2012/03/01/fourfour-how-they-lost/
 aktt_notify_twitter:
   - no
 syndication_permalink:

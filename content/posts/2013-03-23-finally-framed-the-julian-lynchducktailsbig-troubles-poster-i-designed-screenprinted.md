@@ -1,9 +1,9 @@
 ---
 title: 'Finally framed the Julian Lynch/Ducktails/Big Troubles poster I designed & screenprinted'
 author: admin
-type: post
+type: posts
 date: 2013-03-23T19:22:17+00:00
-url: /journal/2013/03/23/finally-framed-the-julian-lynchducktailsbig-troubles-poster-i-designed-screenprinted/
+url: /posts/2013/03/23/finally-framed-the-julian-lynchducktailsbig-troubles-poster-i-designed-screenprinted/
 categories:
   - Photos
 tags:

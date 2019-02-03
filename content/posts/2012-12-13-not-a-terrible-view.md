@@ -1,9 +1,9 @@
 ---
 title: Not a terrible view
 author: admin
-type: post
+type: posts
 date: 2012-12-13T07:59:38+00:00
-url: /journal/2012/12/13/not-a-terrible-view/
+url: /posts/2012/12/13/not-a-terrible-view/
 categories:
   - Photos
 tags:

@@ -1,9 +1,9 @@
 ---
 title: November Rain
 author: admin
-type: post
+type: posts
 date: 2013-07-27T21:29:39+00:00
-url: /journal/2013/07/27/november-rain/
+url: /posts/2013/07/27/november-rain/
 categories:
   - Photos
 tags:

@@ -1,9 +1,9 @@
 ---
 title: 'Vox Hunt: Commuting'
 author: admin
-type: post
+type: posts
 date: 2006-09-06T11:09:46+00:00
-url: /journal/2006/09/06/vox-hunt-commuting/
+url: /posts/2006/09/06/vox-hunt-commuting/
 yourls_shorturl:
   - http://lobban.org/i/9v
 categories:

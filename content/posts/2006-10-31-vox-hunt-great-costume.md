@@ -1,9 +1,9 @@
 ---
 title: 'Vox Hunt: Great Costume'
 author: admin
-type: post
+type: posts
 date: 2006-10-31T16:35:13+00:00
-url: /journal/2006/10/31/vox-hunt-great-costume/
+url: /posts/2006/10/31/vox-hunt-great-costume/
 yourls_shorturl:
   - http://lobban.org/i/7l
 categories:

@@ -1,9 +1,9 @@
 ---
 title: Bowling, aye?
 author: admin
-type: post
+type: posts
 date: 2011-11-09T21:13:50+00:00
-url: /journal/2011/11/09/bowling-aye/
+url: /posts/2011/11/09/bowling-aye/
 yourls_tweeted:
   - 1
 yourls_shorturl:

@@ -1,9 +1,9 @@
 ---
 title: Nonimage – July 2014 playlist on Spotify
 author: admin
-type: post
+type: posts
 date: 2014-08-01T09:15:13+00:00
-url: /journal/2014/08/01/nonimage-july-2014-playlist-on-spotify/
+url: /posts/2014/08/01/nonimage-july-2014-playlist-on-spotify/
 categories:
   - Links
 tags:

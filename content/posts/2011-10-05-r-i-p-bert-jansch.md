@@ -1,9 +1,9 @@
 ---
 title: R.I.P. Bert Jansch
 author: admin
-type: post
+type: posts
 date: 2011-10-05T16:58:26+00:00
-url: /journal/2011/10/05/r-i-p-bert-jansch/
+url: /posts/2011/10/05/r-i-p-bert-jansch/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

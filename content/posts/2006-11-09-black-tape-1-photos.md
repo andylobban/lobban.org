@@ -1,9 +1,9 @@
 ---
 title: Black Tape 1 Photos
 author: admin
-type: post
+type: posts
 date: 2006-11-09T10:12:29+00:00
-url: /journal/2006/11/09/black-tape-1-photos/
+url: /posts/2006/11/09/black-tape-1-photos/
 yourls_shorturl:
   - http://lobban.org/i/7q
 categories:

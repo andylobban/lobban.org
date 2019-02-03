@@ -1,9 +1,9 @@
 ---
 title: Thanks to my buddy @ctoverdrive for the stickers
 author: admin
-type: post
+type: posts
 date: 2011-11-09T09:18:19+00:00
-url: /journal/2011/11/09/thanks-to-my-buddy-ctoverdrive-for-the-stickers/
+url: /posts/2011/11/09/thanks-to-my-buddy-ctoverdrive-for-the-stickers/
 yourls_tweeted:
   - 1
 yourls_shorturl:

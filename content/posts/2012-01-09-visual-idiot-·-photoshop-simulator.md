@@ -1,10 +1,10 @@
 ---
 title: Visual Idiot · Photoshop Simulator
 author: admin
-type: post
+type: posts
 date: 2012-01-09T17:44:38+00:00
 excerpt: A photoshop simulator that is exactly like the real thing
-url: /journal/2012/01/09/visual-idiot-·-photoshop-simulator/
+url: /posts/2012/01/09/visual-idiot-·-photoshop-simulator/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

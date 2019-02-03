@@ -1,9 +1,9 @@
 ---
 title: Gerry Loves a gin and tonic and 5.30am
 author: admin
-type: post
+type: posts
 date: 2012-03-10T05:30:10+00:00
-url: /journal/2012/03/10/gerry-loves-a-gin-and-tonic-and-5-30am/
+url: /posts/2012/03/10/gerry-loves-a-gin-and-tonic-and-5-30am/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

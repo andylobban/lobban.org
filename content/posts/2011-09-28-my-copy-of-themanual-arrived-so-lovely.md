@@ -1,9 +1,9 @@
 ---
 title: My copy of @themanual arrived. So lovely.
 author: admin
-type: post
+type: posts
 date: 2011-09-28T12:13:28+00:00
-url: /journal/2011/09/28/my-copy-of-themanual-arrived-so-lovely/
+url: /posts/2011/09/28/my-copy-of-themanual-arrived-so-lovely/
 yourls_tweeted:
   - 1
 yourls_shorturl:

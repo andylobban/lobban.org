@@ -1,10 +1,10 @@
 ---
 title: Show Homens Luzes – Wrecking Crew Orchestra on Vimeo
 author: admin
-type: post
+type: posts
 date: 2012-03-22T15:20:12+00:00
 excerpt: You need to watch this dance video now /via @tomcoates
-url: /journal/2012/03/22/show-homens-luzes-wrecking-crew-orchestra-on-vimeo/
+url: /posts/2012/03/22/show-homens-luzes-wrecking-crew-orchestra-on-vimeo/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

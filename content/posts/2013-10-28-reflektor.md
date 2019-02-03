@@ -1,9 +1,9 @@
 ---
 title: Reflektor
 author: admin
-type: post
+type: posts
 date: 2013-10-28T08:35:32+00:00
-url: /journal/2013/10/28/reflektor/
+url: /posts/2013/10/28/reflektor/
 categories:
   - Photos
 tags:

@@ -1,9 +1,9 @@
 ---
 title: 'Watching Indiana Jones in the open air at #eiff'
 author: admin
-type: post
+type: posts
 date: 2012-06-14T18:29:39+00:00
-url: /journal/2012/06/14/watching-indiana-jones-in-the-open-air-at-eiff/
+url: /posts/2012/06/14/watching-indiana-jones-in-the-open-air-at-eiff/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

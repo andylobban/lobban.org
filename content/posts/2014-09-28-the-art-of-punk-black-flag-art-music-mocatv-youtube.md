@@ -1,9 +1,9 @@
 ---
 title: The Art of Punk – Black Flag – Art + Music – MOCAtv – YouTube
 author: admin
-type: post
+type: posts
 date: 2014-09-28T01:09:12+00:00
-url: /journal/2014/09/28/the-art-of-punk-black-flag-art-music-mocatv-youtube/
+url: /posts/2014/09/28/the-art-of-punk-black-flag-art-music-mocatv-youtube/
 categories:
   - Links
 tags:

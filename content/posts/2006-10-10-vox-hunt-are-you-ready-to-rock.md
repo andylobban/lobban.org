@@ -1,9 +1,9 @@
 ---
 title: 'Vox Hunt: Are You Ready To Rock?'
 author: admin
-type: post
+type: posts
 date: 2006-10-10T11:45:20+00:00
-url: /journal/2006/10/10/vox-hunt-are-you-ready-to-rock/
+url: /posts/2006/10/10/vox-hunt-are-you-ready-to-rock/
 yourls_shorturl:
   - http://lobban.org/i/9n
 categories:

@@ -1,9 +1,9 @@
 ---
 title: Twitter traffic during the riots | guardian.co.uk
 author: admin
-type: post
+type: posts
 date: 2011-08-25T16:18:21+00:00
-url: /journal/2011/08/25/twitter-traffic-during-the-riots-guardian-co-uk/
+url: /posts/2011/08/25/twitter-traffic-during-the-riots-guardian-co-uk/
 yourls_tweeted:
   - 1
 yourls_shorturl:

@@ -1,9 +1,9 @@
 ---
 title: Nonimage Mixtapes Vol. 5
 author: admin
-type: post
+type: posts
 date: 2013-01-30T18:56:46+00:00
-url: /journal/2013/01/30/nonimage-mixtapes-vol-5/
+url: /posts/2013/01/30/nonimage-mixtapes-vol-5/
 categories:
   - Mixtapes
   - Music

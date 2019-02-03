@@ -1,9 +1,9 @@
 ---
 title: The Camera in the Mirror
 author: admin
-type: post
+type: posts
 date: 2014-07-29T13:24:15+00:00
-url: /journal/2014/07/29/the-camera-in-the-mirror/
+url: /posts/2014/07/29/the-camera-in-the-mirror/
 categories:
   - Links
 tags:

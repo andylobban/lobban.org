@@ -1,10 +1,10 @@
 ---
 title: Twitter Friends Map
 author: admin
-type: post
+type: posts
 date: 2012-02-20T10:41:52+00:00
 excerpt: Show all the people you follow on a Google Map. Quite fun.
-url: /journal/2012/02/20/twitter-friends-map/
+url: /posts/2012/02/20/twitter-friends-map/
 "rss:comments":
   - http://www.delicious.com/url/af834997732f55f81cd77d33e9a4e9e1
 syndication_source_id:

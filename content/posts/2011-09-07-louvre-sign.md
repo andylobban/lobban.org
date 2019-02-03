@@ -1,9 +1,9 @@
 ---
 title: Louvre sign
 author: admin
-type: post
+type: posts
 date: 2011-09-07T07:10:58+00:00
-url: /journal/2011/09/07/louvre-sign/
+url: /posts/2011/09/07/louvre-sign/
 yourls_shorturl:
   - http://lobban.org/i/bs
 yourls_tweeted:

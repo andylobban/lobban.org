@@ -1,9 +1,9 @@
 ---
 title: So this is the New Year
 author: admin
-type: post
+type: posts
 date: 2012-01-01T13:25:16+00:00
-url: /journal/2012/01/01/so-this-is-the-new-year/
+url: /posts/2012/01/01/so-this-is-the-new-year/
 yourls_shorturl:
   - http://lobban.org/i/di
 categories:

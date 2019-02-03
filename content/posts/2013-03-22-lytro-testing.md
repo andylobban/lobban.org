@@ -1,9 +1,9 @@
 ---
 title: Lytro testing
 author: admin
-type: post
+type: posts
 date: 2013-03-22T12:48:27+00:00
-url: /journal/2013/03/22/lytro-testing/
+url: /posts/2013/03/22/lytro-testing/
 categories:
   - Nerdery
   - Photos

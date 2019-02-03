@@ -1,9 +1,9 @@
 ---
 title: 'QotD: Pants on Fire'
 author: admin
-type: post
+type: posts
 date: 2007-05-30T09:33:13+00:00
-url: /journal/2007/05/30/qotd-pants-on-fire/
+url: /posts/2007/05/30/qotd-pants-on-fire/
 yourls_shorturl:
   - http://lobban.org/i/91
 categories:

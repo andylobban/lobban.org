@@ -1,9 +1,9 @@
 ---
 title: Welcome to Austin
 author: admin
-type: post
+type: posts
 date: 2012-03-19T04:47:24+00:00
-url: /journal/2012/03/19/welcome-to-austin/
+url: /posts/2012/03/19/welcome-to-austin/
 aktt_notify_twitter:
   - yes
 yourls_shorturl:

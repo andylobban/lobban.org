@@ -1,9 +1,9 @@
 ---
 title: 'QotD: I Just Made That Up'
 author: admin
-type: post
+type: posts
 date: 2006-08-25T12:06:16+00:00
-url: /journal/2006/08/25/qotd-i-just-made-that-up/
+url: /posts/2006/08/25/qotd-i-just-made-that-up/
 yourls_shorturl:
   - http://lobban.org/i/6u
 categories:

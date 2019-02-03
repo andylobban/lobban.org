@@ -1,9 +1,9 @@
 ---
 title: Efterklang’s Tripper and sunset from a train
 author: admin
-type: post
+type: posts
 date: 2012-01-18T16:37:32+00:00
-url: /journal/2012/01/18/efterklangs-tripper-and-sunset-from-a-train/
+url: /posts/2012/01/18/efterklangs-tripper-and-sunset-from-a-train/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

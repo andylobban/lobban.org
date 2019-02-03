@@ -1,9 +1,9 @@
 ---
 title: Some Music
 author: admin
-type: post
+type: posts
 date: 2007-03-21T18:58:55+00:00
-url: /journal/2007/03/21/some-music/
+url: /posts/2007/03/21/some-music/
 yourls_shorturl:
   - http://lobban.org/i/8h
 categories:

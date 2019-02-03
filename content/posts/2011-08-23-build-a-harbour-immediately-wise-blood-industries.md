@@ -1,10 +1,10 @@
 ---
 title: Build a Harbour Immediately | Wise Blood Industries
 author: admin
-type: post
+type: posts
 date: 2011-08-23T14:10:59+00:00
 excerpt: The new Adam Stafford album is quite something. Get the glorious yellow cassette now.
-url: /journal/2011/08/23/build-a-harbour-immediately-wise-blood-industries/
+url: /posts/2011/08/23/build-a-harbour-immediately-wise-blood-industries/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

@@ -1,9 +1,9 @@
 ---
 title: More framing. This time it’s @yourfriendscas.
 author: admin
-type: post
+type: posts
 date: 2013-03-05T19:32:55+00:00
-url: /journal/2013/03/05/more-framing-this-time-its-yourfriendscas/
+url: /posts/2013/03/05/more-framing-this-time-its-yourfriendscas/
 categories:
   - Photos
 tags:

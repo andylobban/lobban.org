@@ -1,9 +1,9 @@
 ---
 title: An outtake from Stafford vs. Redbeard from last night.
 author: admin
-type: post
+type: posts
 date: 2012-05-09T12:59:26+00:00
-url: /journal/2012/05/09/an-outtake-from-stafford-vs-redbeard-from-last-night/
+url: /posts/2012/05/09/an-outtake-from-stafford-vs-redbeard-from-last-night/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

@@ -1,10 +1,10 @@
 ---
 title: Monumental Paper Sculptures
 author: admin
-type: post
+type: posts
 date: 2012-01-17T14:51:01+00:00
 excerpt: Love these paper sculptures of buildings
-url: /journal/2012/01/17/monumental-paper-sculptures/
+url: /posts/2012/01/17/monumental-paper-sculptures/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

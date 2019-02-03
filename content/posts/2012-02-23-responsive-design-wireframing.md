@@ -1,9 +1,9 @@
 ---
 title: Responsive wireframing
 author: admin
-type: post
+type: posts
 date: 2012-02-23T11:29:11+00:00
-url: /journal/2012/02/23/responsive-design-wireframing/
+url: /posts/2012/02/23/responsive-design-wireframing/
 dsq_thread_id:
   - 778288696
 categories:

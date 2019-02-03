@@ -1,9 +1,9 @@
 ---
 title: Blunt Triangles
 author: admin
-type: post
+type: posts
 date: 2007-08-21T15:12:21+00:00
-url: /journal/2007/08/21/blunt-triangles/
+url: /posts/2007/08/21/blunt-triangles/
 yourls_shorturl:
   - http://lobban.org/i/99
 categories:

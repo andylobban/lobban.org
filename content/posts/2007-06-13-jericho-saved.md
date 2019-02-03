@@ -1,9 +1,9 @@
 ---
 title: Jericho Saved
 author: admin
-type: post
+type: posts
 date: 2007-06-13T18:32:15+00:00
-url: /journal/2007/06/13/jericho-saved/
+url: /posts/2007/06/13/jericho-saved/
 yourls_shorturl:
   - http://lobban.org/i/92
 categories:

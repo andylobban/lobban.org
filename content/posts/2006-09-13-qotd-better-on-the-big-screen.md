@@ -1,9 +1,9 @@
 ---
 title: 'QotD: Better on the Big Screen'
 author: admin
-type: post
+type: posts
 date: 2006-09-13T12:18:04+00:00
-url: /journal/2006/09/13/qotd-better-on-the-big-screen/
+url: /posts/2006/09/13/qotd-better-on-the-big-screen/
 yourls_shorturl:
   - http://lobban.org/i/74
 categories:

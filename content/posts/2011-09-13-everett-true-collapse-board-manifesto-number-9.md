@@ -1,14 +1,14 @@
 ---
 title: Everett True | Collapse Board manifesto number 9
 author: admin
-type: post
+type: posts
 date: 2011-09-13T12:15:13+00:00
 excerpt: |
   |
     
                     
                         Everett True has been one of my heros since I was 14. This is glorious. 
-url: /journal/2011/09/13/everett-true-collapse-board-manifesto-number-9/
+url: /posts/2011/09/13/everett-true-collapse-board-manifesto-number-9/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

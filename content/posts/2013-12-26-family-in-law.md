@@ -1,9 +1,9 @@
 ---
 title: Family-in-law
 author: admin
-type: post
+type: posts
 date: 2013-12-26T12:29:41+00:00
-url: /journal/2013/12/26/family-in-law/
+url: /posts/2013/12/26/family-in-law/
 categories:
   - Photos
 tags:

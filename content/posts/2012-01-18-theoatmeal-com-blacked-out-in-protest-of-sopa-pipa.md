@@ -1,10 +1,10 @@
 ---
 title: TheOatmeal.com blacked out in protest of SOPA / PIPA
 author: admin
-type: post
+type: posts
 date: 2012-01-18T08:48:34+00:00
 excerpt: "Today's topical Oatmeal is pretty good"
-url: /journal/2012/01/18/theoatmeal-com-blacked-out-in-protest-of-sopa-pipa/
+url: /posts/2012/01/18/theoatmeal-com-blacked-out-in-protest-of-sopa-pipa/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

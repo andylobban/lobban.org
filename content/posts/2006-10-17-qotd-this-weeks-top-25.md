@@ -1,9 +1,9 @@
 ---
 title: 'QotD: This Week’s Top 25'
 author: admin
-type: post
+type: posts
 date: 2006-10-17T11:54:44+00:00
-url: /journal/2006/10/17/qotd-this-weeks-top-25/
+url: /posts/2006/10/17/qotd-this-weeks-top-25/
 yourls_shorturl:
   - http://lobban.org/i/9l
 categories:

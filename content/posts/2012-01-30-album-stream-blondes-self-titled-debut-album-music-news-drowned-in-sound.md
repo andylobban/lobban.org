@@ -1,10 +1,10 @@
 ---
 title: 'Album Stream: Blondes self-titled debut album / Music News // Drowned In Sound'
 author: admin
-type: post
+type: posts
 date: 2012-01-30T16:59:06+00:00
 excerpt: Current listening. Rather good.
-url: /journal/2012/01/30/album-stream-blondes-self-titled-debut-album-music-news-drowned-in-sound/
+url: /posts/2012/01/30/album-stream-blondes-self-titled-debut-album-music-news-drowned-in-sound/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

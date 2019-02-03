@@ -1,10 +1,10 @@
 ---
 title: Rich American White Kidz | Tye Die Tapes
 author: admin
-type: post
+type: posts
 date: 2012-04-17T09:48:11+00:00
 excerpt: Current listening. Summer is coming.
-url: /journal/2012/04/17/rich-american-white-kidz-tye-die-tapes/
+url: /posts/2012/04/17/rich-american-white-kidz-tye-die-tapes/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

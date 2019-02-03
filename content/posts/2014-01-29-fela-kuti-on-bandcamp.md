@@ -1,9 +1,9 @@
 ---
 title: Fela Kuti on Bandcamp
 author: admin
-type: post
+type: posts
 date: 2014-01-29T14:18:53+00:00
-url: /journal/2014/01/29/fela-kuti-on-bandcamp/
+url: /posts/2014/01/29/fela-kuti-on-bandcamp/
 categories:
   - Links
 tags:

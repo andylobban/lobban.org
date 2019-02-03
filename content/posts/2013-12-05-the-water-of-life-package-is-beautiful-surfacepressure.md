@@ -1,9 +1,9 @@
 ---
 title: The Water of Life package is beautiful @surfacepressure
 author: admin
-type: post
+type: posts
 date: 2013-12-05T11:17:19+00:00
-url: /journal/2013/12/05/the-water-of-life-package-is-beautiful-surfacepressure/
+url: /posts/2013/12/05/the-water-of-life-package-is-beautiful-surfacepressure/
 categories:
   - Photos
 tags:

@@ -1,9 +1,9 @@
 ---
 title: Gloomy Crowds Captured as Shadows After Soviet Union Collapse
 author: admin
-type: post
+type: posts
 date: 2011-08-26T12:21:16+00:00
-url: /journal/2011/08/26/gloomy-crowds-captured-as-shadows-after-soviet-union-collapse/
+url: /posts/2011/08/26/gloomy-crowds-captured-as-shadows-after-soviet-union-collapse/
 yourls_tweeted:
   - 1
 yourls_shorturl:

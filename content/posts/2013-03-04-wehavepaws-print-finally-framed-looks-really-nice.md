@@ -1,9 +1,9 @@
 ---
 title: .@wehavepaws print finally framed. Looks really nice.
 author: admin
-type: post
+type: posts
 date: 2013-03-04T22:58:46+00:00
-url: /journal/2013/03/04/wehavepaws-print-finally-framed-looks-really-nice/
+url: /posts/2013/03/04/wehavepaws-print-finally-framed-looks-really-nice/
 categories:
   - Photos
 tags:

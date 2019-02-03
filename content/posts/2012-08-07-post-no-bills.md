@@ -1,9 +1,9 @@
 ---
 title: Post no bills
 author: admin
-type: post
+type: posts
 date: 2012-08-07T14:51:37+00:00
-url: /journal/2012/08/07/post-no-bills/
+url: /posts/2012/08/07/post-no-bills/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

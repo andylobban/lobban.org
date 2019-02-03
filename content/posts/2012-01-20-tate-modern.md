@@ -1,9 +1,9 @@
 ---
 title: Tate Modern
 author: admin
-type: post
+type: posts
 date: 2012-01-20T17:42:45+00:00
-url: /journal/2012/01/20/tate-modern/
+url: /posts/2012/01/20/tate-modern/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

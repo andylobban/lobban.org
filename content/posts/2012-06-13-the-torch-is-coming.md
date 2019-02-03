@@ -1,9 +1,9 @@
 ---
 title: The torch is coming
 author: admin
-type: post
+type: posts
 date: 2012-06-13T17:25:39+00:00
-url: /journal/2012/06/13/the-torch-is-coming/
+url: /posts/2012/06/13/the-torch-is-coming/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

@@ -1,9 +1,9 @@
 ---
 title: Obligatory Opera House shot
 author: admin
-type: post
+type: posts
 date: 2012-12-27T03:14:07+00:00
-url: /journal/2012/12/27/obligatory-opera-house-shot/
+url: /posts/2012/12/27/obligatory-opera-house-shot/
 categories:
   - Photos
 tags:

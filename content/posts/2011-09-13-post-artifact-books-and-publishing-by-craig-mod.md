@@ -1,14 +1,14 @@
 ---
 title: Post-Artifact Books and Publishing — by Craig Mod
 author: admin
-type: post
+type: posts
 date: 2011-09-13T11:57:50+00:00
 excerpt: |
   |
     
                     
                         A fantastic read on the possibilities of digital books. 
-url: /journal/2011/09/13/post-artifact-books-and-publishing-by-craig-mod/
+url: /posts/2011/09/13/post-artifact-books-and-publishing-by-craig-mod/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

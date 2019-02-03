@@ -1,9 +1,9 @@
 ---
 title: Wounded Knee stickers
 author: admin
-type: post
+type: posts
 date: 2011-10-18T10:54:51+00:00
-url: /journal/2011/10/18/wounded-knee-stickers/
+url: /posts/2011/10/18/wounded-knee-stickers/
 yourls_tweeted:
   - 1
 yourls_shorturl:

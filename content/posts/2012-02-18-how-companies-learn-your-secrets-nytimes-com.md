@@ -1,10 +1,10 @@
 ---
 title: How Companies Learn Your Secrets – NYTimes.com
 author: admin
-type: post
+type: posts
 date: 2012-02-18T07:54:27+00:00
 excerpt: Really interesting and terrifying article about tracking and privacy
-url: /journal/2012/02/18/how-companies-learn-your-secrets-nytimes-com/
+url: /posts/2012/02/18/how-companies-learn-your-secrets-nytimes-com/
 "rss:comments":
   - http://www.delicious.com/url/6cfb1719a32e1ef4c1b53d337b2e3017
 syndication_source_id:

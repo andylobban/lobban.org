@@ -1,9 +1,9 @@
 ---
 title: Happy New Year from Asakusa
 author: admin
-type: post
+type: posts
 date: 2012-12-31T16:48:01+00:00
-url: /journal/2012/12/31/happy-new-year-from-asakusa/
+url: /posts/2012/12/31/happy-new-year-from-asakusa/
 categories:
   - Photos
 tags:

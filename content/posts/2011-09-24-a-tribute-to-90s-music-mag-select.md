@@ -1,9 +1,9 @@
 ---
 title: A tribute to 90s music mag Select
 author: admin
-type: post
+type: posts
 date: 2011-09-24T01:41:56+00:00
-url: /journal/2011/09/24/a-tribute-to-90s-music-mag-select/
+url: /posts/2011/09/24/a-tribute-to-90s-music-mag-select/
 yourls_shorturl:
   - http://lobban.org/i/ca
 syndication_feed_id:

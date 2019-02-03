@@ -1,9 +1,9 @@
 ---
 title: Diana Mini photos from New York
 author: admin
-type: post
+type: posts
 date: 2011-04-30T10:23:55+00:00
-url: /journal/2011/04/30/diana-mini-photos-from-new-york/
+url: /posts/2011/04/30/diana-mini-photos-from-new-york/
 yourls_tweeted:
   - 1
 yourls_shorturl:

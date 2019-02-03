@@ -1,10 +1,10 @@
 ---
 title: Lianne La Havas ~ Forget ( TIP’s New Jack Thing Rework ) by T.I.P
 author: admin
-type: post
+type: posts
 date: 2012-02-16T15:02:02+00:00
 excerpt: "I'm not a fan of Lianne La Havas but this Two Inch Punch remix is great."
-url: /journal/2012/02/16/lianne-la-havas-forget-tips-new-jack-thing-rework-by-t-i-p/
+url: /posts/2012/02/16/lianne-la-havas-forget-tips-new-jack-thing-rework-by-t-i-p/
 syndication_item_hash:
   - 89248354fa13a4c59e226098ccfa9c1e
 aktt_notify_twitter:

@@ -1,9 +1,9 @@
 ---
 title: 'Maximo Park Remix: Amazing'
 author: admin
-type: post
+type: posts
 date: 2007-04-01T22:10:09+00:00
-url: /journal/2007/04/01/maximo-park-remix-amazing/
+url: /posts/2007/04/01/maximo-park-remix-amazing/
 yourls_shorturl:
   - http://lobban.org/i/8j
 categories:

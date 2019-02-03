@@ -1,10 +1,10 @@
 ---
 title: 14 Ways to Not Be a Terrible Music Fan
 author: admin
-type: post
+type: posts
 date: 2011-10-04T14:37:07+00:00
 excerpt: via @songbytoad
-url: /journal/2011/10/04/14-ways-to-not-be-a-terrible-music-fan/
+url: /posts/2011/10/04/14-ways-to-not-be-a-terrible-music-fan/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

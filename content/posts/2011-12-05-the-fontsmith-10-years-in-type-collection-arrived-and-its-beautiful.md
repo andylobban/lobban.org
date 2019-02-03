@@ -1,9 +1,9 @@
 ---
 title: The @fontsmith 10 Years in Type collection arrived and it’s beautiful.
 author: admin
-type: post
+type: posts
 date: 2011-12-05T12:56:43+00:00
-url: /journal/2011/12/05/the-fontsmith-10-years-in-type-collection-arrived-and-its-beautiful/
+url: /posts/2011/12/05/the-fontsmith-10-years-in-type-collection-arrived-and-its-beautiful/
 yourls_tweeted:
   - 1
 yourls_shorturl:

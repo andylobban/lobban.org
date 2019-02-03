@@ -1,9 +1,9 @@
 ---
 title: Morning light
 author: admin
-type: post
+type: posts
 date: 2013-12-06T09:29:23+00:00
-url: /journal/2013/12/06/morning-light/
+url: /posts/2013/12/06/morning-light/
 categories:
   - Photos
 tags:

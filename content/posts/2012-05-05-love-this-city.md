@@ -1,9 +1,9 @@
 ---
 title: Love this city
 author: admin
-type: post
+type: posts
 date: 2012-05-05T15:44:41+00:00
-url: /journal/2012/05/05/love-this-city/
+url: /posts/2012/05/05/love-this-city/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

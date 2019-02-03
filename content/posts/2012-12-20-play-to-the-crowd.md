@@ -1,9 +1,9 @@
 ---
 title: Play to the crowd
 author: admin
-type: post
+type: posts
 date: 2012-12-20T21:56:32+00:00
-url: /journal/2012/12/20/play-to-the-crowd/
+url: /posts/2012/12/20/play-to-the-crowd/
 categories:
   - Photos
 tags:

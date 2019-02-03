@@ -1,10 +1,10 @@
 ---
 title: Whitney Houston – How Will I Know – YouTube
 author: admin
-type: post
+type: posts
 date: 2012-02-12T17:09:26+00:00
 excerpt: "The 'How Will I Know' video is actually brilliant. RIP."
-url: /journal/2012/02/12/whitney-houston-how-will-i-know-youtube/
+url: /posts/2012/02/12/whitney-houston-how-will-i-know-youtube/
 syndication_item_hash:
   - 78c21f86685c75a245ad845920ac8e7d
 syndication_permalink:

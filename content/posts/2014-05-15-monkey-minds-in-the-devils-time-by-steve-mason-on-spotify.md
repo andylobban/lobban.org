@@ -1,9 +1,9 @@
 ---
 title: Monkey Minds In the Devil’s Time by Steve Mason on Spotify
 author: admin
-type: post
+type: posts
 date: 2014-05-15T09:44:23+00:00
-url: /journal/2014/05/15/monkey-minds-in-the-devils-time-by-steve-mason-on-spotify/
+url: /posts/2014/05/15/monkey-minds-in-the-devils-time-by-steve-mason-on-spotify/
 categories:
   - Links
 tags:

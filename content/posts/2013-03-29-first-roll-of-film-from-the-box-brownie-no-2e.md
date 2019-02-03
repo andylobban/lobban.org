@@ -1,9 +1,9 @@
 ---
 title: First roll of film from the Box Brownie No.2E
 author: admin
-type: post
+type: posts
 date: 2013-03-29T16:28:56+00:00
-url: /journal/2013/03/29/first-roll-of-film-from-the-box-brownie-no-2e/
+url: /posts/2013/03/29/first-roll-of-film-from-the-box-brownie-no-2e/
 categories:
   - Photos
 

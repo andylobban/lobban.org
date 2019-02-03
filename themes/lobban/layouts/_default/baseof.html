@@ -36,25 +36,28 @@
 			})();
 		</script>
 
-        <title>Andy Lobban</title>
-        <meta name="description" content="Edinburgh, Scotland. Head of UX &amp; Design at FanDuel, co-owner of Gerry Loves Records, owner of Secret Editions."/>
-        <link rel="canonical" href="https://lobban.org/" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Andy Lobban" />
-        <meta property="og:description" content="Edinburgh, Scotland. Head of UX &amp; Design at FanDuel, co-owner of Gerry Loves Records, owner of Secret Editions." />
-        <meta property="og:url" content="https://lobban.org/" />
-        <meta property="og:site_name" content="Andy Lobban" />
-        <meta property="og:image" content="http://lobban.org/wp-content/themes/lobban/dist/images/apple-touch-icon.png" />
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:description" content="Edinburgh, Scotland. Head of UX &amp; Design at FanDuel, co-owner of Gerry Loves Records, owner of Secret Editions." />
-        <meta name="twitter:title" content="Andy Lobban" />
-        <meta name="twitter:site" content="@andylobban" />
-        <meta name="twitter:image" content="http://lobban.org/wp-content/themes/lobban/dist/images/apple-touch-icon.png" />
-        <meta name="twitter:creator" content="@andylobban" />
-        <script type='application/ld+json'>{"@context":"https://schema.org","@type":"WebSite","@id":"https://lobban.org/#website","url":"https://lobban.org/","name":"Andy Lobban","potentialAction":{"@type":"SearchAction","target":"https://lobban.org/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+        <title>{{ block "title_full" .}}{{ block "title" . }}{{ .Title }}{{ end }} | {{ .Site.Title }}{{ end }}</title>
+	    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+
+        <link rel="canonical" href="{{ .Permalink }}" />
+        <script type='application/ld+json'>{"@context":"https://schema.org","@type":"WebSite","@id":"https://lobban.org/#website","url":"https://lobban.org/","name":"Andy Lobban"}}</script>
         <script type='application/ld+json'>{"@context":"https://schema.org","@type":"Person","url":"https://lobban.org/","sameAs":["https://www.facebook.com/andylobban","https://instagram.com/andylobban","https://www.linkedin.com/in/andylobban","https://www.youtube.com/c/AndyLobban","https://www.pinterest.com/nonimage/","https://twitter.com/andylobban"],"@id":"#person","name":"Andy Lobban"}</script>
         <meta name="p:domain_verify" content="e35f164dd8f100ee5c0362b57da5479d" />
+
+        <meta property="og:title" content="{{ .Title }}" />
+        <meta property="og:locale" content="{{ .Site.Params.locale }}" />
+        <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
+        <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
+        <meta property="og:url" content="{{ .Permalink }}" />
+        <meta property="og:site_name" content="{{ .Site.Params.title }}" />
+
+        <meta name="twitter:title" content="{{ .Title }}" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
+        <meta name="twitter:site" content="@andylobban" />
+        <meta name="twitter:creator" content="@andylobban" />
+
+        {{ if .RSSLink }}<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />{{ end }}
 
     </head>
 
@@ -94,7 +97,9 @@
             ga('send', 'pageview');
         </script>
 
-        <script src="<?php echo get_template_directory_uri(); ?>/dist/js/app.js"></script>
+        {{ $fluidvids := resources.Get "js/fluidvids.js" }}
+    	{{ $scripts := slice $fluidvids | resources.Concat "js/app.js" | minify | fingerprint }}
+    	<script src="{{ $scripts.Permalink }}" integrity="{{ $scripts.Data.Integrity }}" media="screen"></script>
 
         <script>
             fluidvids.init({

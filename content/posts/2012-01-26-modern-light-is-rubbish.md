@@ -1,9 +1,9 @@
 ---
 title: Modern light is rubbish
 author: admin
-type: post
+type: posts
 date: 2012-01-26T11:22:05+00:00
-url: /journal/2012/01/26/modern-light-is-rubbish/
+url: /posts/2012/01/26/modern-light-is-rubbish/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

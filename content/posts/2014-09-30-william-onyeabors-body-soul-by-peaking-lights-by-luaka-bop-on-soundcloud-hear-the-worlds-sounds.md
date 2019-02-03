@@ -1,9 +1,9 @@
 ---
 title: 'William Onyeabor’s “Body & Soul” by Peaking Lights by Luaka Bop on SoundCloud – Hear the world’s sounds'
 author: admin
-type: post
+type: posts
 date: 2014-09-30T10:31:58+00:00
-url: /journal/2014/09/30/william-onyeabors-body-soul-by-peaking-lights-by-luaka-bop-on-soundcloud-hear-the-worlds-sounds/
+url: /posts/2014/09/30/william-onyeabors-body-soul-by-peaking-lights-by-luaka-bop-on-soundcloud-hear-the-worlds-sounds/
 categories:
   - Links
 tags:

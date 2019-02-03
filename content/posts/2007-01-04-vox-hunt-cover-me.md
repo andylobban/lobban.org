@@ -1,9 +1,9 @@
 ---
 title: 'Vox Hunt: Cover Me'
 author: admin
-type: post
+type: posts
 date: 2007-01-04T19:05:59+00:00
-url: /journal/2007/01/04/vox-hunt-cover-me/
+url: /posts/2007/01/04/vox-hunt-cover-me/
 yourls_shorturl:
   - http://lobban.org/i/9i
 categories:

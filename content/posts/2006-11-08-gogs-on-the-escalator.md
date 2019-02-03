@@ -1,9 +1,9 @@
 ---
 title: Gogs On The Escalator
 author: admin
-type: post
+type: posts
 date: 2006-11-08T12:57:43+00:00
-url: /journal/2006/11/08/gogs-on-the-escalator/
+url: /posts/2006/11/08/gogs-on-the-escalator/
 yourls_shorturl:
   - http://lobban.org/i/7p
 categories:

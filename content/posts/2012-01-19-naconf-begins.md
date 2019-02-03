@@ -1,9 +1,9 @@
 ---
 title: '#naconf begins'
 author: admin
-type: post
+type: posts
 date: 2012-01-19T09:43:27+00:00
-url: /journal/2012/01/19/naconf-begins/
+url: /posts/2012/01/19/naconf-begins/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

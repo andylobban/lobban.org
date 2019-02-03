@@ -1,9 +1,9 @@
 ---
 title: Squared circles
 author: admin
-type: post
+type: posts
 date: 2013-04-14T21:24:41+00:00
-url: /journal/2013/04/14/squared-circles/
+url: /posts/2013/04/14/squared-circles/
 categories:
   - Photos
 tags:

@@ -1,9 +1,9 @@
 ---
 title: Serious Bison – Episode 2
 author: admin
-type: post
+type: posts
 date: 2012-08-30T11:50:06+00:00
-url: /journal/2012/08/30/serious-bison-episode-2/
+url: /posts/2012/08/30/serious-bison-episode-2/
 aktt_notify_twitter:
   - yes
 yourls_shorturl:

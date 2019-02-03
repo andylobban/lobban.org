@@ -1,9 +1,9 @@
 ---
 title: The Forever Mixtape – September 2011
 author: admin
-type: post
+type: posts
 date: 2011-09-21T11:30:02+00:00
-url: /journal/2011/09/21/the-forever-mixtape-september-2011/
+url: /posts/2011/09/21/the-forever-mixtape-september-2011/
 yourls_tweeted:
   - 1
 yourls_shorturl:

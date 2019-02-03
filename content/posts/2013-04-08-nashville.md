@@ -1,9 +1,9 @@
 ---
 title: Nashville
 author: admin
-type: post
+type: posts
 date: 2013-04-08T21:55:27+00:00
-url: /journal/2013/04/08/nashville/
+url: /posts/2013/04/08/nashville/
 categories:
   - Photos
 

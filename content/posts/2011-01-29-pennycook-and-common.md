@@ -1,9 +1,9 @@
 ---
 title: Pennycook and Common
 author: admin
-type: post
+type: posts
 date: 2011-01-29T17:02:27+00:00
-url: /journal/2011/01/29/pennycook-and-common/
+url: /posts/2011/01/29/pennycook-and-common/
 yourls_shorturl:
   - http://lobban.org/i/i
 categories:

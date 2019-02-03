@@ -1,9 +1,9 @@
 ---
 title: Serious kit
 author: admin
-type: post
+type: posts
 date: 2013-05-14T11:29:40+00:00
-url: /journal/2013/05/14/serious-kit/
+url: /posts/2013/05/14/serious-kit/
 categories:
   - Photos
 tags:

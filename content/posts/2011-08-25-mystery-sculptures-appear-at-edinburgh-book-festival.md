@@ -1,10 +1,10 @@
 ---
 title: Mystery sculptures appear at Edinburgh book festival
 author: admin
-type: post
+type: posts
 date: 2011-08-25T08:29:25+00:00
 excerpt: I love that someone is taking so much time and effort to do this.
-url: /journal/2011/08/25/mystery-sculptures-appear-at-edinburgh-book-festival/
+url: /posts/2011/08/25/mystery-sculptures-appear-at-edinburgh-book-festival/
 yourls_shorturl:
   - http://lobban.org/i/bn
 yourls_tweeted:

@@ -1,9 +1,9 @@
 ---
 title: Last of the snow
 author: admin
-type: post
+type: posts
 date: 2012-05-26T15:29:36+00:00
-url: /journal/2012/05/26/last-of-the-snow/
+url: /posts/2012/05/26/last-of-the-snow/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

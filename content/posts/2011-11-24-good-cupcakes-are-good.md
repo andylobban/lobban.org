@@ -1,9 +1,9 @@
 ---
 title: Good cupcakes are good
 author: admin
-type: post
+type: posts
 date: 2011-11-24T17:08:39+00:00
-url: /journal/2011/11/24/good-cupcakes-are-good/
+url: /posts/2011/11/24/good-cupcakes-are-good/
 yourls_tweeted:
   - 1
 yourls_shorturl:

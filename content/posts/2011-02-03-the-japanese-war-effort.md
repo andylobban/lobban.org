@@ -1,9 +1,9 @@
 ---
 title: The Japanese War Effort
 author: admin
-type: post
+type: posts
 date: 2011-02-03T18:54:25+00:00
-url: /journal/2011/02/03/the-japanese-war-effort/
+url: /posts/2011/02/03/the-japanese-war-effort/
 yourls_shorturl:
   - http://lobban.org/i/j
 categories:

@@ -1,9 +1,9 @@
 ---
 title: 'It’s Nice That : Matthew Frost nails awkward selfie culture in new Kirsten Dunst short'
 author: admin
-type: post
+type: posts
 date: 2014-09-24T08:54:13+00:00
-url: /journal/2014/09/24/its-nice-that-matthew-frost-nails-awkward-selfie-culture-in-new-kirsten-dunst-short/
+url: /posts/2014/09/24/its-nice-that-matthew-frost-nails-awkward-selfie-culture-in-new-kirsten-dunst-short/
 categories:
   - Links
 tags:

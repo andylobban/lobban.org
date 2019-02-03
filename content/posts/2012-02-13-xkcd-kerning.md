@@ -1,10 +1,10 @@
 ---
 title: 'xkcd: Kerning'
 author: admin
-type: post
+type: posts
 date: 2012-02-13T13:54:27+00:00
 excerpt: "If you really hate someone, teach them to recognise bad kerning"
-url: /journal/2012/02/13/xkcd-kerning/
+url: /posts/2012/02/13/xkcd-kerning/
 aktt_notify_twitter:
   - no
 syndication_item_hash:

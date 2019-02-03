@@ -1,10 +1,10 @@
 ---
 title: 'Going Deaf For A Living: MC Rut'
 author: admin
-type: post
+type: posts
 date: 2012-01-06T16:59:12+00:00
 excerpt: Love Steve Lamacq’s rant about the middle class destroying Rock n Roll
-url: /journal/2012/01/06/going-deaf-for-a-living-mc-rut/
+url: /posts/2012/01/06/going-deaf-for-a-living-mc-rut/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

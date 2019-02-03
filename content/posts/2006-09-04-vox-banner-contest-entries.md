@@ -1,9 +1,9 @@
 ---
 title: vox banner contest entries
 author: admin
-type: post
+type: posts
 date: 2006-09-04T16:45:02+00:00
-url: /journal/2006/09/04/vox-banner-contest-entries/
+url: /posts/2006/09/04/vox-banner-contest-entries/
 yourls_shorturl:
   - http://lobban.org/i/9y
 categories:

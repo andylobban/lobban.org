@@ -1,9 +1,9 @@
 ---
 title: Many faces
 author: admin
-type: post
+type: posts
 date: 2011-09-24T07:24:16+00:00
-url: /journal/2011/09/24/many-faces/
+url: /posts/2011/09/24/many-faces/
 yourls_tweeted:
   - 1
 yourls_shorturl:

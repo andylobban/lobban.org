@@ -1,9 +1,9 @@
 ---
 title: Today is already getting out of control
 author: admin
-type: post
+type: posts
 date: 2011-08-12T13:37:15+00:00
-url: /journal/2011/08/12/today-is-already-getting-out-of-control/
+url: /posts/2011/08/12/today-is-already-getting-out-of-control/
 yourls_tweeted:
   - 1
 yourls_shorturl:

@@ -1,9 +1,9 @@
 ---
 title: PhilliPAWS on the bar
 author: admin
-type: post
+type: posts
 date: 2013-03-14T15:23:18+00:00
-url: /journal/2013/03/14/phillipaws-on-the-bar/
+url: /posts/2013/03/14/phillipaws-on-the-bar/
 categories:
   - Photos
 tags:

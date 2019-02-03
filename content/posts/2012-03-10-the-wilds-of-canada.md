@@ -1,9 +1,9 @@
 ---
 title: The wilds of Canada
 author: admin
-type: post
+type: posts
 date: 2012-03-10T22:09:43+00:00
-url: /journal/2012/03/10/the-wilds-of-canada/
+url: /posts/2012/03/10/the-wilds-of-canada/
 aktt_notify_twitter:
   - yes
 yourls_shorturl:

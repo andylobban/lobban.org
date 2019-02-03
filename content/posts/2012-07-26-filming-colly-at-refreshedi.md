@@ -1,9 +1,9 @@
 ---
 title: 'Filming @colly at #refreshedi'
 author: admin
-type: post
+type: posts
 date: 2012-07-26T20:48:49+00:00
-url: /journal/2012/07/26/filming-colly-at-refreshedi/
+url: /posts/2012/07/26/filming-colly-at-refreshedi/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

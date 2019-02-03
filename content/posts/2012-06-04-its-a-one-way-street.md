@@ -1,9 +1,9 @@
 ---
 title: It’s a one way street
 author: admin
-type: post
+type: posts
 date: 2012-06-04T15:57:57+00:00
-url: /journal/2012/06/04/its-a-one-way-street/
+url: /posts/2012/06/04/its-a-one-way-street/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

@@ -1,9 +1,9 @@
 ---
 title: 'Vox Hunt: Oops'
 author: admin
-type: post
+type: posts
 date: 2006-09-05T09:51:15+00:00
-url: /journal/2006/09/05/vox-hunt-oops/
+url: /posts/2006/09/05/vox-hunt-oops/
 yourls_shorturl:
   - http://lobban.org/i/9t
 categories:

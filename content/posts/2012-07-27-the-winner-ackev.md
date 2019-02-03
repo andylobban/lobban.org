@@ -1,9 +1,9 @@
 ---
 title: The winner, @ackev
 author: admin
-type: post
+type: posts
 date: 2012-07-27T18:27:41+00:00
-url: /journal/2012/07/27/the-winner-ackev/
+url: /posts/2012/07/27/the-winner-ackev/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

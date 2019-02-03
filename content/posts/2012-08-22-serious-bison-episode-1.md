@@ -1,9 +1,9 @@
 ---
 title: Serious Bison – Episode 1
 author: admin
-type: post
+type: posts
 date: 2012-08-22T19:21:50+00:00
-url: /journal/2012/08/22/serious-bison-episode-1/
+url: /posts/2012/08/22/serious-bison-episode-1/
 aktt_notify_twitter:
   - no
 yourls_shorturl:

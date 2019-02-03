@@ -1,9 +1,9 @@
 ---
 title: 'Vox Hunt: Take Comfort'
 author: admin
-type: post
+type: posts
 date: 2006-09-07T09:51:19+00:00
-url: /journal/2006/09/07/vox-hunt-take-comfort/
+url: /posts/2006/09/07/vox-hunt-take-comfort/
 yourls_shorturl:
   - http://lobban.org/i/9s
 categories:

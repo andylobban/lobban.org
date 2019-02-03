@@ -1,9 +1,9 @@
 ---
 title: Breakfast at @stormid is getting out of hand
 author: admin
-type: post
+type: posts
 date: 2012-03-09T09:23:52+00:00
-url: /journal/2012/03/09/breakfast-at-stormid-is-getting-out-of-hand/
+url: /posts/2012/03/09/breakfast-at-stormid-is-getting-out-of-hand/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

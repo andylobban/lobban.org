@@ -1,9 +1,9 @@
 ---
 title: 'The Postal Service – Everything Will Change [OFFICIAL DVD TRAILER] – YouTube'
 author: admin
-type: post
+type: posts
 date: 2014-10-29T13:28:20+00:00
-url: /journal/2014/10/29/the-postal-service-everything-will-change-official-dvd-trailer-youtube/
+url: /posts/2014/10/29/the-postal-service-everything-will-change-official-dvd-trailer-youtube/
 categories:
   - Links
 tags:

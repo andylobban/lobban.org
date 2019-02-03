@@ -1,9 +1,9 @@
 ---
 title: Light, Paris
 author: admin
-type: post
+type: posts
 date: 2011-09-21T13:58:35+00:00
-url: /journal/2011/09/21/light-paris/
+url: /posts/2011/09/21/light-paris/
 yourls_tweeted:
   - 1
 yourls_shorturl:

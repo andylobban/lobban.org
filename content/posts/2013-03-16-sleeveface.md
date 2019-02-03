@@ -1,9 +1,9 @@
 ---
 title: Sleeveface
 author: admin
-type: post
+type: posts
 date: 2013-03-16T14:58:15+00:00
-url: /journal/2013/03/16/sleeveface/
+url: /posts/2013/03/16/sleeveface/
 categories:
   - Photos
 tags:

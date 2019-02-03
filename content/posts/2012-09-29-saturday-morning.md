@@ -1,9 +1,9 @@
 ---
 title: Saturday morning
 author: admin
-type: post
+type: posts
 date: 2012-09-29T09:01:44+00:00
-url: /journal/2012/09/29/saturday-morning/
+url: /posts/2012/09/29/saturday-morning/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

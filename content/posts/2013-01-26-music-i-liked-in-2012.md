@@ -1,9 +1,9 @@
 ---
 title: Music I liked in 2012
 author: admin
-type: post
+type: posts
 date: 2013-01-26T09:08:43+00:00
-url: /journal/2013/01/26/music-i-liked-in-2012/
+url: /posts/2013/01/26/music-i-liked-in-2012/
 categories:
   - Music
 

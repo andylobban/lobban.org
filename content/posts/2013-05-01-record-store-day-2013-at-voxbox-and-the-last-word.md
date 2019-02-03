@@ -1,9 +1,9 @@
 ---
 title: Record Store Day 2013 at Voxbox and The Last Word
 author: admin
-type: post
+type: posts
 date: 2013-05-01T20:07:45+00:00
-url: /journal/2013/05/01/record-store-day-2013-at-voxbox-and-the-last-word/
+url: /posts/2013/05/01/record-store-day-2013-at-voxbox-and-the-last-word/
 categories:
   - Music
   - Photos

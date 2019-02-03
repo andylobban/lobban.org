@@ -1,9 +1,9 @@
 ---
 title: Christmas in Glasgow
 author: admin
-type: post
+type: posts
 date: 2012-11-24T19:16:37+00:00
-url: /journal/2012/11/24/christmas-in-glasgow/
+url: /posts/2012/11/24/christmas-in-glasgow/
 categories:
   - Photos
 tags:

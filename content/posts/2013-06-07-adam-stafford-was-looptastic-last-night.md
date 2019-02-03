@@ -1,9 +1,9 @@
 ---
 title: Adam Stafford was looptastic last night
 author: admin
-type: post
+type: posts
 date: 2013-06-07T07:29:30+00:00
-url: /journal/2013/06/07/adam-stafford-was-looptastic-last-night/
+url: /posts/2013/06/07/adam-stafford-was-looptastic-last-night/
 categories:
   - Photos
 tags:

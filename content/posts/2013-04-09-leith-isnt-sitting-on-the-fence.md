@@ -1,9 +1,9 @@
 ---
 title: Leith isn’t sitting on the fence
 author: admin
-type: post
+type: posts
 date: 2013-04-09T08:44:18+00:00
-url: /journal/2013/04/09/leith-isnt-sitting-on-the-fence/
+url: /posts/2013/04/09/leith-isnt-sitting-on-the-fence/
 categories:
   - Photos
 tags:

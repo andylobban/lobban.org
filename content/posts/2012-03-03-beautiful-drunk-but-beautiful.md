@@ -1,9 +1,9 @@
 ---
 title: Beautiful. Drunk, but beautiful
 author: admin
-type: post
+type: posts
 date: 2012-03-03T19:41:49+00:00
-url: /journal/2012/03/03/beautiful-drunk-but-beautiful/
+url: /posts/2012/03/03/beautiful-drunk-but-beautiful/
 aktt_tweeted:
   - 1
 yourls_shorturl:

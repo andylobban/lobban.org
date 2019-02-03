@@ -1,9 +1,9 @@
 ---
 title: I Love You But I’ve Chosen Darkness
 author: admin
-type: post
+type: posts
 date: 2006-11-16T13:37:52+00:00
-url: /journal/2006/11/16/i-love-you-but-ive-chosen-darkness/
+url: /posts/2006/11/16/i-love-you-but-ive-chosen-darkness/
 yourls_shorturl:
   - http://lobban.org/i/7t
 categories:

@@ -1,9 +1,9 @@
 ---
 title: Hill reserve
 author: admin
-type: post
+type: posts
 date: 2012-10-02T14:34:07+00:00
-url: /journal/2012/10/02/hill-reserve/
+url: /posts/2012/10/02/hill-reserve/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

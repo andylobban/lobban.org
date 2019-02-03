@@ -1,9 +1,9 @@
 ---
 title: John Peel – King of the Anoraks on Song, by Toad
 author: admin
-type: post
+type: posts
 date: 2011-10-26T10:27:21+00:00
-url: /journal/2011/10/26/john-peel-king-of-the-anoraks-on-song-by-toad/
+url: /posts/2011/10/26/john-peel-king-of-the-anoraks-on-song-by-toad/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

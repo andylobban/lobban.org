@@ -1,9 +1,9 @@
 ---
 title: 'QotD: My Dream Job'
 author: admin
-type: post
+type: posts
 date: 2007-05-08T10:41:46+00:00
-url: /journal/2007/05/08/qotd-my-dream-job/
+url: /posts/2007/05/08/qotd-my-dream-job/
 yourls_shorturl:
   - http://lobban.org/i/8v
 categories:

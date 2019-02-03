@@ -1,9 +1,9 @@
 ---
 title: 'Listening: Kromatic'
 author: admin
-type: post
+type: posts
 date: 2011-09-16T13:25:56+00:00
-url: /journal/2011/09/16/listening-kromatic/
+url: /posts/2011/09/16/listening-kromatic/
 yourls_tweeted:
   - 1
 yourls_shorturl:

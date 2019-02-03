@@ -1,9 +1,9 @@
 ---
 title: Current status
 author: admin
-type: post
+type: posts
 date: 2011-07-10T20:42:08+00:00
-url: /journal/2011/07/10/current-status/
+url: /posts/2011/07/10/current-status/
 yourls_tweeted:
   - 1
 yourls_shorturl:

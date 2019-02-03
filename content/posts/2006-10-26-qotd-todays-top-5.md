@@ -1,9 +1,9 @@
 ---
 title: 'QotD: Today’s Top 5'
 author: admin
-type: post
+type: posts
 date: 2006-10-26T14:39:10+00:00
-url: /journal/2006/10/26/qotd-todays-top-5/
+url: /posts/2006/10/26/qotd-todays-top-5/
 yourls_shorturl:
   - http://lobban.org/i/7g
 categories:

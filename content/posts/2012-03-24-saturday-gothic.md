@@ -1,9 +1,9 @@
 ---
 title: Saturday gothic
 author: admin
-type: post
+type: posts
 date: 2012-03-24T18:29:36+00:00
-url: /journal/2012/03/24/saturday-gothic/
+url: /posts/2012/03/24/saturday-gothic/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

@@ -1,10 +1,10 @@
 ---
 title: Bookshelf Porn
 author: admin
-type: post
+type: posts
 date: 2012-01-14T11:33:04+00:00
 excerpt: "It's amazing how much I can enjoy looking at photos of bookshelves"
-url: /journal/2012/01/14/bookshelf-porn/
+url: /posts/2012/01/14/bookshelf-porn/
 syndication_item_hash:
   - 5c7b5b8c68baff2d7bf8e3010b8affa3
 syndication_permalink:

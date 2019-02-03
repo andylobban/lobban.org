@@ -1,9 +1,9 @@
 ---
 title: 'QotD: In Heavy Rotation'
 author: admin
-type: post
+type: posts
 date: 2006-08-22T11:41:27+00:00
-url: /journal/2006/08/22/qotd-in-heavy-rotation/
+url: /posts/2006/08/22/qotd-in-heavy-rotation/
 yourls_shorturl:
   - http://lobban.org/i/6s
 categories:

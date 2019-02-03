@@ -1,9 +1,9 @@
 ---
 title: Nonimage Mixtapes Vol. 4
 author: admin
-type: post
+type: posts
 date: 2013-01-21T18:17:35+00:00
-url: /journal/2013/01/21/nonimage-mixtapes-vol-4/
+url: /posts/2013/01/21/nonimage-mixtapes-vol-4/
 enclosure:
   - |
     |

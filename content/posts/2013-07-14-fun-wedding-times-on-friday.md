@@ -1,9 +1,9 @@
 ---
 title: Fun wedding times on Friday
 author: admin
-type: post
+type: posts
 date: 2013-07-14T16:32:43+00:00
-url: /journal/2013/07/14/fun-wedding-times-on-friday/
+url: /posts/2013/07/14/fun-wedding-times-on-friday/
 categories:
   - Photos
 tags:

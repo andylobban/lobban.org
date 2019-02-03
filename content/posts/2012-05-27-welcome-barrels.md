@@ -1,9 +1,9 @@
 ---
 title: Welcome barrels
 author: admin
-type: post
+type: posts
 date: 2012-05-27T22:44:38+00:00
-url: /journal/2012/05/27/welcome-barrels/
+url: /posts/2012/05/27/welcome-barrels/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

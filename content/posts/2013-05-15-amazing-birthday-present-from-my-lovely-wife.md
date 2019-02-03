@@ -1,9 +1,9 @@
 ---
 title: Amazing birthday present from my lovely wife.
 author: admin
-type: post
+type: posts
 date: 2013-05-15T09:29:40+00:00
-url: /journal/2013/05/15/amazing-birthday-present-from-my-lovely-wife/
+url: /posts/2013/05/15/amazing-birthday-present-from-my-lovely-wife/
 categories:
   - Photos
 tags:

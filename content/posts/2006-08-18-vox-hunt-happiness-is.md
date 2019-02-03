@@ -1,9 +1,9 @@
 ---
 title: 'Vox Hunt: Happiness Is…'
 author: admin
-type: post
+type: posts
 date: 2006-08-18T14:39:24+00:00
-url: /journal/2006/08/18/vox-hunt-happiness-is/
+url: /posts/2006/08/18/vox-hunt-happiness-is/
 yourls_shorturl:
   - http://lobban.org/i/a3
 categories:

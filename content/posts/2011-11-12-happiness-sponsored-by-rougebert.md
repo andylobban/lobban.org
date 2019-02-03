@@ -1,9 +1,9 @@
 ---
 title: Happiness, sponsored by @rougebert
 author: admin
-type: post
+type: posts
 date: 2011-11-12T16:15:32+00:00
-url: /journal/2011/11/12/happiness-sponsored-by-rougebert/
+url: /posts/2011/11/12/happiness-sponsored-by-rougebert/
 yourls_tweeted:
   - 1
 yourls_shorturl:

@@ -1,9 +1,9 @@
 ---
 title: Do not marvel…
 author: admin
-type: post
+type: posts
 date: 2013-09-28T14:32:13+00:00
-url: /journal/2013/09/28/do-not-marvel/
+url: /posts/2013/09/28/do-not-marvel/
 categories:
   - Photos
 tags:

@@ -1,9 +1,9 @@
 ---
 title: Nicely done @KirkcudbrightTC and @alohatigers
 author: admin
-type: post
+type: posts
 date: 2012-03-06T10:44:30+00:00
-url: /journal/2012/03/06/nicely-done-kirkcudbrighttc-and-alohatigers-2/
+url: /posts/2012/03/06/nicely-done-kirkcudbrighttc-and-alohatigers-2/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

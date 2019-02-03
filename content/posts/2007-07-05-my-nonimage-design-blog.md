@@ -1,9 +1,9 @@
 ---
 title: My Nonimage Design Blog
 author: admin
-type: post
+type: posts
 date: 2007-07-05T11:14:15+00:00
-url: /journal/2007/07/05/my-nonimage-design-blog/
+url: /posts/2007/07/05/my-nonimage-design-blog/
 yourls_shorturl:
   - http://lobban.org/i/95
 categories:

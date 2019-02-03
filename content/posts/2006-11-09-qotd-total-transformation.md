@@ -1,9 +1,9 @@
 ---
 title: 'QotD: Total Transformation'
 author: admin
-type: post
+type: posts
 date: 2006-11-09T15:45:59+00:00
-url: /journal/2006/11/09/qotd-total-transformation/
+url: /posts/2006/11/09/qotd-total-transformation/
 yourls_shorturl:
   - http://lobban.org/i/7r
 categories:

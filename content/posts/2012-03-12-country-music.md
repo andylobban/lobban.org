@@ -1,9 +1,9 @@
 ---
 title: Country music
 author: admin
-type: post
+type: posts
 date: 2012-03-12T13:46:17+00:00
-url: /journal/2012/03/12/country-music/
+url: /posts/2012/03/12/country-music/
 aktt_notify_twitter:
   - yes
 yourls_shorturl:

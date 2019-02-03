@@ -1,9 +1,9 @@
 ---
 title: You can’t lose
 author: admin
-type: post
+type: posts
 date: 2013-02-10T18:28:47+00:00
-url: /journal/2013/02/10/you-cant-lose/
+url: /posts/2013/02/10/you-cant-lose/
 categories:
   - Photos
 tags:

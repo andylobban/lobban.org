@@ -1,9 +1,9 @@
 ---
 title: The Wacom Inkling looks amazing
 author: admin
-type: post
+type: posts
 date: 2011-08-30T10:43:29+00:00
-url: /journal/2011/08/30/the-wacom-inkling-looks-amazing/
+url: /posts/2011/08/30/the-wacom-inkling-looks-amazing/
 yourls_shorturl:
   - http://lobban.org/i/bp
 yourls_tweeted:

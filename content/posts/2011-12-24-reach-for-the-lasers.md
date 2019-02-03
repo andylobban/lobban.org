@@ -1,9 +1,9 @@
 ---
 title: Reach for the lasers
 author: admin
-type: post
+type: posts
 date: 2011-12-24T18:12:17+00:00
-url: /journal/2011/12/24/reach-for-the-lasers/
+url: /posts/2011/12/24/reach-for-the-lasers/
 yourls_shorturl:
   - http://lobban.org/i/dh
 categories:

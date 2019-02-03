@@ -1,9 +1,9 @@
 ---
 title: Responsive Design on Sharepoint 2010
 author: admin
-type: post
+type: posts
 date: 2012-02-03T15:31:00+00:00
-url: /journal/2012/02/03/we-like-a-challenge-responsive-design-on-sharepoint-2010/
+url: /posts/2012/02/03/we-like-a-challenge-responsive-design-on-sharepoint-2010/
 blogger_blog:
   - blog.stormid.com
 blogger_author:

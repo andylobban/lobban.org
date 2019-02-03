@@ -1,9 +1,9 @@
 ---
 title: Pretty vacant
 author: admin
-type: post
+type: posts
 date: 2012-12-05T08:58:20+00:00
-url: /journal/2012/12/05/pretty-vacant/
+url: /posts/2012/12/05/pretty-vacant/
 categories:
   - Photos
 tags:

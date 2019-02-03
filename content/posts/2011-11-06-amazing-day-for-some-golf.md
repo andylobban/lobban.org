@@ -1,9 +1,9 @@
 ---
 title: Amazing day for some golf
 author: admin
-type: post
+type: posts
 date: 2011-11-06T16:33:25+00:00
-url: /journal/2011/11/06/amazing-day-for-some-golf/
+url: /posts/2011/11/06/amazing-day-for-some-golf/
 yourls_tweeted:
   - 1
 yourls_shorturl:

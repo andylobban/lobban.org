@@ -1,9 +1,9 @@
 ---
 title: Greenhouses
 author: admin
-type: post
+type: posts
 date: 2013-02-26T18:46:21+00:00
-url: /journal/2013/02/26/greenhouses/
+url: /posts/2013/02/26/greenhouses/
 categories:
   - Photos
 tags:

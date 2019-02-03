@@ -1,9 +1,9 @@
 ---
 title: Not forgotten
 author: admin
-type: post
+type: posts
 date: 2011-09-10T16:14:18+00:00
-url: /journal/2011/09/10/not-forgotten/
+url: /posts/2011/09/10/not-forgotten/
 yourls_tweeted:
   - 1
 yourls_shorturl:

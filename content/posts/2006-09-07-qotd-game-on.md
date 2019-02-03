@@ -1,9 +1,9 @@
 ---
 title: 'QotD: Game On'
 author: admin
-type: post
+type: posts
 date: 2006-09-07T09:42:44+00:00
-url: /journal/2006/09/07/qotd-game-on/
+url: /posts/2006/09/07/qotd-game-on/
 yourls_shorturl:
   - http://lobban.org/i/9p
 categories:

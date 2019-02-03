@@ -1,9 +1,9 @@
 ---
 title: Found film from a Box Brownie
 author: admin
-type: post
+type: posts
 date: 2013-01-14T21:59:16+00:00
-url: /journal/2013/01/14/found-film-from-a-box-brownie/
+url: /posts/2013/01/14/found-film-from-a-box-brownie/
 yourls_fetching:
   - 1
 categories:

@@ -1,9 +1,9 @@
 ---
 title: Millions Must Work Forever
 author: admin
-type: post
+type: posts
 date: 2013-04-17T19:20:16+00:00
-url: /journal/2013/04/17/millions-must-work-forever/
+url: /posts/2013/04/17/millions-must-work-forever/
 categories:
   - Photos
 tags:

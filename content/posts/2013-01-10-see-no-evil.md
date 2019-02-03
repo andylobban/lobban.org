@@ -1,9 +1,9 @@
 ---
 title: See no evil
 author: admin
-type: post
+type: posts
 date: 2013-01-10T22:29:15+00:00
-url: /journal/2013/01/10/see-no-evil/
+url: /posts/2013/01/10/see-no-evil/
 categories:
   - Photos
 tags:

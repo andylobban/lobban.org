@@ -1,9 +1,9 @@
 ---
 title: “Leith isn’t Edinburgh”
 author: admin
-type: post
+type: posts
 date: 2013-03-31T16:53:43+00:00
-url: /journal/2013/03/31/leith-isnt-edinburgh/
+url: /posts/2013/03/31/leith-isnt-edinburgh/
 categories:
   - Photos
 tags:

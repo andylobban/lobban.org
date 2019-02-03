@@ -1,9 +1,9 @@
 ---
 title: 'QotD: Written By Yours Truly'
 author: admin
-type: post
+type: posts
 date: 2006-09-06T11:07:05+00:00
-url: /journal/2006/09/06/qotd-written-by-yours-truly/
+url: /posts/2006/09/06/qotd-written-by-yours-truly/
 yourls_shorturl:
   - http://lobban.org/i/a1
 categories:

@@ -1,9 +1,9 @@
 ---
 title: Every day we make it
 author: admin
-type: post
+type: posts
 date: 2012-03-31T17:59:36+00:00
-url: /journal/2012/03/31/every-day-we-make-it/
+url: /posts/2012/03/31/every-day-we-make-it/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

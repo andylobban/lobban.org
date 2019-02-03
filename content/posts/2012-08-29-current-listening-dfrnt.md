@@ -1,9 +1,9 @@
 ---
 title: Current listening – @DFRNT
 author: admin
-type: post
+type: posts
 date: 2012-08-29T18:50:40+00:00
-url: /journal/2012/08/29/current-listening-dfrnt/
+url: /posts/2012/08/29/current-listening-dfrnt/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

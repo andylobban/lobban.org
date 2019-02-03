@@ -1,9 +1,9 @@
 ---
 title: Concentric
 author: admin
-type: post
+type: posts
 date: 2012-11-21T19:14:58+00:00
-url: /journal/2012/11/21/concentric/
+url: /posts/2012/11/21/concentric/
 categories:
   - Photos
 tags:

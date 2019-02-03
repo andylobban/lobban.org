@@ -1,9 +1,9 @@
 ---
 title: Bands I liked at SXSW 2013
 author: admin
-type: post
+type: posts
 date: 2013-09-17T18:08:58+00:00
-url: /journal/2013/09/17/bands-i-liked-at-sxsw-2013/
+url: /posts/2013/09/17/bands-i-liked-at-sxsw-2013/
 categories:
   - Music
 

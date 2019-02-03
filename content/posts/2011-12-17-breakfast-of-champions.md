@@ -1,9 +1,9 @@
 ---
 title: Breakfast of champions
 author: admin
-type: post
+type: posts
 date: 2011-12-17T09:39:33+00:00
-url: /journal/2011/12/17/breakfast-of-champions/
+url: /posts/2011/12/17/breakfast-of-champions/
 yourls_shorturl:
   - http://lobban.org/i/dd
 categories:

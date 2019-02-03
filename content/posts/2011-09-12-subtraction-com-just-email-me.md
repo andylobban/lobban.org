@@ -1,14 +1,14 @@
 ---
 title: 'Subtraction.com: Just Email Me'
 author: admin
-type: post
+type: posts
 date: 2011-09-12T18:16:50+00:00
 excerpt: |
   |
     
                     
                         The only thing Khoi didn't add was the ability to file and sort messages, which you can't do in Facebook, Flickr, etc.
-url: /journal/2011/09/12/subtraction-com-just-email-me/
+url: /posts/2011/09/12/subtraction-com-just-email-me/
 yourls_shorturl:
   - http://lobban.org/i/br
 yourls_tweeted:

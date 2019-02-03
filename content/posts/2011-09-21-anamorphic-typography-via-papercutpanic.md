@@ -1,9 +1,9 @@
 ---
 title: Anamorphic Typography /via @papercutpanic
 author: admin
-type: post
+type: posts
 date: 2011-09-21T04:57:59+00:00
-url: /journal/2011/09/21/anamorphic-typography-via-papercutpanic/
+url: /posts/2011/09/21/anamorphic-typography-via-papercutpanic/
 syndication_source_id:
   - http://feeds.delicious.com/v2/rss/nonimage/link?count=15
 syndication_source_uri:

@@ -1,10 +1,10 @@
 ---
 title: Incredible collaged maps by Matthew Cusick
 author: admin
-type: post
+type: posts
 date: 2011-10-12T20:15:15+00:00
 excerpt: Maps and art. What more could you want?
-url: /journal/2011/10/12/incredible-collaged-maps-by-matthew-cusick/
+url: /posts/2011/10/12/incredible-collaged-maps-by-matthew-cusick/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

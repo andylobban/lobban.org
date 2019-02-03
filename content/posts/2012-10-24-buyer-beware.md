@@ -1,9 +1,9 @@
 ---
 title: Buyer beware
 author: admin
-type: post
+type: posts
 date: 2012-10-24T21:05:59+00:00
-url: /journal/2012/10/24/buyer-beware/
+url: /posts/2012/10/24/buyer-beware/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

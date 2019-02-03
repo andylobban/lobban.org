@@ -1,9 +1,9 @@
 ---
 title: 'QotD: My Top 5 Candidates'
 author: admin
-type: post
+type: posts
 date: 2007-01-29T16:49:31+00:00
-url: /journal/2007/01/29/qotd-my-top-5-candidates/
+url: /posts/2007/01/29/qotd-my-top-5-candidates/
 yourls_shorturl:
   - http://lobban.org/i/87
 categories:

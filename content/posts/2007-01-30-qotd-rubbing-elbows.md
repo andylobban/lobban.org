@@ -1,9 +1,9 @@
 ---
 title: 'QotD: Rubbing Elbows'
 author: admin
-type: post
+type: posts
 date: 2007-01-30T09:11:53+00:00
-url: /journal/2007/01/30/qotd-rubbing-elbows/
+url: /posts/2007/01/30/qotd-rubbing-elbows/
 yourls_shorturl:
   - http://lobban.org/i/88
 categories:

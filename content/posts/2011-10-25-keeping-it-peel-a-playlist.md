@@ -1,9 +1,9 @@
 ---
 title: Keeping It Peel – a playlist
 author: admin
-type: post
+type: posts
 date: 2011-10-25T08:14:05+00:00
-url: /journal/2011/10/25/keeping-it-peel-a-playlist/
+url: /posts/2011/10/25/keeping-it-peel-a-playlist/
 yourls_tweeted:
   - 1
 yourls_shorturl:

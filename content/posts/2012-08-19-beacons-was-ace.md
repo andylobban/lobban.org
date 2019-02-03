@@ -1,9 +1,9 @@
 ---
 title: Beacons was ace
 author: admin
-type: post
+type: posts
 date: 2012-08-19T19:36:39+00:00
-url: /journal/2012/08/19/beacons-was-ace/
+url: /posts/2012/08/19/beacons-was-ace/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

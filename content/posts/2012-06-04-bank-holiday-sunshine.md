@@ -1,9 +1,9 @@
 ---
 title: Bank holiday sunshine
 author: admin
-type: post
+type: posts
 date: 2012-06-04T11:29:18+00:00
-url: /journal/2012/06/04/bank-holiday-sunshine/
+url: /posts/2012/06/04/bank-holiday-sunshine/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

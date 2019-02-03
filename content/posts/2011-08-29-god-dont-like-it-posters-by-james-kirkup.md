@@ -1,14 +1,14 @@
 ---
 title: God Don’t Like It posters by James Kirkup
 author: admin
-type: post
+type: posts
 date: 2011-08-29T12:35:40+00:00
 excerpt: |
   |
     
                     
                         Love these poster designs for God Don't Like It shows.
-url: /journal/2011/08/29/god-dont-like-it-posters-by-james-kirkup/
+url: /posts/2011/08/29/god-dont-like-it-posters-by-james-kirkup/
 yourls_tweeted:
   - 1
 yourls_shorturl:

@@ -1,9 +1,9 @@
 ---
 title: 'This could turn nasty #whisky #refreshedi'
 author: admin
-type: post
+type: posts
 date: 2011-07-07T19:45:52+00:00
-url: /journal/2011/07/07/this-could-turn-nasty-whisky-refreshedi/
+url: /posts/2011/07/07/this-could-turn-nasty-whisky-refreshedi/
 yourls_tweeted:
   - 1
 yourls_shorturl:

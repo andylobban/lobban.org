@@ -1,9 +1,9 @@
 ---
 title: Spectators at the iPhone Display
 author: admin
-type: post
+type: posts
 date: 2007-01-19T14:00:04+00:00
-url: /journal/2007/01/19/spectators-at-the-iphone-display/
+url: /posts/2007/01/19/spectators-at-the-iphone-display/
 yourls_shorturl:
   - http://lobban.org/i/83
 categories:

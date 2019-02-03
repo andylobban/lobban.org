@@ -1,9 +1,9 @@
 ---
 title: Canadian lunatic on the bus. Writing this and singing Scottish battle songs
 author: admin
-type: post
+type: posts
 date: 2013-09-03T12:29:47+00:00
-url: /journal/2013/09/03/canadian-lunatic-on-the-bus-writing-this-and-singing-scottish-battle-songs/
+url: /posts/2013/09/03/canadian-lunatic-on-the-bus-writing-this-and-singing-scottish-battle-songs/
 categories:
   - Photos
 tags:

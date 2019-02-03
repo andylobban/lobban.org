@@ -1,9 +1,9 @@
 ---
 title: Fingering a qwerty
 author: admin
-type: post
+type: posts
 date: 2014-01-17T16:23:21+00:00
-url: /journal/2014/01/17/fingering-a-qwerty/
+url: /posts/2014/01/17/fingering-a-qwerty/
 categories:
   - Photos
 tags:

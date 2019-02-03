@@ -1,9 +1,9 @@
 ---
 title: Royal Enfield
 author: admin
-type: post
+type: posts
 date: 2012-11-24T12:37:14+00:00
-url: /journal/2012/11/24/royal-enfield/
+url: /posts/2012/11/24/royal-enfield/
 categories:
   - Photos
 tags:

@@ -1,9 +1,9 @@
 ---
 title: Tonight’s Efterklang show was the best show I’ve seen all year.
 author: admin
-type: post
+type: posts
 date: 2012-10-24T21:39:09+00:00
-url: /journal/2012/10/24/tonights-efterklang-show-was-the-best-show-ive-seen-all-year/
+url: /posts/2012/10/24/tonights-efterklang-show-was-the-best-show-ive-seen-all-year/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

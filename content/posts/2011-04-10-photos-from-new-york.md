@@ -1,9 +1,9 @@
 ---
 title: Photos from New York
 author: admin
-type: post
+type: posts
 date: 2011-04-10T19:27:44+00:00
-url: /journal/2011/04/10/photos-from-new-york/
+url: /posts/2011/04/10/photos-from-new-york/
 yourls_tweeted:
   - 1
 yourls_shorturl:

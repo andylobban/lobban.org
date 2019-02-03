@@ -1,9 +1,9 @@
 ---
 title: How the other half live
 author: admin
-type: post
+type: posts
 date: 2012-11-24T16:08:58+00:00
-url: /journal/2012/11/24/how-the-other-half-live/
+url: /posts/2012/11/24/how-the-other-half-live/
 categories:
   - Photos
 tags:

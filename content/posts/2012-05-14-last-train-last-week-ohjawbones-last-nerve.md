@@ -1,9 +1,9 @@
 ---
 title: Last train, last week, @ohjawbone’s last nerve
 author: admin
-type: post
+type: posts
 date: 2012-05-14T20:29:55+00:00
-url: /journal/2012/05/14/last-train-last-week-ohjawbones-last-nerve/
+url: /posts/2012/05/14/last-train-last-week-ohjawbones-last-nerve/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

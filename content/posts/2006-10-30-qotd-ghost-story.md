@@ -1,9 +1,9 @@
 ---
 title: 'QotD: Ghost Story'
 author: admin
-type: post
+type: posts
 date: 2006-10-30T14:56:46+00:00
-url: /journal/2006/10/30/qotd-ghost-story/
+url: /posts/2006/10/30/qotd-ghost-story/
 yourls_shorturl:
   - http://lobban.org/i/7i
 categories:

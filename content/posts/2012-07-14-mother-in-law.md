@@ -1,9 +1,9 @@
 ---
 title: Mother in law
 author: admin
-type: post
+type: posts
 date: 2012-07-14T14:50:06+00:00
-url: /journal/2012/07/14/mother-in-law/
+url: /posts/2012/07/14/mother-in-law/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

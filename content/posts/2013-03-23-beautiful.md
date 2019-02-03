@@ -1,9 +1,9 @@
 ---
 title: Beautiful
 author: admin
-type: post
+type: posts
 date: 2013-03-23T22:04:53+00:00
-url: /journal/2013/03/23/beautiful/
+url: /posts/2013/03/23/beautiful/
 categories:
   - Photos
 tags:

@@ -1,9 +1,9 @@
 ---
 title: Big thanks to @benrobertsphoto for the great print he sent me. Going up on the office wall today.
 author: admin
-type: post
+type: posts
 date: 2013-06-11T08:29:23+00:00
-url: /journal/2013/06/11/big-thanks-to-benrobertsphoto-for-the-great-print-he-sent-me-going-up-on-the-office-wall-today/
+url: /posts/2013/06/11/big-thanks-to-benrobertsphoto-for-the-great-print-he-sent-me-going-up-on-the-office-wall-today/
 categories:
   - Photos
 tags:

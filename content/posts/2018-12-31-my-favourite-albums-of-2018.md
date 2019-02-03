@@ -1,11 +1,12 @@
 ---
 title: My favourite albums of 2018
 author: admin
-type: post
+type: posts
 date: 2018-12-31T17:39:03+00:00
-url: /journal/2018/12/31/my-favourite-albums-of-2018/
+url: /posts/2018/12/31/my-favourite-albums-of-2018/
 categories:
   - Music
+description: I liked a lot of records in 2018 and I'd like to tell you what they are.
 
 ---
 ## My top five
@@ -24,12 +25,12 @@ categories:
 
 <small>In no particular order</small>
 
-  *  Hairband &#8211; s/t 
+  * Hairband &#8211; s/t 
   * Domenique Dumont &#8211; Miniatures de auto rhythm
   * Sons of Kemet &#8211; Your Queen is a Reptile 
   * Aidan Moffat & RM Hubbert &#8211; Here Lies the Body 
   * Swearin&#8217; &#8211; Fall Into the Sun 
-  *  DRINKS &#8211; Hippo Lite
+  * DRINKS &#8211; Hippo Lite
   * Brian Eno with Kevin Shields &#8211; The Weight of History / Only Once Away My Son
   * Ought &#8211; Room Inside the World
   * Solid Space &#8211; Space Museum (reissue)

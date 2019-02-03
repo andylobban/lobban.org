@@ -1,9 +1,9 @@
 ---
 title: Dragon clarinet at @songbytoad Xmas party
 author: admin
-type: post
+type: posts
 date: 2011-12-12T18:57:16+00:00
-url: /journal/2011/12/12/dragon-clarinet-at-songbytoad-xmas-party/
+url: /posts/2011/12/12/dragon-clarinet-at-songbytoad-xmas-party/
 yourls_tweeted:
   - 1
 yourls_shorturl:

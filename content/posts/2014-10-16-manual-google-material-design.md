@@ -1,9 +1,9 @@
 ---
 title: Manual – Google Material Design
 author: admin
-type: post
+type: posts
 date: 2014-10-16T13:33:55+00:00
-url: /journal/2014/10/16/manual-google-material-design/
+url: /posts/2014/10/16/manual-google-material-design/
 categories:
   - Links
 tags:

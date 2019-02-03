@@ -1,9 +1,9 @@
 ---
 title: Symbolists
 author: admin
-type: post
+type: posts
 date: 2012-07-21T13:27:04+00:00
-url: /journal/2012/07/21/symbolists/
+url: /posts/2012/07/21/symbolists/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

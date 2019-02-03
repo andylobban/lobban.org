@@ -1,9 +1,9 @@
 ---
 title: 'QotD: My Musical Horoscope'
 author: admin
-type: post
+type: posts
 date: 2006-09-21T10:07:11+00:00
-url: /journal/2006/09/21/qotd-my-musical-horoscope/
+url: /posts/2006/09/21/qotd-my-musical-horoscope/
 yourls_shorturl:
   - http://lobban.org/i/78
 categories:

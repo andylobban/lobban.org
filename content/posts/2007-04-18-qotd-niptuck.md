@@ -1,9 +1,9 @@
 ---
 title: 'QotD: Nip/Tuck'
 author: admin
-type: post
+type: posts
 date: 2007-04-18T17:00:51+00:00
-url: /journal/2007/04/18/qotd-niptuck/
+url: /posts/2007/04/18/qotd-niptuck/
 yourls_shorturl:
   - http://lobban.org/i/8o
 categories:

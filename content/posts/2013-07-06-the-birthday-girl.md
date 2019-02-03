@@ -1,9 +1,9 @@
 ---
 title: The birthday girl
 author: admin
-type: post
+type: posts
 date: 2013-07-06T09:29:32+00:00
-url: /journal/2013/07/06/the-birthday-girl/
+url: /posts/2013/07/06/the-birthday-girl/
 categories:
   - Photos
 tags:

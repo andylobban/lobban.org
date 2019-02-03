@@ -1,9 +1,9 @@
 ---
 title: Gerry Loves Groupies
 author: admin
-type: post
+type: posts
 date: 2012-07-07T12:29:15+00:00
-url: /journal/2012/07/07/gerry-loves-groupies/
+url: /posts/2012/07/07/gerry-loves-groupies/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

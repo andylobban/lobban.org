@@ -1,10 +1,10 @@
 ---
 title: 'How New York Pay Phones Became Guerrilla Libraries – Arts & Lifestyle – The Atlantic Cities'
 author: admin
-type: post
+type: posts
 date: 2012-02-22T16:59:06+00:00
 excerpt: Lovely little project turning NY phone booths into libraries.
-url: /journal/2012/02/22/how-new-york-pay-phones-became-guerrilla-libraries-arts-lifestyle-the-atlantic-cities/
+url: /posts/2012/02/22/how-new-york-pay-phones-became-guerrilla-libraries-arts-lifestyle-the-atlantic-cities/
 syndication_item_hash:
   - 541ce3ae393b476cee632b244d310da6
 aktt_notify_twitter:

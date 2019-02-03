@@ -1,9 +1,9 @@
 ---
 title: In the corn
 author: admin
-type: post
+type: posts
 date: 2012-10-07T10:29:20+00:00
-url: /journal/2012/10/07/in-the-corn/
+url: /posts/2012/10/07/in-the-corn/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

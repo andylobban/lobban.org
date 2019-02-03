@@ -1,9 +1,9 @@
 ---
 title: …and Tennessee from the air
 author: admin
-type: post
+type: posts
 date: 2012-03-10T22:13:31+00:00
-url: /journal/2012/03/10/and-tennessee-from-the-air/
+url: /posts/2012/03/10/and-tennessee-from-the-air/
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

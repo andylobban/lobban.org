@@ -1,9 +1,9 @@
 ---
 title: IP for dinner
 author: admin
-type: post
+type: posts
 date: 2013-06-03T13:05:50+00:00
-url: /journal/2013/06/03/ip-for-dinner/
+url: /posts/2013/06/03/ip-for-dinner/
 categories:
   - Photos
 tags:

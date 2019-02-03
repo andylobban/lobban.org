@@ -1,9 +1,9 @@
 ---
 title: Instant film and hotel nightshirts. My favourite photo of us.
 author: admin
-type: post
+type: posts
 date: 2013-01-03T00:44:28+00:00
-url: /journal/2013/01/03/instant-film-and-hotel-nightshirts-my-favourite-photo-of-us/
+url: /posts/2013/01/03/instant-film-and-hotel-nightshirts-my-favourite-photo-of-us/
 categories:
   - Photos
 tags:

@@ -1,9 +1,9 @@
 ---
 title: Emptyage — Generation X Doesn’t Want to Hear It
 author: admin
-type: post
+type: posts
 date: 2011-10-19T08:29:05+00:00
-url: /journal/2011/10/19/emptyage-generation-x-doesnt-want-to-hear-it/
+url: /posts/2011/10/19/emptyage-generation-x-doesnt-want-to-hear-it/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

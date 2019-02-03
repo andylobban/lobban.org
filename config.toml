@@ -7,11 +7,10 @@ Paginate = 10
 uglyURLs = false
 
 [Params]
+  title = "Andy Lobban"
   RSSLink = "/index.xml"
   author = "Andy Lobban"
-  twitter = "andylobban"
-  dribbble = "andylobban"
-  medium = "andylobban"
+  locale = "en-GB"
 
 [taxonomies]
   tag = "tags"

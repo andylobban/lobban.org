@@ -1,0 +1,22 @@
+{{ define "head" }} {{ end }}
+{{ define "body_tag"}}single{{ end }}
+
+
+{{ define "content_wrapper" }}
+    <main id="content" role="main">
+        <article class="article article--single grid wrapper {{ range .Params.categories }}category-{{ . | lower }} {{ end }}">
+            <time class="article__date">
+                {{.Date.Format "1 January 2006"}}
+            </time>
+            <div class="article__body">
+                <h1 class="headline article__body__title">
+                    {{.Title}}
+                </h1>
+                <div class="article__content body-copy">
+                    {{.Content}}
+                </div>
+            </div>
+        </article>
+        {{ block "posts-archive-list" . }}{{ partial "posts-archive-list" .}}{{ end }}
+    </main>
+{{ end }}

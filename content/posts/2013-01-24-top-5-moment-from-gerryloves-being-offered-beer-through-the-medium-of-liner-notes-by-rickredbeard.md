@@ -1,9 +1,9 @@
 ---
 title: 'Top 5 moment from @gerryloves: being offered beer through the medium of liner notes by @RickRedbeard'
 author: admin
-type: post
+type: posts
 date: 2013-01-24T17:32:13+00:00
-url: /journal/2013/01/24/top-5-moment-from-gerryloves-being-offered-beer-through-the-medium-of-liner-notes-by-rickredbeard/
+url: /posts/2013/01/24/top-5-moment-from-gerryloves-being-offered-beer-through-the-medium-of-liner-notes-by-rickredbeard/
 categories:
   - Photos
 tags:

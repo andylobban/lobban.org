@@ -1,9 +1,9 @@
 ---
 title: swissmiss | Robot Headphone Splitter
 author: admin
-type: post
+type: posts
 date: 2010-12-16T09:41:34+00:00
-url: /journal/2010/12/16/swissmiss-robot-headphone-splitter/
+url: /posts/2010/12/16/swissmiss-robot-headphone-splitter/
 yourls_shorturl:
   - http://lobban.org/i/c
 categories:

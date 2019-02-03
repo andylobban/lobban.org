@@ -1,9 +1,9 @@
 ---
 title: 'Vox Hunt: This Is A Fan'
 author: admin
-type: post
+type: posts
 date: 2006-11-03T12:25:42+00:00
-url: /journal/2006/11/03/vox-hunt-this-is-a-fan/
+url: /posts/2006/11/03/vox-hunt-this-is-a-fan/
 yourls_shorturl:
   - http://lobban.org/i/7m
 categories:

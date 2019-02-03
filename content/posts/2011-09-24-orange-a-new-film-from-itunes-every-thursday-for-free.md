@@ -1,9 +1,9 @@
 ---
 title: Orange | a new film from iTunes, every Thursday, for free
 author: admin
-type: post
+type: posts
 date: 2011-09-24T01:48:58+00:00
-url: /journal/2011/09/24/orange-a-new-film-from-itunes-every-thursday-for-free/
+url: /posts/2011/09/24/orange-a-new-film-from-itunes-every-thursday-for-free/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

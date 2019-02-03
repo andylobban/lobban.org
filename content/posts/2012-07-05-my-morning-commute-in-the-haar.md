@@ -1,9 +1,9 @@
 ---
 title: My morning ‘commute’ in the haar
 author: admin
-type: post
+type: posts
 date: 2012-07-05T20:09:29+00:00
-url: /journal/2012/07/05/my-morning-commute-in-the-haar/
+url: /posts/2012/07/05/my-morning-commute-in-the-haar/
 aktt_notify_twitter:
   - yes
 geo_latitude:

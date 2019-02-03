@@ -1,9 +1,9 @@
 ---
 title: Moved from Tumblr
 author: admin
-type: post
+type: posts
 date: 2011-01-18T14:07:01+00:00
-url: /journal/2011/01/18/moved-from-tumblr/
+url: /posts/2011/01/18/moved-from-tumblr/
 yourls_shorturl:
   - http://lobban.org/i/g
 categories:

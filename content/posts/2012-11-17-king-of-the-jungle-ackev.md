@@ -1,9 +1,9 @@
 ---
 title: King of the jungle, @ackev
 author: admin
-type: post
+type: posts
 date: 2012-11-17T13:09:35+00:00
-url: /journal/2012/11/17/king-of-the-jungle-ackev/
+url: /posts/2012/11/17/king-of-the-jungle-ackev/
 categories:
   - Photos
 tags:

@@ -1,9 +1,9 @@
 ---
 title: Food For Thought
 author: admin
-type: post
+type: posts
 date: 2007-02-08T15:24:51+00:00
-url: /journal/2007/02/08/food-for-thought/
+url: /posts/2007/02/08/food-for-thought/
 yourls_shorturl:
   - http://lobban.org/i/8a
 categories:

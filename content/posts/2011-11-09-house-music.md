@@ -1,9 +1,9 @@
 ---
 title: House Music
 author: admin
-type: post
+type: posts
 date: 2011-11-09T15:57:21+00:00
-url: /journal/2011/11/09/house-music/
+url: /posts/2011/11/09/house-music/
 yourls_tweeted:
   - 1
 yourls_shorturl:

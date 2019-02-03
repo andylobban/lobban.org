@@ -1,9 +1,9 @@
 ---
 title: 'Eagulls: Eagulls | Advance | Pitchfork'
 author: admin
-type: post
+type: posts
 date: 2014-02-25T15:49:56+00:00
-url: /journal/2014/02/25/eagulls-eagulls-advance-pitchfork/
+url: /posts/2014/02/25/eagulls-eagulls-advance-pitchfork/
 categories:
   - Links
 tags:

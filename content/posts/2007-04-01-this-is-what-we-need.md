@@ -1,9 +1,9 @@
 ---
 title: This is what we need
 author: admin
-type: post
+type: posts
 date: 2007-04-01T21:47:30+00:00
-url: /journal/2007/04/01/this-is-what-we-need/
+url: /posts/2007/04/01/this-is-what-we-need/
 yourls_shorturl:
   - http://lobban.org/i/8k
 categories:

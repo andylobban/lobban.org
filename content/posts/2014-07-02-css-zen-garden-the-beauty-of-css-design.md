@@ -1,9 +1,9 @@
 ---
 title: 'CSS Zen Garden: The Beauty of CSS Design'
 author: admin
-type: post
+type: posts
 date: 2014-07-02T16:26:35+00:00
-url: /journal/2014/07/02/css-zen-garden-the-beauty-of-css-design/
+url: /posts/2014/07/02/css-zen-garden-the-beauty-of-css-design/
 categories:
   - Links
 tags:

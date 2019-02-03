@@ -1,9 +1,9 @@
 ---
 title: Advance Base was wonderful tonight.
 author: admin
-type: post
+type: posts
 date: 2013-07-09T23:29:46+00:00
-url: /journal/2013/07/09/advance-base-was-wonderful-tonight/
+url: /posts/2013/07/09/advance-base-was-wonderful-tonight/
 categories:
   - Photos
 tags:

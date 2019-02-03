@@ -1,10 +1,10 @@
 ---
 title: Isley Brothers – This Old Heart Of Mine (Original Stereo) – YouTube
 author: admin
-type: post
+type: posts
 date: 2012-04-01T19:56:26+00:00
 excerpt: This. Over and over again.
-url: /journal/2012/04/01/isley-brothers-this-old-heart-of-mine-original-stereo-youtube/
+url: /posts/2012/04/01/isley-brothers-this-old-heart-of-mine-original-stereo-youtube/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

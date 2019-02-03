@@ -1,10 +1,10 @@
 ---
 title: The Bravest Man In The Universe
 author: admin
-type: post
+type: posts
 date: 2012-03-08T16:04:30+00:00
 excerpt: "New Bobby Womack! And it's ace!"
-url: /journal/2012/03/08/the-bravest-man-in-the-universe/
+url: /posts/2012/03/08/the-bravest-man-in-the-universe/
 syndication_source:
   - Delicious/nonimage/link
 syndication_source_uri:

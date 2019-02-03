@@ -1,9 +1,9 @@
 ---
 title: Drugs are bad
 author: admin
-type: post
+type: posts
 date: 2008-06-04T16:05:40+00:00
-url: /journal/2008/06/04/drugs-are-bad/
+url: /posts/2008/06/04/drugs-are-bad/
 yourls_shorturl:
   - http://lobban.org/i/6m
 categories:

@@ -1,9 +1,9 @@
 ---
 title: Moon tower
 author: admin
-type: post
+type: posts
 date: 2011-09-20T11:56:46+00:00
-url: /journal/2011/09/20/moon-tower/
+url: /posts/2011/09/20/moon-tower/
 yourls_tweeted:
   - 1
 yourls_shorturl:

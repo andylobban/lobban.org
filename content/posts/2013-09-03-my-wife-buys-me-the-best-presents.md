@@ -1,9 +1,9 @@
 ---
 title: My wife buys me the best presents.
 author: admin
-type: post
+type: posts
 date: 2013-09-03T08:29:46+00:00
-url: /journal/2013/09/03/my-wife-buys-me-the-best-presents/
+url: /posts/2013/09/03/my-wife-buys-me-the-best-presents/
 categories:
   - Photos
 tags:

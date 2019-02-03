@@ -1,9 +1,9 @@
 ---
 title: Ghost Outfit
 author: admin
-type: post
+type: posts
 date: 2011-08-29T19:31:28+00:00
-url: /journal/2011/08/29/ghost-outfit/
+url: /posts/2011/08/29/ghost-outfit/
 yourls_shorturl:
   - http://lobban.org/i/bo
 yourls_tweeted:

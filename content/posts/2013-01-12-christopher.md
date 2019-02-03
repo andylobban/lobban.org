@@ -1,9 +1,9 @@
 ---
 title: Christopher
 author: admin
-type: post
+type: posts
 date: 2013-01-12T00:42:25+00:00
-url: /journal/2013/01/12/christopher/
+url: /posts/2013/01/12/christopher/
 categories:
   - Photos
 tags:

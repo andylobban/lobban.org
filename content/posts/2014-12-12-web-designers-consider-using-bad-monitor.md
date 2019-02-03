@@ -1,9 +1,9 @@
 ---
 title: 'Web designers: consider using a bad monitor'
 author: admin
-type: post
+type: posts
 date: 2014-12-12T10:15:14+00:00
-url: /journal/2014/12/12/web-designers-consider-using-bad-monitor/
+url: /posts/2014/12/12/web-designers-consider-using-bad-monitor/
 dsq_thread_id:
   - 3315858028
 dsq_needs_sync:

@@ -1,9 +1,9 @@
 ---
 title: Got my @jonniecommon remix print through. So nice.
 author: admin
-type: post
+type: posts
 date: 2011-11-30T11:56:57+00:00
-url: /journal/2011/11/30/got-my-jonniecommon-remix-print-through-so-nice/
+url: /posts/2011/11/30/got-my-jonniecommon-remix-print-through-so-nice/
 yourls_tweeted:
   - 1
 yourls_shorturl:

@@ -1,9 +1,9 @@
 ---
 title: Parts of Meursault
 author: admin
-type: post
+type: posts
 date: 2012-12-07T21:49:33+00:00
-url: /journal/2012/12/07/parts-of-meursault/
+url: /posts/2012/12/07/parts-of-meursault/
 categories:
   - Photos
 tags:

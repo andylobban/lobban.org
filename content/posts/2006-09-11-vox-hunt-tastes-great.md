@@ -1,9 +1,9 @@
 ---
 title: 'Vox Hunt: Tastes great'
 author: admin
-type: post
+type: posts
 date: 2006-09-11T09:36:01+00:00
-url: /journal/2006/09/11/vox-hunt-tastes-great/
+url: /posts/2006/09/11/vox-hunt-tastes-great/
 yourls_shorturl:
   - http://lobban.org/i/73
 categories:

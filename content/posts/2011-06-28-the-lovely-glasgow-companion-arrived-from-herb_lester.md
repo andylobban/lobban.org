@@ -1,9 +1,9 @@
 ---
 title: The lovely Glasgow Companion arrived from @herb_lester
 author: admin
-type: post
+type: posts
 date: 2011-06-28T12:17:28+00:00
-url: /journal/2011/06/28/the-lovely-glasgow-companion-arrived-from-herb_lester/
+url: /posts/2011/06/28/the-lovely-glasgow-companion-arrived-from-herb_lester/
 yourls_tweeted:
   - 1
 yourls_shorturl:

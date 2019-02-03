@@ -1,9 +1,9 @@
 ---
 title: Made in China
 author: admin
-type: post
+type: posts
 date: 2011-07-23T12:49:17+00:00
-url: /journal/2011/07/23/made-in-china/
+url: /posts/2011/07/23/made-in-china/
 yourls_shorturl:
   - http://lobban.org/i/am
 yourls_tweeted:
