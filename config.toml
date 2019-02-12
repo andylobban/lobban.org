@@ -1,4 +1,4 @@
-baseURL = "https://lobban.org"
+baseURL = ""
 languageCode = "en-us"
 title = "Andy Lobban"
 theme = "lobban"
