@@ -1,16 +1,18 @@
-baseURL = "https://lobban.org"
-languageCode = "en-us"
+baseURL = ""
+languageCode = "en-gb"
 title = "Andy Lobban"
 theme = "lobban"
 description = ""
 Paginate = 10
 uglyURLs = false
+enableRobotsTXT = true
 
 [Params]
-  title = "Andy Lobban"
-  RSSLink = "/index.xml"
-  author = "Andy Lobban"
-  locale = "en-GB"
+    disallow_search_engines = false
+    title = "Andy Lobban"
+    RSSLink = "/index.xml"
+    author = "Andy Lobban"
+    locale = "en-GB"
 
 [taxonomies]
   tag = "tags"

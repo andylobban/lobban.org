@@ -1,0 +1,31 @@
+[build]
+    command = "hugo"
+    publish = "public"
+    functions = "functions"
+
+[build.environment]
+    HUGO_VERSION = "0.54.0"
+
+[[redirects]]
+    from = "/about"
+    to = "/info"
+    status = 301
+
+[[redirects]]
+    from = "/contact"
+    to = "/info"
+    status = 301
+
+[[redirects]]
+    from = "/journal/*"
+    to = "/posts/:splat"
+    status = 301
+
+[[headers]]
+    for = "/"
+    [headers.values]
+        Link = '''
+        </scss/*.css>; rel=preload; as=stylesheet, \
+        </js/*.js>; rel=preload; as=script, \
+        </fonts/*.woff>; rel=preload; as=stylesheet, \
+        </fonts/*.woff2>; rel=preload; as=stylesheet'''
