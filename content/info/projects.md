@@ -10,7 +10,6 @@ meta-description:
 
 ## Older projects
 
-  * [Off the Beaten Tracks][1]
+  * [Off the Beaten Tracks](http://offthebeatentracks.lobban.org)
   * Black Tape
-
- [1]: http://offthebeatentracks.lobban.org
+  * [Coda Clips](http://coda-clips.lobban.org/)
