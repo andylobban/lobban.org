@@ -10,6 +10,16 @@
     HUGO_ENV = "production"
 
 [[redirects]]
-  from = "/about"
-  to = "/info"
-  status = 301
+    from = "/about"
+    to = "/info"
+    status = 301
+
+[[redirects]]
+    from = "/contact"
+    to = "/info"
+    status = 301
+
+[[redirects]]
+    from = "/journal/*"
+    to = "/posts/:splat"
+    status = 301
