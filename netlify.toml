@@ -1,0 +1,15 @@
+[build]
+    command = "hugo"
+    publish = "public"
+    functions = "functions"
+
+[build.environment]
+    HUGO_VERSION = "0.54.0"
+
+[context.production.environment]
+    HUGO_ENV = "production"
+
+[[redirects]]
+  from = "/about"
+  to = "/info"
+  status = 301
