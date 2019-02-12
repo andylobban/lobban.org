@@ -13,4 +13,4 @@ meta-description:
   * [Off the Beaten Tracks][1]
   * Black Tape
 
- [1]: http://http://offthebeatentracks.lobban.org
+ [1]: http://offthebeatentracks.lobban.org
