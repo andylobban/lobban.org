@@ -22,9 +22,10 @@
     status = 301
 
 [[headers]]
-    for = "/*"
+    for = "/"
     [headers.values]
-    Link = "</scss/*.css>; rel=preload; as=style"
-    Link = "</js/*.js>; rel=preload; as=script"
-    Link = "</fonts/*.woff>; rel=preload; as=font"
-    Link = "</fonts/*.woff2>; rel=preload; as=font"
+        Link = '''
+        </*.css>; rel=preload; as=stylesheet, \
+        </*.js>; rel=preload; as=script, \
+        </*.woff>; rel=preload; as=font, \
+        </*.woff2>; rel=preload; as=font'''
