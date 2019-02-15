@@ -22,12 +22,12 @@ tags:
     <div class="vox-enclosure-list">
       <div class="vox-enclosure-item vox-photo-asset vox-last">
         <div class="vox-enclosure-image">
-          <a href="http://nonimage.typepad.com/.a/6a01348743f8e2970c0133f423d834970b-pi" title="Oman Football Team"><img alt="Oman Football Team" class="asset asset-image at-xid-6a01348743f8e2970c0133f423d834970b" src="http://nonimage.typepad.com/.a/6a01348743f8e2970c0133f423d834970b-320pi" /></a>
+          <a href="https://nonimage.typepad.com/.a/6a01348743f8e2970c0133f423d834970b-pi" title="Oman Football Team"><img alt="Oman Football Team" class="asset asset-image at-xid-6a01348743f8e2970c0133f423d834970b" src="https://nonimage.typepad.com/.a/6a01348743f8e2970c0133f423d834970b-320pi" /></a>
         </div>
         
         <div class="vox-enclosure-meta">
           <div class="vox-enclosure-asset-name">
-            <a href="http://nonimage.typepad.com/.a/6a01348743f8e2970c0133f423d834970b-pi" title="Oman Football Team">Oman Football Team</a>
+            <a href="https://nonimage.typepad.com/.a/6a01348743f8e2970c0133f423d834970b-pi" title="Oman Football Team">Oman Football Team</a>
           </div>
         </div>
       </div>

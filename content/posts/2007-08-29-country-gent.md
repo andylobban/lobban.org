@@ -19,7 +19,7 @@ tags:
     <div class="vox-enclosure-list">
       <div class="vox-enclosure-item vox-photo-asset vox-last">
         <div class="vox-enclosure-image">
-          <a href="http://www.flickr.com/photo.gne?id=1266958340" title="Country Gent"><img alt="Country Gent" class="asset asset-image at-xid-6a01348743f8e2970c0133f423d7a5970b" src="http://nonimage.typepad.com/.a/6a01348743f8e2970c0133f423d7a5970b-500pi" /></a>
+          <a href="http://www.flickr.com/photo.gne?id=1266958340" title="Country Gent"><img alt="Country Gent" class="asset asset-image at-xid-6a01348743f8e2970c0133f423d7a5970b" src="https://nonimage.typepad.com/.a/6a01348743f8e2970c0133f423d7a5970b-500pi" /></a>
         </div>
         
         <div class="vox-enclosure-meta">
