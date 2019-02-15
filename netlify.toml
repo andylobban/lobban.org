@@ -24,8 +24,8 @@
 [[headers]]
     for = "/*"
     [headers.values]
-    Link =
+    Link = "
         </scss/*.css>; rel=preload; as=style, \
         </js/*.js>; rel=preload; as=script, \
         </fonts/*.woff>; rel=preload; as=font, \
-        </fonts/*.woff2>; rel=preload; as=font
+        </fonts/*.woff2>; rel=preload; as=font "
