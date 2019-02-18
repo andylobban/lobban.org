@@ -7,7 +7,7 @@ url: /posts/2011/06/12/the-lazy-sunday-mixtape-june-2011/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/a9
+  - https://lobban.org/i/a9
 enclosure:
   - |
     |

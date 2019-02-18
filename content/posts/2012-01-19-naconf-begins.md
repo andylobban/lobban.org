@@ -9,7 +9,7 @@ aktt_notify_twitter:
 aktt_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/fa
+  - https://lobban.org/i/fa
 categories:
   - Photos
 
@@ -18,7 +18,7 @@ categories:
   <a href="http://instagr.am/p/ihFFb/"></p> 
   
   <div class='p_embed p_image_embed'>
-    <a href="http://getfile8.posterous.com/getfile/files.posterous.com/nonimage/IqIatdqCsduuIccqevlgyCxFkcByqjGtjGtvrgkqefznzzscbiktouxfzlcx/media_httpdistilleryi_kzczs.jpg.scaled1000.jpg"><img alt="Media_httpdistilleryi_kzczs" height="612" src="http://getfile8.posterous.com/getfile/files.posterous.com/nonimage/IqIatdqCsduuIccqevlgyCxFkcByqjGtjGtvrgkqefznzzscbiktouxfzlcx/media_httpdistilleryi_kzczs.jpg.scaled1000.jpg" width="612" /></a>
+    <a href="http://getfile8.posterous.com/getfile/files.posterous.com/nonimage/IqIatdqCsduuIccqevlgyCxFkcByqjGtjGtvrgkqefznzzscbiktouxfzlcx/media_httpdistilleryi_kzczs.jpg.scaled1000.jpg"><img alt="Media_httpdistilleryi_kzczs" height="612" src="https://getfile8.posterous.com/getfile/files.posterous.com/nonimage/IqIatdqCsduuIccqevlgyCxFkcByqjGtjGtvrgkqefznzzscbiktouxfzlcx/media_httpdistilleryi_kzczs.jpg.scaled1000.jpg" width="612" /></a>
   </div>
   
   <p>

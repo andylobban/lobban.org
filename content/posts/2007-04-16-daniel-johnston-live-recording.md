@@ -5,7 +5,7 @@ type: posts
 date: 2007-04-16T12:59:07+00:00
 url: /posts/2007/04/16/daniel-johnston-live-recording/
 yourls_shorturl:
-  - http://lobban.org/i/8m
+  - https://lobban.org/i/8m
 categories:
   - Stuff
 tags:
@@ -30,7 +30,7 @@ It turned out to be a good decision. He performed with his new band, The Nightma
     <div class="vox-enclosure-list">
       <div class="vox-enclosure-item vox-audio-asset vox-last">
         <div class="vox-enclosure-image">
-          <a href="http://a6.typepad.com/6a01348743f8e2970c0133f423d806970b-pi" title="Click to play “Unknown _ Band On The Run _ Rock &#039;N&#039; Roll_Ega _ True Love Will Find You In The End (Live)”"><span class="vox-asset-overlay"></span><img alt="Unknown _ Band On The Run _ Rock &#039;N&#039; Roll_Ega _ True Love Will Find You In The End (Live)" class="asset asset-image at-xid-6a01348743f8e2970c0133f423d806970b" src="http://a6.typepad.com/6a01348743f8e2970c0133f423d806970b-120pi" /></a>
+          <a href="http://a6.typepad.com/6a01348743f8e2970c0133f423d806970b-pi" title="Click to play “Unknown _ Band On The Run _ Rock &#039;N&#039; Roll_Ega _ True Love Will Find You In The End (Live)”"><span class="vox-asset-overlay"></span><img alt="Unknown _ Band On The Run _ Rock &#039;N&#039; Roll_Ega _ True Love Will Find You In The End (Live)" class="asset asset-image at-xid-6a01348743f8e2970c0133f423d806970b" src="https://a6.typepad.com/6a01348743f8e2970c0133f423d806970b-120pi" /></a>
         </div>
         
         <div class="vox-enclosure-meta">

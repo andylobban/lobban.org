@@ -10,9 +10,9 @@ categories:
   - Photos
 
 ---
-<img class="alignnone size-full wp-image-1469216934" title="img062 (1)" src="http://lobban.org/wp-content/uploads/2013/01/img062-1.jpg" alt="Box Brownie found film - picture 1" width="640" height="427" srcset="https://lobban.org/wp-content/uploads/2013/01/img062-1.jpg 640w, https://lobban.org/wp-content/uploads/2013/01/img062-1-300x200.jpg 300w" sizes="(max-width: 640px) 100vw, 640px" />
+<img class="alignnone size-full wp-image-1469216934" title="img062 (1)" src="https://lobban.org/wp-content/uploads/2013/01/img062-1.jpg" alt="Box Brownie found film - picture 1" width="640" height="427" srcset="https://lobban.org/wp-content/uploads/2013/01/img062-1.jpg 640w, https://lobban.org/wp-content/uploads/2013/01/img062-1-300x200.jpg 300w" sizes="(max-width: 640px) 100vw, 640px" />
 
-<img class="alignnone size-full wp-image-1469216935" title="Box Brownie found film - picture 2" src="http://lobban.org/wp-content/uploads/2013/01/img067.jpg" alt="Box Brownie found film - picture 2" width="640" height="421" srcset="https://lobban.org/wp-content/uploads/2013/01/img067.jpg 640w, https://lobban.org/wp-content/uploads/2013/01/img067-300x197.jpg 300w" sizes="(max-width: 640px) 100vw, 640px" />
+<img class="alignnone size-full wp-image-1469216935" title="Box Brownie found film - picture 2" src="https://lobban.org/wp-content/uploads/2013/01/img067.jpg" alt="Box Brownie found film - picture 2" width="640" height="421" srcset="https://lobban.org/wp-content/uploads/2013/01/img067.jpg 640w, https://lobban.org/wp-content/uploads/2013/01/img067-300x197.jpg 300w" sizes="(max-width: 640px) 100vw, 640px" />
 
 When I was in Australia in December, we walked past a junk shop in a small town where 3 old box cameras caught my eye. After a little haggling, I walked out with a [Box Brownie No.2 Model E][1], with unknown film still in it.
 

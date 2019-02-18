@@ -7,7 +7,7 @@ url: /posts/2011/06/28/the-lovely-glasgow-companion-arrived-from-herb_lester/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/ai
+  - https://lobban.org/i/ai
 categories:
   - Photos
 
@@ -16,7 +16,7 @@ categories:
   <a href="http://instagr.am/p/GjLxZ/"></p> 
   
   <div class='p_embed p_image_embed'>
-    <a href="http://posterous.com/getfile/files.posterous.com/nonimage/EubgAAcEJwBoboqjnjrpaDyIeJfCAlmDdBEpAgavCdEuxsyofuDcJckvFgJq/media_httpimagesinsta_nIEFb.jpg.scaled1000.jpg"><img alt="Media_httpimagesinsta_niefb" height="500" src="http://posterous.com/getfile/files.posterous.com/nonimage/EubgAAcEJwBoboqjnjrpaDyIeJfCAlmDdBEpAgavCdEuxsyofuDcJckvFgJq/media_httpimagesinsta_nIEFb.jpg.scaled500.jpg" width="500" /></a>
+    <a href="http://posterous.com/getfile/files.posterous.com/nonimage/EubgAAcEJwBoboqjnjrpaDyIeJfCAlmDdBEpAgavCdEuxsyofuDcJckvFgJq/media_httpimagesinsta_nIEFb.jpg.scaled1000.jpg"><img alt="Media_httpimagesinsta_niefb" height="500" src="https://posterous.com/getfile/files.posterous.com/nonimage/EubgAAcEJwBoboqjnjrpaDyIeJfCAlmDdBEpAgavCdEuxsyofuDcJckvFgJq/media_httpimagesinsta_nIEFb.jpg.scaled500.jpg" width="500" /></a>
   </div>
   
   <p>

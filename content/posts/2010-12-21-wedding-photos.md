@@ -5,7 +5,7 @@ type: posts
 date: 2010-12-21T12:04:53+00:00
 url: /posts/2010/12/21/wedding-photos/
 yourls_shorturl:
-  - http://lobban.org/i/e
+  - https://lobban.org/i/e
 categories:
   - Photos
 tags:
@@ -13,7 +13,7 @@ tags:
   - wedding
 
 ---
-[<img src="http://lobban.org/wp-content/uploads/2011/06/tumblr_lds8pfycPr1qzrl7bo1_250.jpg" border="0" alt="I finally managed to get our wedding photos online. You can find links to the proper photographer photos and a bunch from our camera over the weekend at andyandlois.com Our photographers, Claremont Photography were excellent, and we would definitely recommend them." />][1]
+[<img src="https://lobban.org/wp-content/uploads/2011/06/tumblr_lds8pfycPr1qzrl7bo1_250.jpg" border="0" alt="I finally managed to get our wedding photos online. You can find links to the proper photographer photos and a bunch from our camera over the weekend at andyandlois.com Our photographers, Claremont Photography were excellent, and we would definitely recommend them." />][1]
 
 I finally managed to get our wedding photos online. You can find links to the proper photographer photos and a bunch from our camera over the weekend at [andyandlois.com][2]
 

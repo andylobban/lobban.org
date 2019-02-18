@@ -5,7 +5,7 @@ type: posts
 date: 2007-12-25T20:39:22+00:00
 url: /posts/2007/12/25/favourite-christmas-songs/
 yourls_shorturl:
-  - http://lobban.org/i/6n
+  - https://lobban.org/i/6n
 categories:
   - Stuff
 tags:

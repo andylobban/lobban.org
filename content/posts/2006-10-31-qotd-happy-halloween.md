@@ -5,7 +5,7 @@ type: posts
 date: 2006-10-31T16:41:56+00:00
 url: /posts/2006/10/31/qotd-happy-halloween/
 yourls_shorturl:
-  - http://lobban.org/i/7k
+  - https://lobban.org/i/7k
 categories:
   - Stuff
 tags:

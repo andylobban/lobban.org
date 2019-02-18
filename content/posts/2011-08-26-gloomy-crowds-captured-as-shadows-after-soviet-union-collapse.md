@@ -7,7 +7,7 @@ url: /posts/2011/08/26/gloomy-crowds-captured-as-shadows-after-soviet-union-coll
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/bl
+  - https://lobban.org/i/bl
 syndication_item_hash:
   - 984e36f4c18974d969afe572f0dc0db3
   - df510658283ab55ee9cc507ef11800fd

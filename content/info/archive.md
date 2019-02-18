@@ -3,11 +3,9 @@ title: Archive
 author: admin
 type: page
 date: 2013-09-18T16:29:08+00:00
-meta-description:
-  - Just an archive for myself really, of old bits and pieces
+description: Old social media profiles, etc
 
 ---
-This is really just an archive for myself, of old bits and pieces.
 
 ## Old social network profiles
 

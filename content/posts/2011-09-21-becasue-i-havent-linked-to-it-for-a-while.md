@@ -7,7 +7,7 @@ url: /posts/2011/09/21/becasue-i-havent-linked-to-it-for-a-while/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/c5
+  - https://lobban.org/i/c5
 categories:
   - Music
 tags:

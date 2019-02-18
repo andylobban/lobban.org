@@ -5,7 +5,7 @@ type: posts
 date: 2006-10-05T09:58:38+00:00
 url: /posts/2006/10/05/vox-hunt-i-love-this-mug/
 yourls_shorturl:
-  - http://lobban.org/i/9f
+  - https://lobban.org/i/9f
 categories:
   - Stuff
 tags:

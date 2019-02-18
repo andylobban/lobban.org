@@ -29,7 +29,7 @@ syndication_item_hash:
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/by
+  - https://lobban.org/i/by
 categories:
   - Links
 tags:

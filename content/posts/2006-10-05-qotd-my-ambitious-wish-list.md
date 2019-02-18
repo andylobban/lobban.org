@@ -5,7 +5,7 @@ type: posts
 date: 2006-10-05T09:51:07+00:00
 url: /posts/2006/10/05/qotd-my-ambitious-wish-list/
 yourls_shorturl:
-  - http://lobban.org/i/9o
+  - https://lobban.org/i/9o
 categories:
   - Stuff
 tags:

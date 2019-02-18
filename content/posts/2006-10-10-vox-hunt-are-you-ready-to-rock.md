@@ -5,7 +5,7 @@ type: posts
 date: 2006-10-10T11:45:20+00:00
 url: /posts/2006/10/10/vox-hunt-are-you-ready-to-rock/
 yourls_shorturl:
-  - http://lobban.org/i/9n
+  - https://lobban.org/i/9n
 categories:
   - Stuff
 tags:

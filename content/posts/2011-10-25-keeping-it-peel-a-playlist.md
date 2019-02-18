@@ -7,7 +7,7 @@ url: /posts/2011/10/25/keeping-it-peel-a-playlist/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/cu
+  - https://lobban.org/i/cu
 categories:
   - Music
 tags:
@@ -33,7 +33,7 @@ tags:
 format: audio
 
 ---
-<img class="aligncenter size-full wp-image-1469216219" title="john-peel-wants-you-to-fuck-off" src="http://lobban.org/wp-content/uploads/2011/10/john-peel-wants-you-to-fuck-off.jpeg" alt="" width="420" height="315" srcset="https://lobban.org/wp-content/uploads/2011/10/john-peel-wants-you-to-fuck-off.jpeg 420w, https://lobban.org/wp-content/uploads/2011/10/john-peel-wants-you-to-fuck-off-300x225.jpeg 300w" sizes="(max-width: 420px) 100vw, 420px" />
+<img class="aligncenter size-full wp-image-1469216219" title="john-peel-wants-you-to-fuck-off" src="https://lobban.org/wp-content/uploads/2011/10/john-peel-wants-you-to-fuck-off.jpeg" alt="" width="420" height="315" srcset="https://lobban.org/wp-content/uploads/2011/10/john-peel-wants-you-to-fuck-off.jpeg 420w, https://lobban.org/wp-content/uploads/2011/10/john-peel-wants-you-to-fuck-off-300x225.jpeg 300w" sizes="(max-width: 420px) 100vw, 420px" />
 
 It&#8217;s John Peel day apparently, so here&#8217;s some (mostly) new music to listen to.
 

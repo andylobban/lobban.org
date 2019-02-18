@@ -27,7 +27,7 @@ syndication_item_hash:
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/cp
+  - https://lobban.org/i/cp
 categories:
   - Links
 tags:

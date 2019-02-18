@@ -7,7 +7,7 @@ url: /posts/2012/04/07/bands-i-liked-at-sxsw-2012/
 aktt_notify_twitter:
   - yes
 yourls_shorturl:
-  - http://lobban.org/i/hb
+  - https://lobban.org/i/hb
 aktt_tweeted:
   - 1
 categories:

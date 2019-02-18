@@ -7,7 +7,7 @@ url: /posts/2011/09/16/listening-kromatic/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/c0
+  - https://lobban.org/i/c0
 categories:
   - Music
 format: audio

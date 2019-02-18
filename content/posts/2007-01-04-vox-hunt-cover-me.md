@@ -5,7 +5,7 @@ type: posts
 date: 2007-01-04T19:05:59+00:00
 url: /posts/2007/01/04/vox-hunt-cover-me/
 yourls_shorturl:
-  - http://lobban.org/i/9i
+  - https://lobban.org/i/9i
 categories:
   - Stuff
 tags:
@@ -28,7 +28,7 @@ Daniel Johnston &#8211; God Only Knows (Beach Boys Cover)
     <div class="vox-enclosure-list">
       <div class="vox-enclosure-item vox-audio-asset vox-last">
         <div class="vox-enclosure-image">
-          <a href="http://a7.typepad.com/6a01348743f8e2970c0133f423d8b7970b-pi" title="Click to play “08 God Only Knows”"><span class="vox-asset-overlay"></span><img alt="08 God Only Knows" class="asset asset-image at-xid-6a01348743f8e2970c0133f423d8b7970b" src="http://a7.typepad.com/6a01348743f8e2970c0133f423d8b7970b-200pi" /></a>
+          <a href="http://a7.typepad.com/6a01348743f8e2970c0133f423d8b7970b-pi" title="Click to play “08 God Only Knows”"><span class="vox-asset-overlay"></span><img alt="08 God Only Knows" class="asset asset-image at-xid-6a01348743f8e2970c0133f423d8b7970b" src="https://a7.typepad.com/6a01348743f8e2970c0133f423d8b7970b-200pi" /></a>
         </div>
         
         <div class="vox-enclosure-meta">

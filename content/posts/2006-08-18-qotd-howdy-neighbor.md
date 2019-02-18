@@ -5,7 +5,7 @@ type: posts
 date: 2006-08-18T09:45:48+00:00
 url: /posts/2006/08/18/qotd-howdy-neighbor/
 yourls_shorturl:
-  - http://lobban.org/i/a2
+  - https://lobban.org/i/a2
 categories:
   - Stuff
 tags:

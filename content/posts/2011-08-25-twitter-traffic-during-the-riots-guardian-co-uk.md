@@ -7,7 +7,7 @@ url: /posts/2011/08/25/twitter-traffic-during-the-riots-guardian-co-uk/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/bm
+  - https://lobban.org/i/bm
 syndication_item_hash:
   - 0b0309643b5ba45f04f3e39ed564543a
   - ba76a2f26a3efdcdc133aba6a9934c8a

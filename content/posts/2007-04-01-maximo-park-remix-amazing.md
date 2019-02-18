@@ -5,7 +5,7 @@ type: posts
 date: 2007-04-01T22:10:09+00:00
 url: /posts/2007/04/01/maximo-park-remix-amazing/
 yourls_shorturl:
-  - http://lobban.org/i/8j
+  - https://lobban.org/i/8j
 categories:
   - Stuff
 tags:
@@ -21,7 +21,7 @@ The Field Music/J. Xaverre remix of 'I Want You To Stay' by Maximo Park. One of 
     <div class="vox-enclosure-list">
       <div class="vox-enclosure-item vox-audio-asset vox-last">
         <div class="vox-enclosure-image">
-          <a href="http://a1.typepad.com/6a01348743f8e2970c0133f423d811970b-pi" title="Click to play “I Want You To Stay”"><span class="vox-asset-overlay"></span><img alt="I Want You To Stay" class="asset asset-image at-xid-6a01348743f8e2970c0133f423d811970b" src="http://a1.typepad.com/6a01348743f8e2970c0133f423d811970b-200pi" /></a>
+          <a href="http://a1.typepad.com/6a01348743f8e2970c0133f423d811970b-pi" title="Click to play “I Want You To Stay”"><span class="vox-asset-overlay"></span><img alt="I Want You To Stay" class="asset asset-image at-xid-6a01348743f8e2970c0133f423d811970b" src="https://a1.typepad.com/6a01348743f8e2970c0133f423d811970b-200pi" /></a>
         </div>
         
         <div class="vox-enclosure-meta">

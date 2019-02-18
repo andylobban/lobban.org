@@ -7,7 +7,7 @@ url: /posts/2011/09/21/one-for-the-music-and-letterpress-nerds/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/c6
+  - https://lobban.org/i/c6
 categories:
   - Music
   - Nerdery

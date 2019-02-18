@@ -46,7 +46,7 @@
 
 	    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
 
-        <link rel="canonical" href="{{ .Permalink }}" />
+        <link rel="canonical" href="https://lobban.org{{ .Permalink }}" />
         <script type='application/ld+json'>{"@context":"https://schema.org","@type":"WebSite","@id":"https://lobban.org/#website","url":"https://lobban.org/","name":"Andy Lobban"}}</script>
         <script type='application/ld+json'>{"@context":"https://schema.org","@type":"Person","url":"https://lobban.org/","sameAs":["https://www.facebook.com/andylobban","https://instagram.com/andylobban","https://www.linkedin.com/in/andylobban","https://www.youtube.com/c/AndyLobban","https://www.pinterest.com/nonimage/","https://twitter.com/andylobban"],"@id":"#person","name":"Andy Lobban"}</script>
         <meta name="p:domain_verify" content="e35f164dd8f100ee5c0362b57da5479d" />
@@ -55,7 +55,7 @@
         <meta property="og:locale" content="{{ .Site.Params.locale }}" />
         <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
         <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
-        <meta property="og:url" content="{{ .Permalink }}" />
+        <meta property="og:url" content="https://lobban.org{{ .Permalink }}" />
         <meta property="og:site_name" content="{{ .Site.Params.title }}" />
 
         <meta name="twitter:title" content="{{ .Title }}" />

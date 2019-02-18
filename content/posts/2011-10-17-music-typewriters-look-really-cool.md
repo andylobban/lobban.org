@@ -27,7 +27,7 @@ syndication_permalink:
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/cr
+  - https://lobban.org/i/cr
 categories:
   - Links
 tags:

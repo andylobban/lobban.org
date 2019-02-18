@@ -7,7 +7,7 @@ url: /posts/2011/09/21/the-forever-mixtape-september-2011/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/c4
+  - https://lobban.org/i/c4
 enclosure:
   - |
     |

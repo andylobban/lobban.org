@@ -5,7 +5,7 @@ type: posts
 date: 2007-01-02T19:15:33+00:00
 url: /posts/2007/01/02/qotd-its-going-to-be-different-this-year/
 yourls_shorturl:
-  - http://lobban.org/i/7x
+  - https://lobban.org/i/7x
 categories:
   - Stuff
 tags:

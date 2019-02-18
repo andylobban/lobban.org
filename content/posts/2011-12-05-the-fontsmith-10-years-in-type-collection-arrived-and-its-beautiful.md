@@ -7,7 +7,7 @@ url: /posts/2011/12/05/the-fontsmith-10-years-in-type-collection-arrived-and-its
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/d8
+  - https://lobban.org/i/d8
 categories:
   - Photos
 
@@ -16,7 +16,7 @@ categories:
   <a href="http://instagr.am/p/XflWv/"></p> 
   
   <div class='p_embed p_image_embed'>
-    <a href="http://getfile2.posterous.com/getfile/files.posterous.com/nonimage/BcpbyntkgHypmrwxkhtzinibxydhffqBIHdstqAnEyqhCJvByvqmaBoHeCBd/media_httpdistilleryi_CCccj.jpg.scaled1000.jpg"><img alt="Media_httpdistilleryi_ccccj" height="612" src="http://getfile2.posterous.com/getfile/files.posterous.com/nonimage/BcpbyntkgHypmrwxkhtzinibxydhffqBIHdstqAnEyqhCJvByvqmaBoHeCBd/media_httpdistilleryi_CCccj.jpg.scaled1000.jpg" width="612" /></a>
+    <a href="http://getfile2.posterous.com/getfile/files.posterous.com/nonimage/BcpbyntkgHypmrwxkhtzinibxydhffqBIHdstqAnEyqhCJvByvqmaBoHeCBd/media_httpdistilleryi_CCccj.jpg.scaled1000.jpg"><img alt="Media_httpdistilleryi_ccccj" height="612" src="https://getfile2.posterous.com/getfile/files.posterous.com/nonimage/BcpbyntkgHypmrwxkhtzinibxydhffqBIHdstqAnEyqhCJvByvqmaBoHeCBd/media_httpdistilleryi_CCccj.jpg.scaled1000.jpg" width="612" /></a>
   </div>
   
   <p>

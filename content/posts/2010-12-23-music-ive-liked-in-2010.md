@@ -5,7 +5,7 @@ type: posts
 date: 2010-12-23T12:05:29+00:00
 url: /posts/2010/12/23/music-ive-liked-in-2010/
 yourls_shorturl:
-  - http://lobban.org/i/f
+  - https://lobban.org/i/f
 categories:
   - Music
 tags:

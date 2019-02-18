@@ -9,7 +9,7 @@ aktt_notify_twitter:
 aktt_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/hy
+  - https://lobban.org/i/hy
 categories:
   - Photos
 tags:
@@ -21,5 +21,5 @@ tags:
 
 [View on Instagram][2]
 
- [1]: http://lobban.org/wp-content/uploads/HLIC/42098106f5492cd0d4b0a013d449d412.jpg
+ [1]: https://lobban.org/wp-content/uploads/HLIC/42098106f5492cd0d4b0a013d449d412.jpg
  [2]: http://instagr.am/p/LGEuxNKln4/

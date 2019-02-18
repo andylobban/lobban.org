@@ -5,7 +5,7 @@ type: posts
 date: 2007-02-14T13:57:54+00:00
 url: /posts/2007/02/14/charcoaltache/
 yourls_shorturl:
-  - http://lobban.org/i/8c
+  - https://lobban.org/i/8c
 categories:
   - Stuff
 tags:

@@ -5,7 +5,7 @@ type: posts
 date: 2008-07-10T10:02:51+00:00
 url: /posts/2008/07/10/barrys-at-it-again/
 yourls_shorturl:
-  - http://lobban.org/i/l
+  - https://lobban.org/i/l
 categories:
   - Stuff
 tags:

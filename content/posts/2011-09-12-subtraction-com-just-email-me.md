@@ -10,7 +10,7 @@ excerpt: |
                         The only thing Khoi didn't add was the ability to file and sort messages, which you can't do in Facebook, Flickr, etc.
 url: /posts/2011/09/12/subtraction-com-just-email-me/
 yourls_shorturl:
-  - http://lobban.org/i/br
+  - https://lobban.org/i/br
 yourls_tweeted:
   - 1
 syndication_item_hash:

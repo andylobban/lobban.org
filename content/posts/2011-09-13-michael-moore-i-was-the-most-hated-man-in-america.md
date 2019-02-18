@@ -27,7 +27,7 @@ syndication_item_hash:
   - 25baeb5d3a653b21b041bfd473b4d68d
   - 423a0c9d2f069c973458d9d6e5eca8dd
 yourls_shorturl:
-  - http://lobban.org/i/bu
+  - https://lobban.org/i/bu
 categories:
   - Links
 tags:

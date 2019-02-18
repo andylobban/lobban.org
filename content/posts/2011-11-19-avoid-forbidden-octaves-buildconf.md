@@ -7,7 +7,7 @@ url: /posts/2011/11/19/avoid-forbidden-octaves-buildconf/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/d3
+  - https://lobban.org/i/d3
 categories:
   - Photos
 
@@ -16,7 +16,7 @@ categories:
   <a href="http://instagr.am/p/U0JuR/"></p> 
   
   <div class='p_embed p_image_embed'>
-    <a href="http://getfile7.posterous.com/getfile/files.posterous.com/nonimage/dDnejzbuCcgAczgphpwpybqJzbIeoaAqIDlgxzjEvFBBgmEGqphHGFFtvpad/media_httpdistilleryi_CErrr.jpg.scaled1000.jpg"><img alt="Media_httpdistilleryi_cerrr" height="612" src="http://getfile7.posterous.com/getfile/files.posterous.com/nonimage/dDnejzbuCcgAczgphpwpybqJzbIeoaAqIDlgxzjEvFBBgmEGqphHGFFtvpad/media_httpdistilleryi_CErrr.jpg.scaled1000.jpg" width="612" /></a>
+    <a href="http://getfile7.posterous.com/getfile/files.posterous.com/nonimage/dDnejzbuCcgAczgphpwpybqJzbIeoaAqIDlgxzjEvFBBgmEGqphHGFFtvpad/media_httpdistilleryi_CErrr.jpg.scaled1000.jpg"><img alt="Media_httpdistilleryi_cerrr" height="612" src="https://getfile7.posterous.com/getfile/files.posterous.com/nonimage/dDnejzbuCcgAczgphpwpybqJzbIeoaAqIDlgxzjEvFBBgmEGqphHGFFtvpad/media_httpdistilleryi_CErrr.jpg.scaled1000.jpg" width="612" /></a>
   </div>
   
   <p>

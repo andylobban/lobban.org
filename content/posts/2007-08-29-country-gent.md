@@ -5,7 +5,7 @@ type: posts
 date: 2007-08-29T13:40:44+00:00
 url: /posts/2007/08/29/country-gent/
 yourls_shorturl:
-  - http://lobban.org/i/9b
+  - https://lobban.org/i/9b
 categories:
   - Stuff
 tags:

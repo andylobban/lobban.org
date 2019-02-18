@@ -5,7 +5,7 @@ type: posts
 date: 2006-10-10T11:30:53+00:00
 url: /posts/2006/10/10/qotd-my-favorite-sense/
 yourls_shorturl:
-  - http://lobban.org/i/9m
+  - https://lobban.org/i/9m
 categories:
   - Stuff
 tags:

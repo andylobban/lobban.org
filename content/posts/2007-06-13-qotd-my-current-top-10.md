@@ -5,7 +5,7 @@ type: posts
 date: 2007-06-13T18:30:27+00:00
 url: /posts/2007/06/13/qotd-my-current-top-10/
 yourls_shorturl:
-  - http://lobban.org/i/93
+  - https://lobban.org/i/93
 categories:
   - Stuff
 tags:

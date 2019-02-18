@@ -7,7 +7,7 @@ url: /posts/2012/01/02/music-i-liked-in-2011/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/dj
+  - https://lobban.org/i/dj
 categories:
   - Music
 tags:

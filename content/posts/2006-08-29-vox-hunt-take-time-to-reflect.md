@@ -5,7 +5,7 @@ type: posts
 date: 2006-08-29T12:29:42+00:00
 url: /posts/2006/08/29/vox-hunt-take-time-to-reflect/
 yourls_shorturl:
-  - http://lobban.org/i/6x
+  - https://lobban.org/i/6x
 categories:
   - Stuff
 tags:

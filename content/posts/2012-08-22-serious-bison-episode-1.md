@@ -7,7 +7,7 @@ url: /posts/2012/08/22/serious-bison-episode-1/
 aktt_notify_twitter:
   - no
 yourls_shorturl:
-  - http://lobban.org/i/jy
+  - https://lobban.org/i/jy
 enclosure:
   - |
     |

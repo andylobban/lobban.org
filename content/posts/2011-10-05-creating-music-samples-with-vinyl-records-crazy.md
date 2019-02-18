@@ -26,7 +26,7 @@ syndication_item_hash:
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/ch
+  - https://lobban.org/i/ch
 categories:
   - Links
 tags:

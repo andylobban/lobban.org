@@ -7,7 +7,7 @@ url: /posts/2011/04/30/diana-mini-photos-from-new-york/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/a5
+  - https://lobban.org/i/a5
 categories:
   - Photos
 tags:
@@ -17,7 +17,7 @@ tags:
   - photos
 
 ---
-[<img class="alignnone size-large wp-image-1469215904" title="New York" src="http://lobban.org/wp-content/uploads/2011/04/000028-564x564.jpg" alt="Rockefeller" />][1]
+[<img class="alignnone size-large wp-image-1469215904" title="New York" src="https://lobban.org/wp-content/uploads/2011/04/000028-564x564.jpg" alt="Rockefeller" />][1]
 
 I got the next roll from my Diana mini developed, from New York and Austin. Unfortunately, about 10 photos were lost when I dropped the camera and the back opened a bit.
 

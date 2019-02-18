@@ -5,7 +5,7 @@ type: posts
 date: 2007-06-13T18:32:15+00:00
 url: /posts/2007/06/13/jericho-saved/
 yourls_shorturl:
-  - http://lobban.org/i/92
+  - https://lobban.org/i/92
 categories:
   - Stuff
 tags:

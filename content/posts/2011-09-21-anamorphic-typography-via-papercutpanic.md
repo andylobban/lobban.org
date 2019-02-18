@@ -37,7 +37,7 @@ syndication_item_hash:
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/c2
+  - https://lobban.org/i/c2
 categories:
   - Links
 tags:

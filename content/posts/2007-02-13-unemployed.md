@@ -5,7 +5,7 @@ type: posts
 date: 2007-02-13T16:23:42+00:00
 url: /posts/2007/02/13/unemployed/
 yourls_shorturl:
-  - http://lobban.org/i/8b
+  - https://lobban.org/i/8b
 categories:
   - Stuff
 tags:

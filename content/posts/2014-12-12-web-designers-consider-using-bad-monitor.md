@@ -22,7 +22,7 @@ That&#8217;s an odd thing to suggest, isn&#8217;t it? We digital designers love 
 
 There&#8217;s only one problem: most people don&#8217;t have fancy monitors like ours. The majority of our users have average-to-bad screens to view our beautiful designs on. That subtle grey you&#8217;ve used is lovely, but on that 5 year old, burned out, 19&#8243; Dell monitor that John in Accounts has, the grey looks white like the background, and your carefully planned visual hierarchy can fall apart and become confusing.
 
-<img class="alignnone size-full wp-image-1469217590" src="http://lobban.org/wp-content/uploads/2014/12/screens.jpg" alt="My nice screen and my bad screen, together forever" width="780" height="585" srcset="https://lobban.org/wp-content/uploads/2014/12/screens.jpg 780w, https://lobban.org/wp-content/uploads/2014/12/screens-300x225.jpg 300w" sizes="(max-width: 780px) 100vw, 780px" />
+<img class="alignnone size-full wp-image-1469217590" src="https://lobban.org/wp-content/uploads/2014/12/screens.jpg" alt="My nice screen and my bad screen, together forever" width="780" height="585" srcset="https://lobban.org/wp-content/uploads/2014/12/screens.jpg 780w, https://lobban.org/wp-content/uploads/2014/12/screens-300x225.jpg 300w" sizes="(max-width: 780px) 100vw, 780px" />
 
 A few years ago I acquired an old 16&#8243; monitor from a cupboard, to be a second monitor for my 27&#8243; iMac. I tell people it was a place to put my email client and browser&#8217;s web inspector while I worked on my main screen, but I think I actually wanted to stream the Ryder Cup while I worked one Friday. It is a handy place to put my email, web inspector, Twitter, Spotify and all that other stuff that helps me work but isn&#8217;t actually work.
 

@@ -5,7 +5,7 @@ type: posts
 date: 2011-01-03T12:06:53+00:00
 url: /posts/2011/01/03/the-new-stereo-mixtape-january-2011/
 yourls_shorturl:
-  - http://lobban.org/i/5
+  - https://lobban.org/i/5
 enclosure:
   - |
     |

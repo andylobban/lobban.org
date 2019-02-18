@@ -7,7 +7,7 @@ url: /posts/2012/03/19/welcome-to-austin/
 aktt_notify_twitter:
   - yes
 yourls_shorturl:
-  - http://lobban.org/i/gr
+  - https://lobban.org/i/gr
 aktt_tweeted:
   - 1
 categories:
@@ -18,7 +18,7 @@ categories:
   <a href="http://instagr.am/p/IV1Ej5qlsu/"></p> 
   
   <div class='p_embed p_image_embed'>
-    <a href="http://getfile3.posterous.com/getfile/files.posterous.com/nonimage/bnCJsehCvctxugbvAhHoeaoCjlGGxqfhqHxHdvtbubthmfozgkzmpdDbxogi/media_httpdistilleryi_jdHua.jpg.scaled1000.jpg"><img alt="Media_httpdistilleryi_jdhua" height="612" src="http://getfile3.posterous.com/getfile/files.posterous.com/nonimage/bnCJsehCvctxugbvAhHoeaoCjlGGxqfhqHxHdvtbubthmfozgkzmpdDbxogi/media_httpdistilleryi_jdHua.jpg.scaled1000.jpg" width="612" /></a>
+    <a href="http://getfile3.posterous.com/getfile/files.posterous.com/nonimage/bnCJsehCvctxugbvAhHoeaoCjlGGxqfhqHxHdvtbubthmfozgkzmpdDbxogi/media_httpdistilleryi_jdHua.jpg.scaled1000.jpg"><img alt="Media_httpdistilleryi_jdhua" height="612" src="https://getfile3.posterous.com/getfile/files.posterous.com/nonimage/bnCJsehCvctxugbvAhHoeaoCjlGGxqfhqHxHdvtbubthmfozgkzmpdDbxogi/media_httpdistilleryi_jdHua.jpg.scaled1000.jpg" width="612" /></a>
   </div>
   
   <p>

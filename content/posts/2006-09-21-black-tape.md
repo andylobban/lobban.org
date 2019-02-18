@@ -5,7 +5,7 @@ type: posts
 date: 2006-09-21T14:21:43+00:00
 url: /posts/2006/09/21/black-tape/
 yourls_shorturl:
-  - http://lobban.org/i/77
+  - https://lobban.org/i/77
 categories:
   - Stuff
 tags:

@@ -5,7 +5,7 @@ type: posts
 date: 2006-10-24T14:04:35+00:00
 url: /posts/2006/10/24/qotd-i-cant-believe-i-ate-this/
 yourls_shorturl:
-  - http://lobban.org/i/7e
+  - https://lobban.org/i/7e
 categories:
   - Stuff
 tags:

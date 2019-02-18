@@ -7,7 +7,7 @@ url: /posts/2011/04/01/2-things-for-a-friday/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/m
+  - https://lobban.org/i/m
 categories:
   - Links
 
@@ -18,7 +18,7 @@ A couple of things that have made my day today:
 
 from [b.aking.ca][1]:
 
-[<img class="alignnone size-large wp-image-1469215891" title="Fractal" src="http://lobban.org/wp-content/uploads/2011/04/Capture-564x404.jpg" alt="Our lives are spent trying to pixellate a fractal planet" />][1]
+[<img class="alignnone size-large wp-image-1469215891" title="Fractal" src="https://lobban.org/wp-content/uploads/2011/04/Capture-564x404.jpg" alt="Our lives are spent trying to pixellate a fractal planet" />][1]
 
 ## 2. [3eanuts][2]
 

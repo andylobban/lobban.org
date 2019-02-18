@@ -5,7 +5,7 @@ type: posts
 date: 2006-10-31T16:35:13+00:00
 url: /posts/2006/10/31/vox-hunt-great-costume/
 yourls_shorturl:
-  - http://lobban.org/i/7l
+  - https://lobban.org/i/7l
 categories:
   - Stuff
 tags:

@@ -5,7 +5,7 @@ type: posts
 date: 2006-11-03T12:23:33+00:00
 url: /posts/2006/11/03/qotd-heaven-scent/
 yourls_shorturl:
-  - http://lobban.org/i/9z
+  - https://lobban.org/i/9z
 categories:
   - Stuff
 tags:

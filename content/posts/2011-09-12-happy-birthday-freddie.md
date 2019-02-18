@@ -7,7 +7,7 @@ url: /posts/2011/09/12/happy-birthday-freddie/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/bq
+  - https://lobban.org/i/bq
 syndication_item_hash:
   - ab6ec3e107880378c33f24e62fd42579
   - c87b845540b53c603b90372067f6a05f

@@ -5,7 +5,7 @@ type: posts
 date: 2006-09-18T10:39:45+00:00
 url: /posts/2006/09/18/qotd-talk-to-me/
 yourls_shorturl:
-  - http://lobban.org/i/76
+  - https://lobban.org/i/76
 categories:
   - Stuff
 tags:

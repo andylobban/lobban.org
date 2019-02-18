@@ -5,7 +5,7 @@ type: posts
 date: 2006-08-31T16:13:41+00:00
 url: /posts/2006/08/31/qotd-cant-get-you-out-of-my-head/
 yourls_shorturl:
-  - http://lobban.org/i/70
+  - https://lobban.org/i/70
 categories:
   - Stuff
 tags:

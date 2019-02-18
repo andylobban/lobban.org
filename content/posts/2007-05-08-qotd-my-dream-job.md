@@ -5,7 +5,7 @@ type: posts
 date: 2007-05-08T10:41:46+00:00
 url: /posts/2007/05/08/qotd-my-dream-job/
 yourls_shorturl:
-  - http://lobban.org/i/8v
+  - https://lobban.org/i/8v
 categories:
   - Stuff
 tags:

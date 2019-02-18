@@ -12,7 +12,7 @@ url: /posts/2011/08/29/god-dont-like-it-posters-by-james-kirkup/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/bk
+  - https://lobban.org/i/bk
 syndication_item_hash:
   - 24072763c98e58174e7e2f808fda5a5b
   - 730393792a55c78d1a8ec0d8125acf7f

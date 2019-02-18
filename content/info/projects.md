@@ -3,8 +3,7 @@ title: Archive
 author: admin
 type: page
 date: 2013-09-18T16:29:08+00:00
-meta-description:
-  - Just an archive for myself really, of old bits and pieces
+meta-description: Just an archive for myself really, of old bits and pieces
 
 ---
 

@@ -8,7 +8,7 @@ url: /posts/2011/08/24/all-creatures-will-make-merry-on-vinyl/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/bh
+  - https://lobban.org/i/bh
 syndication_item_hash:
   - 131c0d12834f98d5c417ee1698447604
 syndication_permalink:

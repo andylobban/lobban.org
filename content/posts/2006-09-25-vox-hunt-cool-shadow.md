@@ -5,7 +5,7 @@ type: posts
 date: 2006-09-25T12:40:57+00:00
 url: /posts/2006/09/25/vox-hunt-cool-shadow/
 yourls_shorturl:
-  - http://lobban.org/i/7b
+  - https://lobban.org/i/7b
 categories:
   - Stuff
 tags:

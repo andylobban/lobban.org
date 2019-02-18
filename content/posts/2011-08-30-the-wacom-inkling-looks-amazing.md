@@ -5,7 +5,7 @@ type: posts
 date: 2011-08-30T10:43:29+00:00
 url: /posts/2011/08/30/the-wacom-inkling-looks-amazing/
 yourls_shorturl:
-  - http://lobban.org/i/bp
+  - https://lobban.org/i/bp
 yourls_tweeted:
   - 1
 syndication_item_hash:

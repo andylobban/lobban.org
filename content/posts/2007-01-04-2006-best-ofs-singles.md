@@ -5,7 +5,7 @@ type: posts
 date: 2007-01-04T18:52:22+00:00
 url: /posts/2007/01/04/2006-best-ofs-singles/
 yourls_shorturl:
-  - http://lobban.org/i/9k
+  - https://lobban.org/i/9k
 categories:
   - Stuff
 tags:
