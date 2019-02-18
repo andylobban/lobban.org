@@ -13,6 +13,6 @@ tags:
   - the japanese war effort
 
 ---
-[<img src="http://lobban.org/wp-content/uploads/2011/02/20110203-065354.jpg" alt="" class="alignnone size-full" />][1]
+[<img src="https://lobban.org/wp-content/uploads/2011/02/20110203-065354.jpg" alt="" class="alignnone size-full" />][1]
 
  [1]: http://lobban.org/wp-content/uploads/2011/02/20110203-065354.jpg

@@ -22,7 +22,7 @@ If you like twee pop (I do) then you might like a band that tried to friend Blac
     <div class="vox-enclosure-list">
       <div class="vox-enclosure-item vox-audio-asset vox-last">
         <div class="vox-enclosure-image">
-          <a href="http://a7.typepad.com/6a01348743f8e2970c0133f423d81f970b-pi" title="Click to play “Amida - Class of 2000”"><span class="vox-asset-overlay"></span><img alt="Amida - Class of 2000" class="asset asset-image at-xid-6a01348743f8e2970c0133f423d81f970b" src="http://a7.typepad.com/6a01348743f8e2970c0133f423d81f970b-120pi" /></a>
+          <a href="http://a7.typepad.com/6a01348743f8e2970c0133f423d81f970b-pi" title="Click to play “Amida - Class of 2000”"><span class="vox-asset-overlay"></span><img alt="Amida - Class of 2000" class="asset asset-image at-xid-6a01348743f8e2970c0133f423d81f970b" src="https://a7.typepad.com/6a01348743f8e2970c0133f423d81f970b-120pi" /></a>
         </div>
         
         <div class="vox-enclosure-meta">

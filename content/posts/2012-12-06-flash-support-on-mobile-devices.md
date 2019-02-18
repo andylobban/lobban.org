@@ -42,7 +42,7 @@ Mobile device use is on the rise, which means most websites are being visited by
 
 Besides, animated GIFs are more fun anyway.
 
-<img class="alignnone size-full wp-image-1469217595" src="http://lobban.org/wp-content/uploads/2012/12/505cab826166b.gif" alt="" width="500" height="239" />
+<img class="alignnone size-full wp-image-1469217595" src="https://lobban.org/wp-content/uploads/2012/12/505cab826166b.gif" alt="" width="500" height="239" />
 
  [1]: http://blog.stormid.com/2012/12/flash-support-on-mobile-devices/
  [2]: http://blogs.adobe.com/flashplayer/2012/06/flash-player-and-android-update.html "Flash is not compatible with Android OS 4.1"

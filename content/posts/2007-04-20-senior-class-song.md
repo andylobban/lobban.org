@@ -35,7 +35,7 @@ The song I heard all the time in my final year at school in our common room is f
     <div class="vox-enclosure-list">
       <div class="vox-enclosure-item vox-audio-asset vox-last">
         <div class="vox-enclosure-image">
-          <a href="http://a4.typepad.com/6a01348743f8e2970c0133f423d7ec970b-pi" title="Click to play “11 Pull My Strings”"><span class="vox-asset-overlay"></span><img alt="11 Pull My Strings" class="asset asset-image at-xid-6a01348743f8e2970c0133f423d7ec970b" src="http://a4.typepad.com/6a01348743f8e2970c0133f423d7ec970b-120pi" /></a>
+          <a href="http://a4.typepad.com/6a01348743f8e2970c0133f423d7ec970b-pi" title="Click to play “11 Pull My Strings”"><span class="vox-asset-overlay"></span><img alt="11 Pull My Strings" class="asset asset-image at-xid-6a01348743f8e2970c0133f423d7ec970b" src="https://a4.typepad.com/6a01348743f8e2970c0133f423d7ec970b-120pi" /></a>
         </div>
         
         <div class="vox-enclosure-meta">
@@ -55,7 +55,7 @@ Another song that reminds me of that year, that more people should be exposed to
     <div class="vox-enclosure-list">
       <div class="vox-enclosure-item vox-audio-asset vox-last">
         <div class="vox-enclosure-image">
-          <a href="http://a1.typepad.com/6a01348743f8e2970c0133f423d7f1970b-pi" title="Click to play “04 Dry Erase-Board Life”"><span class="vox-asset-overlay"></span><img alt="04 Dry Erase-Board Life" class="asset asset-image at-xid-6a01348743f8e2970c0133f423d7f1970b" src="http://a1.typepad.com/6a01348743f8e2970c0133f423d7f1970b-120pi" /></a>
+          <a href="http://a1.typepad.com/6a01348743f8e2970c0133f423d7f1970b-pi" title="Click to play “04 Dry Erase-Board Life”"><span class="vox-asset-overlay"></span><img alt="04 Dry Erase-Board Life" class="asset asset-image at-xid-6a01348743f8e2970c0133f423d7f1970b" src="https://a1.typepad.com/6a01348743f8e2970c0133f423d7f1970b-120pi" /></a>
         </div>
         
         <div class="vox-enclosure-meta">

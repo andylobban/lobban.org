@@ -14,6 +14,6 @@ tags:
   - Graffiti
 
 ---
-[<img src="http://lobban.org/wp-content/uploads/2011/04/20110405-104332.jpg" alt="20110405-104332.jpg" class="alignnone size-full" />][1]
+[<img src="https://lobban.org/wp-content/uploads/2011/04/20110405-104332.jpg" alt="20110405-104332.jpg" class="alignnone size-full" />][1]
 
  [1]: http://lobban.org/wp-content/uploads/2011/04/20110405-104332.jpg

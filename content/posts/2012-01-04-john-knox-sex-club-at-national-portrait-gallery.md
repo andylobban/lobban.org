@@ -12,7 +12,7 @@ categories:
   - Photos
 
 ---
-<img class="alignnone size-large wp-image-1469216389" title="John Knox Sex Club" src="http://lobban.org/wp-content/uploads/2012/01/P1090507-612x814.jpg" alt="" width="612" height="814" />
+<img class="alignnone size-large wp-image-1469216389" title="John Knox Sex Club" src="https://lobban.org/wp-content/uploads/2012/01/P1090507-612x814.jpg" alt="" width="612" height="814" />
 
 I had the pleasure of seeing [John Knox Sex Club][1] play live at the National Portrait Gallery in December. A great band in an impressive venue, newly reopened.
 

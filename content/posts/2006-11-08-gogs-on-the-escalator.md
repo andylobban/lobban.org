@@ -18,5 +18,5 @@ tags:
 Gogs on the escalator at Ocean Terminal, summer 2005. 
 
 <div class="feedflare">
-  <a href="http://feeds.feedburner.com/~f/nonimage?a=TMpXoqwu"><img src="http://feeds.feedburner.com/~f/nonimage?i=TMpXoqwu" /></a> <a href="http://feeds.feedburner.com/~f/nonimage?a=zXCGaTvE"><img src="http://feeds.feedburner.com/~f/nonimage?i=zXCGaTvE" /></a>
+  <a href="http://feeds.feedburner.com/~f/nonimage?a=TMpXoqwu"><img src="https://feeds.feedburner.com/~f/nonimage?i=TMpXoqwu" /></a> <a href="http://feeds.feedburner.com/~f/nonimage?a=zXCGaTvE"><img src="https://feeds.feedburner.com/~f/nonimage?i=zXCGaTvE" /></a>
 </div>

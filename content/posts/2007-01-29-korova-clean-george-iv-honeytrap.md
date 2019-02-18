@@ -13,7 +13,7 @@ categories:
 </p> 
 
 <div class="flickr-frame">
-  <a href="http://www.flickr.com/photos/nonimage/373318482/" title="photo sharing"><img alt="" class="flickr-photo" src="http://lobban.org/wp-content/uploads/2011/06/373318482_9d29f1ff83.jpg" /></a><br /><span class="flickr-caption"><a href="http://www.flickr.com/photos/nonimage/373318482/">Gig Poster</a>, originally uploaded by <a href="http://www.flickr.com/people/nonimage/">nonimage</a>.</span>
+  <a href="http://www.flickr.com/photos/nonimage/373318482/" title="photo sharing"><img alt="" class="flickr-photo" src="https://lobban.org/wp-content/uploads/2011/06/373318482_9d29f1ff83.jpg" /></a><br /><span class="flickr-caption"><a href="http://www.flickr.com/photos/nonimage/373318482/">Gig Poster</a>, originally uploaded by <a href="http://www.flickr.com/people/nonimage/">nonimage</a>.</span>
 </div>
 
 <p class="flickr-yourcomment">

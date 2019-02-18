@@ -20,7 +20,7 @@ In anticipation of the second Black Tape club tonight (9th Nov), here are the ph
 The rest are <a href="http://flickr.com/photos/nonimage/sets/72157594345748430/" target="_blank">here</a>. 
 
 <div class="feedflare">
-  <a href="http://feeds.feedburner.com/~f/nonimage?a=4vj7n0JY"><img src="http://feeds.feedburner.com/~f/nonimage?i=4vj7n0JY" /></a> <a href="http://feeds.feedburner.com/~f/nonimage?a=qcqz2HGK"><img src="http://feeds.feedburner.com/~f/nonimage?i=qcqz2HGK" /></a>
+  <a href="http://feeds.feedburner.com/~f/nonimage?a=4vj7n0JY"><img src="https://feeds.feedburner.com/~f/nonimage?i=4vj7n0JY" /></a> <a href="http://feeds.feedburner.com/~f/nonimage?a=qcqz2HGK"><img src="https://feeds.feedburner.com/~f/nonimage?i=qcqz2HGK" /></a>
 </div>
 
  [1]: http://lobban.org/wp-content/uploads/2011/06/279381350_6476730bfe_m.jpg

@@ -18,7 +18,7 @@ A couple of things that have made my day today:
 
 from [b.aking.ca][1]:
 
-[<img class="alignnone size-large wp-image-1469215891" title="Fractal" src="http://lobban.org/wp-content/uploads/2011/04/Capture-564x404.jpg" alt="Our lives are spent trying to pixellate a fractal planet" />][1]
+[<img class="alignnone size-large wp-image-1469215891" title="Fractal" src="https://lobban.org/wp-content/uploads/2011/04/Capture-564x404.jpg" alt="Our lives are spent trying to pixellate a fractal planet" />][1]
 
 ## 2. [3eanuts][2]
 
