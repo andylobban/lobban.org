@@ -5,7 +5,7 @@ type: posts
 date: 2006-08-30T17:41:15+00:00
 url: /posts/2006/08/30/vox-hunt-orange-crush/
 yourls_shorturl:
-  - http://lobban.org/i/6z
+  - https://lobban.org/i/6z
 categories:
   - Stuff
 tags:

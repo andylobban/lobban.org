@@ -5,7 +5,7 @@ type: posts
 date: 2006-10-26T14:41:53+00:00
 url: /posts/2006/10/26/vox-hunt-dangerously-cute/
 yourls_shorturl:
-  - http://lobban.org/i/7h
+  - https://lobban.org/i/7h
 categories:
   - Stuff
 tags:

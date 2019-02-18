@@ -5,7 +5,7 @@ type: posts
 date: 2006-09-25T12:34:14+00:00
 url: /posts/2006/09/25/qotd-reach-out/
 yourls_shorturl:
-  - http://lobban.org/i/7a
+  - https://lobban.org/i/7a
 categories:
   - Stuff
 tags:

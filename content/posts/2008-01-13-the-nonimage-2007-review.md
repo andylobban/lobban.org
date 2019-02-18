@@ -5,7 +5,7 @@ type: posts
 date: 2008-01-13T19:52:55+00:00
 url: /posts/2008/01/13/the-nonimage-2007-review/
 yourls_shorturl:
-  - http://lobban.org/i/a
+  - https://lobban.org/i/a
 categories:
   - Stuff
 tags:

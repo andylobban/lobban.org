@@ -7,7 +7,7 @@ url: /posts/2011/07/27/some-new-photos/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/an
+  - https://lobban.org/i/an
 categories:
   - Photos
 

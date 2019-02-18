@@ -7,7 +7,7 @@ url: /posts/2011/10/06/my-parents-new-puppy/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/cj
+  - https://lobban.org/i/cj
 categories:
   - Photos
 

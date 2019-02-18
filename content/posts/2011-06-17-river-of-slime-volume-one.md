@@ -7,7 +7,7 @@ url: /posts/2011/06/17/river-of-slime-volume-one/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/ae
+  - https://lobban.org/i/ae
 categories:
   - Music
 

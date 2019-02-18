@@ -34,7 +34,7 @@ syndication_item_hash:
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/bw
+  - https://lobban.org/i/bw
 categories:
   - Links
 tags:

@@ -7,7 +7,7 @@ url: /posts/2011/09/24/many-faces/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/cc
+  - https://lobban.org/i/cc
 categories:
   - Photos
 

@@ -7,7 +7,7 @@ url: /posts/2011/11/24/good-cupcakes-are-good/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/d5
+  - https://lobban.org/i/d5
 categories:
   - Photos
 

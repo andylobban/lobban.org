@@ -5,7 +5,7 @@ type: posts
 date: 2007-01-30T09:11:53+00:00
 url: /posts/2007/01/30/qotd-rubbing-elbows/
 yourls_shorturl:
-  - http://lobban.org/i/88
+  - https://lobban.org/i/88
 categories:
   - Stuff
 tags:

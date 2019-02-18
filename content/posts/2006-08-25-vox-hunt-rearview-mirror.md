@@ -5,7 +5,7 @@ type: posts
 date: 2006-08-25T12:08:21+00:00
 url: /posts/2006/08/25/vox-hunt-rearview-mirror/
 yourls_shorturl:
-  - http://lobban.org/i/6v
+  - https://lobban.org/i/6v
 categories:
   - Stuff
 tags:

@@ -5,7 +5,7 @@ type: posts
 date: 2010-12-17T12:02:09+00:00
 url: /posts/2010/12/17/some-new-favourite-tumblr-blogs/
 yourls_shorturl:
-  - http://lobban.org/i/d
+  - https://lobban.org/i/d
 categories:
   - Links
 tags:

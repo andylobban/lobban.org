@@ -5,7 +5,7 @@ type: posts
 date: 2006-11-03T12:14:13+00:00
 url: /posts/2006/11/03/qotd-my-vox-name/
 yourls_shorturl:
-  - http://lobban.org/i/a4
+  - https://lobban.org/i/a4
 categories:
   - Stuff
 tags:

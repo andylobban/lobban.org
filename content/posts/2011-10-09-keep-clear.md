@@ -7,7 +7,7 @@ url: /posts/2011/10/09/keep-clear/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/cl
+  - https://lobban.org/i/cl
 categories:
   - Photos
 

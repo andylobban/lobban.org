@@ -7,7 +7,7 @@ url: /posts/2011/11/30/got-my-jonniecommon-remix-print-through-so-nice/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/d6
+  - https://lobban.org/i/d6
 categories:
   - Photos
 

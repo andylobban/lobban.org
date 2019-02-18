@@ -24,7 +24,7 @@ syndication_permalink:
 syndication_item_hash:
   - 601f589285d9315bf8af6f47f30240c5
 yourls_shorturl:
-  - http://lobban.org/i/ep
+  - https://lobban.org/i/ep
 categories:
   - Links
 tags:

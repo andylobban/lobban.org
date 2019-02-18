@@ -5,7 +5,7 @@ type: posts
 date: 2012-02-04T23:36:37+00:00
 url: /posts/2012/02/05/black-keys/
 yourls_shorturl:
-  - http://lobban.org/i/fk
+  - https://lobban.org/i/fk
 aktt_tweeted:
   - 1
 aktt_notify_twitter:

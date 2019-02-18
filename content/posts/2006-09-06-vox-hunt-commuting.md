@@ -5,7 +5,7 @@ type: posts
 date: 2006-09-06T11:09:46+00:00
 url: /posts/2006/09/06/vox-hunt-commuting/
 yourls_shorturl:
-  - http://lobban.org/i/9v
+  - https://lobban.org/i/9v
 categories:
   - Stuff
 tags:

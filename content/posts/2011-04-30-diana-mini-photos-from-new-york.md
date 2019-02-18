@@ -7,7 +7,7 @@ url: /posts/2011/04/30/diana-mini-photos-from-new-york/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/a5
+  - https://lobban.org/i/a5
 categories:
   - Photos
 tags:

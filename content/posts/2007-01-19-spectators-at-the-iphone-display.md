@@ -5,7 +5,7 @@ type: posts
 date: 2007-01-19T14:00:04+00:00
 url: /posts/2007/01/19/spectators-at-the-iphone-display/
 yourls_shorturl:
-  - http://lobban.org/i/83
+  - https://lobban.org/i/83
 categories:
   - Stuff
 tags:

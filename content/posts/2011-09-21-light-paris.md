@@ -7,7 +7,7 @@ url: /posts/2011/09/21/light-paris/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/c7
+  - https://lobban.org/i/c7
 categories:
   - Photos
 

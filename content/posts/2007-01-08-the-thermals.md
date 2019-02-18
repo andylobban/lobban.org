@@ -5,7 +5,7 @@ type: posts
 date: 2007-01-08T16:33:13+00:00
 url: /posts/2007/01/08/the-thermals/
 yourls_shorturl:
-  - http://lobban.org/i/7z
+  - https://lobban.org/i/7z
 categories:
   - Stuff
 tags:

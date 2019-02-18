@@ -7,7 +7,7 @@ url: /posts/2012/01/03/paris-photos-from-september/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/ed
+  - https://lobban.org/i/ed
 categories:
   - Photos
 tags:

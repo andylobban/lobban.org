@@ -5,7 +5,7 @@ type: posts
 date: 2010-12-07T09:37:45+00:00
 url: /posts/2010/12/07/crosley-radio-turntable/
 yourls_shorturl:
-  - http://lobban.org/i/b
+  - https://lobban.org/i/b
 categories:
   - Links
 tags:

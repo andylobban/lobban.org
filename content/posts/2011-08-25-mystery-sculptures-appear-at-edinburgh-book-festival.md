@@ -6,7 +6,7 @@ date: 2011-08-25T08:29:25+00:00
 excerpt: I love that someone is taking so much time and effort to do this.
 url: /posts/2011/08/25/mystery-sculptures-appear-at-edinburgh-book-festival/
 yourls_shorturl:
-  - http://lobban.org/i/bn
+  - https://lobban.org/i/bn
 yourls_tweeted:
   - 1
 syndication_item_hash:

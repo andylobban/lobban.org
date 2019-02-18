@@ -5,7 +5,7 @@ type: posts
 date: 2007-07-05T11:14:15+00:00
 url: /posts/2007/07/05/my-nonimage-design-blog/
 yourls_shorturl:
-  - http://lobban.org/i/95
+  - https://lobban.org/i/95
 categories:
   - Stuff
 tags:

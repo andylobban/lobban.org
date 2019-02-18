@@ -7,7 +7,7 @@ url: /posts/2012/03/03/beautiful-drunk-but-beautiful/
 aktt_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/fr
+  - https://lobban.org/i/fr
 aktt_notify_twitter:
   - yes
 categories:

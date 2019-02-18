@@ -5,7 +5,7 @@ type: posts
 date: 2006-08-29T11:21:20+00:00
 url: /posts/2006/08/29/qotd-best-villain-ever/
 yourls_shorturl:
-  - http://lobban.org/i/6w
+  - https://lobban.org/i/6w
 categories:
   - Stuff
 tags:

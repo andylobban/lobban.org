@@ -5,7 +5,7 @@ type: posts
 date: 2006-10-26T14:39:10+00:00
 url: /posts/2006/10/26/qotd-todays-top-5/
 yourls_shorturl:
-  - http://lobban.org/i/7g
+  - https://lobban.org/i/7g
 categories:
   - Stuff
 tags:

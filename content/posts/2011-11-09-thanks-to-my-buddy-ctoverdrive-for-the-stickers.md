@@ -7,7 +7,7 @@ url: /posts/2011/11/09/thanks-to-my-buddy-ctoverdrive-for-the-stickers/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/cy
+  - https://lobban.org/i/cy
 categories:
   - Photos
 

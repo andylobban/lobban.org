@@ -7,7 +7,7 @@ url: /posts/2011/09/28/my-copy-of-themanual-arrived-so-lovely/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/ce
+  - https://lobban.org/i/ce
 categories:
   - Photos
 

@@ -5,7 +5,7 @@ type: posts
 date: 2011-09-29T12:17:24+00:00
 url: /posts/2011/09/29/belladrum-video/
 yourls_shorturl:
-  - http://lobban.org/i/cf
+  - https://lobban.org/i/cf
 categories:
   - Music
   - Video

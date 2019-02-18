@@ -7,7 +7,7 @@ url: /posts/2011/11/09/house-music/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/cz
+  - https://lobban.org/i/cz
 categories:
   - Photos
 

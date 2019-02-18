@@ -5,7 +5,7 @@ type: posts
 date: 2011-12-17T09:39:33+00:00
 url: /posts/2011/12/17/breakfast-of-champions/
 yourls_shorturl:
-  - http://lobban.org/i/dd
+  - https://lobban.org/i/dd
 categories:
   - Photos
 

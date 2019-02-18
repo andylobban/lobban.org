@@ -5,7 +5,7 @@ type: posts
 date: 2007-04-01T21:47:30+00:00
 url: /posts/2007/04/01/this-is-what-we-need/
 yourls_shorturl:
-  - http://lobban.org/i/8k
+  - https://lobban.org/i/8k
 categories:
   - Stuff
 tags:

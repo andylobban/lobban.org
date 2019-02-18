@@ -5,7 +5,7 @@ type: posts
 date: 2007-02-08T15:24:51+00:00
 url: /posts/2007/02/08/food-for-thought/
 yourls_shorturl:
-  - http://lobban.org/i/8a
+  - https://lobban.org/i/8a
 categories:
   - Stuff
 tags:

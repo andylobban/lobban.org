@@ -7,7 +7,7 @@ url: /posts/2011/07/07/this-could-turn-nasty-whisky-refreshedi/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/ak
+  - https://lobban.org/i/ak
 categories:
   - Photos
 

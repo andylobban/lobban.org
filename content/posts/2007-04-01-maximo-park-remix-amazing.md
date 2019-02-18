@@ -5,7 +5,7 @@ type: posts
 date: 2007-04-01T22:10:09+00:00
 url: /posts/2007/04/01/maximo-park-remix-amazing/
 yourls_shorturl:
-  - http://lobban.org/i/8j
+  - https://lobban.org/i/8j
 categories:
   - Stuff
 tags:

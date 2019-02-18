@@ -5,7 +5,7 @@ type: posts
 date: 2006-11-17T13:44:37+00:00
 url: /posts/2006/11/17/tapas-n-tapas/
 yourls_shorturl:
-  - http://lobban.org/i/7u
+  - https://lobban.org/i/7u
 categories:
   - Stuff
 tags:

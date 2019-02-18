@@ -5,7 +5,7 @@ type: posts
 date: 2006-10-30T14:56:46+00:00
 url: /posts/2006/10/30/qotd-ghost-story/
 yourls_shorturl:
-  - http://lobban.org/i/7i
+  - https://lobban.org/i/7i
 categories:
   - Stuff
 tags:

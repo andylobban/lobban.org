@@ -20,5 +20,5 @@ The only 5 minutes I spent at the SXSW Trade Show this year was getting a &#8216
 </p>
 
  [1]: http://wordcloudportrait.com/andy+lobban/5934
- [2]: http://lobban.org/wp-content/uploads/2013/03/cloud5934.jpg
- [3]: http://lobban.org/wordpress//HLIC/583b27e9f58d5ad95c8aadf50fa42d2d.jpg
+ [2]: https://lobban.org/wp-content/uploads/2013/03/cloud5934.jpg
+ [3]: https://lobban.org/wordpress//HLIC/583b27e9f58d5ad95c8aadf50fa42d2d.jpg

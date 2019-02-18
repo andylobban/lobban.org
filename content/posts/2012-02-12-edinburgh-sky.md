@@ -7,7 +7,7 @@ url: /posts/2012/02/12/edinburgh-sky/
 aktt_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/fm
+  - https://lobban.org/i/fm
 aktt_notify_twitter:
   - yes
 categories:

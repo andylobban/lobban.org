@@ -7,7 +7,7 @@ url: /posts/2011/10/11/abe-vigoda-throwing-shade-jacob-safari-remix/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/cn
+  - https://lobban.org/i/cn
 categories:
   - Music
 format: audio

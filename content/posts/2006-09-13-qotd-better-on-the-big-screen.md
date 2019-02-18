@@ -5,7 +5,7 @@ type: posts
 date: 2006-09-13T12:18:04+00:00
 url: /posts/2006/09/13/qotd-better-on-the-big-screen/
 yourls_shorturl:
-  - http://lobban.org/i/74
+  - https://lobban.org/i/74
 categories:
   - Stuff
 tags:

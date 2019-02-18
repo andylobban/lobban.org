@@ -7,7 +7,7 @@ url: /posts/2011/12/02/amazing-first-mince-pies-of-the-season-by-loislobban/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/d7
+  - https://lobban.org/i/d7
 categories:
   - Photos
 

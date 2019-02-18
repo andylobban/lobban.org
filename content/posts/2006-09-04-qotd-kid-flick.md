@@ -5,7 +5,7 @@ type: posts
 date: 2006-09-04T13:47:50+00:00
 url: /posts/2006/09/04/qotd-kid-flick/
 yourls_shorturl:
-  - http://lobban.org/i/9u
+  - https://lobban.org/i/9u
 categories:
   - Stuff
 tags:

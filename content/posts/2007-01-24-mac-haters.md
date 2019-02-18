@@ -5,7 +5,7 @@ type: posts
 date: 2007-01-24T17:57:18+00:00
 url: /posts/2007/01/24/mac-haters/
 yourls_shorturl:
-  - http://lobban.org/i/84
+  - https://lobban.org/i/84
 categories:
   - Stuff
 tags:

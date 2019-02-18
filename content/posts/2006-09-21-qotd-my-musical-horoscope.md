@@ -5,7 +5,7 @@ type: posts
 date: 2006-09-21T10:07:11+00:00
 url: /posts/2006/09/21/qotd-my-musical-horoscope/
 yourls_shorturl:
-  - http://lobban.org/i/78
+  - https://lobban.org/i/78
 categories:
   - Stuff
 tags:

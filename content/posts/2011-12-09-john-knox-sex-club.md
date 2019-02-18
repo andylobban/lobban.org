@@ -7,7 +7,7 @@ url: /posts/2011/12/09/john-knox-sex-club/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/da
+  - https://lobban.org/i/da
 categories:
   - Photos
 

@@ -7,7 +7,7 @@ url: /posts/2012/03/10/the-wilds-of-canada/
 aktt_notify_twitter:
   - yes
 yourls_shorturl:
-  - http://lobban.org/i/g7
+  - https://lobban.org/i/g7
 aktt_tweeted:
   - 1
 categories:

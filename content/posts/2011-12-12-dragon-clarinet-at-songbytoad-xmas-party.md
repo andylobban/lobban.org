@@ -7,7 +7,7 @@ url: /posts/2011/12/12/dragon-clarinet-at-songbytoad-xmas-party/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/db
+  - https://lobban.org/i/db
 categories:
   - Photos
 

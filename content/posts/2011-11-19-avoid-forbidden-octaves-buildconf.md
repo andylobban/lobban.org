@@ -7,7 +7,7 @@ url: /posts/2011/11/19/avoid-forbidden-octaves-buildconf/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/d3
+  - https://lobban.org/i/d3
 categories:
   - Photos
 

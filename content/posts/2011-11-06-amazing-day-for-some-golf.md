@@ -7,7 +7,7 @@ url: /posts/2011/11/06/amazing-day-for-some-golf/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/cx
+  - https://lobban.org/i/cx
 categories:
   - Photos
 

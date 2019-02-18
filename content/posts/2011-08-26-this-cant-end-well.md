@@ -7,7 +7,7 @@ url: /posts/2011/08/26/this-cant-end-well/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/bj
+  - https://lobban.org/i/bj
 categories:
   - Photos
 

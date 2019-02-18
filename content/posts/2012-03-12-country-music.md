@@ -7,7 +7,7 @@ url: /posts/2012/03/12/country-music/
 aktt_notify_twitter:
   - yes
 yourls_shorturl:
-  - http://lobban.org/i/gd
+  - https://lobban.org/i/gd
 aktt_tweeted:
   - 1
 categories:

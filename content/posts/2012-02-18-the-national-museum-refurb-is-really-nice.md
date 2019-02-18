@@ -5,7 +5,7 @@ type: posts
 date: 2012-02-18T13:16:47+00:00
 url: /posts/2012/02/18/the-national-museum-refurb-is-really-nice/
 yourls_shorturl:
-  - http://lobban.org/i/fo
+  - https://lobban.org/i/fo
 aktt_tweeted:
   - 1
 aktt_notify_twitter:

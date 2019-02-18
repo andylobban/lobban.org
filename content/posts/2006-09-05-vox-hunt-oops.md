@@ -5,7 +5,7 @@ type: posts
 date: 2006-09-05T09:51:15+00:00
 url: /posts/2006/09/05/vox-hunt-oops/
 yourls_shorturl:
-  - http://lobban.org/i/9t
+  - https://lobban.org/i/9t
 categories:
   - Stuff
 tags:

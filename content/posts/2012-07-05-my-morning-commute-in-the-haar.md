@@ -13,7 +13,7 @@ geo_longitude:
 geo_public:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/iq
+  - https://lobban.org/i/iq
 aktt_tweeted:
   - 1
 categories:
@@ -43,15 +43,15 @@ tags:
 </div>
 
  [1]: http://en.wikipedia.org/wiki/Haar_(fog)
- [2]: http://lobban.org/wp-content/uploads/2012/07/20120705-210204.jpg
- [3]: http://lobban.org/wp-content/uploads/2012/07/20120705-210312.jpg
- [4]: http://lobban.org/wp-content/uploads/2012/07/20120705-210328.jpg
- [5]: http://lobban.org/wp-content/uploads/2012/07/20120705-210358.jpg
- [6]: http://lobban.org/wp-content/uploads/2012/07/20120705-210413.jpg
- [7]: http://lobban.org/wp-content/uploads/2012/07/20120705-210437.jpg
- [8]: http://lobban.org/wp-content/uploads/2012/07/20120705-210446.jpg
- [9]: http://lobban.org/wp-content/uploads/2012/07/20120705-210512.jpg
- [10]: http://lobban.org/wp-content/uploads/2012/07/20120705-210520.jpg
- [11]: http://lobban.org/wp-content/uploads/2012/07/20120705-210529.jpg
- [12]: http://lobban.org/wp-content/uploads/2012/07/20120705-210539.jpg
- [13]: http://lobban.org/wp-content/uploads/2012/07/20120705-210549.jpg
+ [2]: https://lobban.org/wp-content/uploads/2012/07/20120705-210204.jpg
+ [3]: https://lobban.org/wp-content/uploads/2012/07/20120705-210312.jpg
+ [4]: https://lobban.org/wp-content/uploads/2012/07/20120705-210328.jpg
+ [5]: https://lobban.org/wp-content/uploads/2012/07/20120705-210358.jpg
+ [6]: https://lobban.org/wp-content/uploads/2012/07/20120705-210413.jpg
+ [7]: https://lobban.org/wp-content/uploads/2012/07/20120705-210437.jpg
+ [8]: https://lobban.org/wp-content/uploads/2012/07/20120705-210446.jpg
+ [9]: https://lobban.org/wp-content/uploads/2012/07/20120705-210512.jpg
+ [10]: https://lobban.org/wp-content/uploads/2012/07/20120705-210520.jpg
+ [11]: https://lobban.org/wp-content/uploads/2012/07/20120705-210529.jpg
+ [12]: https://lobban.org/wp-content/uploads/2012/07/20120705-210539.jpg
+ [13]: https://lobban.org/wp-content/uploads/2012/07/20120705-210549.jpg

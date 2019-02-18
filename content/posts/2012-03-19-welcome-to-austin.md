@@ -7,7 +7,7 @@ url: /posts/2012/03/19/welcome-to-austin/
 aktt_notify_twitter:
   - yes
 yourls_shorturl:
-  - http://lobban.org/i/gr
+  - https://lobban.org/i/gr
 aktt_tweeted:
   - 1
 categories:

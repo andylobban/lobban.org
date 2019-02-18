@@ -5,7 +5,7 @@ type: posts
 date: 2007-04-16T12:59:07+00:00
 url: /posts/2007/04/16/daniel-johnston-live-recording/
 yourls_shorturl:
-  - http://lobban.org/i/8m
+  - https://lobban.org/i/8m
 categories:
   - Stuff
 tags:

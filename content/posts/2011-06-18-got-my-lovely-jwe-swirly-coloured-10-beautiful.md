@@ -7,7 +7,7 @@ url: /posts/2011/06/18/got-my-lovely-jwe-swirly-coloured-10-beautiful/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/af
+  - https://lobban.org/i/af
 categories:
   - Photos
 

@@ -5,7 +5,7 @@ type: posts
 date: 2006-09-13T12:20:01+00:00
 url: /posts/2006/09/13/vox-hunt-good-for-a-laugh/
 yourls_shorturl:
-  - http://lobban.org/i/75
+  - https://lobban.org/i/75
 categories:
   - Stuff
 tags:

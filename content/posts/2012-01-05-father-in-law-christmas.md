@@ -7,7 +7,7 @@ url: /posts/2012/01/05/father-in-law-christmas/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/eh
+  - https://lobban.org/i/eh
 categories:
   - Photos
 

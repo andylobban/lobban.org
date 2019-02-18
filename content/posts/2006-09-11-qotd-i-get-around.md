@@ -5,7 +5,7 @@ type: posts
 date: 2006-09-11T09:26:38+00:00
 url: /posts/2006/09/11/qotd-i-get-around/
 yourls_shorturl:
-  - http://lobban.org/i/72
+  - https://lobban.org/i/72
 categories:
   - Stuff
 tags:

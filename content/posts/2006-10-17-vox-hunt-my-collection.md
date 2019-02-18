@@ -5,7 +5,7 @@ type: posts
 date: 2006-10-17T11:57:16+00:00
 url: /posts/2006/10/17/vox-hunt-my-collection/
 yourls_shorturl:
-  - http://lobban.org/i/7c
+  - https://lobban.org/i/7c
 categories:
   - Stuff
 tags:

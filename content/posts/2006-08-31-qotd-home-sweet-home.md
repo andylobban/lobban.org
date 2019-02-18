@@ -5,7 +5,7 @@ type: posts
 date: 2006-08-31T09:21:05+00:00
 url: /posts/2006/08/31/qotd-home-sweet-home/
 yourls_shorturl:
-  - http://lobban.org/i/71
+  - https://lobban.org/i/71
 categories:
   - Stuff
 tags:

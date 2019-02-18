@@ -7,7 +7,7 @@ url: /posts/2012/01/04/john-knox-sex-club-at-national-portrait-gallery/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/ef
+  - https://lobban.org/i/ef
 categories:
   - Photos
 

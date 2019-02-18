@@ -7,7 +7,7 @@ url: /posts/2011/06/25/found-this-on-my-phone-from-last-weekend/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/ah
+  - https://lobban.org/i/ah
 categories:
   - Photos
 

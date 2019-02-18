@@ -5,7 +5,7 @@ type: posts
 date: 2011-08-22T12:27:16+00:00
 url: /posts/2011/08/22/lambchop-long-lost-video/
 yourls_shorturl:
-  - http://lobban.org/i/at
+  - https://lobban.org/i/at
 categories:
   - Music
   - Video

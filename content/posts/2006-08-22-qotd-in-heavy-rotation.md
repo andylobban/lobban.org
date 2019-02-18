@@ -5,7 +5,7 @@ type: posts
 date: 2006-08-22T11:41:27+00:00
 url: /posts/2006/08/22/qotd-in-heavy-rotation/
 yourls_shorturl:
-  - http://lobban.org/i/6s
+  - https://lobban.org/i/6s
 categories:
   - Stuff
 tags:

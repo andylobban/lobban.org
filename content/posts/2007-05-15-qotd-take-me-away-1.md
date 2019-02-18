@@ -5,7 +5,7 @@ type: posts
 date: 2007-05-15T18:44:05+00:00
 url: /posts/2007/05/15/qotd-take-me-away-1/
 yourls_shorturl:
-  - http://lobban.org/i/8x
+  - https://lobban.org/i/8x
 categories:
   - Stuff
 tags:

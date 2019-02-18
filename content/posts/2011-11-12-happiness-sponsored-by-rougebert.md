@@ -7,7 +7,7 @@ url: /posts/2011/11/12/happiness-sponsored-by-rougebert/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/d2
+  - https://lobban.org/i/d2
 categories:
   - Photos
 

@@ -5,7 +5,7 @@ type: posts
 date: 2007-05-18T12:25:44+00:00
 url: /posts/2007/05/18/qotd-how-ill-spend-my-summer-vacation/
 yourls_shorturl:
-  - http://lobban.org/i/8z
+  - https://lobban.org/i/8z
 categories:
   - Stuff
 tags:

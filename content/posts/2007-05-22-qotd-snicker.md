@@ -5,7 +5,7 @@ type: posts
 date: 2007-05-22T09:34:01+00:00
 url: /posts/2007/05/22/qotd-snicker/
 yourls_shorturl:
-  - http://lobban.org/i/90
+  - https://lobban.org/i/90
 categories:
   - Stuff
 tags:

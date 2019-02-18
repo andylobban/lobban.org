@@ -5,7 +5,7 @@ type: posts
 date: 2008-06-04T16:05:40+00:00
 url: /posts/2008/06/04/drugs-are-bad/
 yourls_shorturl:
-  - http://lobban.org/i/6m
+  - https://lobban.org/i/6m
 categories:
   - Stuff
 tags:

@@ -5,7 +5,7 @@ type: posts
 date: 2011-08-25T17:34:43+00:00
 url: /posts/2011/08/25/the-national/
 yourls_shorturl:
-  - http://lobban.org/i/bi
+  - https://lobban.org/i/bi
 yourls_tweeted:
   - 1
 categories:

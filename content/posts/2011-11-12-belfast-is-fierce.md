@@ -7,7 +7,7 @@ url: /posts/2011/11/12/belfast-is-fierce/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/d1
+  - https://lobban.org/i/d1
 categories:
   - Photos
 

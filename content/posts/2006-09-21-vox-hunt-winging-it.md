@@ -5,7 +5,7 @@ type: posts
 date: 2006-09-21T10:08:33+00:00
 url: /posts/2006/09/21/vox-hunt-winging-it/
 yourls_shorturl:
-  - http://lobban.org/i/79
+  - https://lobban.org/i/79
 categories:
   - Stuff
 tags:

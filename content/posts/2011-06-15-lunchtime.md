@@ -7,7 +7,7 @@ url: /posts/2011/06/15/lunchtime/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/aa
+  - https://lobban.org/i/aa
 categories:
   - Photos
 

@@ -7,7 +7,7 @@ url: /posts/2012/05/23/hype-hotel-march-2012/
 aktt_notify_twitter:
   - yes
 yourls_shorturl:
-  - http://lobban.org/i/ht
+  - https://lobban.org/i/ht
 aktt_tweeted:
   - 1
 categories:

@@ -5,7 +5,7 @@ type: posts
 date: 2006-08-18T14:39:24+00:00
 url: /posts/2006/08/18/vox-hunt-happiness-is/
 yourls_shorturl:
-  - http://lobban.org/i/a3
+  - https://lobban.org/i/a3
 categories:
   - Stuff
 tags:

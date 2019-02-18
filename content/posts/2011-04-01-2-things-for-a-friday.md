@@ -7,7 +7,7 @@ url: /posts/2011/04/01/2-things-for-a-friday/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/m
+  - https://lobban.org/i/m
 categories:
   - Links
 

@@ -7,7 +7,7 @@ url: /posts/2011/06/28/the-lovely-glasgow-companion-arrived-from-herb_lester/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/ai
+  - https://lobban.org/i/ai
 categories:
   - Photos
 

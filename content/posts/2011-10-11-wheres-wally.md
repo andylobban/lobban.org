@@ -7,7 +7,7 @@ url: /posts/2011/10/11/wheres-wally/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/cm
+  - https://lobban.org/i/cm
 categories:
   - Photos
 

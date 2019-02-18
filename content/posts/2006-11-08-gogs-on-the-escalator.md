@@ -5,7 +5,7 @@ type: posts
 date: 2006-11-08T12:57:43+00:00
 url: /posts/2006/11/08/gogs-on-the-escalator/
 yourls_shorturl:
-  - http://lobban.org/i/7p
+  - https://lobban.org/i/7p
 categories:
   - Stuff
 tags:

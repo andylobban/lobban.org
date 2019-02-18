@@ -7,7 +7,7 @@ url: /posts/2011/09/20/moon-tower/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/c3
+  - https://lobban.org/i/c3
 categories:
   - Photos
 

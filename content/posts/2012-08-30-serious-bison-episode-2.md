@@ -7,7 +7,7 @@ url: /posts/2012/08/30/serious-bison-episode-2/
 aktt_notify_twitter:
   - yes
 yourls_shorturl:
-  - http://lobban.org/i/k3
+  - https://lobban.org/i/k3
 enclosure:
   - |
     |

@@ -5,7 +5,7 @@ type: posts
 date: 2006-09-05T09:44:06+00:00
 url: /posts/2006/09/05/qotd-the-audience-goes-wild/
 yourls_shorturl:
-  - http://lobban.org/i/9x
+  - https://lobban.org/i/9x
 categories:
   - Stuff
 tags:

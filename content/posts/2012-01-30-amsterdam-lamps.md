@@ -9,7 +9,7 @@ aktt_notify_twitter:
 aktt_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/fi
+  - https://lobban.org/i/fi
 categories:
   - Photos
 

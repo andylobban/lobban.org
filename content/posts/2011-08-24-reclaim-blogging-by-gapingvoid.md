@@ -6,7 +6,7 @@ date: 2011-08-24T09:08:30+00:00
 excerpt: 'While I think it&#039;s probably good to push posts from your site to Twitter and Facebook, I do like the sentiment of this a lot.'
 url: /posts/2011/08/24/reclaim-blogging-by-gapingvoid/
 yourls_shorturl:
-  - http://lobban.org/i/bg
+  - https://lobban.org/i/bg
 yourls_tweeted:
   - 1
 syndication_permalink:

@@ -9,7 +9,7 @@ syndication_feed:
 "wfw:commentRSS":
   - http://feeds.delicious.com/v2/rss/url/1d38dca2d46263f888ab0756e1784545
 yourls_shorturl:
-  - http://lobban.org/i/c9
+  - https://lobban.org/i/c9
 syndication_feed_id:
   - 11
 syndication_permalink:

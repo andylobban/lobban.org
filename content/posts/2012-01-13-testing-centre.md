@@ -5,7 +5,7 @@ type: posts
 date: 2012-01-13T14:59:40+00:00
 url: /posts/2012/01/13/testing-centre/
 yourls_shorturl:
-  - http://lobban.org/i/er
+  - https://lobban.org/i/er
 categories:
   - Photos
 

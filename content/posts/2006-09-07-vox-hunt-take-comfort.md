@@ -5,7 +5,7 @@ type: posts
 date: 2006-09-07T09:51:19+00:00
 url: /posts/2006/09/07/vox-hunt-take-comfort/
 yourls_shorturl:
-  - http://lobban.org/i/9s
+  - https://lobban.org/i/9s
 categories:
   - Stuff
 tags:

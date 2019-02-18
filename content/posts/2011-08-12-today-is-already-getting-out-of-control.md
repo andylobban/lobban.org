@@ -7,7 +7,7 @@ url: /posts/2011/08/12/today-is-already-getting-out-of-control/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/ao
+  - https://lobban.org/i/ao
 categories:
   - Photos
 

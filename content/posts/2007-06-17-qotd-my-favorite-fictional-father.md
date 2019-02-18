@@ -5,7 +5,7 @@ type: posts
 date: 2007-06-17T20:31:24+00:00
 url: /posts/2007/06/17/qotd-my-favorite-fictional-father/
 yourls_shorturl:
-  - http://lobban.org/i/94
+  - https://lobban.org/i/94
 categories:
   - Stuff
 tags:

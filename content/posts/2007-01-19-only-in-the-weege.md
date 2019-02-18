@@ -5,7 +5,7 @@ type: posts
 date: 2007-01-19T10:52:10+00:00
 url: /posts/2007/01/19/only-in-the-weege/
 yourls_shorturl:
-  - http://lobban.org/i/82
+  - https://lobban.org/i/82
 categories:
   - Stuff
 tags:

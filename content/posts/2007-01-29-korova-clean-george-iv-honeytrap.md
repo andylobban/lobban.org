@@ -5,7 +5,7 @@ type: posts
 date: 2007-01-29T14:17:23+00:00
 url: /posts/2007/01/29/korova-clean-george-iv-honeytrap/
 yourls_shorturl:
-  - http://lobban.org/i/86
+  - https://lobban.org/i/86
 categories:
   - Stuff
 

@@ -25,7 +25,7 @@ syndication_item_hash:
   - 9c6488e58cd4e8f2aef2b489aaecdeda
   - e88e3043ae0fbe011e58f0ef49bb16e8
 yourls_shorturl:
-  - http://lobban.org/i/cw
+  - https://lobban.org/i/cw
 categories:
   - Links
 tags:

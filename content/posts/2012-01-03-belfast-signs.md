@@ -7,7 +7,7 @@ url: /posts/2012/01/03/belfast-signs/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/ec
+  - https://lobban.org/i/ec
 categories:
   - Photos
 tags:

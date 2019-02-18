@@ -5,7 +5,7 @@ type: posts
 date: 2012-02-24T14:28:43+00:00
 url: /posts/2012/02/24/lady-north-in-gif-format/
 yourls_shorturl:
-  - http://lobban.org/i/fq
+  - https://lobban.org/i/fq
 aktt_notify_twitter:
   - no
 categories:

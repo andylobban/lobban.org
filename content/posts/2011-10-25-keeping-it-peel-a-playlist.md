@@ -7,7 +7,7 @@ url: /posts/2011/10/25/keeping-it-peel-a-playlist/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/cu
+  - https://lobban.org/i/cu
 categories:
   - Music
 tags:

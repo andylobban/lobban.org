@@ -5,7 +5,7 @@ type: posts
 date: 2006-11-16T13:37:52+00:00
 url: /posts/2006/11/16/i-love-you-but-ive-chosen-darkness/
 yourls_shorturl:
-  - http://lobban.org/i/7t
+  - https://lobban.org/i/7t
 categories:
   - Stuff
 tags:

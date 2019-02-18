@@ -5,7 +5,7 @@ type: posts
 date: 2006-11-03T12:22:25+00:00
 url: /posts/2006/11/03/vox-hunt-ooh-shiny/
 yourls_shorturl:
-  - http://lobban.org/i/a0
+  - https://lobban.org/i/a0
 categories:
   - Stuff
 tags:

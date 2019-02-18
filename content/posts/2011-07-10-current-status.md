@@ -7,7 +7,7 @@ url: /posts/2011/07/10/current-status/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/al
+  - https://lobban.org/i/al
 categories:
   - Photos
 

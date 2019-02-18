@@ -5,7 +5,7 @@ type: posts
 date: 2011-12-24T18:12:17+00:00
 url: /posts/2011/12/24/reach-for-the-lasers/
 yourls_shorturl:
-  - http://lobban.org/i/dh
+  - https://lobban.org/i/dh
 categories:
   - Photos
 

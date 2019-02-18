@@ -5,7 +5,7 @@ type: posts
 date: 2011-01-29T17:02:27+00:00
 url: /posts/2011/01/29/pennycook-and-common/
 yourls_shorturl:
-  - http://lobban.org/i/i
+  - https://lobban.org/i/i
 categories:
   - Photos
 tags:
@@ -16,4 +16,4 @@ tags:
 ---
 [<img class="alignnone size-full" src="https://lobban.org/wp-content/uploads/2011/01/20110129-050144.jpg" alt="" />][1]
 
- [1]: http://lobban.org/wp-content/uploads/2011/01/20110129-050144.jpg
+ [1]: https://lobban.org/wp-content/uploads/2011/01/20110129-050144.jpg

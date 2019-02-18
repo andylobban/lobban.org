@@ -7,7 +7,7 @@ url: /posts/2011/10/12/lots-of-new-photos/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/co
+  - https://lobban.org/i/co
 categories:
   - Photos
 format: image

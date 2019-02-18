@@ -5,7 +5,7 @@ type: posts
 date: 2007-04-20T16:25:05+00:00
 url: /posts/2007/04/20/senior-class-song/
 yourls_shorturl:
-  - http://lobban.org/i/8r
+  - https://lobban.org/i/8r
 categories:
   - Stuff
 tags:

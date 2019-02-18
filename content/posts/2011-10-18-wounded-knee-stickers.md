@@ -7,7 +7,7 @@ url: /posts/2011/10/18/wounded-knee-stickers/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/cs
+  - https://lobban.org/i/cs
 categories:
   - Photos
 

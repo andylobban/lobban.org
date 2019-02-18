@@ -7,7 +7,7 @@ url: /posts/2011/12/05/the-fontsmith-10-years-in-type-collection-arrived-and-its
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/d8
+  - https://lobban.org/i/d8
 categories:
   - Photos
 

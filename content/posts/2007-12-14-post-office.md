@@ -5,7 +5,7 @@ type: posts
 date: 2007-12-14T13:16:41+00:00
 url: /posts/2007/12/14/post-office/
 yourls_shorturl:
-  - http://lobban.org/i/6o
+  - https://lobban.org/i/6o
 categories:
   - Stuff
 tags:

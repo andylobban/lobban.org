@@ -7,7 +7,7 @@ url: /posts/2011/05/20/coincidence/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/a6
+  - https://lobban.org/i/a6
 categories:
   - Nerdery
 

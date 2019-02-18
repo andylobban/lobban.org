@@ -7,7 +7,7 @@ url: /posts/2011/11/09/bowling-aye/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/d0
+  - https://lobban.org/i/d0
 categories:
   - Photos
 

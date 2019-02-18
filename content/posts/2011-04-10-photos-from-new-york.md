@@ -7,7 +7,7 @@ url: /posts/2011/04/10/photos-from-new-york/
 yourls_tweeted:
   - 1
 yourls_shorturl:
-  - http://lobban.org/i/6r
+  - https://lobban.org/i/6r
 categories:
   - Photos
 tags:

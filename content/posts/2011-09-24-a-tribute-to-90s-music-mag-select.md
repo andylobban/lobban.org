@@ -5,7 +5,7 @@ type: posts
 date: 2011-09-24T01:41:56+00:00
 url: /posts/2011/09/24/a-tribute-to-90s-music-mag-select/
 yourls_shorturl:
-  - http://lobban.org/i/ca
+  - https://lobban.org/i/ca
 syndication_feed_id:
   - 11
 syndication_permalink:
