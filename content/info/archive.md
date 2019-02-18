@@ -49,6 +49,6 @@ This is really just an archive for myself, of old bits and pieces.
  [10]: http://www.slideshare.net/nonimage
  [11]: https://soundcloud.com/nonimage
  [12]: http://www.stumbleupon.com/stumbler/nonimage/
- [13]: http://nonimage.typepad.com/
+ [13]: https://nonimage.typepad.com/
  [14]: http://weheartit.com/nonimage
  [15]: http://nonimage.wordpress.com/

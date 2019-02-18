@@ -22,7 +22,7 @@ tags:
 >     <div class="vox-enclosure-list">
 >       <div class="vox-enclosure-item vox-photo-asset vox-last">
 >         <div class="vox-enclosure-image">
->           <a href="http://www.flickr.com/photo.gne?id=243762450" title="DSC00504.jpg"><img alt="DSC00504.jpg" class="asset asset-image at-xid-6a01348743f8e2970c0133f423d9b3970b" src="http://nonimage.typepad.com/.a/6a01348743f8e2970c0133f423d9b3970b-320pi" /></a>
+>           <a href="http://www.flickr.com/photo.gne?id=243762450" title="DSC00504.jpg"><img alt="DSC00504.jpg" class="asset asset-image at-xid-6a01348743f8e2970c0133f423d9b3970b" src="https://nonimage.typepad.com/.a/6a01348743f8e2970c0133f423d9b3970b-320pi" /></a>
 >         </div>
 >         
 >         <div class="vox-enclosure-meta">
@@ -40,7 +40,7 @@ tags:
 >     <div class="vox-enclosure-list">
 >       <div class="vox-enclosure-item vox-photo-asset vox-last">
 >         <div class="vox-enclosure-image">
->           <a href="http://www.flickr.com/photo.gne?id=9798351" title="04 15 manics - 24"><img alt="04 15 manics - 24" class="asset asset-image at-xid-6a01348743f8e2970c0133f423d9b4970b" src="http://nonimage.typepad.com/.a/6a01348743f8e2970c0133f423d9b4970b-320pi" /></a>
+>           <a href="http://www.flickr.com/photo.gne?id=9798351" title="04 15 manics - 24"><img alt="04 15 manics - 24" class="asset asset-image at-xid-6a01348743f8e2970c0133f423d9b4970b" src="https://nonimage.typepad.com/.a/6a01348743f8e2970c0133f423d9b4970b-320pi" /></a>
 >         </div>
 >         
 >         <div class="vox-enclosure-meta">
@@ -58,7 +58,7 @@ tags:
     <div class="vox-enclosure-list">
       <div class="vox-enclosure-item vox-photo-asset vox-last">
         <div class="vox-enclosure-image">
-          <a href="http://www.flickr.com/photo.gne?id=55215793" title="DSCF4535.JPG"><img alt="DSCF4535.JPG" class="asset asset-image at-xid-6a01348743f8e2970c0133f423d9be970b" src="http://nonimage.typepad.com/.a/6a01348743f8e2970c0133f423d9be970b-320pi" /></a>
+          <a href="http://www.flickr.com/photo.gne?id=55215793" title="DSCF4535.JPG"><img alt="DSCF4535.JPG" class="asset asset-image at-xid-6a01348743f8e2970c0133f423d9be970b" src="https://nonimage.typepad.com/.a/6a01348743f8e2970c0133f423d9be970b-320pi" /></a>
         </div>
         
         <div class="vox-enclosure-meta">
@@ -76,7 +76,7 @@ tags:
     <div class="vox-enclosure-list">
       <div class="vox-enclosure-item vox-photo-asset vox-last">
         <div class="vox-enclosure-image">
-          <a href="http://www.flickr.com/photo.gne?id=69033211" title="uncle john and whitelock"><img alt="uncle john and whitelock" class="asset asset-image at-xid-6a01348743f8e2970c0133f423d9c4970b" src="http://nonimage.typepad.com/.a/6a01348743f8e2970c0133f423d9c4970b-320pi" /></a>
+          <a href="http://www.flickr.com/photo.gne?id=69033211" title="uncle john and whitelock"><img alt="uncle john and whitelock" class="asset asset-image at-xid-6a01348743f8e2970c0133f423d9c4970b" src="https://nonimage.typepad.com/.a/6a01348743f8e2970c0133f423d9c4970b-320pi" /></a>
         </div>
         
         <div class="vox-enclosure-meta">

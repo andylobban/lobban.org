@@ -19,12 +19,12 @@ tags:
     <div class="vox-enclosure-list">
       <div class="vox-enclosure-item vox-photo-asset vox-last">
         <div class="vox-enclosure-image">
-          <a href="http://nonimage.typepad.com/.a/6a01348743f8e2970c0133f423d89e970b-pi" title="Image001"><img alt="Image001" class="asset asset-image at-xid-6a01348743f8e2970c0133f423d89e970b" src="http://nonimage.typepad.com/.a/6a01348743f8e2970c0133f423d89e970b-320pi" /></a>
+          <a href="https://nonimage.typepad.com/.a/6a01348743f8e2970c0133f423d89e970b-pi" title="Image001"><img alt="Image001" class="asset asset-image at-xid-6a01348743f8e2970c0133f423d89e970b" src="https://nonimage.typepad.com/.a/6a01348743f8e2970c0133f423d89e970b-320pi" /></a>
         </div>
         
         <div class="vox-enclosure-meta">
           <div class="vox-enclosure-asset-name">
-            <a href="http://nonimage.typepad.com/.a/6a01348743f8e2970c0133f423d89e970b-pi" title="Image001">Image001</a>
+            <a href="https://nonimage.typepad.com/.a/6a01348743f8e2970c0133f423d89e970b-pi" title="Image001">Image001</a>
           </div>
         </div>
       </div>

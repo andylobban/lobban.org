@@ -20,7 +20,7 @@ tags:
     <div class="vox-enclosure-list">
       <div class="vox-enclosure-item vox-photo-asset vox-last">
         <div class="vox-enclosure-image">
-          <a href="http://www.flickr.com/photo.gne?id=217820947" title="DSC00431.jpg"><img alt="DSC00431.jpg" class="asset asset-image at-xid-6a01348743f8e2970c0133f423da94970b" src="http://nonimage.typepad.com/.a/6a01348743f8e2970c0133f423da94970b-320pi" /></a>
+          <a href="http://www.flickr.com/photo.gne?id=217820947" title="DSC00431.jpg"><img alt="DSC00431.jpg" class="asset asset-image at-xid-6a01348743f8e2970c0133f423da94970b" src="https://nonimage.typepad.com/.a/6a01348743f8e2970c0133f423da94970b-320pi" /></a>
         </div>
         
         <div class="vox-enclosure-meta">
