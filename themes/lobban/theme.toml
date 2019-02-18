@@ -3,19 +3,13 @@
 
 name = "Lobban"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
-homepage = "http://example.com/"
+licenselink = "https://github.com/andylobban/lobban.org/blob/master/themes/lobban/LICENSE"
+description = "For my personal site, lobban.org"
+homepage = "https://lobban.org"
 tags = []
 features = []
-min_version = "0.41"
+min_version = "0.54"
 
 [author]
-  name = ""
-  homepage = ""
-
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
+  name = "Andy Lobban"
+  homepage = "https://lobban.org"
