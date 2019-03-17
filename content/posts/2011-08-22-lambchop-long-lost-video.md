@@ -15,7 +15,7 @@ tags:
   - Video
 
 ---
-{{< youtube pbNVx9Y28rk >}}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pbNVx9Y28rk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Up With People. I&#8217;ve never seen this before and it brought a huge smile to my face. (via [Matthew][1])
 

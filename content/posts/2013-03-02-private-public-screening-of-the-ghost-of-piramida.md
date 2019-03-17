@@ -22,7 +22,7 @@ The music in the film incorporates some of the early sketches, as well as finish
 
 Screening info: **Saturday 2nd March 2013** in the cinema room of the **Banshee Labyrinth, Edinburgh** at **7.30pm**. The screening is **free** but we have limited space so to **reserve a space** please [email me][4]. I will reply to confirm you’re in.
 
-{{< youtube Iel9NAfjwAs >}}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Iel9NAfjwAs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
  [1]: http://www.theghostofpiramida.com/
  [2]: http://www.andreaskoefoed.com/

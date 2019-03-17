@@ -21,6 +21,6 @@ tags:
   - Video
 
 ---
-{{< youtube k_Mz_imdISk >}}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/k_Mz_imdISk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Gillian Welch and David Rawlings oversee the letterpress process of their new album cover.
