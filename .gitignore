@@ -31,3 +31,4 @@ npm-debug.log*
 ## Hugo
 
 themes/lobban/static/fonts/*
+/resources
