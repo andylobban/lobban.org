@@ -7,10 +7,10 @@ url: /posts/2013/01/21/nonimage-mixtapes-vol-4/
 enclosure:
   - |
     |
-        http://dl.dropbox.com/u/43559/Mixtapes/Nonimage%20Mixtapes%20Vol%204.mp3
+        https://drive.google.com/file/d/1UtGUeAm_OWBRIP1M3ypCDuqU0yvpKECJ/view?usp=sharing
         24420027
         audio/mpeg
-        
+
 categories:
   - Mixtapes
   - Music
@@ -37,5 +37,5 @@ As always, if you like any of the songs, go and buy them.
  [3]: http://goldengrrrls.tumblr.com/ "Golden Grrrls"
  [4]: http://japandroids.com/ "Japandroids"
  [5]: http://www.tarwater.de/ "Tarwater"
- [6]: http://dl.dropbox.com/u/43559/Mixtapes/Nonimage%20Mixtapes%20Vol%204.mp3 "Nonimage Mixtapes Vol. 4 download"
+ [6]: https://drive.google.com/file/d/1UtGUeAm_OWBRIP1M3ypCDuqU0yvpKECJ/view?usp=sharing "Nonimage Mixtapes Vol. 4 download"
  [7]: http://feeds.feedburner.com/nonimage-mixtapes "Nonimage Mixtape podcast feed"

@@ -11,10 +11,10 @@ yourls_shorturl:
 enclosure:
   - |
     |
-        http://dl.dropbox.com/u/43559/Mixtapes/The%20Forever%20Mixtape%20-%20September%202011.mp3
+        https://drive.google.com/file/d/13xIEmgnT_TL1bgbz7pYGJBSQ1GM3xE-y/view?usp=sharing
         62614985
         audio/mpeg
-        
+
 categories:
   - Mixtapes
   - Music
@@ -63,7 +63,7 @@ As always, if you like any of the songs, go and buy them.
  11. How To Dress Well &#8211; Suicide Dream 3 [Love Letter Ink]
 
 <div>
-  <a href="http://dl.dropbox.com/u/43559/Mixtapes/The%20Forever%20Mixtape%20-%20September%202011.mp3">Download</a>
+  <a href="https://drive.google.com/file/d/13xIEmgnT_TL1bgbz7pYGJBSQ1GM3xE-y/view?usp=sharing">Download</a>
 </div>
 
  [1]: http://www.mixcloud.com/nonimage/ "Nonimage on Mixcloud"

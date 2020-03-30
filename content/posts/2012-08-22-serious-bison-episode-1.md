@@ -11,10 +11,10 @@ yourls_shorturl:
 enclosure:
   - |
     |
-        http://dl.dropbox.com/u/43559/Serious%20Bison/Serious%20Bison%201.mp3
+        https://drive.google.com/file/d/1Z77IBP8uIZs3LEVDPXOTc-E9nA7K6mCz/view?usp=sharing
         57357080
         audio/mpeg
-        
+
 categories:
   - Music
 
@@ -44,7 +44,7 @@ For some strange reason, [Fresh Air][1] decided to give me and [Ian][2] our own 
 
  [1]: http://www.freshair.org.uk/ "Fresh Air Radio"
  [2]: https://twitter.com/ohjawbone
- [3]: http://dl.dropbox.com/u/43559/Serious%20Bison/Serious%20Bison%201.mp3 "Serious Bison - Episode 1 download"
+ [3]: https://drive.google.com/file/d/1Z77IBP8uIZs3LEVDPXOTc-E9nA7K6mCz/view?usp=sharing "Serious Bison - Episode 1 download"
  [4]: http://www.theverybestmusic.com/
  [5]: http://japandroids.com/
  [6]: http://whitepoppy.bandcamp.com/

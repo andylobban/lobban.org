@@ -9,10 +9,10 @@ yourls_shorturl:
 enclosure:
   - |
     |
-        http://dl.dropbox.com/u/43559/Mixtapes/The%20New%20Stereo%20Mixtape%20-%20Jan%202011.mp3
+        https://drive.google.com/file/d/1wHW14El7O2WKUQSattlk_nY81Y9uJ2DD/view?usp=sharing
         44957865
         audio/mpeg
-        
+
 categories:
   - Mixtapes
   - Music
@@ -40,7 +40,7 @@ A rough mixtape I made of a some 7”s. Some are new, some just new to me. Strai
 
 If you like something on there, go and buy it.
 
- [1]: http://dl.dropbox.com/u/43559/Mixtapes/The%20New%20Stereo%20Mixtape%20-%20Jan%202011.mp3
+ [1]: https://drive.google.com/file/d/1wHW14El7O2WKUQSattlk_nY81Y9uJ2DD/view?usp=sharing
  [2]: http://www.aidanmoffat.co.uk/
  [3]: http://www.myspace.com/pandabear
  [4]: http://www.lessavyfav.com/

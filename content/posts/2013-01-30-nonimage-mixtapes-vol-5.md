@@ -40,5 +40,5 @@ As always, if you like any of the songs, go and buy them.
  [3]: http://craftspells.tumblr.com/
  [4]: http://www.whitestripes.com/
  [5]: http://www.francoisandtheatlasmountains.com/
- [6]: https://dl.dropbox.com/u/43559/Mixtapes/Nonimage%20Mixtapes%20Vol%205.mp3 "Nonimage Mixtapes Vol. 5 download"
+ [6]: https://drive.google.com/file/d/1wfTzmoX5yKBozQsncHN4s-Vwmwn8pwK6/view?usp=sharing "Nonimage Mixtapes Vol. 5 download"
  [7]: http://feeds.feedburner.com/nonimage-mixtapes "Nonimage Mixtape podcast feed"

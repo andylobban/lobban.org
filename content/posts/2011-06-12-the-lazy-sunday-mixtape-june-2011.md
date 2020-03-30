@@ -11,10 +11,10 @@ yourls_shorturl:
 enclosure:
   - |
     |
-        http://dl.dropbox.com/u/43559/Mixtapes/The%20Lazy%20Sunday%20Mixtape%20-%20June%202011.mp3
+        https://drive.google.com/file/d/1RWQcB_qgtozt4oPxo-HoQ5osUT_Ro-EN/view?usp=sharing
         99460869
         audio/mpeg
-        
+
 categories:
   - Mixtapes
   - Music
@@ -59,7 +59,7 @@ Another mixtape straight from a bunch of 7&#8243;s. None of this stuff is brand 
 
 <span>Enjoy.</span>
 
- [1]: http://dl.dropbox.com/u/43559/Mixtapes/The%20Lazy%20Sunday%20Mixtape%20-%20June%202011.mp3
+ [1]: https://drive.google.com/file/d/1RWQcB_qgtozt4oPxo-HoQ5osUT_Ro-EN/view?usp=sharing
  [2]: http://www.internationalartistsrecords.com/
  [3]: http://www.piccadillyrecords.com/products/MoonDuo-CatchAsCatchCanSetItOnFire(Repress)-Agitated-67952.html
  [4]: http://roaringcolonel.blogspot.com/2010/08/out-today-from-roaring-colonel-records.html

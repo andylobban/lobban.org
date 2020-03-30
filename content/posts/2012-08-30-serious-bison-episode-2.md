@@ -11,10 +11,10 @@ yourls_shorturl:
 enclosure:
   - |
     |
-        http://dl.dropbox.com/u/43559/Serious%20Bison/Serious%20Bison%202.mp3
+        https://drive.google.com/file/d/1xLudCV-aDXKKZIS34s5juWtm96B8Fd2U/view?usp=sharing
         54098989
         audio/mpeg
-        
+
 aktt_tweeted:
   - 1
 categories:
@@ -42,7 +42,7 @@ This time we had more technical difficulties, in that our intrepid producer Chri
  10. [Telefair][11] &#8211; Untitled
  11. [Wet Hair][12] &#8211; In the Garden of the Pharaohs
 
- [1]: http://dl.dropbox.com/u/43559/Serious%20Bison/Serious%20Bison%202.mp3
+ [1]: https://drive.google.com/file/d/1xLudCV-aDXKKZIS34s5juWtm96B8Fd2U/view?usp=sharing
  [2]: http://happyparticles.bandcamp.com/
  [3]: http://danabuoy.tumblr.com/
  [4]: https://soundcloud.com/john-talabot
