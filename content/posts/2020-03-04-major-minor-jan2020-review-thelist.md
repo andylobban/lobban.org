@@ -12,6 +12,8 @@ description: I was asked to write a few words about our experience at Major Mino
 ---
 I've taken my daughter to a few [Major Minor](https://www.facebook.com/majorminormusicclub/) events, and was asked to write a few words about the latest one, featuring [Martha Ffion](https://www.facebook.com/marthaffionmckay/).
 
+[Read at The List][1]
+
 "Andy Lobban (one half of Gerry Loves Records, and a father)
 We've been to a few Major Minor gigs, sometimes as a family sometimes just for a father and daughter outing. It's great to find things to do as a family that everyone can genuinely enjoy, and this is definitely one of them. Parents can see some live music and have a very sensible drink without negotiating nights out and shared calendars. Children can run wild in a safe space, get their faces painted, put on temporary tattoos, eat donuts and play with balloons while also seeing live music.
 
